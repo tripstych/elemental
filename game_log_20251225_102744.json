@@ -1,0 +1,42 @@
+{
+  "game_seed": 934052,
+  "total_turns": 1,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T10:28:06.723650",
+      "action": "move",
+      "player": {
+        "pos": "(30,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s6e4",
+            "formatted": "Goblin:s6e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "aquamarine",
+            "type": "gems",
+            "pos": "s6e1",
+            "formatted": "aquamarine:s6e1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(30,2)"
+      }
+    }
+  ]
+}

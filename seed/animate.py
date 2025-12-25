@@ -40,11 +40,19 @@ class Inventory:
     # Capacity limits
     max_weight: float = 100.0
     max_objects: int = 50
+    max_essence: float = 100.0  # Per-element capacity
     
-    def add_essence(self, element: str, amount: float):
-        """Add elemental essence"""
+    def add_essence(self, element: str, amount: float) -> float:
+        """Add elemental essence, capped at max_essence. Returns amount actually added."""
         if element in self.essences:
-            self.essences[element] += amount
+            old = self.essences[element]
+            self.essences[element] = min(self.essences[element] + amount, self.max_essence)
+            return self.essences[element] - old
+        return 0.0
+    
+    def grow_essence_capacity(self, amount: float):
+        """Increase max essence capacity (from leveling, items, etc.)"""
+        self.max_essence += amount
     
     def remove_essence(self, element: str, amount: float) -> bool:
         """Remove essence if available"""
@@ -716,6 +724,40 @@ class Player(Animate):
             self.stats.wisdom = 12  # +1 modifier
         if 'magic_power' not in kwargs:
             self.stats.magic_power = 15
+    
+    def gain_xp(self, amount: int) -> Dict:
+        """Gain experience, potentially leveling up. Returns level-up info."""
+        self.experience += amount
+        result = {'xp_gained': amount, 'leveled_up': False}
+        
+        # XP needed for next level: level * 100 (100, 200, 300...)
+        xp_for_next = self.level * 100
+        
+        while self.experience >= xp_for_next:
+            self.experience -= xp_for_next
+            self.level += 1
+            self.skill_points += 1
+            
+            # Grow essence capacity by 25 per level
+            self.inventory.grow_essence_capacity(25)
+            
+            # Boost stats slightly
+            self.stats.max_health += 10
+            self.stats.current_health = min(self.stats.current_health + 10, self.stats.max_health)
+            self.stats.magic_power += 2
+            
+            result['leveled_up'] = True
+            result['new_level'] = self.level
+            result['new_max_essence'] = self.inventory.max_essence
+            
+            xp_for_next = self.level * 100
+        
+        result['xp_to_next'] = xp_for_next - self.experience
+        return result
+    
+    def xp_for_next_level(self) -> int:
+        """XP needed to reach next level"""
+        return self.level * 100 - self.experience
 
 
 class NPC(Animate):

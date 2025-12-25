@@ -1,0 +1,1966 @@
+{
+  "game_seed": 34911,
+  "total_turns": 34,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T10:45:34.235446",
+      "action": "move",
+      "player": {
+        "pos": "(3,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s3e4",
+            "formatted": "Spider:s3e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s6w1",
+            "formatted": "Skeleton:s6w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "s5w1",
+            "formatted": "blood agar:s5w1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(3,2)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T10:45:36.480001",
+      "action": "move",
+      "player": {
+        "pos": "(3,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s1e3",
+            "formatted": "Spider:s1e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s4",
+            "formatted": "Skeleton:s4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "s4w1",
+            "formatted": "blood agar:s4w1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(3,3)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T10:45:36.480001",
+      "action": "move",
+      "player": {
+        "pos": "(3,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e3",
+            "formatted": "Spider:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s3",
+            "formatted": "Skeleton:s3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "s3w1",
+            "formatted": "blood agar:s3w1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(3,4)"
+      }
+    },
+    {
+      "turn": 4,
+      "timestamp": "2025-12-25T10:45:36.992548",
+      "action": "move",
+      "player": {
+        "pos": "(3,5)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1",
+            "formatted": "Skeleton:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "n1e2",
+            "formatted": "Spider:n1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "e10",
+            "formatted": "Rat:e10",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 10.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "s2w1",
+            "formatted": "blood agar:s2w1",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(3,5)"
+      }
+    },
+    {
+      "turn": 5,
+      "timestamp": "2025-12-25T10:45:36.993553",
+      "action": "move",
+      "player": {
+        "pos": "(4,5)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n1e1",
+            "formatted": "Spider:n1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s1w1",
+            "formatted": "Skeleton:s1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Rat",
+            "pos": "e9",
+            "formatted": "Rat:e9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "s2w2",
+            "formatted": "blood agar:s2w2",
+            "distance": 2.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(4,5)"
+      }
+    },
+    {
+      "turn": 6,
+      "timestamp": "2025-12-25T10:45:37.509463",
+      "action": "move",
+      "player": {
+        "pos": "(4,6)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w1",
+            "formatted": "Skeleton:w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "n2e1",
+            "formatted": "Spider:n2e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "n1e8",
+            "formatted": "Rat:n1e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "s1w2",
+            "formatted": "blood agar:s1w2",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(4,6)"
+      }
+    },
+    {
+      "turn": 7,
+      "timestamp": "2025-12-25T10:45:37.510012",
+      "action": "move",
+      "player": {
+        "pos": "(4,7)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n1w1",
+            "formatted": "Skeleton:n1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "n3e1",
+            "formatted": "Spider:n3e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "w2",
+            "formatted": "blood agar:w2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(4,7)"
+      }
+    },
+    {
+      "turn": 8,
+      "timestamp": "2025-12-25T10:45:38.025290",
+      "action": "move",
+      "player": {
+        "pos": "(5,7)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n2w1",
+            "formatted": "Spider:n2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "n1w2",
+            "formatted": "Skeleton:n1w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "w3",
+            "formatted": "blood agar:w3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(5,7)"
+      }
+    },
+    {
+      "turn": 9,
+      "timestamp": "2025-12-25T10:45:38.025290",
+      "action": "move",
+      "player": {
+        "pos": "(5,8)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n2w2",
+            "formatted": "Skeleton:n2w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.8,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n3w1",
+            "formatted": "Spider:n3w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "e8",
+            "formatted": "Spider:e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "e9",
+            "formatted": "Bat:e9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "n1w3",
+            "formatted": "blood agar:n1w3",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(5,8)"
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-25T10:45:41.028567",
+      "action": "move",
+      "player": {
+        "pos": "(6,8)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n2w1",
+            "formatted": "Spider:n2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "n1w2",
+            "formatted": "Skeleton:n1w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "e6",
+            "formatted": "Spider:e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "e8",
+            "formatted": "Bat:e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "n1w4",
+            "formatted": "blood agar:n1w4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(6,8)"
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-25T10:45:41.029072",
+      "action": "move",
+      "player": {
+        "pos": "(7,8)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n2w2",
+            "formatted": "Spider:n2w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.8,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "n1w3",
+            "formatted": "Skeleton:n1w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "e5",
+            "formatted": "Spider:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "e7",
+            "formatted": "Bat:e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "n1w5",
+            "formatted": "blood agar:n1w5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(7,8)"
+      }
+    },
+    {
+      "turn": 12,
+      "timestamp": "2025-12-25T10:45:41.541173",
+      "action": "move",
+      "player": {
+        "pos": "(8,8)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n1w2",
+            "formatted": "Spider:n1w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "w3",
+            "formatted": "Skeleton:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "e3",
+            "formatted": "Spider:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "e5",
+            "formatted": "Bat:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "n1w6",
+            "formatted": "blood agar:n1w6",
+            "distance": 6.1
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e9",
+            "formatted": "potluck:n1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(8,8)"
+      }
+    },
+    {
+      "turn": 13,
+      "timestamp": "2025-12-25T10:45:41.541173",
+      "action": "move",
+      "player": {
+        "pos": "(9,8)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e2",
+            "formatted": "Spider:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n1w3",
+            "formatted": "Spider:n1w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "e4",
+            "formatted": "Bat:e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "w4",
+            "formatted": "Skeleton:w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "n1w7",
+            "formatted": "blood agar:n1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e8",
+            "formatted": "potluck:n1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(9,8)"
+      }
+    },
+    {
+      "turn": 14,
+      "timestamp": "2025-12-25T10:45:42.541650",
+      "action": "attack",
+      "player": {
+        "pos": "(9,8)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e1",
+            "formatted": "Spider:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "w2",
+            "formatted": "Spider:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "e3",
+            "formatted": "Bat:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "w3",
+            "formatted": "Skeleton:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "n1w7",
+            "formatted": "blood agar:n1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e8",
+            "formatted": "potluck:n1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 15,
+      "timestamp": "2025-12-25T10:45:42.757012",
+      "action": "attack",
+      "player": {
+        "pos": "(9,8)",
+        "hp": "92/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "w1",
+            "formatted": "Spider:w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Bat",
+            "pos": "e2",
+            "formatted": "Bat:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "w2",
+            "formatted": "Skeleton:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "n1w7",
+            "formatted": "blood agar:n1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e8",
+            "formatted": "potluck:n1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 16,
+      "timestamp": "2025-12-25T10:45:42.858302",
+      "action": "attack",
+      "player": {
+        "pos": "(9,8)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "e1",
+            "formatted": "Bat:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "w1",
+            "formatted": "Spider:w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "w2",
+            "formatted": "Skeleton:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "n1w7",
+            "formatted": "blood agar:n1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e8",
+            "formatted": "potluck:n1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Bat",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 17,
+      "timestamp": "2025-12-25T10:45:42.956996",
+      "action": "attack",
+      "player": {
+        "pos": "(9,8)",
+        "hp": "86/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "w1",
+            "formatted": "Spider:w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "w2",
+            "formatted": "Skeleton:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "n1w7",
+            "formatted": "blood agar:n1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e8",
+            "formatted": "potluck:n1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Bat",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 18,
+      "timestamp": "2025-12-25T10:45:43.054617",
+      "action": "attack",
+      "player": {
+        "pos": "(9,8)",
+        "hp": "84/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "w1",
+            "formatted": "Spider:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "w2",
+            "formatted": "Skeleton:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "n1w7",
+            "formatted": "blood agar:n1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e8",
+            "formatted": "potluck:n1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 19,
+      "timestamp": "2025-12-25T10:45:43.154236",
+      "action": "attack",
+      "player": {
+        "pos": "(9,8)",
+        "hp": "82/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w2",
+            "formatted": "Skeleton:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "n1w7",
+            "formatted": "blood agar:n1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e8",
+            "formatted": "potluck:n1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 20,
+      "timestamp": "2025-12-25T10:45:43.251470",
+      "action": "attack",
+      "player": {
+        "pos": "(9,8)",
+        "hp": "92/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w1",
+            "formatted": "Skeleton:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "kunzite",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "kunzite:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "n1w7",
+            "formatted": "blood agar:n1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e8",
+            "formatted": "potluck:n1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 21,
+      "timestamp": "2025-12-25T10:45:43.348452",
+      "action": "attack",
+      "player": {
+        "pos": "(9,8)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "kunzite",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "kunzite:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "n1w7",
+            "formatted": "blood agar:n1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e8",
+            "formatted": "potluck:n1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 22,
+      "timestamp": "2025-12-25T10:45:47.192142",
+      "action": "move",
+      "player": {
+        "pos": "(10,8)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "kunzite",
+            "type": "gems",
+            "pos": "w2",
+            "formatted": "kunzite:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e7",
+            "formatted": "potluck:n1e7",
+            "distance": 7.1
+          },
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "n1w8",
+            "formatted": "blood agar:n1w8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(10,8)"
+      }
+    },
+    {
+      "turn": 23,
+      "timestamp": "2025-12-25T10:45:47.192142",
+      "action": "move",
+      "player": {
+        "pos": "(11,8)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "kunzite",
+            "type": "gems",
+            "pos": "w3",
+            "formatted": "kunzite:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e6",
+            "formatted": "potluck:n1e6",
+            "distance": 6.1
+          },
+          {
+            "name": "blood agar",
+            "type": "food",
+            "pos": "n1w9",
+            "formatted": "blood agar:n1w9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(11,8)"
+      }
+    },
+    {
+      "turn": 24,
+      "timestamp": "2025-12-25T10:45:47.704466",
+      "action": "move",
+      "player": {
+        "pos": "(12,8)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "kunzite",
+            "type": "gems",
+            "pos": "w4",
+            "formatted": "kunzite:w4",
+            "distance": 4.0
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e5",
+            "formatted": "potluck:n1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(12,8)"
+      }
+    },
+    {
+      "turn": 25,
+      "timestamp": "2025-12-25T10:45:47.704466",
+      "action": "move",
+      "player": {
+        "pos": "(13,8)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e4",
+            "formatted": "potluck:n1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "Scotch woodcock",
+            "type": "food",
+            "pos": "s2e4",
+            "formatted": "Scotch woodcock:s2e4",
+            "distance": 4.5
+          },
+          {
+            "name": "kunzite",
+            "type": "gems",
+            "pos": "w5",
+            "formatted": "kunzite:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(13,8)"
+      }
+    },
+    {
+      "turn": 26,
+      "timestamp": "2025-12-25T10:45:48.215125",
+      "action": "move",
+      "player": {
+        "pos": "(14,8)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n2e1",
+            "formatted": "Spider:n2e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n3e7",
+            "formatted": "Spider:n3e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.6,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e3",
+            "formatted": "potluck:n1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "Scotch woodcock",
+            "type": "food",
+            "pos": "s2e3",
+            "formatted": "Scotch woodcock:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "wish-wash",
+            "type": "food",
+            "pos": "n3e3",
+            "formatted": "wish-wash:n3e3",
+            "distance": 4.2
+          },
+          {
+            "name": "kunzite",
+            "type": "gems",
+            "pos": "w6",
+            "formatted": "kunzite:w6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(14,8)"
+      }
+    },
+    {
+      "turn": 27,
+      "timestamp": "2025-12-25T10:45:48.215125",
+      "action": "move",
+      "player": {
+        "pos": "(15,8)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n2",
+            "formatted": "Spider:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "n5",
+            "formatted": "Orc:n5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n3e6",
+            "formatted": "Spider:n3e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.7,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e2",
+            "formatted": "potluck:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Scotch woodcock",
+            "type": "food",
+            "pos": "s2e2",
+            "formatted": "Scotch woodcock:s2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "wish-wash",
+            "type": "food",
+            "pos": "n3e2",
+            "formatted": "wish-wash:n3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "kunzite",
+            "type": "gems",
+            "pos": "w7",
+            "formatted": "kunzite:w7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(15,8)"
+      }
+    },
+    {
+      "turn": 28,
+      "timestamp": "2025-12-25T10:45:48.726406",
+      "action": "move",
+      "player": {
+        "pos": "(16,8)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n1w1",
+            "formatted": "Spider:n1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "n4w1",
+            "formatted": "Orc:n4w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n3e5",
+            "formatted": "Spider:n3e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.8,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n1e1",
+            "formatted": "potluck:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Scotch woodcock",
+            "type": "food",
+            "pos": "s2e1",
+            "formatted": "Scotch woodcock:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "wish-wash",
+            "type": "food",
+            "pos": "n3e1",
+            "formatted": "wish-wash:n3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "kunzite",
+            "type": "gems",
+            "pos": "w8",
+            "formatted": "kunzite:w8",
+            "distance": 8.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(16,8)"
+      }
+    },
+    {
+      "turn": 29,
+      "timestamp": "2025-12-25T10:45:48.726406",
+      "action": "move",
+      "player": {
+        "pos": "(16,9)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n2w1",
+            "formatted": "Spider:n2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "n5w1",
+            "formatted": "Orc:n5w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n4e5",
+            "formatted": "Spider:n4e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.4,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Scotch woodcock",
+            "type": "food",
+            "pos": "s1e1",
+            "formatted": "Scotch woodcock:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n2e1",
+            "formatted": "potluck:n2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "wish-wash",
+            "type": "food",
+            "pos": "n4e1",
+            "formatted": "wish-wash:n4e1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(16,9)"
+      }
+    },
+    {
+      "turn": 30,
+      "timestamp": "2025-12-25T10:45:49.238157",
+      "action": "move",
+      "player": {
+        "pos": "(17,9)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n1w1",
+            "formatted": "Spider:n1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "n4w1",
+            "formatted": "Orc:n4w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Scotch woodcock",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "Scotch woodcock:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n2",
+            "formatted": "potluck:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "wish-wash",
+            "type": "food",
+            "pos": "n4",
+            "formatted": "wish-wash:n4",
+            "distance": 4.0
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s7w1",
+            "formatted": "carbuncle:s7w1",
+            "distance": 7.1
+          },
+          {
+            "name": "rib joint pliers",
+            "type": "tools",
+            "pos": "s9e1",
+            "formatted": "rib joint pliers:s9e1",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(17,9)"
+      }
+    },
+    {
+      "turn": 31,
+      "timestamp": "2025-12-25T10:45:49.687288",
+      "action": "attack",
+      "player": {
+        "pos": "(17,9)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n1w1",
+            "formatted": "Spider:n1w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "n4w1",
+            "formatted": "Orc:n4w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Scotch woodcock",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "Scotch woodcock:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n2",
+            "formatted": "potluck:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "wish-wash",
+            "type": "food",
+            "pos": "n4",
+            "formatted": "wish-wash:n4",
+            "distance": 4.0
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s7w1",
+            "formatted": "carbuncle:s7w1",
+            "distance": 7.1
+          },
+          {
+            "name": "rib joint pliers",
+            "type": "tools",
+            "pos": "s9e1",
+            "formatted": "rib joint pliers:s9e1",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "nw",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 32,
+      "timestamp": "2025-12-25T10:45:49.901765",
+      "action": "attack",
+      "player": {
+        "pos": "(17,9)",
+        "hp": "88/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n3",
+            "formatted": "Orc:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Scotch woodcock",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "Scotch woodcock:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n2",
+            "formatted": "potluck:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "wish-wash",
+            "type": "food",
+            "pos": "n4",
+            "formatted": "wish-wash:n4",
+            "distance": 4.0
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s7w1",
+            "formatted": "carbuncle:s7w1",
+            "distance": 7.1
+          },
+          {
+            "name": "rib joint pliers",
+            "type": "tools",
+            "pos": "s9e1",
+            "formatted": "rib joint pliers:s9e1",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "nw",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 33,
+      "timestamp": "2025-12-25T10:45:50.101787",
+      "action": "attack",
+      "player": {
+        "pos": "(17,9)",
+        "hp": "88/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n1",
+            "formatted": "Orc:n1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Scotch woodcock",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "Scotch woodcock:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "autoloader",
+            "type": "weapons",
+            "pos": "n1w1",
+            "formatted": "autoloader:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n2",
+            "formatted": "potluck:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "wish-wash",
+            "type": "food",
+            "pos": "n4",
+            "formatted": "wish-wash:n4",
+            "distance": 4.0
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s7w1",
+            "formatted": "carbuncle:s7w1",
+            "distance": 7.1
+          },
+          {
+            "name": "rib joint pliers",
+            "type": "tools",
+            "pos": "s9e1",
+            "formatted": "rib joint pliers:s9e1",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 34,
+      "timestamp": "2025-12-25T10:45:50.202842",
+      "action": "attack",
+      "player": {
+        "pos": "(17,9)",
+        "hp": "86/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Scotch woodcock",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "Scotch woodcock:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "autoloader",
+            "type": "weapons",
+            "pos": "n1w1",
+            "formatted": "autoloader:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "potluck",
+            "type": "food",
+            "pos": "n2",
+            "formatted": "potluck:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "wish-wash",
+            "type": "food",
+            "pos": "n4",
+            "formatted": "wish-wash:n4",
+            "distance": 4.0
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s7w1",
+            "formatted": "carbuncle:s7w1",
+            "distance": 7.1
+          },
+          {
+            "name": "rib joint pliers",
+            "type": "tools",
+            "pos": "s9e1",
+            "formatted": "rib joint pliers:s9e1",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    }
+  ]
+}

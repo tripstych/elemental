@@ -1,0 +1,892 @@
+{
+  "game_seed": 312762,
+  "total_turns": 11,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T10:34:42.912648",
+      "action": "move",
+      "player": {
+        "pos": "(19,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s7",
+            "formatted": "Goblin:s7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s8e1",
+            "formatted": "Skeleton:s8e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Aqua Ignis:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e2",
+            "formatted": "Aqua Ignis:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e4",
+            "formatted": "Aqua Ignis:s2e4",
+            "distance": 4.5
+          },
+          {
+            "name": "air-to-ground missile",
+            "type": "weapons",
+            "pos": "s2e6",
+            "formatted": "air-to-ground missile:s2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "filling",
+            "type": "food",
+            "pos": "s8w1",
+            "formatted": "filling:s8w1",
+            "distance": 8.1
+          },
+          {
+            "name": "refried beans",
+            "type": "food",
+            "pos": "s7e6",
+            "formatted": "refried beans:s7e6",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(19,2)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T10:34:45.983707",
+      "action": "move",
+      "player": {
+        "pos": "(19,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s4",
+            "formatted": "Goblin:s4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s6",
+            "formatted": "Skeleton:s6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s7e7",
+            "formatted": "Orc:s7e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.9,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "w1",
+            "formatted": "Aqua Ignis:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Aqua Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e4",
+            "formatted": "Aqua Ignis:s1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "air-to-ground missile",
+            "type": "weapons",
+            "pos": "s1e6",
+            "formatted": "air-to-ground missile:s1e6",
+            "distance": 6.1
+          },
+          {
+            "name": "filling",
+            "type": "food",
+            "pos": "s7w1",
+            "formatted": "filling:s7w1",
+            "distance": 7.1
+          },
+          {
+            "name": "refried beans",
+            "type": "food",
+            "pos": "s6e6",
+            "formatted": "refried beans:s6e6",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(19,3)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T10:34:46.234885",
+      "action": "move",
+      "player": {
+        "pos": "(19,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s2",
+            "formatted": "Goblin:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s4",
+            "formatted": "Skeleton:s4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s5e6",
+            "formatted": "Orc:s5e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.8,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1w1",
+            "formatted": "Aqua Ignis:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e2",
+            "formatted": "Aqua Ignis:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Aqua Ignis:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "air-to-ground missile",
+            "type": "weapons",
+            "pos": "e6",
+            "formatted": "air-to-ground missile:e6",
+            "distance": 6.0
+          },
+          {
+            "name": "filling",
+            "type": "food",
+            "pos": "s6w1",
+            "formatted": "filling:s6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "refried beans",
+            "type": "food",
+            "pos": "s5e6",
+            "formatted": "refried beans:s5e6",
+            "distance": 7.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(19,4)"
+      }
+    },
+    {
+      "turn": 4,
+      "timestamp": "2025-12-25T10:34:46.599081",
+      "action": "attack",
+      "player": {
+        "pos": "(19,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s1",
+            "formatted": "Goblin:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s3",
+            "formatted": "Skeleton:s3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s4e5",
+            "formatted": "Orc:s4e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.4,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1w1",
+            "formatted": "Aqua Ignis:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e2",
+            "formatted": "Aqua Ignis:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Aqua Ignis:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "air-to-ground missile",
+            "type": "weapons",
+            "pos": "e6",
+            "formatted": "air-to-ground missile:e6",
+            "distance": 6.0
+          },
+          {
+            "name": "filling",
+            "type": "food",
+            "pos": "s6w1",
+            "formatted": "filling:s6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "refried beans",
+            "type": "food",
+            "pos": "s5e6",
+            "formatted": "refried beans:s5e6",
+            "distance": 7.8
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 5,
+      "timestamp": "2025-12-25T10:34:46.959951",
+      "action": "attack",
+      "player": {
+        "pos": "(19,4)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s2",
+            "formatted": "Skeleton:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s3e4",
+            "formatted": "Orc:s3e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1w1",
+            "formatted": "Aqua Ignis:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e2",
+            "formatted": "Aqua Ignis:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Aqua Ignis:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "air-to-ground missile",
+            "type": "weapons",
+            "pos": "e6",
+            "formatted": "air-to-ground missile:e6",
+            "distance": 6.0
+          },
+          {
+            "name": "filling",
+            "type": "food",
+            "pos": "s6w1",
+            "formatted": "filling:s6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "refried beans",
+            "type": "food",
+            "pos": "s5e6",
+            "formatted": "refried beans:s5e6",
+            "distance": 7.8
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 6,
+      "timestamp": "2025-12-25T10:34:47.161136",
+      "action": "attack",
+      "player": {
+        "pos": "(19,4)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1",
+            "formatted": "Skeleton:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "s2e3",
+            "formatted": "Orc:s2e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.6,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "fencing sword",
+            "type": "weapons",
+            "pos": "s1",
+            "formatted": "fencing sword:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1w1",
+            "formatted": "Aqua Ignis:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e2",
+            "formatted": "Aqua Ignis:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Aqua Ignis:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "air-to-ground missile",
+            "type": "weapons",
+            "pos": "e6",
+            "formatted": "air-to-ground missile:e6",
+            "distance": 6.0
+          },
+          {
+            "name": "filling",
+            "type": "food",
+            "pos": "s6w1",
+            "formatted": "filling:s6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "refried beans",
+            "type": "food",
+            "pos": "s5e6",
+            "formatted": "refried beans:s5e6",
+            "distance": 7.8
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 7,
+      "timestamp": "2025-12-25T10:34:47.261997",
+      "action": "attack",
+      "player": {
+        "pos": "(19,4)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1e2",
+            "formatted": "Orc:s1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "fencing sword",
+            "type": "weapons",
+            "pos": "s1",
+            "formatted": "fencing sword:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1w1",
+            "formatted": "Aqua Ignis:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e2",
+            "formatted": "Aqua Ignis:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Aqua Ignis:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "air-to-ground missile",
+            "type": "weapons",
+            "pos": "e6",
+            "formatted": "air-to-ground missile:e6",
+            "distance": 6.0
+          },
+          {
+            "name": "filling",
+            "type": "food",
+            "pos": "s6w1",
+            "formatted": "filling:s6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "refried beans",
+            "type": "food",
+            "pos": "s5e6",
+            "formatted": "refried beans:s5e6",
+            "distance": 7.8
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 8,
+      "timestamp": "2025-12-25T10:34:47.360611",
+      "action": "attack",
+      "player": {
+        "pos": "(19,4)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "e1",
+            "formatted": "Orc:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "fencing sword",
+            "type": "weapons",
+            "pos": "s1",
+            "formatted": "fencing sword:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1w1",
+            "formatted": "Aqua Ignis:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e2",
+            "formatted": "Aqua Ignis:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Aqua Ignis:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "air-to-ground missile",
+            "type": "weapons",
+            "pos": "e6",
+            "formatted": "air-to-ground missile:e6",
+            "distance": 6.0
+          },
+          {
+            "name": "filling",
+            "type": "food",
+            "pos": "s6w1",
+            "formatted": "filling:s6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "refried beans",
+            "type": "food",
+            "pos": "s5e6",
+            "formatted": "refried beans:s5e6",
+            "distance": 7.8
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 9,
+      "timestamp": "2025-12-25T10:34:47.475251",
+      "action": "attack",
+      "player": {
+        "pos": "(19,4)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "fencing sword",
+            "type": "weapons",
+            "pos": "s1",
+            "formatted": "fencing sword:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1w1",
+            "formatted": "Aqua Ignis:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e2",
+            "formatted": "Aqua Ignis:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Aqua Ignis:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "air-to-ground missile",
+            "type": "weapons",
+            "pos": "e6",
+            "formatted": "air-to-ground missile:e6",
+            "distance": 6.0
+          },
+          {
+            "name": "filling",
+            "type": "food",
+            "pos": "s6w1",
+            "formatted": "filling:s6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "refried beans",
+            "type": "food",
+            "pos": "s5e6",
+            "formatted": "refried beans:s5e6",
+            "distance": 7.8
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-25T10:34:48.465404",
+      "action": "move",
+      "player": {
+        "pos": "(20,4)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e1",
+            "formatted": "Aqua Ignis:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "fencing sword",
+            "type": "weapons",
+            "pos": "s1w1",
+            "formatted": "fencing sword:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1w2",
+            "formatted": "Aqua Ignis:n1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e3",
+            "formatted": "Aqua Ignis:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "air-to-ground missile",
+            "type": "weapons",
+            "pos": "e5",
+            "formatted": "air-to-ground missile:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "filling",
+            "type": "food",
+            "pos": "s6w2",
+            "formatted": "filling:s6w2",
+            "distance": 6.3
+          },
+          {
+            "name": "refried beans",
+            "type": "food",
+            "pos": "s5e5",
+            "formatted": "refried beans:s5e5",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(20,4)"
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-25T10:34:48.663307",
+      "action": "move",
+      "player": {
+        "pos": "(21,4)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1",
+            "formatted": "Aqua Ignis:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Aqua Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "fencing sword",
+            "type": "weapons",
+            "pos": "s1w2",
+            "formatted": "fencing sword:s1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1w3",
+            "formatted": "Aqua Ignis:n1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "air-to-ground missile",
+            "type": "weapons",
+            "pos": "e4",
+            "formatted": "air-to-ground missile:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "refried beans",
+            "type": "food",
+            "pos": "s5e4",
+            "formatted": "refried beans:s5e4",
+            "distance": 6.4
+          },
+          {
+            "name": "filling",
+            "type": "food",
+            "pos": "s6w3",
+            "formatted": "filling:s6w3",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(21,4)"
+      }
+    }
+  ]
+}

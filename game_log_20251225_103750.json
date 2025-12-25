@@ -1,0 +1,4108 @@
+{
+  "game_seed": 487311,
+  "total_turns": 58,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T10:37:54.581530",
+      "action": "move",
+      "player": {
+        "pos": "(17,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s9e2",
+            "formatted": "Rat:s9e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "s2",
+            "formatted": "tack hammer:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "s3",
+            "formatted": "backsword:s3",
+            "distance": 3.0
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "s3e1",
+            "formatted": "onyx:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "s6e3",
+            "formatted": "miter box:s6e3",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(17,2)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T10:37:54.880912",
+      "action": "move",
+      "player": {
+        "pos": "(17,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s7e1",
+            "formatted": "Rat:s7e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "s1",
+            "formatted": "tack hammer:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "s2",
+            "formatted": "backsword:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "s2e1",
+            "formatted": "onyx:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "s5e3",
+            "formatted": "miter box:s5e3",
+            "distance": 5.8
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e6",
+            "formatted": "Aqua Ignis:s2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(17,3)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T10:37:58.443075",
+      "action": "move",
+      "player": {
+        "pos": "(18,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s6w1",
+            "formatted": "Rat:s6w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "s1w1",
+            "formatted": "tack hammer:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "s2",
+            "formatted": "onyx:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "s2w1",
+            "formatted": "backsword:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "s5e2",
+            "formatted": "miter box:s5e2",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(18,3)"
+      }
+    },
+    {
+      "turn": 4,
+      "timestamp": "2025-12-25T10:37:58.443075",
+      "action": "move",
+      "player": {
+        "pos": "(18,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s5w1",
+            "formatted": "Rat:s5w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s1e8",
+            "formatted": "Troll:s1e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "onyx:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "w1",
+            "formatted": "tack hammer:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "s1w1",
+            "formatted": "backsword:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "s4e2",
+            "formatted": "miter box:s4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e5",
+            "formatted": "Aqua Ignis:s1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(18,4)"
+      }
+    },
+    {
+      "turn": 5,
+      "timestamp": "2025-12-25T10:37:58.954203",
+      "action": "move",
+      "player": {
+        "pos": "(19,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s4w1",
+            "formatted": "Rat:s4w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "s1w1",
+            "formatted": "onyx:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "w2",
+            "formatted": "tack hammer:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "s1w2",
+            "formatted": "backsword:s1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "s4e1",
+            "formatted": "miter box:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e4",
+            "formatted": "Aqua Ignis:s1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(19,4)"
+      }
+    },
+    {
+      "turn": 6,
+      "timestamp": "2025-12-25T10:37:58.954203",
+      "action": "move",
+      "player": {
+        "pos": "(19,5)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s3w1",
+            "formatted": "Rat:s3w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "e7",
+            "formatted": "Troll:e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "onyx:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "w2",
+            "formatted": "backsword:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n1w2",
+            "formatted": "tack hammer:n1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "s3e1",
+            "formatted": "miter box:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Aqua Ignis:e4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(19,5)"
+      }
+    },
+    {
+      "turn": 7,
+      "timestamp": "2025-12-25T10:37:59.468475",
+      "action": "move",
+      "player": {
+        "pos": "(19,6)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s1",
+            "formatted": "Rat:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n1w1",
+            "formatted": "onyx:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n1w2",
+            "formatted": "backsword:n1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "s2e1",
+            "formatted": "miter box:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n2w2",
+            "formatted": "tack hammer:n2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e4",
+            "formatted": "Aqua Ignis:n1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s9w3",
+            "formatted": "goldstone:s9w3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(19,6)"
+      }
+    },
+    {
+      "turn": 8,
+      "timestamp": "2025-12-25T10:37:59.468475",
+      "action": "bump_attack",
+      "player": {
+        "pos": "(19,6)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s1",
+            "formatted": "Rat:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n1w1",
+            "formatted": "onyx:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n1w2",
+            "formatted": "backsword:n1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "s2e1",
+            "formatted": "miter box:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n2w2",
+            "formatted": "tack hammer:n2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e4",
+            "formatted": "Aqua Ignis:n1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s9w3",
+            "formatted": "goldstone:s9w3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 9,
+      "timestamp": "2025-12-25T10:37:59.976398",
+      "action": "move",
+      "player": {
+        "pos": "(19,8)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "n1",
+            "formatted": "Rat:n1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "n1w8",
+            "formatted": "Orc:n1w8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "miter box:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n3w1",
+            "formatted": "onyx:n3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n3w2",
+            "formatted": "backsword:n3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n4w2",
+            "formatted": "tack hammer:n4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s7w3",
+            "formatted": "goldstone:s7w3",
+            "distance": 7.6
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "w9",
+            "formatted": "morganite:w9",
+            "distance": 9.0
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n1w9",
+            "formatted": "bloodstone:n1w9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "?",
+        "to": "(19,8)"
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-25T10:37:59.977399",
+      "action": "move",
+      "player": {
+        "pos": "(19,9)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "n2",
+            "formatted": "Rat:n2",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "n2w8",
+            "formatted": "Orc:n2w8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e1",
+            "formatted": "miter box:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n4w1",
+            "formatted": "onyx:n4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n4w2",
+            "formatted": "backsword:n4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n5w2",
+            "formatted": "tack hammer:n5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6w3",
+            "formatted": "goldstone:s6w3",
+            "distance": 6.7
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w9",
+            "formatted": "morganite:n1w9",
+            "distance": 9.1
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w9",
+            "formatted": "bloodstone:n2w9",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(19,9)"
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-25T10:38:00.494066",
+      "action": "move",
+      "player": {
+        "pos": "(19,10)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "n2",
+            "formatted": "Rat:n2",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "n2w7",
+            "formatted": "Orc:n2w7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.3,
+            "adjacent": false
+          },
+          {
+            "name": "Goblin",
+            "pos": "e10",
+            "formatted": "Goblin:e10",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 10.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "w10",
+            "formatted": "Skeleton:w10",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 10.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n2e1",
+            "formatted": "miter box:n2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n5w1",
+            "formatted": "onyx:n5w1",
+            "distance": 5.1
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n5w2",
+            "formatted": "backsword:n5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s5w3",
+            "formatted": "goldstone:s5w3",
+            "distance": 5.8
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n6w2",
+            "formatted": "tack hammer:n6w2",
+            "distance": 6.3
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n2w9",
+            "formatted": "morganite:n2w9",
+            "distance": 9.2
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n3w9",
+            "formatted": "bloodstone:n3w9",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(19,10)"
+      }
+    },
+    {
+      "turn": 12,
+      "timestamp": "2025-12-25T10:38:00.494066",
+      "action": "move",
+      "player": {
+        "pos": "(19,11)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "n3",
+            "formatted": "Rat:n3",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "n3w7",
+            "formatted": "Orc:n3w7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.6,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n3e1",
+            "formatted": "miter box:n3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s4w3",
+            "formatted": "goldstone:s4w3",
+            "distance": 5.0
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n6w1",
+            "formatted": "onyx:n6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n6w2",
+            "formatted": "backsword:n6w2",
+            "distance": 6.3
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n7w2",
+            "formatted": "tack hammer:n7w2",
+            "distance": 7.3
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n3w9",
+            "formatted": "morganite:n3w9",
+            "distance": 9.5
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n4w9",
+            "formatted": "bloodstone:n4w9",
+            "distance": 9.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(19,11)"
+      }
+    },
+    {
+      "turn": 13,
+      "timestamp": "2025-12-25T10:38:01.007617",
+      "action": "move",
+      "player": {
+        "pos": "(19,12)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "n3",
+            "formatted": "Rat:n3",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "n3w6",
+            "formatted": "Orc:n3w6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.7,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n4e1",
+            "formatted": "miter box:n4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s3w3",
+            "formatted": "goldstone:s3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n7w1",
+            "formatted": "onyx:n7w1",
+            "distance": 7.1
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n7w2",
+            "formatted": "backsword:n7w2",
+            "distance": 7.3
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n8w2",
+            "formatted": "tack hammer:n8w2",
+            "distance": 8.2
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n4w9",
+            "formatted": "morganite:n4w9",
+            "distance": 9.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(19,12)"
+      }
+    },
+    {
+      "turn": 14,
+      "timestamp": "2025-12-25T10:38:01.007617",
+      "action": "move",
+      "player": {
+        "pos": "(19,13)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "n4",
+            "formatted": "Rat:n4",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "n4w6",
+            "formatted": "Orc:n4w6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s2w3",
+            "formatted": "goldstone:s2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n5e1",
+            "formatted": "miter box:n5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n8w1",
+            "formatted": "onyx:n8w1",
+            "distance": 8.1
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n8w2",
+            "formatted": "backsword:n8w2",
+            "distance": 8.2
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n9w2",
+            "formatted": "tack hammer:n9w2",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(19,13)"
+      }
+    },
+    {
+      "turn": 15,
+      "timestamp": "2025-12-25T10:38:03.442905",
+      "action": "move",
+      "player": {
+        "pos": "(19,12)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "n2",
+            "formatted": "Rat:n2",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "n2w5",
+            "formatted": "Orc:n2w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.4,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n4e1",
+            "formatted": "miter box:n4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s3w3",
+            "formatted": "goldstone:s3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n7w1",
+            "formatted": "onyx:n7w1",
+            "distance": 7.1
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n7w2",
+            "formatted": "backsword:n7w2",
+            "distance": 7.3
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n8w2",
+            "formatted": "tack hammer:n8w2",
+            "distance": 8.2
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n4w9",
+            "formatted": "morganite:n4w9",
+            "distance": 9.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(19,12)"
+      }
+    },
+    {
+      "turn": 16,
+      "timestamp": "2025-12-25T10:38:03.955629",
+      "action": "attack",
+      "player": {
+        "pos": "(19,12)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n2w5",
+            "formatted": "Orc:n2w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.4,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n4e1",
+            "formatted": "miter box:n4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s3w3",
+            "formatted": "goldstone:s3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n7w1",
+            "formatted": "onyx:n7w1",
+            "distance": 7.1
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n7w2",
+            "formatted": "backsword:n7w2",
+            "distance": 7.3
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n8w2",
+            "formatted": "tack hammer:n8w2",
+            "distance": 8.2
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n4w9",
+            "formatted": "morganite:n4w9",
+            "distance": 9.8
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 17,
+      "timestamp": "2025-12-25T10:38:04.970019",
+      "action": "move",
+      "player": {
+        "pos": "(19,11)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n1w5",
+            "formatted": "Orc:n1w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n3e1",
+            "formatted": "miter box:n3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s4w3",
+            "formatted": "goldstone:s4w3",
+            "distance": 5.0
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n6w1",
+            "formatted": "onyx:n6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n6w2",
+            "formatted": "backsword:n6w2",
+            "distance": 6.3
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n7w2",
+            "formatted": "tack hammer:n7w2",
+            "distance": 7.3
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n3w9",
+            "formatted": "morganite:n3w9",
+            "distance": 9.5
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n4w9",
+            "formatted": "bloodstone:n4w9",
+            "distance": 9.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(19,11)"
+      }
+    },
+    {
+      "turn": 18,
+      "timestamp": "2025-12-25T10:38:05.218455",
+      "action": "move",
+      "player": {
+        "pos": "(19,10)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "w5",
+            "formatted": "Orc:w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Goblin",
+            "pos": "e10",
+            "formatted": "Goblin:e10",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 10.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "w10",
+            "formatted": "Skeleton:w10",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 10.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n2e1",
+            "formatted": "miter box:n2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n5w1",
+            "formatted": "onyx:n5w1",
+            "distance": 5.1
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n5w2",
+            "formatted": "backsword:n5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s5w3",
+            "formatted": "goldstone:s5w3",
+            "distance": 5.8
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n6w2",
+            "formatted": "tack hammer:n6w2",
+            "distance": 6.3
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n2w9",
+            "formatted": "morganite:n2w9",
+            "distance": 9.2
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n3w9",
+            "formatted": "bloodstone:n3w9",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(19,10)"
+      }
+    },
+    {
+      "turn": 19,
+      "timestamp": "2025-12-25T10:38:05.449562",
+      "action": "move",
+      "player": {
+        "pos": "(19,9)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1w4",
+            "formatted": "Orc:s1w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e1",
+            "formatted": "miter box:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n4w1",
+            "formatted": "onyx:n4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n4w2",
+            "formatted": "backsword:n4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n5w2",
+            "formatted": "tack hammer:n5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6w3",
+            "formatted": "goldstone:s6w3",
+            "distance": 6.7
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w9",
+            "formatted": "morganite:n1w9",
+            "distance": 9.1
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w9",
+            "formatted": "bloodstone:n2w9",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(19,9)"
+      }
+    },
+    {
+      "turn": 20,
+      "timestamp": "2025-12-25T10:38:06.262550",
+      "action": "move",
+      "player": {
+        "pos": "(18,9)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "w2",
+            "formatted": "Orc:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s1w9",
+            "formatted": "Skeleton:s1w9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e2",
+            "formatted": "miter box:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n4",
+            "formatted": "onyx:n4",
+            "distance": 4.0
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n4w1",
+            "formatted": "backsword:n4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n5w1",
+            "formatted": "tack hammer:n5w1",
+            "distance": 5.1
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6w2",
+            "formatted": "goldstone:s6w2",
+            "distance": 6.3
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w8",
+            "formatted": "morganite:n1w8",
+            "distance": 8.1
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w8",
+            "formatted": "bloodstone:n2w8",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(18,9)"
+      }
+    },
+    {
+      "turn": 21,
+      "timestamp": "2025-12-25T10:38:06.625331",
+      "action": "attack",
+      "player": {
+        "pos": "(18,9)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "w1",
+            "formatted": "Orc:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "w8",
+            "formatted": "Skeleton:w8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e2",
+            "formatted": "miter box:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n4",
+            "formatted": "onyx:n4",
+            "distance": 4.0
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n4w1",
+            "formatted": "backsword:n4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n5w1",
+            "formatted": "tack hammer:n5w1",
+            "distance": 5.1
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6w2",
+            "formatted": "goldstone:s6w2",
+            "distance": 6.3
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w8",
+            "formatted": "morganite:n1w8",
+            "distance": 8.1
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w8",
+            "formatted": "bloodstone:n2w8",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 22,
+      "timestamp": "2025-12-25T10:38:07.041391",
+      "action": "attack",
+      "player": {
+        "pos": "(18,9)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w7",
+            "formatted": "Skeleton:w7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e2",
+            "formatted": "miter box:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n4",
+            "formatted": "onyx:n4",
+            "distance": 4.0
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n4w1",
+            "formatted": "backsword:n4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n5w1",
+            "formatted": "tack hammer:n5w1",
+            "distance": 5.1
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6w2",
+            "formatted": "goldstone:s6w2",
+            "distance": 6.3
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w8",
+            "formatted": "morganite:n1w8",
+            "distance": 8.1
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w8",
+            "formatted": "bloodstone:n2w8",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 23,
+      "timestamp": "2025-12-25T10:38:08.775117",
+      "action": "move",
+      "player": {
+        "pos": "(17,9)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w5",
+            "formatted": "Skeleton:w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Goblin",
+            "pos": "s3w9",
+            "formatted": "Goblin:s3w9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.5,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e3",
+            "formatted": "miter box:n1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n4",
+            "formatted": "backsword:n4",
+            "distance": 4.0
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n4e1",
+            "formatted": "onyx:n4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n5",
+            "formatted": "tack hammer:n5",
+            "distance": 5.0
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6w1",
+            "formatted": "goldstone:s6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w7",
+            "formatted": "morganite:n1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w7",
+            "formatted": "bloodstone:n2w7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(17,9)"
+      }
+    },
+    {
+      "turn": 24,
+      "timestamp": "2025-12-25T10:38:08.957520",
+      "action": "move",
+      "player": {
+        "pos": "(16,9)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w3",
+            "formatted": "Skeleton:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Goblin",
+            "pos": "s2w7",
+            "formatted": "Goblin:s2w7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.3,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n4e1",
+            "formatted": "backsword:n4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e4",
+            "formatted": "miter box:n1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n4e2",
+            "formatted": "onyx:n4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n5e1",
+            "formatted": "tack hammer:n5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6",
+            "formatted": "goldstone:s6",
+            "distance": 6.0
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w6",
+            "formatted": "morganite:n1w6",
+            "distance": 6.1
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w6",
+            "formatted": "bloodstone:n2w6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(16,9)"
+      }
+    },
+    {
+      "turn": 25,
+      "timestamp": "2025-12-25T10:38:09.624365",
+      "action": "move",
+      "player": {
+        "pos": "(15,9)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w1",
+            "formatted": "Skeleton:w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Goblin",
+            "pos": "s1w5",
+            "formatted": "Goblin:s1w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n4e2",
+            "formatted": "backsword:n4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n4e3",
+            "formatted": "onyx:n4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w5",
+            "formatted": "morganite:n1w5",
+            "distance": 5.1
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e5",
+            "formatted": "miter box:n1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n5e2",
+            "formatted": "tack hammer:n5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w5",
+            "formatted": "bloodstone:n2w5",
+            "distance": 5.4
+          },
+          {
+            "name": "sard",
+            "type": "gems",
+            "pos": "w10",
+            "formatted": "sard:w10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(15,9)"
+      }
+    },
+    {
+      "turn": 26,
+      "timestamp": "2025-12-25T10:38:09.838414",
+      "action": "attack",
+      "player": {
+        "pos": "(15,9)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w1",
+            "formatted": "Skeleton:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Goblin",
+            "pos": "w4",
+            "formatted": "Goblin:w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n4e2",
+            "formatted": "backsword:n4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n4e3",
+            "formatted": "onyx:n4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w5",
+            "formatted": "morganite:n1w5",
+            "distance": 5.1
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e5",
+            "formatted": "miter box:n1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n5e2",
+            "formatted": "tack hammer:n5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w5",
+            "formatted": "bloodstone:n2w5",
+            "distance": 5.4
+          },
+          {
+            "name": "sard",
+            "type": "gems",
+            "pos": "w10",
+            "formatted": "sard:w10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 27,
+      "timestamp": "2025-12-25T10:38:10.217851",
+      "action": "attack",
+      "player": {
+        "pos": "(15,9)",
+        "hp": "92/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "w3",
+            "formatted": "Goblin:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n4e2",
+            "formatted": "backsword:n4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n4e3",
+            "formatted": "onyx:n4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w5",
+            "formatted": "morganite:n1w5",
+            "distance": 5.1
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e5",
+            "formatted": "miter box:n1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n5e2",
+            "formatted": "tack hammer:n5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w5",
+            "formatted": "bloodstone:n2w5",
+            "distance": 5.4
+          },
+          {
+            "name": "sard",
+            "type": "gems",
+            "pos": "w10",
+            "formatted": "sard:w10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 28,
+      "timestamp": "2025-12-25T10:38:10.701237",
+      "action": "attack",
+      "player": {
+        "pos": "(15,9)",
+        "hp": "92/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "w1",
+            "formatted": "Goblin:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "w1",
+            "formatted": "refection:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n4e2",
+            "formatted": "backsword:n4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n4e3",
+            "formatted": "onyx:n4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w5",
+            "formatted": "morganite:n1w5",
+            "distance": 5.1
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e5",
+            "formatted": "miter box:n1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n5e2",
+            "formatted": "tack hammer:n5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w5",
+            "formatted": "bloodstone:n2w5",
+            "distance": 5.4
+          },
+          {
+            "name": "sard",
+            "type": "gems",
+            "pos": "w10",
+            "formatted": "sard:w10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 29,
+      "timestamp": "2025-12-25T10:38:10.884938",
+      "action": "attack",
+      "player": {
+        "pos": "(15,9)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "w1",
+            "formatted": "refection:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n4e2",
+            "formatted": "backsword:n4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n4e3",
+            "formatted": "onyx:n4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w5",
+            "formatted": "morganite:n1w5",
+            "distance": 5.1
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e5",
+            "formatted": "miter box:n1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n5e2",
+            "formatted": "tack hammer:n5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w5",
+            "formatted": "bloodstone:n2w5",
+            "distance": 5.4
+          },
+          {
+            "name": "sard",
+            "type": "gems",
+            "pos": "w10",
+            "formatted": "sard:w10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 30,
+      "timestamp": "2025-12-25T10:38:13.080198",
+      "action": "move",
+      "player": {
+        "pos": "(14,9)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "here",
+            "formatted": "refection:here",
+            "distance": 0.0
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w4",
+            "formatted": "morganite:n1w4",
+            "distance": 4.1
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w4",
+            "formatted": "bloodstone:n2w4",
+            "distance": 4.5
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n4e3",
+            "formatted": "backsword:n4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n4e4",
+            "formatted": "onyx:n4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e6",
+            "formatted": "miter box:n1e6",
+            "distance": 6.1
+          },
+          {
+            "name": "sard",
+            "type": "gems",
+            "pos": "w9",
+            "formatted": "sard:w9",
+            "distance": 9.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(14,9)"
+      }
+    },
+    {
+      "turn": 31,
+      "timestamp": "2025-12-25T10:38:13.313621",
+      "action": "move",
+      "player": {
+        "pos": "(13,9)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "e1",
+            "formatted": "refection:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w3",
+            "formatted": "morganite:n1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w3",
+            "formatted": "bloodstone:n2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s4w1",
+            "formatted": "Alkahest:s4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e7",
+            "formatted": "miter box:n1e7",
+            "distance": 7.1
+          },
+          {
+            "name": "sard",
+            "type": "gems",
+            "pos": "w8",
+            "formatted": "sard:w8",
+            "distance": 8.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(13,9)"
+      }
+    },
+    {
+      "turn": 32,
+      "timestamp": "2025-12-25T10:38:13.512357",
+      "action": "move",
+      "player": {
+        "pos": "(12,9)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "e2",
+            "formatted": "refection:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w2",
+            "formatted": "morganite:n1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w2",
+            "formatted": "bloodstone:n2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s4",
+            "formatted": "Alkahest:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "sard",
+            "type": "gems",
+            "pos": "w7",
+            "formatted": "sard:w7",
+            "distance": 7.0
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e8",
+            "formatted": "miter box:n1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(12,9)"
+      }
+    },
+    {
+      "turn": 33,
+      "timestamp": "2025-12-25T10:38:19.782593",
+      "action": "move",
+      "player": {
+        "pos": "(13,9)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "e1",
+            "formatted": "refection:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w3",
+            "formatted": "morganite:n1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w3",
+            "formatted": "bloodstone:n2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s4w1",
+            "formatted": "Alkahest:s4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e7",
+            "formatted": "miter box:n1e7",
+            "distance": 7.1
+          },
+          {
+            "name": "sard",
+            "type": "gems",
+            "pos": "w8",
+            "formatted": "sard:w8",
+            "distance": 8.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(13,9)"
+      }
+    },
+    {
+      "turn": 34,
+      "timestamp": "2025-12-25T10:38:19.782593",
+      "action": "move",
+      "player": {
+        "pos": "(13,10)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "n1e1",
+            "formatted": "refection:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n2w3",
+            "formatted": "morganite:n2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n3w3",
+            "formatted": "bloodstone:n3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n5e4",
+            "formatted": "backsword:n5e4",
+            "distance": 6.4
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n5e5",
+            "formatted": "onyx:n5e5",
+            "distance": 7.1
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n2e7",
+            "formatted": "miter box:n2e7",
+            "distance": 7.3
+          },
+          {
+            "name": "sard",
+            "type": "gems",
+            "pos": "n1w8",
+            "formatted": "sard:n1w8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(13,10)"
+      }
+    },
+    {
+      "turn": 35,
+      "timestamp": "2025-12-25T10:38:20.295192",
+      "action": "move",
+      "player": {
+        "pos": "(14,10)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "n1",
+            "formatted": "refection:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n2w4",
+            "formatted": "morganite:n2w4",
+            "distance": 4.5
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n3w4",
+            "formatted": "bloodstone:n3w4",
+            "distance": 5.0
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n5e3",
+            "formatted": "backsword:n5e3",
+            "distance": 5.8
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n2e6",
+            "formatted": "miter box:n2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n5e4",
+            "formatted": "onyx:n5e4",
+            "distance": 6.4
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n6e3",
+            "formatted": "tack hammer:n6e3",
+            "distance": 6.7
+          },
+          {
+            "name": "sard",
+            "type": "gems",
+            "pos": "n1w9",
+            "formatted": "sard:n1w9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(14,10)"
+      }
+    },
+    {
+      "turn": 36,
+      "timestamp": "2025-12-25T10:38:20.295192",
+      "action": "move",
+      "player": {
+        "pos": "(15,10)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "n1w1",
+            "formatted": "refection:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n2w5",
+            "formatted": "morganite:n2w5",
+            "distance": 5.4
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n5e2",
+            "formatted": "backsword:n5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n2e5",
+            "formatted": "miter box:n2e5",
+            "distance": 5.4
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n5e3",
+            "formatted": "onyx:n5e3",
+            "distance": 5.8
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n3w5",
+            "formatted": "bloodstone:n3w5",
+            "distance": 5.8
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n6e2",
+            "formatted": "tack hammer:n6e2",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(15,10)"
+      }
+    },
+    {
+      "turn": 37,
+      "timestamp": "2025-12-25T10:38:20.810168",
+      "action": "move",
+      "player": {
+        "pos": "(16,10)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "n1w2",
+            "formatted": "refection:n1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n2e4",
+            "formatted": "miter box:n2e4",
+            "distance": 4.5
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s5",
+            "formatted": "goldstone:s5",
+            "distance": 5.0
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n5e1",
+            "formatted": "backsword:n5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n5e2",
+            "formatted": "onyx:n5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n6e1",
+            "formatted": "tack hammer:n6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n2w6",
+            "formatted": "morganite:n2w6",
+            "distance": 6.3
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n3w6",
+            "formatted": "bloodstone:n3w6",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(16,10)"
+      }
+    },
+    {
+      "turn": 38,
+      "timestamp": "2025-12-25T10:38:20.810685",
+      "action": "move",
+      "player": {
+        "pos": "(16,11)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "n2w2",
+            "formatted": "refection:n2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s4",
+            "formatted": "goldstone:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n3e4",
+            "formatted": "miter box:n3e4",
+            "distance": 5.0
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n6e1",
+            "formatted": "backsword:n6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n6e2",
+            "formatted": "onyx:n6e2",
+            "distance": 6.3
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n7e1",
+            "formatted": "tack hammer:n7e1",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(16,11)"
+      }
+    },
+    {
+      "turn": 39,
+      "timestamp": "2025-12-25T10:38:21.326403",
+      "action": "move",
+      "player": {
+        "pos": "(17,11)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "n2w3",
+            "formatted": "refection:n2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s4w1",
+            "formatted": "goldstone:s4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n3e3",
+            "formatted": "miter box:n3e3",
+            "distance": 4.2
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n6",
+            "formatted": "backsword:n6",
+            "distance": 6.0
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n6e1",
+            "formatted": "onyx:n6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n7",
+            "formatted": "tack hammer:n7",
+            "distance": 7.0
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n3w7",
+            "formatted": "morganite:n3w7",
+            "distance": 7.6
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n4w7",
+            "formatted": "bloodstone:n4w7",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(17,11)"
+      }
+    },
+    {
+      "turn": 40,
+      "timestamp": "2025-12-25T10:38:21.326403",
+      "action": "move",
+      "player": {
+        "pos": "(18,11)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n3e2",
+            "formatted": "miter box:n3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s4w2",
+            "formatted": "goldstone:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "n2w4",
+            "formatted": "refection:n2w4",
+            "distance": 4.5
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n6",
+            "formatted": "onyx:n6",
+            "distance": 6.0
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n6w1",
+            "formatted": "backsword:n6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n7w1",
+            "formatted": "tack hammer:n7w1",
+            "distance": 7.1
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n3w8",
+            "formatted": "morganite:n3w8",
+            "distance": 8.5
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n4w8",
+            "formatted": "bloodstone:n4w8",
+            "distance": 8.9
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(18,11)"
+      }
+    },
+    {
+      "turn": 41,
+      "timestamp": "2025-12-25T10:38:21.843583",
+      "action": "move",
+      "player": {
+        "pos": "(19,11)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n3e1",
+            "formatted": "miter box:n3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s4w3",
+            "formatted": "goldstone:s4w3",
+            "distance": 5.0
+          },
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "n2w5",
+            "formatted": "refection:n2w5",
+            "distance": 5.4
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n6w1",
+            "formatted": "onyx:n6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n6w2",
+            "formatted": "backsword:n6w2",
+            "distance": 6.3
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n7w2",
+            "formatted": "tack hammer:n7w2",
+            "distance": 7.3
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n3w9",
+            "formatted": "morganite:n3w9",
+            "distance": 9.5
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n4w9",
+            "formatted": "bloodstone:n4w9",
+            "distance": 9.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(19,11)"
+      }
+    },
+    {
+      "turn": 42,
+      "timestamp": "2025-12-25T10:38:21.843583",
+      "action": "move",
+      "player": {
+        "pos": "(19,12)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n4e1",
+            "formatted": "miter box:n4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s3w3",
+            "formatted": "goldstone:s3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "n3w5",
+            "formatted": "refection:n3w5",
+            "distance": 5.8
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n7w1",
+            "formatted": "onyx:n7w1",
+            "distance": 7.1
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n7w2",
+            "formatted": "backsword:n7w2",
+            "distance": 7.3
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n8w2",
+            "formatted": "tack hammer:n8w2",
+            "distance": 8.2
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n4w9",
+            "formatted": "morganite:n4w9",
+            "distance": 9.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(19,12)"
+      }
+    },
+    {
+      "turn": 43,
+      "timestamp": "2025-12-25T10:38:31.402307",
+      "action": "move",
+      "player": {
+        "pos": "(19,11)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n3e1",
+            "formatted": "miter box:n3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s4w3",
+            "formatted": "goldstone:s4w3",
+            "distance": 5.0
+          },
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "n2w5",
+            "formatted": "refection:n2w5",
+            "distance": 5.4
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n6w1",
+            "formatted": "onyx:n6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n6w2",
+            "formatted": "backsword:n6w2",
+            "distance": 6.3
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n7w2",
+            "formatted": "tack hammer:n7w2",
+            "distance": 7.3
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n3w9",
+            "formatted": "morganite:n3w9",
+            "distance": 9.5
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n4w9",
+            "formatted": "bloodstone:n4w9",
+            "distance": 9.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(19,11)"
+      }
+    },
+    {
+      "turn": 44,
+      "timestamp": "2025-12-25T10:38:31.402307",
+      "action": "move",
+      "player": {
+        "pos": "(19,10)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "e10",
+            "formatted": "Goblin:e10",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 10.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n2e1",
+            "formatted": "miter box:n2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n5w1",
+            "formatted": "onyx:n5w1",
+            "distance": 5.1
+          },
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "n1w5",
+            "formatted": "refection:n1w5",
+            "distance": 5.1
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n5w2",
+            "formatted": "backsword:n5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s5w3",
+            "formatted": "goldstone:s5w3",
+            "distance": 5.8
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n6w2",
+            "formatted": "tack hammer:n6w2",
+            "distance": 6.3
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n2w9",
+            "formatted": "morganite:n2w9",
+            "distance": 9.2
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n3w9",
+            "formatted": "bloodstone:n3w9",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(19,10)"
+      }
+    },
+    {
+      "turn": 45,
+      "timestamp": "2025-12-25T10:38:31.904272",
+      "action": "move",
+      "player": {
+        "pos": "(19,9)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1e1",
+            "formatted": "miter box:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n4w1",
+            "formatted": "onyx:n4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n4w2",
+            "formatted": "backsword:n4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "w5",
+            "formatted": "refection:w5",
+            "distance": 5.0
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n5w2",
+            "formatted": "tack hammer:n5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6w3",
+            "formatted": "goldstone:s6w3",
+            "distance": 6.7
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "n1w9",
+            "formatted": "morganite:n1w9",
+            "distance": 9.1
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n2w9",
+            "formatted": "bloodstone:n2w9",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(19,9)"
+      }
+    },
+    {
+      "turn": 46,
+      "timestamp": "2025-12-25T10:38:31.904272",
+      "action": "move",
+      "player": {
+        "pos": "(19,8)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "miter box:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n3w1",
+            "formatted": "onyx:n3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n3w2",
+            "formatted": "backsword:n3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n4w2",
+            "formatted": "tack hammer:n4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "s1w5",
+            "formatted": "refection:s1w5",
+            "distance": 5.1
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s7w3",
+            "formatted": "goldstone:s7w3",
+            "distance": 7.6
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "w9",
+            "formatted": "morganite:w9",
+            "distance": 9.0
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "n1w9",
+            "formatted": "bloodstone:n1w9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(19,8)"
+      }
+    },
+    {
+      "turn": 47,
+      "timestamp": "2025-12-25T10:38:32.420981",
+      "action": "move",
+      "player": {
+        "pos": "(20,8)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "here",
+            "formatted": "miter box:here",
+            "distance": 0.0
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n3w2",
+            "formatted": "onyx:n3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n3w3",
+            "formatted": "backsword:n3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n4w3",
+            "formatted": "tack hammer:n4w3",
+            "distance": 5.0
+          },
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "s1w6",
+            "formatted": "refection:s1w6",
+            "distance": 6.1
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s7w4",
+            "formatted": "goldstone:s7w4",
+            "distance": 8.1
+          },
+          {
+            "name": "morganite",
+            "type": "gems",
+            "pos": "w10",
+            "formatted": "morganite:w10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(20,8)"
+      }
+    },
+    {
+      "turn": 48,
+      "timestamp": "2025-12-25T10:38:37.125525",
+      "action": "move",
+      "player": {
+        "pos": "(21,8)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "w1",
+            "formatted": "miter box:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "onyx",
+            "type": "gems",
+            "pos": "n3w3",
+            "formatted": "onyx:n3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "backsword",
+            "type": "weapons",
+            "pos": "n3w4",
+            "formatted": "backsword:n3w4",
+            "distance": 5.0
+          },
+          {
+            "name": "tack hammer",
+            "type": "tools",
+            "pos": "n4w4",
+            "formatted": "tack hammer:n4w4",
+            "distance": 5.7
+          },
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "s1w7",
+            "formatted": "refection:s1w7",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(21,8)"
+      }
+    },
+    {
+      "turn": 49,
+      "timestamp": "2025-12-25T10:38:37.125525",
+      "action": "move",
+      "player": {
+        "pos": "(22,8)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "w2",
+            "formatted": "miter box:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "s1w8",
+            "formatted": "refection:s1w8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(22,8)"
+      }
+    },
+    {
+      "turn": 50,
+      "timestamp": "2025-12-25T10:38:37.637142",
+      "action": "move",
+      "player": {
+        "pos": "(23,8)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s1e5",
+            "formatted": "Goblin:s1e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "w3",
+            "formatted": "miter box:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "refection",
+            "type": "food",
+            "pos": "s1w9",
+            "formatted": "refection:s1w9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(23,8)"
+      }
+    },
+    {
+      "turn": 51,
+      "timestamp": "2025-12-25T10:38:37.637142",
+      "action": "move",
+      "player": {
+        "pos": "(24,8)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s1e4",
+            "formatted": "Goblin:s1e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "e10",
+            "formatted": "Spider:e10",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 10.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "w4",
+            "formatted": "miter box:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(24,8)"
+      }
+    },
+    {
+      "turn": 52,
+      "timestamp": "2025-12-25T10:38:38.153638",
+      "action": "move",
+      "player": {
+        "pos": "(25,8)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "e2",
+            "formatted": "Goblin:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "e9",
+            "formatted": "Spider:e9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "w5",
+            "formatted": "miter box:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(25,8)"
+      }
+    },
+    {
+      "turn": 53,
+      "timestamp": "2025-12-25T10:38:38.153638",
+      "action": "move",
+      "player": {
+        "pos": "(26,8)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "e1",
+            "formatted": "Goblin:e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "e8",
+            "formatted": "Spider:e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "w6",
+            "formatted": "miter box:w6",
+            "distance": 6.0
+          },
+          {
+            "name": "plasma",
+            "type": "gems",
+            "pos": "s7e2",
+            "formatted": "plasma:s7e2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(26,8)"
+      }
+    },
+    {
+      "turn": 54,
+      "timestamp": "2025-12-25T10:38:38.671703",
+      "action": "bump_attack",
+      "player": {
+        "pos": "(26,8)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "e1",
+            "formatted": "Goblin:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "e7",
+            "formatted": "Spider:e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "w6",
+            "formatted": "miter box:w6",
+            "distance": 6.0
+          },
+          {
+            "name": "plasma",
+            "type": "gems",
+            "pos": "s7e2",
+            "formatted": "plasma:s7e2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 55,
+      "timestamp": "2025-12-25T10:38:38.671703",
+      "action": "move",
+      "player": {
+        "pos": "(28,8)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "w1",
+            "formatted": "Goblin:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "e5",
+            "formatted": "Spider:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "plasma",
+            "type": "gems",
+            "pos": "s7",
+            "formatted": "plasma:s7",
+            "distance": 7.0
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "w8",
+            "formatted": "miter box:w8",
+            "distance": 8.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "?",
+        "to": "(28,8)"
+      }
+    },
+    {
+      "turn": 56,
+      "timestamp": "2025-12-25T10:38:39.186451",
+      "action": "move",
+      "player": {
+        "pos": "(29,8)",
+        "hp": "96/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "w2",
+            "formatted": "Goblin:w2",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "e3",
+            "formatted": "Spider:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "plasma",
+            "type": "gems",
+            "pos": "s7w1",
+            "formatted": "plasma:s7w1",
+            "distance": 7.1
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "w9",
+            "formatted": "miter box:w9",
+            "distance": 9.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(29,8)"
+      }
+    },
+    {
+      "turn": 57,
+      "timestamp": "2025-12-25T10:38:39.186451",
+      "action": "move",
+      "player": {
+        "pos": "(29,9)",
+        "hp": "96/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n1w2",
+            "formatted": "Goblin:n1w2",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n1e3",
+            "formatted": "Spider:n1e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "plasma",
+            "type": "gems",
+            "pos": "s6w1",
+            "formatted": "plasma:s6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "n1w9",
+            "formatted": "miter box:n1w9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(29,9)"
+      }
+    },
+    {
+      "turn": 58,
+      "timestamp": "2025-12-25T10:38:39.703248",
+      "action": "move",
+      "player": {
+        "pos": "(29,10)",
+        "hp": "96/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n1w1",
+            "formatted": "Goblin:n1w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "n1e2",
+            "formatted": "Spider:n1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "plasma",
+            "type": "gems",
+            "pos": "s5w1",
+            "formatted": "plasma:s5w1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(29,10)"
+      }
+    }
+  ]
+}

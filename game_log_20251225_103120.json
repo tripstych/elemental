@@ -1,0 +1,741 @@
+{
+  "game_seed": 6906,
+  "total_turns": 15,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T10:31:23.005466",
+      "action": "move",
+      "player": {
+        "pos": "(18,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s5e2",
+            "formatted": "Rat:s5e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.4,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "jasper",
+            "type": "gems",
+            "pos": "s8w1",
+            "formatted": "jasper:s8w1",
+            "distance": 8.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s8e4",
+            "formatted": "Aqua Ignis:s8e4",
+            "distance": 8.9
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(18,2)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T10:31:23.186970",
+      "action": "move",
+      "player": {
+        "pos": "(19,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s4",
+            "formatted": "Rat:s4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "jasper",
+            "type": "gems",
+            "pos": "s8w2",
+            "formatted": "jasper:s8w2",
+            "distance": 8.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s8e3",
+            "formatted": "Aqua Ignis:s8e3",
+            "distance": 8.5
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s9e4",
+            "formatted": "Aqua Ignis:s9e4",
+            "distance": 9.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(19,2)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T10:31:24.025010",
+      "action": "attack",
+      "player": {
+        "pos": "(19,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s1",
+            "formatted": "Rat:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "jasper",
+            "type": "gems",
+            "pos": "s8w2",
+            "formatted": "jasper:s8w2",
+            "distance": 8.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s8e3",
+            "formatted": "Aqua Ignis:s8e3",
+            "distance": 8.5
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s9e4",
+            "formatted": "Aqua Ignis:s9e4",
+            "distance": 9.8
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 4,
+      "timestamp": "2025-12-25T10:31:24.124999",
+      "action": "attack",
+      "player": {
+        "pos": "(19,2)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "jasper",
+            "type": "gems",
+            "pos": "s8w2",
+            "formatted": "jasper:s8w2",
+            "distance": 8.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s8e3",
+            "formatted": "Aqua Ignis:s8e3",
+            "distance": 8.5
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s9e4",
+            "formatted": "Aqua Ignis:s9e4",
+            "distance": 9.8
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 5,
+      "timestamp": "2025-12-25T10:31:25.601266",
+      "action": "move",
+      "player": {
+        "pos": "(20,2)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "s1w1",
+            "formatted": "chrysoprase:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s8e2",
+            "formatted": "Aqua Ignis:s8e2",
+            "distance": 8.2
+          },
+          {
+            "name": "jasper",
+            "type": "gems",
+            "pos": "s8w3",
+            "formatted": "jasper:s8w3",
+            "distance": 8.5
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s9e3",
+            "formatted": "Aqua Ignis:s9e3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(20,2)"
+      }
+    },
+    {
+      "turn": 6,
+      "timestamp": "2025-12-25T10:31:48.042239",
+      "action": "move",
+      "player": {
+        "pos": "(20,3)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "chrysoprase:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s7e2",
+            "formatted": "Aqua Ignis:s7e2",
+            "distance": 7.3
+          },
+          {
+            "name": "jasper",
+            "type": "gems",
+            "pos": "s7w3",
+            "formatted": "jasper:s7w3",
+            "distance": 7.6
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s8e3",
+            "formatted": "Aqua Ignis:s8e3",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(20,3)"
+      }
+    },
+    {
+      "turn": 7,
+      "timestamp": "2025-12-25T10:31:48.253217",
+      "action": "move",
+      "player": {
+        "pos": "(21,3)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "w2",
+            "formatted": "chrysoprase:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s7e1",
+            "formatted": "Aqua Ignis:s7e1",
+            "distance": 7.1
+          },
+          {
+            "name": "jasper",
+            "type": "gems",
+            "pos": "s7w4",
+            "formatted": "jasper:s7w4",
+            "distance": 8.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s8e2",
+            "formatted": "Aqua Ignis:s8e2",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(21,3)"
+      }
+    },
+    {
+      "turn": 8,
+      "timestamp": "2025-12-25T10:31:48.621193",
+      "action": "move",
+      "player": {
+        "pos": "(22,3)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "w3",
+            "formatted": "chrysoprase:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s7",
+            "formatted": "Aqua Ignis:s7",
+            "distance": 7.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s8e1",
+            "formatted": "Aqua Ignis:s8e1",
+            "distance": 8.1
+          },
+          {
+            "name": "jasper",
+            "type": "gems",
+            "pos": "s7w5",
+            "formatted": "jasper:s7w5",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(22,3)"
+      }
+    },
+    {
+      "turn": 9,
+      "timestamp": "2025-12-25T10:31:48.751508",
+      "action": "move",
+      "player": {
+        "pos": "(23,3)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "w4",
+            "formatted": "chrysoprase:w4",
+            "distance": 4.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s7w1",
+            "formatted": "Aqua Ignis:s7w1",
+            "distance": 7.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s8",
+            "formatted": "Aqua Ignis:s8",
+            "distance": 8.0
+          },
+          {
+            "name": "jasper",
+            "type": "gems",
+            "pos": "s7w6",
+            "formatted": "jasper:s7w6",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(23,3)"
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-25T10:31:48.936763",
+      "action": "move",
+      "player": {
+        "pos": "(23,4)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n1w4",
+            "formatted": "chrysoprase:n1w4",
+            "distance": 4.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s6w1",
+            "formatted": "Aqua Ignis:s6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s7",
+            "formatted": "Aqua Ignis:s7",
+            "distance": 7.0
+          },
+          {
+            "name": "jasper",
+            "type": "gems",
+            "pos": "s6w6",
+            "formatted": "jasper:s6w6",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(23,4)"
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-25T10:31:49.168448",
+      "action": "move",
+      "player": {
+        "pos": "(23,5)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n2w4",
+            "formatted": "chrysoprase:n2w4",
+            "distance": 4.5
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s5w1",
+            "formatted": "Aqua Ignis:s5w1",
+            "distance": 5.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s6",
+            "formatted": "Aqua Ignis:s6",
+            "distance": 6.0
+          },
+          {
+            "name": "jasper",
+            "type": "gems",
+            "pos": "s5w6",
+            "formatted": "jasper:s5w6",
+            "distance": 7.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(23,5)"
+      }
+    },
+    {
+      "turn": 12,
+      "timestamp": "2025-12-25T10:31:49.352482",
+      "action": "move",
+      "player": {
+        "pos": "(23,6)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4w1",
+            "formatted": "Aqua Ignis:s4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s5",
+            "formatted": "Aqua Ignis:s5",
+            "distance": 5.0
+          },
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n3w4",
+            "formatted": "chrysoprase:n3w4",
+            "distance": 5.0
+          },
+          {
+            "name": "jasper",
+            "type": "gems",
+            "pos": "s4w6",
+            "formatted": "jasper:s4w6",
+            "distance": 7.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(23,6)"
+      }
+    },
+    {
+      "turn": 13,
+      "timestamp": "2025-12-25T10:31:52.121083",
+      "action": "move",
+      "player": {
+        "pos": "(22,6)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4",
+            "formatted": "Aqua Ignis:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n3w3",
+            "formatted": "chrysoprase:n3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s5e1",
+            "formatted": "Aqua Ignis:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "jasper",
+            "type": "gems",
+            "pos": "s4w5",
+            "formatted": "jasper:s4w5",
+            "distance": 6.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(22,6)"
+      }
+    },
+    {
+      "turn": 14,
+      "timestamp": "2025-12-25T10:31:52.336414",
+      "action": "move",
+      "player": {
+        "pos": "(21,6)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n3w2",
+            "formatted": "chrysoprase:n3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e1",
+            "formatted": "Aqua Ignis:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s5e2",
+            "formatted": "Aqua Ignis:s5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "jasper",
+            "type": "gems",
+            "pos": "s4w4",
+            "formatted": "jasper:s4w4",
+            "distance": 5.7
+          },
+          {
+            "name": "counterbore",
+            "type": "tools",
+            "pos": "s1w9",
+            "formatted": "counterbore:s1w9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(21,6)"
+      }
+    },
+    {
+      "turn": 15,
+      "timestamp": "2025-12-25T10:31:53.652517",
+      "action": "move",
+      "player": {
+        "pos": "(21,7)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s1e7",
+            "formatted": "Spider:s1e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s3e1",
+            "formatted": "Aqua Ignis:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e2",
+            "formatted": "Aqua Ignis:s4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n4w2",
+            "formatted": "chrysoprase:n4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "jasper",
+            "type": "gems",
+            "pos": "s3w4",
+            "formatted": "jasper:s3w4",
+            "distance": 5.0
+          },
+          {
+            "name": "counterbore",
+            "type": "tools",
+            "pos": "w9",
+            "formatted": "counterbore:w9",
+            "distance": 9.0
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "w10",
+            "formatted": "cabochon:w10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(21,7)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,748 @@
+{
+  "game_seed": 201229,
+  "total_turns": 13,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T10:20:40.859020",
+      "action": "move",
+      "player": {
+        "pos": "(30,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s4e2",
+            "formatted": "Spider:s4e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.5,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "s2e6",
+            "formatted": "Bat:s2e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.3,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s7e1",
+            "formatted": "Alkahest:s7e1",
+            "distance": 7.1
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s7e4",
+            "formatted": "Oleum Terra:s7e4",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(30,4)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T10:20:42.266684",
+      "action": "move",
+      "player": {
+        "pos": "(31,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s3",
+            "formatted": "Spider:s3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "s1e4",
+            "formatted": "Bat:s1e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s7",
+            "formatted": "Alkahest:s7",
+            "distance": 7.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s7e3",
+            "formatted": "Oleum Terra:s7e3",
+            "distance": 7.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(31,4)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T10:20:42.735423",
+      "action": "move",
+      "player": {
+        "pos": "(32,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "e2",
+            "formatted": "Bat:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s2w1",
+            "formatted": "Spider:s2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s7w1",
+            "formatted": "Alkahest:s7w1",
+            "distance": 7.1
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s7e2",
+            "formatted": "Oleum Terra:s7e2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(32,4)"
+      }
+    },
+    {
+      "turn": 4,
+      "timestamp": "2025-12-25T10:20:47.836902",
+      "action": "move",
+      "player": {
+        "pos": "(31,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s1e1",
+            "formatted": "Spider:s1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Bat",
+            "pos": "e2",
+            "formatted": "Bat:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s7",
+            "formatted": "Alkahest:s7",
+            "distance": 7.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s7e3",
+            "formatted": "Oleum Terra:s7e3",
+            "distance": 7.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(31,4)"
+      }
+    },
+    {
+      "turn": 5,
+      "timestamp": "2025-12-25T10:20:48.155203",
+      "action": "move",
+      "player": {
+        "pos": "(31,5)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e1",
+            "formatted": "Spider:e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Bat",
+            "pos": "n1e1",
+            "formatted": "Bat:n1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s6",
+            "formatted": "Alkahest:s6",
+            "distance": 6.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s6e3",
+            "formatted": "Oleum Terra:s6e3",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(31,5)"
+      }
+    },
+    {
+      "turn": 6,
+      "timestamp": "2025-12-25T10:20:48.356227",
+      "action": "move",
+      "player": {
+        "pos": "(31,6)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n1e1",
+            "formatted": "Spider:n1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Bat",
+            "pos": "n2e1",
+            "formatted": "Bat:n2e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s5",
+            "formatted": "Alkahest:s5",
+            "distance": 5.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s5e3",
+            "formatted": "Oleum Terra:s5e3",
+            "distance": 5.8
+          },
+          {
+            "name": "can opener",
+            "type": "tools",
+            "pos": "s1w9",
+            "formatted": "can opener:s1w9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(31,6)"
+      }
+    },
+    {
+      "turn": 7,
+      "timestamp": "2025-12-25T10:20:48.550185",
+      "action": "move",
+      "player": {
+        "pos": "(31,7)",
+        "hp": "92/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "n2",
+            "formatted": "Bat:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n2e1",
+            "formatted": "Spider:n2e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s4",
+            "formatted": "Alkahest:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s4e3",
+            "formatted": "Oleum Terra:s4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "can opener",
+            "type": "tools",
+            "pos": "w9",
+            "formatted": "can opener:w9",
+            "distance": 9.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(31,7)"
+      }
+    },
+    {
+      "turn": 8,
+      "timestamp": "2025-12-25T10:20:49.005585",
+      "action": "move",
+      "player": {
+        "pos": "(32,7)",
+        "hp": "92/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n1w1",
+            "formatted": "Spider:n1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Bat",
+            "pos": "n2w1",
+            "formatted": "Bat:n2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s4w1",
+            "formatted": "Alkahest:s4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s4e2",
+            "formatted": "Oleum Terra:s4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "can opener",
+            "type": "tools",
+            "pos": "w10",
+            "formatted": "can opener:w10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(32,7)"
+      }
+    },
+    {
+      "turn": 9,
+      "timestamp": "2025-12-25T10:20:49.202703",
+      "action": "move",
+      "player": {
+        "pos": "(33,7)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "n1w1",
+            "formatted": "Bat:n1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "n1w2",
+            "formatted": "Spider:n1w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s4e1",
+            "formatted": "Oleum Terra:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s4w2",
+            "formatted": "Alkahest:s4w2",
+            "distance": 4.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(33,7)"
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-25T10:20:49.402598",
+      "action": "move",
+      "player": {
+        "pos": "(34,7)",
+        "hp": "88/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "w2",
+            "formatted": "Spider:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n1w2",
+            "formatted": "Bat:n1w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "n1e9",
+            "formatted": "Skeleton:n1e9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s4",
+            "formatted": "Oleum Terra:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s4w3",
+            "formatted": "Alkahest:s4w3",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(34,7)"
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-25T10:20:49.583808",
+      "action": "move",
+      "player": {
+        "pos": "(35,7)",
+        "hp": "88/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "w2",
+            "formatted": "Spider:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n1w3",
+            "formatted": "Bat:n1w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "n1e8",
+            "formatted": "Skeleton:n1e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "n2e9",
+            "formatted": "Rat:n2e9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s4w1",
+            "formatted": "Oleum Terra:s4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s4w4",
+            "formatted": "Alkahest:s4w4",
+            "distance": 5.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(35,7)"
+      }
+    },
+    {
+      "turn": 12,
+      "timestamp": "2025-12-25T10:20:49.850242",
+      "action": "move",
+      "player": {
+        "pos": "(36,7)",
+        "hp": "88/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "w2",
+            "formatted": "Spider:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "w3",
+            "formatted": "Bat:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "n1e7",
+            "formatted": "Skeleton:n1e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "n2e8",
+            "formatted": "Rat:n2e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s4w2",
+            "formatted": "Oleum Terra:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s4w5",
+            "formatted": "Alkahest:s4w5",
+            "distance": 6.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(36,7)"
+      }
+    },
+    {
+      "turn": 13,
+      "timestamp": "2025-12-25T10:20:50.275061",
+      "action": "move",
+      "player": {
+        "pos": "(37,7)",
+        "hp": "88/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "w2",
+            "formatted": "Spider:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "w3",
+            "formatted": "Bat:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s4w3",
+            "formatted": "Oleum Terra:s4w3",
+            "distance": 5.0
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s4w6",
+            "formatted": "Alkahest:s4w6",
+            "distance": 7.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(37,7)"
+      }
+    }
+  ]
+}

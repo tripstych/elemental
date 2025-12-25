@@ -1,0 +1,8324 @@
+{
+  "game_seed": 405438,
+  "total_turns": 175,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T10:48:07.675319",
+      "action": "move",
+      "player": {
+        "pos": "(15,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s6e2",
+            "formatted": "Spider:s6e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.3,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "s1e7",
+            "formatted": "Bat:s1e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s5e5",
+            "formatted": "Spider:s5e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "s3e8",
+            "formatted": "Bat:s3e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.5,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "s1e1",
+            "formatted": "Irish coffee:s1e1",
+            "distance": 1.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(15,2)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T10:48:11.832449",
+      "action": "move",
+      "player": {
+        "pos": "(15,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s4e1",
+            "formatted": "Spider:s4e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s3e4",
+            "formatted": "Spider:s3e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n1e6",
+            "formatted": "Bat:n1e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.1,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "s1e7",
+            "formatted": "Bat:s1e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "e1",
+            "formatted": "Irish coffee:e1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(15,3)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T10:48:11.833449",
+      "action": "move",
+      "player": {
+        "pos": "(15,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s3e1",
+            "formatted": "Spider:s3e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s2e4",
+            "formatted": "Spider:s2e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.5,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n2e6",
+            "formatted": "Bat:n2e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.3,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "e7",
+            "formatted": "Bat:e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s6e8",
+            "formatted": "Troll:s6e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 10.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n1e1",
+            "formatted": "Irish coffee:n1e1",
+            "distance": 1.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(15,4)"
+      }
+    },
+    {
+      "turn": 4,
+      "timestamp": "2025-12-25T10:48:12.347222",
+      "action": "move",
+      "player": {
+        "pos": "(15,5)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s1",
+            "formatted": "Spider:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "e3",
+            "formatted": "Spider:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n2e5",
+            "formatted": "Bat:n2e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.4,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n1e6",
+            "formatted": "Bat:n1e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.1,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s5e8",
+            "formatted": "Troll:s5e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.4,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n2e1",
+            "formatted": "Irish coffee:n2e1",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(15,5)"
+      }
+    },
+    {
+      "turn": 5,
+      "timestamp": "2025-12-25T10:48:12.347222",
+      "action": "move",
+      "player": {
+        "pos": "(16,5)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s1w1",
+            "formatted": "Spider:s1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "e2",
+            "formatted": "Spider:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n2e4",
+            "formatted": "Bat:n2e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.5,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n1e5",
+            "formatted": "Bat:n1e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s5e7",
+            "formatted": "Troll:s5e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.6,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n2",
+            "formatted": "Irish coffee:n2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(16,5)"
+      }
+    },
+    {
+      "turn": 6,
+      "timestamp": "2025-12-25T10:48:12.857649",
+      "action": "move",
+      "player": {
+        "pos": "(16,6)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "w1",
+            "formatted": "Spider:w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "n1e1",
+            "formatted": "Spider:n1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Bat",
+            "pos": "n2e3",
+            "formatted": "Bat:n2e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.6,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n1e4",
+            "formatted": "Bat:n1e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s3e6",
+            "formatted": "Troll:s3e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.7,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n3",
+            "formatted": "Irish coffee:n3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(16,6)"
+      }
+    },
+    {
+      "turn": 7,
+      "timestamp": "2025-12-25T10:48:12.858650",
+      "action": "move",
+      "player": {
+        "pos": "(17,6)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n1",
+            "formatted": "Spider:n1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "w2",
+            "formatted": "Spider:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n2e2",
+            "formatted": "Bat:n2e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.8,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n1e3",
+            "formatted": "Bat:n1e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s3e5",
+            "formatted": "Troll:s3e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.8,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n3w1",
+            "formatted": "Irish coffee:n3w1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(17,6)"
+      }
+    },
+    {
+      "turn": 8,
+      "timestamp": "2025-12-25T10:48:13.375348",
+      "action": "move",
+      "player": {
+        "pos": "(17,7)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n1w1",
+            "formatted": "Spider:n1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "n2",
+            "formatted": "Spider:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n2e1",
+            "formatted": "Bat:n2e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n1e2",
+            "formatted": "Bat:n1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s1e4",
+            "formatted": "Troll:s1e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n4w1",
+            "formatted": "Irish coffee:n4w1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(17,7)"
+      }
+    },
+    {
+      "turn": 9,
+      "timestamp": "2025-12-25T10:48:13.375348",
+      "action": "move",
+      "player": {
+        "pos": "(17,8)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n2w1",
+            "formatted": "Spider:n2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n2e2",
+            "formatted": "Bat:n2e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.8,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n3",
+            "formatted": "Spider:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n3e1",
+            "formatted": "Bat:n3e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "e4",
+            "formatted": "Troll:e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n5w1",
+            "formatted": "Irish coffee:n5w1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(17,8)"
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-25T10:48:13.888671",
+      "action": "move",
+      "player": {
+        "pos": "(17,9)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n2",
+            "formatted": "Spider:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n2e1",
+            "formatted": "Bat:n2e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n3",
+            "formatted": "Bat:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n1e3",
+            "formatted": "Troll:n1e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n4",
+            "formatted": "Spider:n4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6w1",
+            "formatted": "Irish coffee:n6w1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(17,9)"
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-25T10:48:13.888671",
+      "action": "move",
+      "player": {
+        "pos": "(17,10)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n3",
+            "formatted": "Spider:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n3e1",
+            "formatted": "Bat:n3e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n2e3",
+            "formatted": "Troll:n2e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.6,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n4",
+            "formatted": "Bat:n4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n5",
+            "formatted": "Spider:n5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n7w1",
+            "formatted": "Irish coffee:n7w1",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(17,10)"
+      }
+    },
+    {
+      "turn": 12,
+      "timestamp": "2025-12-25T10:48:14.401519",
+      "action": "move",
+      "player": {
+        "pos": "(17,11)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "n2e2",
+            "formatted": "Troll:n2e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.8,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n3",
+            "formatted": "Spider:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n4e1",
+            "formatted": "Bat:n4e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n5",
+            "formatted": "Bat:n5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n6",
+            "formatted": "Spider:n6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n8w1",
+            "formatted": "Irish coffee:n8w1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(17,11)"
+      }
+    },
+    {
+      "turn": 13,
+      "timestamp": "2025-12-25T10:48:14.998228",
+      "action": "attack",
+      "player": {
+        "pos": "(17,11)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "n1e1",
+            "formatted": "Troll:n1e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "n2",
+            "formatted": "Spider:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n3",
+            "formatted": "Bat:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n4",
+            "formatted": "Bat:n4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n5",
+            "formatted": "Spider:n5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n8w1",
+            "formatted": "Irish coffee:n8w1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Troll",
+        "direction": "ne",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 14,
+      "timestamp": "2025-12-25T10:48:15.113526",
+      "action": "attack",
+      "player": {
+        "pos": "(17,11)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n1",
+            "formatted": "Spider:n1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Troll",
+            "pos": "n1e1",
+            "formatted": "Troll:n1e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Bat",
+            "pos": "n2",
+            "formatted": "Bat:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n4",
+            "formatted": "Bat:n4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n5",
+            "formatted": "Spider:n5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n8w1",
+            "formatted": "Irish coffee:n8w1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 15,
+      "timestamp": "2025-12-25T10:48:15.213513",
+      "action": "attack",
+      "player": {
+        "pos": "(17,11)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "n1e1",
+            "formatted": "Troll:n1e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Bat",
+            "pos": "n2",
+            "formatted": "Bat:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n3",
+            "formatted": "Bat:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n4",
+            "formatted": "Spider:n4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n8w1",
+            "formatted": "Irish coffee:n8w1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 16,
+      "timestamp": "2025-12-25T10:48:15.315519",
+      "action": "attack",
+      "player": {
+        "pos": "(17,11)",
+        "hp": "88/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "n1",
+            "formatted": "Bat:n1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Troll",
+            "pos": "n1e1",
+            "formatted": "Troll:n1e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Bat",
+            "pos": "n3",
+            "formatted": "Bat:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n4",
+            "formatted": "Spider:n4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "star sapphire:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n8w1",
+            "formatted": "Irish coffee:n8w1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Bat",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 17,
+      "timestamp": "2025-12-25T10:48:15.399848",
+      "action": "attack",
+      "player": {
+        "pos": "(17,11)",
+        "hp": "84/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "n1e1",
+            "formatted": "Troll:n1e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Bat",
+            "pos": "n2",
+            "formatted": "Bat:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n3",
+            "formatted": "Spider:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "star sapphire:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n8w1",
+            "formatted": "Irish coffee:n8w1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Bat",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 18,
+      "timestamp": "2025-12-25T10:48:15.514857",
+      "action": "attack",
+      "player": {
+        "pos": "(17,11)",
+        "hp": "82/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "n1",
+            "formatted": "Bat:n1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Troll",
+            "pos": "n1e1",
+            "formatted": "Troll:n1e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "n2",
+            "formatted": "Spider:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "star sapphire:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "n1",
+            "formatted": "meatball:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n8w1",
+            "formatted": "Irish coffee:n8w1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Bat",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 19,
+      "timestamp": "2025-12-25T10:48:15.614469",
+      "action": "attack",
+      "player": {
+        "pos": "(17,11)",
+        "hp": "78/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "n1e1",
+            "formatted": "Troll:n1e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "n2",
+            "formatted": "Spider:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "star sapphire:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "n1",
+            "formatted": "meatball:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n8w1",
+            "formatted": "Irish coffee:n8w1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Bat",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 20,
+      "timestamp": "2025-12-25T10:48:15.713791",
+      "action": "attack",
+      "player": {
+        "pos": "(17,11)",
+        "hp": "86/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n1",
+            "formatted": "Spider:n1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Troll",
+            "pos": "n1e1",
+            "formatted": "Troll:n1e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "star sapphire:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "n1",
+            "formatted": "meatball:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "n1",
+            "formatted": "dog food:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n8w1",
+            "formatted": "Irish coffee:n8w1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 21,
+      "timestamp": "2025-12-25T10:48:15.815452",
+      "action": "attack",
+      "player": {
+        "pos": "(17,11)",
+        "hp": "82/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "n1e1",
+            "formatted": "Troll:n1e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "star sapphire:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "n1",
+            "formatted": "meatball:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "n1",
+            "formatted": "dog food:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n8w1",
+            "formatted": "Irish coffee:n8w1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 22,
+      "timestamp": "2025-12-25T10:48:15.915542",
+      "action": "attack",
+      "player": {
+        "pos": "(17,11)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "star sapphire:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "n1",
+            "formatted": "meatball:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "n1",
+            "formatted": "dog food:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "cinnamon stone:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n8w1",
+            "formatted": "Irish coffee:n8w1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Troll",
+        "direction": "ne",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 23,
+      "timestamp": "2025-12-25T10:48:19.396780",
+      "action": "move",
+      "player": {
+        "pos": "(17,10)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "star sapphire:here",
+            "distance": 0.0
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "here",
+            "formatted": "meatball:here",
+            "distance": 0.0
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "here",
+            "formatted": "dog food:here",
+            "distance": 0.0
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "cinnamon stone:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n7w1",
+            "formatted": "Irish coffee:n7w1",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(17,10)"
+      }
+    },
+    {
+      "turn": 24,
+      "timestamp": "2025-12-25T10:48:19.396780",
+      "action": "move",
+      "player": {
+        "pos": "(17,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "star sapphire:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "meatball:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "dog food:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "cinnamon stone:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6w1",
+            "formatted": "Irish coffee:n6w1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(17,9)"
+      }
+    },
+    {
+      "turn": 25,
+      "timestamp": "2025-12-25T10:48:19.909364",
+      "action": "move",
+      "player": {
+        "pos": "(17,8)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s2",
+            "formatted": "star sapphire:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "meatball:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "dog food:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s2",
+            "formatted": "cinnamon stone:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n5w1",
+            "formatted": "Irish coffee:n5w1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(17,8)"
+      }
+    },
+    {
+      "turn": 26,
+      "timestamp": "2025-12-25T10:48:19.909902",
+      "action": "move",
+      "player": {
+        "pos": "(18,8)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s2w1",
+            "formatted": "star sapphire:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s2w1",
+            "formatted": "meatball:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s2w1",
+            "formatted": "dog food:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s2w1",
+            "formatted": "cinnamon stone:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n5w2",
+            "formatted": "Irish coffee:n5w2",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(18,8)"
+      }
+    },
+    {
+      "turn": 27,
+      "timestamp": "2025-12-25T10:48:20.420755",
+      "action": "move",
+      "player": {
+        "pos": "(18,7)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s3w1",
+            "formatted": "star sapphire:s3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s3w1",
+            "formatted": "meatball:s3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s3w1",
+            "formatted": "dog food:s3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s3w1",
+            "formatted": "cinnamon stone:s3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n4w2",
+            "formatted": "Irish coffee:n4w2",
+            "distance": 4.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(18,7)"
+      }
+    },
+    {
+      "turn": 28,
+      "timestamp": "2025-12-25T10:48:20.420755",
+      "action": "move",
+      "player": {
+        "pos": "(18,6)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n3w2",
+            "formatted": "Irish coffee:n3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s4w1",
+            "formatted": "star sapphire:s4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s4w1",
+            "formatted": "meatball:s4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s4w1",
+            "formatted": "dog food:s4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s4w1",
+            "formatted": "cinnamon stone:s4w1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(18,6)"
+      }
+    },
+    {
+      "turn": 29,
+      "timestamp": "2025-12-25T10:48:20.936487",
+      "action": "move",
+      "player": {
+        "pos": "(19,6)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n3w3",
+            "formatted": "Irish coffee:n3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s4w2",
+            "formatted": "star sapphire:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s4w2",
+            "formatted": "meatball:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s4w2",
+            "formatted": "dog food:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s4w2",
+            "formatted": "cinnamon stone:s4w2",
+            "distance": 4.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(19,6)"
+      }
+    },
+    {
+      "turn": 30,
+      "timestamp": "2025-12-25T10:48:20.937120",
+      "action": "move",
+      "player": {
+        "pos": "(19,5)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n2w3",
+            "formatted": "Irish coffee:n2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s5w2",
+            "formatted": "star sapphire:s5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s5w2",
+            "formatted": "meatball:s5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s5w2",
+            "formatted": "dog food:s5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s5w2",
+            "formatted": "cinnamon stone:s5w2",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(19,5)"
+      }
+    },
+    {
+      "turn": 31,
+      "timestamp": "2025-12-25T10:48:21.453340",
+      "action": "move",
+      "player": {
+        "pos": "(20,5)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n2w4",
+            "formatted": "Irish coffee:n2w4",
+            "distance": 4.5
+          },
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s5w3",
+            "formatted": "star sapphire:s5w3",
+            "distance": 5.8
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s5w3",
+            "formatted": "meatball:s5w3",
+            "distance": 5.8
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s5w3",
+            "formatted": "dog food:s5w3",
+            "distance": 5.8
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s5w3",
+            "formatted": "cinnamon stone:s5w3",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(20,5)"
+      }
+    },
+    {
+      "turn": 32,
+      "timestamp": "2025-12-25T10:48:21.453340",
+      "action": "move",
+      "player": {
+        "pos": "(21,5)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n2w5",
+            "formatted": "Irish coffee:n2w5",
+            "distance": 5.4
+          },
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s5w4",
+            "formatted": "star sapphire:s5w4",
+            "distance": 6.4
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s5w4",
+            "formatted": "meatball:s5w4",
+            "distance": 6.4
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s5w4",
+            "formatted": "dog food:s5w4",
+            "distance": 6.4
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s5w4",
+            "formatted": "cinnamon stone:s5w4",
+            "distance": 6.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(21,5)"
+      }
+    },
+    {
+      "turn": 33,
+      "timestamp": "2025-12-25T10:48:21.966343",
+      "action": "move",
+      "player": {
+        "pos": "(22,5)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n2w6",
+            "formatted": "Irish coffee:n2w6",
+            "distance": 6.3
+          },
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s5w5",
+            "formatted": "star sapphire:s5w5",
+            "distance": 7.1
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s5w5",
+            "formatted": "meatball:s5w5",
+            "distance": 7.1
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s5w5",
+            "formatted": "dog food:s5w5",
+            "distance": 7.1
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s5w5",
+            "formatted": "cinnamon stone:s5w5",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(22,5)"
+      }
+    },
+    {
+      "turn": 34,
+      "timestamp": "2025-12-25T10:48:24.096149",
+      "action": "move",
+      "player": {
+        "pos": "(23,5)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n2w7",
+            "formatted": "Irish coffee:n2w7",
+            "distance": 7.3
+          },
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s5w6",
+            "formatted": "star sapphire:s5w6",
+            "distance": 7.8
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s5w6",
+            "formatted": "meatball:s5w6",
+            "distance": 7.8
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s5w6",
+            "formatted": "dog food:s5w6",
+            "distance": 7.8
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s5w6",
+            "formatted": "cinnamon stone:s5w6",
+            "distance": 7.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(23,5)"
+      }
+    },
+    {
+      "turn": 35,
+      "timestamp": "2025-12-25T10:48:24.096149",
+      "action": "move",
+      "player": {
+        "pos": "(23,6)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s4w6",
+            "formatted": "star sapphire:s4w6",
+            "distance": 7.2
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s4w6",
+            "formatted": "meatball:s4w6",
+            "distance": 7.2
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s4w6",
+            "formatted": "dog food:s4w6",
+            "distance": 7.2
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s4w6",
+            "formatted": "cinnamon stone:s4w6",
+            "distance": 7.2
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n3w7",
+            "formatted": "Irish coffee:n3w7",
+            "distance": 7.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(23,6)"
+      }
+    },
+    {
+      "turn": 36,
+      "timestamp": "2025-12-25T10:48:24.606686",
+      "action": "move",
+      "player": {
+        "pos": "(24,6)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s4w7",
+            "formatted": "star sapphire:s4w7",
+            "distance": 8.1
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s4w7",
+            "formatted": "meatball:s4w7",
+            "distance": 8.1
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s4w7",
+            "formatted": "dog food:s4w7",
+            "distance": 8.1
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s4w7",
+            "formatted": "cinnamon stone:s4w7",
+            "distance": 8.1
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n3w8",
+            "formatted": "Irish coffee:n3w8",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(24,6)"
+      }
+    },
+    {
+      "turn": 37,
+      "timestamp": "2025-12-25T10:48:24.606686",
+      "action": "move",
+      "player": {
+        "pos": "(24,7)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s3w7",
+            "formatted": "star sapphire:s3w7",
+            "distance": 7.6
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s3w7",
+            "formatted": "meatball:s3w7",
+            "distance": 7.6
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s3w7",
+            "formatted": "dog food:s3w7",
+            "distance": 7.6
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s3w7",
+            "formatted": "cinnamon stone:s3w7",
+            "distance": 7.6
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n4w8",
+            "formatted": "Irish coffee:n4w8",
+            "distance": 8.9
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(24,7)"
+      }
+    },
+    {
+      "turn": 38,
+      "timestamp": "2025-12-25T10:48:25.124870",
+      "action": "move",
+      "player": {
+        "pos": "(25,7)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s3w8",
+            "formatted": "star sapphire:s3w8",
+            "distance": 8.5
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s3w8",
+            "formatted": "meatball:s3w8",
+            "distance": 8.5
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s3w8",
+            "formatted": "dog food:s3w8",
+            "distance": 8.5
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s3w8",
+            "formatted": "cinnamon stone:s3w8",
+            "distance": 8.5
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n4w9",
+            "formatted": "Irish coffee:n4w9",
+            "distance": 9.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(25,7)"
+      }
+    },
+    {
+      "turn": 39,
+      "timestamp": "2025-12-25T10:48:25.124870",
+      "action": "move",
+      "player": {
+        "pos": "(26,7)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s3w9",
+            "formatted": "star sapphire:s3w9",
+            "distance": 9.5
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s3w9",
+            "formatted": "meatball:s3w9",
+            "distance": 9.5
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s3w9",
+            "formatted": "dog food:s3w9",
+            "distance": 9.5
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s3w9",
+            "formatted": "cinnamon stone:s3w9",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(26,7)"
+      }
+    },
+    {
+      "turn": 40,
+      "timestamp": "2025-12-25T10:48:25.638352",
+      "action": "move",
+      "player": {
+        "pos": "(27,7)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(27,7)"
+      }
+    },
+    {
+      "turn": 41,
+      "timestamp": "2025-12-25T10:48:25.639360",
+      "action": "move",
+      "player": {
+        "pos": "(28,7)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s4e4",
+            "formatted": "whaling gun:s4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "Stinger",
+            "type": "weapons",
+            "pos": "s3e5",
+            "formatted": "Stinger:s3e5",
+            "distance": 5.8
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "n3e5",
+            "formatted": "Alkahest:n3e5",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(28,7)"
+      }
+    },
+    {
+      "turn": 42,
+      "timestamp": "2025-12-25T10:48:26.150222",
+      "action": "move",
+      "player": {
+        "pos": "(29,7)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s4e3",
+            "formatted": "whaling gun:s4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "Stinger",
+            "type": "weapons",
+            "pos": "s3e4",
+            "formatted": "Stinger:s3e4",
+            "distance": 5.0
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "n3e4",
+            "formatted": "Alkahest:n3e4",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(29,7)"
+      }
+    },
+    {
+      "turn": 43,
+      "timestamp": "2025-12-25T10:48:26.150222",
+      "action": "move",
+      "player": {
+        "pos": "(30,7)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Stinger",
+            "type": "weapons",
+            "pos": "s3e3",
+            "formatted": "Stinger:s3e3",
+            "distance": 4.2
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "n3e3",
+            "formatted": "Alkahest:n3e3",
+            "distance": 4.2
+          },
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s4e2",
+            "formatted": "whaling gun:s4e2",
+            "distance": 4.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(30,7)"
+      }
+    },
+    {
+      "turn": 44,
+      "timestamp": "2025-12-25T10:48:26.665273",
+      "action": "move",
+      "player": {
+        "pos": "(31,7)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Stinger",
+            "type": "weapons",
+            "pos": "s3e2",
+            "formatted": "Stinger:s3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "n3e2",
+            "formatted": "Alkahest:n3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s4e1",
+            "formatted": "whaling gun:s4e1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(31,7)"
+      }
+    },
+    {
+      "turn": 45,
+      "timestamp": "2025-12-25T10:48:26.665273",
+      "action": "move",
+      "player": {
+        "pos": "(32,7)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Stinger",
+            "type": "weapons",
+            "pos": "s3e1",
+            "formatted": "Stinger:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "n3e1",
+            "formatted": "Alkahest:n3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s4",
+            "formatted": "whaling gun:s4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(32,7)"
+      }
+    },
+    {
+      "turn": 46,
+      "timestamp": "2025-12-25T10:48:27.179499",
+      "action": "move",
+      "player": {
+        "pos": "(33,7)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Stinger",
+            "type": "weapons",
+            "pos": "s3",
+            "formatted": "Stinger:s3",
+            "distance": 3.0
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "n3",
+            "formatted": "Alkahest:n3",
+            "distance": 3.0
+          },
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s4w1",
+            "formatted": "whaling gun:s4w1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(33,7)"
+      }
+    },
+    {
+      "turn": 47,
+      "timestamp": "2025-12-25T10:48:27.757031",
+      "action": "move",
+      "player": {
+        "pos": "(33,6)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "n2",
+            "formatted": "Alkahest:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "Stinger",
+            "type": "weapons",
+            "pos": "s4",
+            "formatted": "Stinger:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s5w1",
+            "formatted": "whaling gun:s5w1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(33,6)"
+      }
+    },
+    {
+      "turn": 48,
+      "timestamp": "2025-12-25T10:48:28.249305",
+      "action": "move",
+      "player": {
+        "pos": "(33,5)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "n1",
+            "formatted": "Alkahest:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Stinger",
+            "type": "weapons",
+            "pos": "s5",
+            "formatted": "Stinger:s5",
+            "distance": 5.0
+          },
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s6w1",
+            "formatted": "whaling gun:s6w1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(33,5)"
+      }
+    },
+    {
+      "turn": 49,
+      "timestamp": "2025-12-25T10:48:28.364670",
+      "action": "move",
+      "player": {
+        "pos": "(33,4)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Alkahest:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Stinger",
+            "type": "weapons",
+            "pos": "s6",
+            "formatted": "Stinger:s6",
+            "distance": 6.0
+          },
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s7w1",
+            "formatted": "whaling gun:s7w1",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(33,4)"
+      }
+    },
+    {
+      "turn": 49,
+      "timestamp": "2025-12-25T10:48:28.725103",
+      "action": "pickup",
+      "player": {
+        "pos": "(33,4)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Stinger",
+            "type": "weapons",
+            "pos": "s6",
+            "formatted": "Stinger:s6",
+            "distance": 6.0
+          },
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s7w1",
+            "formatted": "whaling gun:s7w1",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Alkahest"
+        ]
+      }
+    },
+    {
+      "turn": 50,
+      "timestamp": "2025-12-25T10:48:29.121039",
+      "action": "move",
+      "player": {
+        "pos": "(33,5)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Stinger",
+            "type": "weapons",
+            "pos": "s5",
+            "formatted": "Stinger:s5",
+            "distance": 5.0
+          },
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s6w1",
+            "formatted": "whaling gun:s6w1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(33,5)"
+      }
+    },
+    {
+      "turn": 51,
+      "timestamp": "2025-12-25T10:48:29.321467",
+      "action": "move",
+      "player": {
+        "pos": "(33,6)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Stinger",
+            "type": "weapons",
+            "pos": "s4",
+            "formatted": "Stinger:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s5w1",
+            "formatted": "whaling gun:s5w1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(33,6)"
+      }
+    },
+    {
+      "turn": 52,
+      "timestamp": "2025-12-25T10:48:29.437575",
+      "action": "move",
+      "player": {
+        "pos": "(33,7)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Stinger",
+            "type": "weapons",
+            "pos": "s3",
+            "formatted": "Stinger:s3",
+            "distance": 3.0
+          },
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s4w1",
+            "formatted": "whaling gun:s4w1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(33,7)"
+      }
+    },
+    {
+      "turn": 53,
+      "timestamp": "2025-12-25T10:48:29.537726",
+      "action": "move",
+      "player": {
+        "pos": "(33,8)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Stinger",
+            "type": "weapons",
+            "pos": "s2",
+            "formatted": "Stinger:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s3w1",
+            "formatted": "whaling gun:s3w1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(33,8)"
+      }
+    },
+    {
+      "turn": 54,
+      "timestamp": "2025-12-25T10:48:29.638999",
+      "action": "move",
+      "player": {
+        "pos": "(33,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Stinger",
+            "type": "weapons",
+            "pos": "s1",
+            "formatted": "Stinger:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s2w1",
+            "formatted": "whaling gun:s2w1",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(33,9)"
+      }
+    },
+    {
+      "turn": 55,
+      "timestamp": "2025-12-25T10:48:30.168563",
+      "action": "move",
+      "player": {
+        "pos": "(33,10)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Stinger",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "Stinger:here",
+            "distance": 0.0
+          },
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s1w1",
+            "formatted": "whaling gun:s1w1",
+            "distance": 1.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(33,10)"
+      }
+    },
+    {
+      "turn": 55,
+      "timestamp": "2025-12-25T10:48:30.400327",
+      "action": "pickup",
+      "player": {
+        "pos": "(33,10)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s1w1",
+            "formatted": "whaling gun:s1w1",
+            "distance": 1.4
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Stinger"
+        ]
+      }
+    },
+    {
+      "turn": 56,
+      "timestamp": "2025-12-25T10:48:30.715098",
+      "action": "move",
+      "player": {
+        "pos": "(32,10)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "s1",
+            "formatted": "whaling gun:s1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(32,10)"
+      }
+    },
+    {
+      "turn": 57,
+      "timestamp": "2025-12-25T10:48:31.082644",
+      "action": "move",
+      "player": {
+        "pos": "(32,11)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "whaling gun",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "whaling gun:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(32,11)"
+      }
+    },
+    {
+      "turn": 57,
+      "timestamp": "2025-12-25T10:48:31.417870",
+      "action": "pickup",
+      "player": {
+        "pos": "(32,11)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "whaling gun"
+        ]
+      }
+    },
+    {
+      "turn": 58,
+      "timestamp": "2025-12-25T10:48:31.833947",
+      "action": "move",
+      "player": {
+        "pos": "(32,10)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(32,10)"
+      }
+    },
+    {
+      "turn": 59,
+      "timestamp": "2025-12-25T10:48:32.180753",
+      "action": "move",
+      "player": {
+        "pos": "(32,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(32,9)"
+      }
+    },
+    {
+      "turn": 60,
+      "timestamp": "2025-12-25T10:48:32.577992",
+      "action": "move",
+      "player": {
+        "pos": "(33,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(33,9)"
+      }
+    },
+    {
+      "turn": 61,
+      "timestamp": "2025-12-25T10:48:32.844581",
+      "action": "move",
+      "player": {
+        "pos": "(34,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(34,9)"
+      }
+    },
+    {
+      "turn": 62,
+      "timestamp": "2025-12-25T10:48:32.992563",
+      "action": "move",
+      "player": {
+        "pos": "(35,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(35,9)"
+      }
+    },
+    {
+      "turn": 63,
+      "timestamp": "2025-12-25T10:48:33.203452",
+      "action": "move",
+      "player": {
+        "pos": "(36,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(36,9)"
+      }
+    },
+    {
+      "turn": 64,
+      "timestamp": "2025-12-25T10:48:33.422652",
+      "action": "move",
+      "player": {
+        "pos": "(37,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(37,9)"
+      }
+    },
+    {
+      "turn": 65,
+      "timestamp": "2025-12-25T10:48:33.572536",
+      "action": "move",
+      "player": {
+        "pos": "(38,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "carnelian",
+            "type": "gems",
+            "pos": "n2e5",
+            "formatted": "carnelian:n2e5",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(38,9)"
+      }
+    },
+    {
+      "turn": 66,
+      "timestamp": "2025-12-25T10:48:33.803460",
+      "action": "move",
+      "player": {
+        "pos": "(39,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "poi",
+            "type": "food",
+            "pos": "s2e2",
+            "formatted": "poi:s2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "chamfer bit",
+            "type": "tools",
+            "pos": "n3e2",
+            "formatted": "chamfer bit:n3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e2",
+            "formatted": "Oleum Terra:s3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "carnelian",
+            "type": "gems",
+            "pos": "n2e4",
+            "formatted": "carnelian:n2e4",
+            "distance": 4.5
+          },
+          {
+            "name": "instant coffee",
+            "type": "food",
+            "pos": "s4e4",
+            "formatted": "instant coffee:s4e4",
+            "distance": 5.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(39,9)"
+      }
+    },
+    {
+      "turn": 67,
+      "timestamp": "2025-12-25T10:48:34.018252",
+      "action": "move",
+      "player": {
+        "pos": "(40,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "poi",
+            "type": "food",
+            "pos": "s2e1",
+            "formatted": "poi:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "chamfer bit",
+            "type": "tools",
+            "pos": "n3e1",
+            "formatted": "chamfer bit:n3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e1",
+            "formatted": "Oleum Terra:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "carnelian",
+            "type": "gems",
+            "pos": "n2e3",
+            "formatted": "carnelian:n2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "instant coffee",
+            "type": "food",
+            "pos": "s4e3",
+            "formatted": "instant coffee:s4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n6e2",
+            "formatted": "Aqua Ignis:n6e2",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(40,9)"
+      }
+    },
+    {
+      "turn": 68,
+      "timestamp": "2025-12-25T10:48:35.023695",
+      "action": "move",
+      "player": {
+        "pos": "(39,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "poi",
+            "type": "food",
+            "pos": "s2e2",
+            "formatted": "poi:s2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "chamfer bit",
+            "type": "tools",
+            "pos": "n3e2",
+            "formatted": "chamfer bit:n3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e2",
+            "formatted": "Oleum Terra:s3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "carnelian",
+            "type": "gems",
+            "pos": "n2e4",
+            "formatted": "carnelian:n2e4",
+            "distance": 4.5
+          },
+          {
+            "name": "instant coffee",
+            "type": "food",
+            "pos": "s4e4",
+            "formatted": "instant coffee:s4e4",
+            "distance": 5.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(39,9)"
+      }
+    },
+    {
+      "turn": 69,
+      "timestamp": "2025-12-25T10:48:35.239381",
+      "action": "move",
+      "player": {
+        "pos": "(38,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "carnelian",
+            "type": "gems",
+            "pos": "n2e5",
+            "formatted": "carnelian:n2e5",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(38,9)"
+      }
+    },
+    {
+      "turn": 70,
+      "timestamp": "2025-12-25T10:48:35.340434",
+      "action": "move",
+      "player": {
+        "pos": "(37,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(37,9)"
+      }
+    },
+    {
+      "turn": 71,
+      "timestamp": "2025-12-25T10:48:35.440286",
+      "action": "move",
+      "player": {
+        "pos": "(36,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(36,9)"
+      }
+    },
+    {
+      "turn": 72,
+      "timestamp": "2025-12-25T10:48:35.540352",
+      "action": "move",
+      "player": {
+        "pos": "(35,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(35,9)"
+      }
+    },
+    {
+      "turn": 73,
+      "timestamp": "2025-12-25T10:48:35.639478",
+      "action": "move",
+      "player": {
+        "pos": "(34,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(34,9)"
+      }
+    },
+    {
+      "turn": 74,
+      "timestamp": "2025-12-25T10:48:35.738249",
+      "action": "move",
+      "player": {
+        "pos": "(33,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(33,9)"
+      }
+    },
+    {
+      "turn": 75,
+      "timestamp": "2025-12-25T10:48:35.836335",
+      "action": "move",
+      "player": {
+        "pos": "(32,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(32,9)"
+      }
+    },
+    {
+      "turn": 76,
+      "timestamp": "2025-12-25T10:48:35.935444",
+      "action": "move",
+      "player": {
+        "pos": "(31,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(31,9)"
+      }
+    },
+    {
+      "turn": 77,
+      "timestamp": "2025-12-25T10:48:36.035644",
+      "action": "move",
+      "player": {
+        "pos": "(30,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(30,9)"
+      }
+    },
+    {
+      "turn": 78,
+      "timestamp": "2025-12-25T10:48:36.135529",
+      "action": "move",
+      "player": {
+        "pos": "(29,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(29,9)"
+      }
+    },
+    {
+      "turn": 79,
+      "timestamp": "2025-12-25T10:48:36.235820",
+      "action": "move",
+      "player": {
+        "pos": "(28,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(28,9)"
+      }
+    },
+    {
+      "turn": 80,
+      "timestamp": "2025-12-25T10:48:36.333740",
+      "action": "move",
+      "player": {
+        "pos": "(27,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(27,9)"
+      }
+    },
+    {
+      "turn": 81,
+      "timestamp": "2025-12-25T10:48:36.433318",
+      "action": "move",
+      "player": {
+        "pos": "(26,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1w9",
+            "formatted": "star sapphire:s1w9",
+            "distance": 9.1
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1w9",
+            "formatted": "meatball:s1w9",
+            "distance": 9.1
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1w9",
+            "formatted": "dog food:s1w9",
+            "distance": 9.1
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1w9",
+            "formatted": "cinnamon stone:s1w9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(26,9)"
+      }
+    },
+    {
+      "turn": 82,
+      "timestamp": "2025-12-25T10:48:36.531541",
+      "action": "move",
+      "player": {
+        "pos": "(25,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1w8",
+            "formatted": "star sapphire:s1w8",
+            "distance": 8.1
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1w8",
+            "formatted": "meatball:s1w8",
+            "distance": 8.1
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1w8",
+            "formatted": "dog food:s1w8",
+            "distance": 8.1
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1w8",
+            "formatted": "cinnamon stone:s1w8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(25,9)"
+      }
+    },
+    {
+      "turn": 83,
+      "timestamp": "2025-12-25T10:48:36.646754",
+      "action": "move",
+      "player": {
+        "pos": "(24,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1w7",
+            "formatted": "star sapphire:s1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1w7",
+            "formatted": "meatball:s1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1w7",
+            "formatted": "dog food:s1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1w7",
+            "formatted": "cinnamon stone:s1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6w8",
+            "formatted": "Irish coffee:n6w8",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(24,9)"
+      }
+    },
+    {
+      "turn": 84,
+      "timestamp": "2025-12-25T10:48:36.746142",
+      "action": "move",
+      "player": {
+        "pos": "(23,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1w6",
+            "formatted": "star sapphire:s1w6",
+            "distance": 6.1
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1w6",
+            "formatted": "meatball:s1w6",
+            "distance": 6.1
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1w6",
+            "formatted": "dog food:s1w6",
+            "distance": 6.1
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1w6",
+            "formatted": "cinnamon stone:s1w6",
+            "distance": 6.1
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6w7",
+            "formatted": "Irish coffee:n6w7",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(23,9)"
+      }
+    },
+    {
+      "turn": 85,
+      "timestamp": "2025-12-25T10:48:36.844938",
+      "action": "move",
+      "player": {
+        "pos": "(22,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1w5",
+            "formatted": "star sapphire:s1w5",
+            "distance": 5.1
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1w5",
+            "formatted": "meatball:s1w5",
+            "distance": 5.1
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1w5",
+            "formatted": "dog food:s1w5",
+            "distance": 5.1
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1w5",
+            "formatted": "cinnamon stone:s1w5",
+            "distance": 5.1
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6w6",
+            "formatted": "Irish coffee:n6w6",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(22,9)"
+      }
+    },
+    {
+      "turn": 86,
+      "timestamp": "2025-12-25T10:48:36.944894",
+      "action": "move",
+      "player": {
+        "pos": "(21,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1w4",
+            "formatted": "star sapphire:s1w4",
+            "distance": 4.1
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1w4",
+            "formatted": "meatball:s1w4",
+            "distance": 4.1
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1w4",
+            "formatted": "dog food:s1w4",
+            "distance": 4.1
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1w4",
+            "formatted": "cinnamon stone:s1w4",
+            "distance": 4.1
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6w5",
+            "formatted": "Irish coffee:n6w5",
+            "distance": 7.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(21,9)"
+      }
+    },
+    {
+      "turn": 87,
+      "timestamp": "2025-12-25T10:48:37.045494",
+      "action": "move",
+      "player": {
+        "pos": "(20,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1w3",
+            "formatted": "star sapphire:s1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1w3",
+            "formatted": "meatball:s1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1w3",
+            "formatted": "dog food:s1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1w3",
+            "formatted": "cinnamon stone:s1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6w4",
+            "formatted": "Irish coffee:n6w4",
+            "distance": 7.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(20,9)"
+      }
+    },
+    {
+      "turn": 88,
+      "timestamp": "2025-12-25T10:48:37.146166",
+      "action": "move",
+      "player": {
+        "pos": "(19,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1w2",
+            "formatted": "star sapphire:s1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1w2",
+            "formatted": "meatball:s1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1w2",
+            "formatted": "dog food:s1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1w2",
+            "formatted": "cinnamon stone:s1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6w3",
+            "formatted": "Irish coffee:n6w3",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(19,9)"
+      }
+    },
+    {
+      "turn": 89,
+      "timestamp": "2025-12-25T10:48:37.242516",
+      "action": "move",
+      "player": {
+        "pos": "(18,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1w1",
+            "formatted": "star sapphire:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1w1",
+            "formatted": "meatball:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1w1",
+            "formatted": "dog food:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1w1",
+            "formatted": "cinnamon stone:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6w2",
+            "formatted": "Irish coffee:n6w2",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(18,9)"
+      }
+    },
+    {
+      "turn": 90,
+      "timestamp": "2025-12-25T10:48:37.343457",
+      "action": "move",
+      "player": {
+        "pos": "(17,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "star sapphire:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "meatball:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "dog food:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "cinnamon stone:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6w1",
+            "formatted": "Irish coffee:n6w1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(17,9)"
+      }
+    },
+    {
+      "turn": 91,
+      "timestamp": "2025-12-25T10:48:37.442282",
+      "action": "move",
+      "player": {
+        "pos": "(16,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1w9",
+            "formatted": "Orc:s1w9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1e1",
+            "formatted": "star sapphire:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1e1",
+            "formatted": "meatball:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1e1",
+            "formatted": "dog food:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1e1",
+            "formatted": "cinnamon stone:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6",
+            "formatted": "Irish coffee:n6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(16,9)"
+      }
+    },
+    {
+      "turn": 92,
+      "timestamp": "2025-12-25T10:48:39.028012",
+      "action": "move",
+      "player": {
+        "pos": "(15,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "w7",
+            "formatted": "Orc:w7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1e2",
+            "formatted": "star sapphire:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1e2",
+            "formatted": "meatball:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1e2",
+            "formatted": "dog food:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1e2",
+            "formatted": "cinnamon stone:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6e1",
+            "formatted": "Irish coffee:n6e1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(15,9)"
+      }
+    },
+    {
+      "turn": 93,
+      "timestamp": "2025-12-25T10:48:39.244229",
+      "action": "move",
+      "player": {
+        "pos": "(14,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "w5",
+            "formatted": "Orc:w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1e3",
+            "formatted": "star sapphire:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1e3",
+            "formatted": "meatball:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1e3",
+            "formatted": "dog food:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1e3",
+            "formatted": "cinnamon stone:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6e2",
+            "formatted": "Irish coffee:n6e2",
+            "distance": 6.3
+          },
+          {
+            "name": "biryani",
+            "type": "food",
+            "pos": "n1w9",
+            "formatted": "biryani:n1w9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(14,9)"
+      }
+    },
+    {
+      "turn": 94,
+      "timestamp": "2025-12-25T10:48:39.878281",
+      "action": "move",
+      "player": {
+        "pos": "(13,9)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "w3",
+            "formatted": "Orc:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1e4",
+            "formatted": "star sapphire:s1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1e4",
+            "formatted": "meatball:s1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1e4",
+            "formatted": "dog food:s1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1e4",
+            "formatted": "cinnamon stone:s1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "biryani",
+            "type": "food",
+            "pos": "n1w8",
+            "formatted": "biryani:n1w8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(13,9)"
+      }
+    },
+    {
+      "turn": 95,
+      "timestamp": "2025-12-25T10:48:52.365667",
+      "action": "move",
+      "player": {
+        "pos": "(14,9)",
+        "hp": "76/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "w2",
+            "formatted": "Orc:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1e3",
+            "formatted": "star sapphire:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1e3",
+            "formatted": "meatball:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1e3",
+            "formatted": "dog food:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1e3",
+            "formatted": "cinnamon stone:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6e2",
+            "formatted": "Irish coffee:n6e2",
+            "distance": 6.3
+          },
+          {
+            "name": "biryani",
+            "type": "food",
+            "pos": "n1w9",
+            "formatted": "biryani:n1w9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(14,9)"
+      }
+    },
+    {
+      "turn": 96,
+      "timestamp": "2025-12-25T10:48:52.782481",
+      "action": "move",
+      "player": {
+        "pos": "(15,9)",
+        "hp": "76/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "w2",
+            "formatted": "Orc:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1e2",
+            "formatted": "star sapphire:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1e2",
+            "formatted": "meatball:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1e2",
+            "formatted": "dog food:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1e2",
+            "formatted": "cinnamon stone:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6e1",
+            "formatted": "Irish coffee:n6e1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(15,9)"
+      }
+    },
+    {
+      "turn": 97,
+      "timestamp": "2025-12-25T10:48:53.095880",
+      "action": "move",
+      "player": {
+        "pos": "(16,9)",
+        "hp": "76/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "w2",
+            "formatted": "Orc:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1e1",
+            "formatted": "star sapphire:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1e1",
+            "formatted": "meatball:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1e1",
+            "formatted": "dog food:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1e1",
+            "formatted": "cinnamon stone:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6",
+            "formatted": "Irish coffee:n6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(16,9)"
+      }
+    },
+    {
+      "turn": 98,
+      "timestamp": "2025-12-25T10:48:53.345840",
+      "action": "move",
+      "player": {
+        "pos": "(17,9)",
+        "hp": "76/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "w2",
+            "formatted": "Orc:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "star sapphire:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "meatball:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "dog food:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "cinnamon stone:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6w1",
+            "formatted": "Irish coffee:n6w1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(17,9)"
+      }
+    },
+    {
+      "turn": 99,
+      "timestamp": "2025-12-25T10:48:53.938360",
+      "action": "move",
+      "player": {
+        "pos": "(17,10)",
+        "hp": "76/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n1w1",
+            "formatted": "Orc:n1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "star sapphire:here",
+            "distance": 0.0
+          },
+          {
+            "name": "meatball",
+            "type": "food",
+            "pos": "here",
+            "formatted": "meatball:here",
+            "distance": 0.0
+          },
+          {
+            "name": "dog food",
+            "type": "food",
+            "pos": "here",
+            "formatted": "dog food:here",
+            "distance": 0.0
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "cinnamon stone:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n7w1",
+            "formatted": "Irish coffee:n7w1",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(17,10)"
+      }
+    },
+    {
+      "turn": 99,
+      "timestamp": "2025-12-25T10:48:54.452401",
+      "action": "pickup",
+      "player": {
+        "pos": "(17,10)",
+        "hp": "74/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n1w1",
+            "formatted": "Orc:n1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n7w1",
+            "formatted": "Irish coffee:n7w1",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "star sapphire",
+          "meatball",
+          "dog food",
+          "cinnamon stone"
+        ]
+      }
+    },
+    {
+      "turn": 100,
+      "timestamp": "2025-12-25T10:48:55.048424",
+      "action": "move",
+      "player": {
+        "pos": "(17,9)",
+        "hp": "74/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "w1",
+            "formatted": "Orc:w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n6w1",
+            "formatted": "Irish coffee:n6w1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(17,9)"
+      }
+    },
+    {
+      "turn": 101,
+      "timestamp": "2025-12-25T10:48:55.365298",
+      "action": "move",
+      "player": {
+        "pos": "(17,8)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1w1",
+            "formatted": "Orc:s1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n5w1",
+            "formatted": "Irish coffee:n5w1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(17,8)"
+      }
+    },
+    {
+      "turn": 102,
+      "timestamp": "2025-12-25T10:48:55.615405",
+      "action": "move",
+      "player": {
+        "pos": "(17,7)",
+        "hp": "70/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s2w1",
+            "formatted": "Orc:s2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n4w1",
+            "formatted": "Irish coffee:n4w1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(17,7)"
+      }
+    },
+    {
+      "turn": 103,
+      "timestamp": "2025-12-25T10:48:55.715006",
+      "action": "move",
+      "player": {
+        "pos": "(17,6)",
+        "hp": "70/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n3w1",
+            "formatted": "Irish coffee:n3w1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(17,6)"
+      }
+    },
+    {
+      "turn": 104,
+      "timestamp": "2025-12-25T10:48:55.898567",
+      "action": "move",
+      "player": {
+        "pos": "(17,5)",
+        "hp": "70/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n2w1",
+            "formatted": "Irish coffee:n2w1",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(17,5)"
+      }
+    },
+    {
+      "turn": 105,
+      "timestamp": "2025-12-25T10:48:56.081615",
+      "action": "move",
+      "player": {
+        "pos": "(17,4)",
+        "hp": "70/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "n1w1",
+            "formatted": "Irish coffee:n1w1",
+            "distance": 1.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(17,4)"
+      }
+    },
+    {
+      "turn": 106,
+      "timestamp": "2025-12-25T10:48:56.294884",
+      "action": "move",
+      "player": {
+        "pos": "(17,3)",
+        "hp": "70/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "w1",
+            "formatted": "Irish coffee:w1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(17,3)"
+      }
+    },
+    {
+      "turn": 107,
+      "timestamp": "2025-12-25T10:48:56.571291",
+      "action": "move",
+      "player": {
+        "pos": "(17,2)",
+        "hp": "70/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "s1w1",
+            "formatted": "Irish coffee:s1w1",
+            "distance": 1.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(17,2)"
+      }
+    },
+    {
+      "turn": 108,
+      "timestamp": "2025-12-25T10:48:57.235870",
+      "action": "move",
+      "player": {
+        "pos": "(16,2)",
+        "hp": "70/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1e1",
+            "formatted": "Orc:s1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "Irish coffee:s1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(16,2)"
+      }
+    },
+    {
+      "turn": 109,
+      "timestamp": "2025-12-25T10:48:57.482383",
+      "action": "move",
+      "player": {
+        "pos": "(16,3)",
+        "hp": "68/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "e1",
+            "formatted": "Orc:e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Irish coffee",
+            "type": "food",
+            "pos": "here",
+            "formatted": "Irish coffee:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(16,3)"
+      }
+    },
+    {
+      "turn": 109,
+      "timestamp": "2025-12-25T10:48:58.021318",
+      "action": "pickup",
+      "player": {
+        "pos": "(16,3)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "e1",
+            "formatted": "Orc:e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "Irish coffee"
+        ]
+      }
+    },
+    {
+      "turn": 110,
+      "timestamp": "2025-12-25T10:48:58.679451",
+      "action": "move",
+      "player": {
+        "pos": "(16,4)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n1e1",
+            "formatted": "Orc:n1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(16,4)"
+      }
+    },
+    {
+      "turn": 111,
+      "timestamp": "2025-12-25T10:48:58.942368",
+      "action": "move",
+      "player": {
+        "pos": "(16,5)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n2e1",
+            "formatted": "Orc:n2e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(16,5)"
+      }
+    },
+    {
+      "turn": 112,
+      "timestamp": "2025-12-25T10:48:59.156174",
+      "action": "move",
+      "player": {
+        "pos": "(16,6)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n2",
+            "formatted": "Orc:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(16,6)"
+      }
+    },
+    {
+      "turn": 113,
+      "timestamp": "2025-12-25T10:48:59.305796",
+      "action": "move",
+      "player": {
+        "pos": "(16,7)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n2",
+            "formatted": "Orc:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(16,7)"
+      }
+    },
+    {
+      "turn": 114,
+      "timestamp": "2025-12-25T10:48:59.522513",
+      "action": "move",
+      "player": {
+        "pos": "(16,8)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n2",
+            "formatted": "Orc:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(16,8)"
+      }
+    },
+    {
+      "turn": 115,
+      "timestamp": "2025-12-25T10:48:59.755924",
+      "action": "move",
+      "player": {
+        "pos": "(16,9)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n2",
+            "formatted": "Orc:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(16,9)"
+      }
+    },
+    {
+      "turn": 116,
+      "timestamp": "2025-12-25T10:49:00.189555",
+      "action": "move",
+      "player": {
+        "pos": "(15,9)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n1e1",
+            "formatted": "Orc:n1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(15,9)"
+      }
+    },
+    {
+      "turn": 117,
+      "timestamp": "2025-12-25T10:49:00.386550",
+      "action": "move",
+      "player": {
+        "pos": "(14,9)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n1e2",
+            "formatted": "Orc:n1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "biryani",
+            "type": "food",
+            "pos": "n1w9",
+            "formatted": "biryani:n1w9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(14,9)"
+      }
+    },
+    {
+      "turn": 118,
+      "timestamp": "2025-12-25T10:49:00.551415",
+      "action": "move",
+      "player": {
+        "pos": "(13,9)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "e2",
+            "formatted": "Orc:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "biryani",
+            "type": "food",
+            "pos": "n1w8",
+            "formatted": "biryani:n1w8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(13,9)"
+      }
+    },
+    {
+      "turn": 119,
+      "timestamp": "2025-12-25T10:49:00.752557",
+      "action": "move",
+      "player": {
+        "pos": "(12,9)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "e2",
+            "formatted": "Orc:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "biryani",
+            "type": "food",
+            "pos": "n1w7",
+            "formatted": "biryani:n1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "transparent gem",
+            "type": "gems",
+            "pos": "n2w8",
+            "formatted": "transparent gem:n2w8",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(12,9)"
+      }
+    },
+    {
+      "turn": 120,
+      "timestamp": "2025-12-25T10:49:01.050810",
+      "action": "move",
+      "player": {
+        "pos": "(11,9)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "e2",
+            "formatted": "Orc:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "biryani",
+            "type": "food",
+            "pos": "n1w6",
+            "formatted": "biryani:n1w6",
+            "distance": 6.1
+          },
+          {
+            "name": "transparent gem",
+            "type": "gems",
+            "pos": "n2w7",
+            "formatted": "transparent gem:n2w7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(11,9)"
+      }
+    },
+    {
+      "turn": 121,
+      "timestamp": "2025-12-25T10:49:01.265972",
+      "action": "move",
+      "player": {
+        "pos": "(10,9)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "e2",
+            "formatted": "Orc:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s2w1",
+            "formatted": "Troll:s2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "biryani",
+            "type": "food",
+            "pos": "n1w5",
+            "formatted": "biryani:n1w5",
+            "distance": 5.1
+          },
+          {
+            "name": "transparent gem",
+            "type": "gems",
+            "pos": "n2w6",
+            "formatted": "transparent gem:n2w6",
+            "distance": 6.3
+          },
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n6w6",
+            "formatted": "schorl:n6w6",
+            "distance": 8.5
+          },
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n5w7",
+            "formatted": "chrysoprase:n5w7",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(10,9)"
+      }
+    },
+    {
+      "turn": 122,
+      "timestamp": "2025-12-25T10:49:01.498442",
+      "action": "move",
+      "player": {
+        "pos": "(9,9)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "e2",
+            "formatted": "Orc:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s2",
+            "formatted": "Troll:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "biryani",
+            "type": "food",
+            "pos": "n1w4",
+            "formatted": "biryani:n1w4",
+            "distance": 4.1
+          },
+          {
+            "name": "transparent gem",
+            "type": "gems",
+            "pos": "n2w5",
+            "formatted": "transparent gem:n2w5",
+            "distance": 5.4
+          },
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n5w6",
+            "formatted": "chrysoprase:n5w6",
+            "distance": 7.8
+          },
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n6w5",
+            "formatted": "schorl:n6w5",
+            "distance": 7.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(9,9)"
+      }
+    },
+    {
+      "turn": 123,
+      "timestamp": "2025-12-25T10:49:01.813628",
+      "action": "move",
+      "player": {
+        "pos": "(8,9)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "s1e1",
+            "formatted": "Troll:s1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "e2",
+            "formatted": "Orc:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "biryani",
+            "type": "food",
+            "pos": "n1w3",
+            "formatted": "biryani:n1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "transparent gem",
+            "type": "gems",
+            "pos": "n2w4",
+            "formatted": "transparent gem:n2w4",
+            "distance": 4.5
+          },
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n5w5",
+            "formatted": "chrysoprase:n5w5",
+            "distance": 7.1
+          },
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n6w4",
+            "formatted": "schorl:n6w4",
+            "distance": 7.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(8,9)"
+      }
+    },
+    {
+      "turn": 124,
+      "timestamp": "2025-12-25T10:49:02.029728",
+      "action": "move",
+      "player": {
+        "pos": "(7,9)",
+        "hp": "60/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "e2",
+            "formatted": "Orc:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s1e2",
+            "formatted": "Troll:s1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "biryani",
+            "type": "food",
+            "pos": "n1w2",
+            "formatted": "biryani:n1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "transparent gem",
+            "type": "gems",
+            "pos": "n2w3",
+            "formatted": "transparent gem:n2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n5w4",
+            "formatted": "chrysoprase:n5w4",
+            "distance": 6.4
+          },
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n6w3",
+            "formatted": "schorl:n6w3",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(7,9)"
+      }
+    },
+    {
+      "turn": 125,
+      "timestamp": "2025-12-25T10:49:02.244892",
+      "action": "move",
+      "player": {
+        "pos": "(6,9)",
+        "hp": "60/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "e2",
+            "formatted": "Orc:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s1e3",
+            "formatted": "Troll:s1e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "biryani",
+            "type": "food",
+            "pos": "n1w1",
+            "formatted": "biryani:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "transparent gem",
+            "type": "gems",
+            "pos": "n2w2",
+            "formatted": "transparent gem:n2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n5w3",
+            "formatted": "chrysoprase:n5w3",
+            "distance": 5.8
+          },
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n6w2",
+            "formatted": "schorl:n6w2",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(6,9)"
+      }
+    },
+    {
+      "turn": 126,
+      "timestamp": "2025-12-25T10:49:02.900368",
+      "action": "move",
+      "player": {
+        "pos": "(5,9)",
+        "hp": "60/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "e2",
+            "formatted": "Orc:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "e3",
+            "formatted": "Troll:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "biryani",
+            "type": "food",
+            "pos": "n1",
+            "formatted": "biryani:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "transparent gem",
+            "type": "gems",
+            "pos": "n2w1",
+            "formatted": "transparent gem:n2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n5w2",
+            "formatted": "chrysoprase:n5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n6w1",
+            "formatted": "schorl:n6w1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(5,9)"
+      }
+    },
+    {
+      "turn": 127,
+      "timestamp": "2025-12-25T10:49:03.460411",
+      "action": "move",
+      "player": {
+        "pos": "(5,8)",
+        "hp": "60/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1e1",
+            "formatted": "Orc:s1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Troll",
+            "pos": "s1e2",
+            "formatted": "Troll:s1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "biryani",
+            "type": "food",
+            "pos": "here",
+            "formatted": "biryani:here",
+            "distance": 0.0
+          },
+          {
+            "name": "transparent gem",
+            "type": "gems",
+            "pos": "n1w1",
+            "formatted": "transparent gem:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n4w2",
+            "formatted": "chrysoprase:n4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n5w1",
+            "formatted": "schorl:n5w1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(5,8)"
+      }
+    },
+    {
+      "turn": 127,
+      "timestamp": "2025-12-25T10:49:03.755763",
+      "action": "pickup",
+      "player": {
+        "pos": "(5,8)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "e1",
+            "formatted": "Troll:e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "s1e1",
+            "formatted": "Orc:s1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "transparent gem",
+            "type": "gems",
+            "pos": "n1w1",
+            "formatted": "transparent gem:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n4w2",
+            "formatted": "chrysoprase:n4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n5w1",
+            "formatted": "schorl:n5w1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "biryani"
+        ]
+      }
+    },
+    {
+      "turn": 128,
+      "timestamp": "2025-12-25T10:49:04.138646",
+      "action": "move",
+      "player": {
+        "pos": "(4,8)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "e2",
+            "formatted": "Troll:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s1e2",
+            "formatted": "Orc:s1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "transparent gem",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "transparent gem:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n4w1",
+            "formatted": "chrysoprase:n4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n5",
+            "formatted": "schorl:n5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(4,8)"
+      }
+    },
+    {
+      "turn": 129,
+      "timestamp": "2025-12-25T10:49:04.488381",
+      "action": "move",
+      "player": {
+        "pos": "(4,7)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1e1",
+            "formatted": "Orc:s1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Troll",
+            "pos": "s1e2",
+            "formatted": "Troll:s1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "transparent gem",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "transparent gem:here",
+            "distance": 0.0
+          },
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n3w1",
+            "formatted": "chrysoprase:n3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n4",
+            "formatted": "schorl:n4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(4,7)"
+      }
+    },
+    {
+      "turn": 129,
+      "timestamp": "2025-12-25T10:49:04.752290",
+      "action": "pickup",
+      "player": {
+        "pos": "(4,7)",
+        "hp": "56/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "e1",
+            "formatted": "Troll:e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "s1e1",
+            "formatted": "Orc:s1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n3w1",
+            "formatted": "chrysoprase:n3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n4",
+            "formatted": "schorl:n4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "transparent gem"
+        ]
+      }
+    },
+    {
+      "turn": 130,
+      "timestamp": "2025-12-25T10:49:05.165629",
+      "action": "move",
+      "player": {
+        "pos": "(3,7)",
+        "hp": "56/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "e2",
+            "formatted": "Troll:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s1e2",
+            "formatted": "Orc:s1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n3",
+            "formatted": "chrysoprase:n3",
+            "distance": 3.0
+          },
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n4e1",
+            "formatted": "schorl:n4e1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(3,7)"
+      }
+    },
+    {
+      "turn": 131,
+      "timestamp": "2025-12-25T10:49:05.581225",
+      "action": "move",
+      "player": {
+        "pos": "(3,6)",
+        "hp": "56/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1e1",
+            "formatted": "Orc:s1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Troll",
+            "pos": "s1e2",
+            "formatted": "Troll:s1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n2",
+            "formatted": "chrysoprase:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n3e1",
+            "formatted": "schorl:n3e1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(3,6)"
+      }
+    },
+    {
+      "turn": 132,
+      "timestamp": "2025-12-25T10:49:05.830538",
+      "action": "move",
+      "player": {
+        "pos": "(3,5)",
+        "hp": "54/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "s1e1",
+            "formatted": "Troll:s1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "s2e1",
+            "formatted": "Orc:s2e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "chrysoprase:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n2e1",
+            "formatted": "schorl:n2e1",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(3,5)"
+      }
+    },
+    {
+      "turn": 133,
+      "timestamp": "2025-12-25T10:49:05.930403",
+      "action": "move",
+      "player": {
+        "pos": "(3,4)",
+        "hp": "52/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s2e1",
+            "formatted": "Troll:s2e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "chrysoprase",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "chrysoprase:here",
+            "distance": 0.0
+          },
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n1e1",
+            "formatted": "schorl:n1e1",
+            "distance": 1.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(3,4)"
+      }
+    },
+    {
+      "turn": 133,
+      "timestamp": "2025-12-25T10:49:06.426163",
+      "action": "pickup",
+      "player": {
+        "pos": "(3,4)",
+        "hp": "52/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1",
+            "formatted": "Orc:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Troll",
+            "pos": "s2e1",
+            "formatted": "Troll:s2e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n1e1",
+            "formatted": "schorl:n1e1",
+            "distance": 1.4
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "chrysoprase"
+        ]
+      }
+    },
+    {
+      "turn": 134,
+      "timestamp": "2025-12-25T10:49:06.886146",
+      "action": "move",
+      "player": {
+        "pos": "(3,3)",
+        "hp": "52/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s3e1",
+            "formatted": "Troll:s3e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "e1",
+            "formatted": "schorl:e1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(3,3)"
+      }
+    },
+    {
+      "turn": 135,
+      "timestamp": "2025-12-25T10:49:07.499366",
+      "action": "move",
+      "player": {
+        "pos": "(4,3)",
+        "hp": "52/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1w1",
+            "formatted": "Orc:s1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Troll",
+            "pos": "s2w1",
+            "formatted": "Troll:s2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "schorl:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(4,3)"
+      }
+    },
+    {
+      "turn": 136,
+      "timestamp": "2025-12-25T10:49:25.787645",
+      "action": "move",
+      "player": {
+        "pos": "(5,3)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "s1w1",
+            "formatted": "Troll:s1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "s1w2",
+            "formatted": "Orc:s1w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "schorl:w1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(5,3)"
+      }
+    },
+    {
+      "turn": 137,
+      "timestamp": "2025-12-25T10:49:25.787645",
+      "action": "move",
+      "player": {
+        "pos": "(6,3)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "s1w2",
+            "formatted": "Troll:s1w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s1w3",
+            "formatted": "Orc:s1w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "w2",
+            "formatted": "schorl:w2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(6,3)"
+      }
+    },
+    {
+      "turn": 138,
+      "timestamp": "2025-12-25T10:49:26.298553",
+      "action": "move",
+      "player": {
+        "pos": "(7,3)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "w2",
+            "formatted": "Troll:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "w3",
+            "formatted": "Orc:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "w3",
+            "formatted": "schorl:w3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(7,3)"
+      }
+    },
+    {
+      "turn": 139,
+      "timestamp": "2025-12-25T10:49:26.298553",
+      "action": "move",
+      "player": {
+        "pos": "(7,4)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "n1w2",
+            "formatted": "Troll:n1w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "n1w3",
+            "formatted": "Orc:n1w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n1w3",
+            "formatted": "schorl:n1w3",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(7,4)"
+      }
+    },
+    {
+      "turn": 140,
+      "timestamp": "2025-12-25T10:49:26.800789",
+      "action": "move",
+      "player": {
+        "pos": "(7,5)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "n1w1",
+            "formatted": "Troll:n1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "n1w2",
+            "formatted": "Orc:n1w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n2w3",
+            "formatted": "schorl:n2w3",
+            "distance": 3.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(7,5)"
+      }
+    },
+    {
+      "turn": 141,
+      "timestamp": "2025-12-25T10:49:26.800789",
+      "action": "move",
+      "player": {
+        "pos": "(7,6)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "n2w1",
+            "formatted": "Troll:n2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "n2w2",
+            "formatted": "Orc:n2w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.8,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n3w3",
+            "formatted": "schorl:n3w3",
+            "distance": 4.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(7,6)"
+      }
+    },
+    {
+      "turn": 142,
+      "timestamp": "2025-12-25T10:49:27.316908",
+      "action": "move",
+      "player": {
+        "pos": "(7,7)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "n2",
+            "formatted": "Troll:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "n2w1",
+            "formatted": "Orc:n2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n4w3",
+            "formatted": "schorl:n4w3",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(7,7)"
+      }
+    },
+    {
+      "turn": 143,
+      "timestamp": "2025-12-25T10:49:27.316908",
+      "action": "move",
+      "player": {
+        "pos": "(7,8)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "n3",
+            "formatted": "Troll:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "n3w1",
+            "formatted": "Orc:n3w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n5w3",
+            "formatted": "schorl:n5w3",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(7,8)"
+      }
+    },
+    {
+      "turn": 144,
+      "timestamp": "2025-12-25T10:49:27.650312",
+      "action": "move",
+      "player": {
+        "pos": "(8,8)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n2w1",
+            "formatted": "Orc:n2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n3w1",
+            "formatted": "Troll:n3w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n5w4",
+            "formatted": "schorl:n5w4",
+            "distance": 6.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(8,8)"
+      }
+    },
+    {
+      "turn": 145,
+      "timestamp": "2025-12-25T10:49:27.650312",
+      "action": "move",
+      "player": {
+        "pos": "(8,9)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n3w1",
+            "formatted": "Orc:n3w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n4w1",
+            "formatted": "Troll:n4w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n6w4",
+            "formatted": "schorl:n6w4",
+            "distance": 7.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(8,9)"
+      }
+    },
+    {
+      "turn": 146,
+      "timestamp": "2025-12-25T10:49:28.165183",
+      "action": "move",
+      "player": {
+        "pos": "(9,9)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n2w1",
+            "formatted": "Orc:n2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n3w1",
+            "formatted": "Troll:n3w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n6w5",
+            "formatted": "schorl:n6w5",
+            "distance": 7.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(9,9)"
+      }
+    },
+    {
+      "turn": 147,
+      "timestamp": "2025-12-25T10:49:28.165183",
+      "action": "move",
+      "player": {
+        "pos": "(9,10)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n3w1",
+            "formatted": "Orc:n3w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n4w1",
+            "formatted": "Troll:n4w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n7w5",
+            "formatted": "schorl:n7w5",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(9,10)"
+      }
+    },
+    {
+      "turn": 148,
+      "timestamp": "2025-12-25T10:49:28.668423",
+      "action": "move",
+      "player": {
+        "pos": "(9,11)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n3",
+            "formatted": "Orc:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n4",
+            "formatted": "Troll:n4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "schorl",
+            "type": "gems",
+            "pos": "n8w5",
+            "formatted": "schorl:n8w5",
+            "distance": 9.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(9,11)"
+      }
+    },
+    {
+      "turn": 149,
+      "timestamp": "2025-12-25T10:49:28.668423",
+      "action": "move",
+      "player": {
+        "pos": "(9,12)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n4",
+            "formatted": "Orc:n4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n5",
+            "formatted": "Troll:n5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(9,12)"
+      }
+    },
+    {
+      "turn": 150,
+      "timestamp": "2025-12-25T10:49:29.169596",
+      "action": "move",
+      "player": {
+        "pos": "(9,13)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n4",
+            "formatted": "Orc:n4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n5",
+            "formatted": "Troll:n5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(9,13)"
+      }
+    },
+    {
+      "turn": 151,
+      "timestamp": "2025-12-25T10:49:29.170596",
+      "action": "move",
+      "player": {
+        "pos": "(9,14)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n5",
+            "formatted": "Orc:n5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n6",
+            "formatted": "Troll:n6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(9,14)"
+      }
+    },
+    {
+      "turn": 152,
+      "timestamp": "2025-12-25T10:49:29.686654",
+      "action": "move",
+      "player": {
+        "pos": "(9,15)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n5",
+            "formatted": "Orc:n5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n6",
+            "formatted": "Troll:n6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(9,15)"
+      }
+    },
+    {
+      "turn": 153,
+      "timestamp": "2025-12-25T10:49:29.686654",
+      "action": "move",
+      "player": {
+        "pos": "(9,16)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n6",
+            "formatted": "Orc:n6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n7",
+            "formatted": "Troll:n7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(9,16)"
+      }
+    },
+    {
+      "turn": 154,
+      "timestamp": "2025-12-25T10:49:30.189507",
+      "action": "move",
+      "player": {
+        "pos": "(9,17)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n6",
+            "formatted": "Orc:n6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n7",
+            "formatted": "Troll:n7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(9,17)"
+      }
+    },
+    {
+      "turn": 155,
+      "timestamp": "2025-12-25T10:49:30.189507",
+      "action": "move",
+      "player": {
+        "pos": "(9,18)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n7",
+            "formatted": "Orc:n7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n8",
+            "formatted": "Troll:n8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(9,18)"
+      }
+    },
+    {
+      "turn": 156,
+      "timestamp": "2025-12-25T10:49:30.702775",
+      "action": "move",
+      "player": {
+        "pos": "(9,19)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n7",
+            "formatted": "Orc:n7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n8",
+            "formatted": "Troll:n8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(9,19)"
+      }
+    },
+    {
+      "turn": 157,
+      "timestamp": "2025-12-25T10:49:30.702775",
+      "action": "move",
+      "player": {
+        "pos": "(9,20)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n8",
+            "formatted": "Orc:n8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n9",
+            "formatted": "Troll:n9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(9,20)"
+      }
+    },
+    {
+      "turn": 158,
+      "timestamp": "2025-12-25T10:49:31.217123",
+      "action": "move",
+      "player": {
+        "pos": "(9,21)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n8",
+            "formatted": "Orc:n8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n9",
+            "formatted": "Troll:n9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "sandblaster",
+            "type": "tools",
+            "pos": "s1w2",
+            "formatted": "sandblaster:s1w2",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(9,21)"
+      }
+    },
+    {
+      "turn": 159,
+      "timestamp": "2025-12-25T10:49:31.217123",
+      "action": "move",
+      "player": {
+        "pos": "(9,22)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n9",
+            "formatted": "Orc:n9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n10",
+            "formatted": "Troll:n10",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 10.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "sandblaster",
+            "type": "tools",
+            "pos": "w2",
+            "formatted": "sandblaster:w2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(9,22)"
+      }
+    },
+    {
+      "turn": 160,
+      "timestamp": "2025-12-25T10:49:31.732897",
+      "action": "move",
+      "player": {
+        "pos": "(10,22)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "sandblaster",
+            "type": "tools",
+            "pos": "w3",
+            "formatted": "sandblaster:w3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(10,22)"
+      }
+    },
+    {
+      "turn": 161,
+      "timestamp": "2025-12-25T10:49:31.732897",
+      "action": "move",
+      "player": {
+        "pos": "(11,22)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "sandblaster",
+            "type": "tools",
+            "pos": "w4",
+            "formatted": "sandblaster:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(11,22)"
+      }
+    },
+    {
+      "turn": 162,
+      "timestamp": "2025-12-25T10:49:32.243152",
+      "action": "move",
+      "player": {
+        "pos": "(12,22)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "sandblaster",
+            "type": "tools",
+            "pos": "w5",
+            "formatted": "sandblaster:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(12,22)"
+      }
+    },
+    {
+      "turn": 163,
+      "timestamp": "2025-12-25T10:49:32.243671",
+      "action": "move",
+      "player": {
+        "pos": "(13,22)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "sandblaster",
+            "type": "tools",
+            "pos": "w6",
+            "formatted": "sandblaster:w6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(13,22)"
+      }
+    },
+    {
+      "turn": 164,
+      "timestamp": "2025-12-25T10:49:32.753510",
+      "action": "move",
+      "player": {
+        "pos": "(13,23)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "n1e4",
+            "formatted": "topaz:n1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "sandblaster",
+            "type": "tools",
+            "pos": "n1w6",
+            "formatted": "sandblaster:n1w6",
+            "distance": 6.1
+          },
+          {
+            "name": "kylie",
+            "type": "weapons",
+            "pos": "s2e9",
+            "formatted": "kylie:s2e9",
+            "distance": 9.2
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e9",
+            "formatted": "Oleum Terra:s3e9",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(13,23)"
+      }
+    },
+    {
+      "turn": 165,
+      "timestamp": "2025-12-25T10:49:32.753510",
+      "action": "move",
+      "player": {
+        "pos": "(14,23)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "n1e3",
+            "formatted": "topaz:n1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "sandblaster",
+            "type": "tools",
+            "pos": "n1w7",
+            "formatted": "sandblaster:n1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "kylie",
+            "type": "weapons",
+            "pos": "s2e8",
+            "formatted": "kylie:s2e8",
+            "distance": 8.2
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e8",
+            "formatted": "Oleum Terra:s3e8",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(14,23)"
+      }
+    },
+    {
+      "turn": 166,
+      "timestamp": "2025-12-25T10:49:33.267975",
+      "action": "move",
+      "player": {
+        "pos": "(15,23)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "n1e2",
+            "formatted": "topaz:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "kylie",
+            "type": "weapons",
+            "pos": "s2e7",
+            "formatted": "kylie:s2e7",
+            "distance": 7.3
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e7",
+            "formatted": "Oleum Terra:s3e7",
+            "distance": 7.6
+          },
+          {
+            "name": "sandblaster",
+            "type": "tools",
+            "pos": "n1w8",
+            "formatted": "sandblaster:n1w8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(15,23)"
+      }
+    },
+    {
+      "turn": 167,
+      "timestamp": "2025-12-25T10:49:33.267975",
+      "action": "move",
+      "player": {
+        "pos": "(16,23)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "n1e1",
+            "formatted": "topaz:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "kylie",
+            "type": "weapons",
+            "pos": "s2e6",
+            "formatted": "kylie:s2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e6",
+            "formatted": "Oleum Terra:s3e6",
+            "distance": 6.7
+          },
+          {
+            "name": "sandblaster",
+            "type": "tools",
+            "pos": "n1w9",
+            "formatted": "sandblaster:n1w9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(16,23)"
+      }
+    },
+    {
+      "turn": 168,
+      "timestamp": "2025-12-25T10:49:33.782440",
+      "action": "move",
+      "player": {
+        "pos": "(17,23)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "n3",
+            "formatted": "Bat:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "topaz:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "kylie",
+            "type": "weapons",
+            "pos": "s2e5",
+            "formatted": "kylie:s2e5",
+            "distance": 5.4
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e5",
+            "formatted": "Oleum Terra:s3e5",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(17,23)"
+      }
+    },
+    {
+      "turn": 169,
+      "timestamp": "2025-12-25T10:49:33.782440",
+      "action": "move",
+      "player": {
+        "pos": "(18,23)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "n3w1",
+            "formatted": "Bat:n3w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "n1w1",
+            "formatted": "topaz:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "kylie",
+            "type": "weapons",
+            "pos": "s2e4",
+            "formatted": "kylie:s2e4",
+            "distance": 4.5
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e4",
+            "formatted": "Oleum Terra:s3e4",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(18,23)"
+      }
+    },
+    {
+      "turn": 170,
+      "timestamp": "2025-12-25T10:49:34.295116",
+      "action": "move",
+      "player": {
+        "pos": "(19,23)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "n2w1",
+            "formatted": "Bat:n2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "n1w2",
+            "formatted": "topaz:n1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "kylie",
+            "type": "weapons",
+            "pos": "s2e3",
+            "formatted": "kylie:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e3",
+            "formatted": "Oleum Terra:s3e3",
+            "distance": 4.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(19,23)"
+      }
+    },
+    {
+      "turn": 171,
+      "timestamp": "2025-12-25T10:49:34.295116",
+      "action": "move",
+      "player": {
+        "pos": "(20,23)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "n2w2",
+            "formatted": "Bat:n2w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.8,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "kylie",
+            "type": "weapons",
+            "pos": "s2e2",
+            "formatted": "kylie:s2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "n1w3",
+            "formatted": "topaz:n1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e2",
+            "formatted": "Oleum Terra:s3e2",
+            "distance": 3.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(20,23)"
+      }
+    },
+    {
+      "turn": 172,
+      "timestamp": "2025-12-25T10:49:34.805565",
+      "action": "move",
+      "player": {
+        "pos": "(21,23)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "n1w2",
+            "formatted": "Bat:n1w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "kylie",
+            "type": "weapons",
+            "pos": "s2e1",
+            "formatted": "kylie:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e1",
+            "formatted": "Oleum Terra:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "n1w4",
+            "formatted": "topaz:n1w4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(21,23)"
+      }
+    },
+    {
+      "turn": 173,
+      "timestamp": "2025-12-25T10:49:34.805565",
+      "action": "move",
+      "player": {
+        "pos": "(22,23)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "n1w3",
+            "formatted": "Bat:n1w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "kylie",
+            "type": "weapons",
+            "pos": "s2",
+            "formatted": "kylie:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3",
+            "formatted": "Oleum Terra:s3",
+            "distance": 3.0
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "n1w5",
+            "formatted": "topaz:n1w5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(22,23)"
+      }
+    },
+    {
+      "turn": 174,
+      "timestamp": "2025-12-25T10:49:35.315918",
+      "action": "move",
+      "player": {
+        "pos": "(22,24)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "n1w2",
+            "formatted": "Bat:n1w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "kylie",
+            "type": "weapons",
+            "pos": "s1",
+            "formatted": "kylie:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s2",
+            "formatted": "Oleum Terra:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "n2w5",
+            "formatted": "topaz:n2w5",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(22,24)"
+      }
+    },
+    {
+      "turn": 175,
+      "timestamp": "2025-12-25T10:49:35.315918",
+      "action": "move",
+      "player": {
+        "pos": "(23,24)",
+        "hp": "50/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "n1w3",
+            "formatted": "Bat:n1w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "kylie",
+            "type": "weapons",
+            "pos": "s1w1",
+            "formatted": "kylie:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s2w1",
+            "formatted": "Oleum Terra:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "n2w6",
+            "formatted": "topaz:n2w6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(23,24)"
+      }
+    }
+  ]
+}

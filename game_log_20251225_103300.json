@@ -1,0 +1,49 @@
+{
+  "game_seed": 417349,
+  "total_turns": 1,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T10:33:03.379070",
+      "action": "move",
+      "player": {
+        "pos": "(36,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "e6",
+            "formatted": "Goblin:e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s1",
+            "formatted": "Alkahest:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "carbonado",
+            "type": "gems",
+            "pos": "s8e5",
+            "formatted": "carbonado:s8e5",
+            "distance": 9.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(36,2)"
+      }
+    }
+  ]
+}

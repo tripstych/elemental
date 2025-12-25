@@ -1,0 +1,108 @@
+{
+  "game_seed": 1620,
+  "total_turns": 1,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T10:45:05.109232",
+      "action": "move",
+      "player": {
+        "pos": "(2,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "s3e5",
+            "formatted": "Bat:s3e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.8,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "e6",
+            "formatted": "Spider:e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s6",
+            "formatted": "Troll:s6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s7e4",
+            "formatted": "Skeleton:s7e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s4e8",
+            "formatted": "Troll:s4e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.9,
+            "adjacent": false
+          },
+          {
+            "name": "Goblin",
+            "pos": "s7e7",
+            "formatted": "Goblin:s7e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.9,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e3",
+            "formatted": "Aqua Ignis:s4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "spreader",
+            "type": "tools",
+            "pos": "s1e7",
+            "formatted": "spreader:s1e7",
+            "distance": 7.1
+          },
+          {
+            "name": "pick",
+            "type": "tools",
+            "pos": "s5e7",
+            "formatted": "pick:s5e7",
+            "distance": 8.6
+          },
+          {
+            "name": "bloodstone",
+            "type": "gems",
+            "pos": "s5e7",
+            "formatted": "bloodstone:s5e7",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(2,3)"
+      }
+    }
+  ]
+}

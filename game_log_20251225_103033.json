@@ -1,0 +1,1010 @@
+{
+  "game_seed": 392122,
+  "total_turns": 15,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T10:30:38.316793",
+      "action": "move",
+      "player": {
+        "pos": "(3,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s3e6",
+            "formatted": "Spider:s3e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.7,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "e7",
+            "formatted": "Spider:e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          },
+          {
+            "name": "Goblin",
+            "pos": "s6e4",
+            "formatted": "Goblin:s6e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.2,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s4e8",
+            "formatted": "Orc:s4e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.9,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "tourmaline",
+            "type": "gems",
+            "pos": "s3w1",
+            "formatted": "tourmaline:s3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "s5e4",
+            "formatted": "flat file:s5e4",
+            "distance": 6.4
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6e8",
+            "formatted": "goldstone:s6e8",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(3,2)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T10:30:38.878248",
+      "action": "move",
+      "player": {
+        "pos": "(4,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s2e4",
+            "formatted": "Spider:s2e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.5,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "e5",
+            "formatted": "Spider:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Goblin",
+            "pos": "s5e2",
+            "formatted": "Goblin:s5e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.4,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s3e6",
+            "formatted": "Orc:s3e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.7,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "tourmaline",
+            "type": "gems",
+            "pos": "s3w2",
+            "formatted": "tourmaline:s3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "s5e3",
+            "formatted": "flat file:s5e3",
+            "distance": 5.8
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6e7",
+            "formatted": "goldstone:s6e7",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(4,2)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T10:30:40.576963",
+      "action": "move",
+      "player": {
+        "pos": "(5,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s1e2",
+            "formatted": "Spider:s1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "e3",
+            "formatted": "Spider:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Goblin",
+            "pos": "s4",
+            "formatted": "Goblin:s4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s2e4",
+            "formatted": "Orc:s2e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.5,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "tourmaline",
+            "type": "gems",
+            "pos": "s3w3",
+            "formatted": "tourmaline:s3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "s5e2",
+            "formatted": "flat file:s5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6e6",
+            "formatted": "goldstone:s6e6",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(5,2)"
+      }
+    },
+    {
+      "turn": 4,
+      "timestamp": "2025-12-25T10:30:41.451539",
+      "action": "attack",
+      "player": {
+        "pos": "(5,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e1",
+            "formatted": "Spider:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "e2",
+            "formatted": "Spider:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Goblin",
+            "pos": "s3",
+            "formatted": "Goblin:s3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s1e3",
+            "formatted": "Orc:s1e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "tourmaline",
+            "type": "gems",
+            "pos": "s3w3",
+            "formatted": "tourmaline:s3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "s5e2",
+            "formatted": "flat file:s5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6e6",
+            "formatted": "goldstone:s6e6",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 5,
+      "timestamp": "2025-12-25T10:30:41.668854",
+      "action": "attack",
+      "player": {
+        "pos": "(5,2)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s2",
+            "formatted": "Goblin:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "e2",
+            "formatted": "Spider:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s1e3",
+            "formatted": "Orc:s1e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "tourmaline",
+            "type": "gems",
+            "pos": "s3w3",
+            "formatted": "tourmaline:s3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "s5e2",
+            "formatted": "flat file:s5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6e6",
+            "formatted": "goldstone:s6e6",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 6,
+      "timestamp": "2025-12-25T10:30:41.769426",
+      "action": "attack",
+      "player": {
+        "pos": "(5,2)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s1",
+            "formatted": "Goblin:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "e1",
+            "formatted": "Spider:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "s1e3",
+            "formatted": "Orc:s1e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "tourmaline",
+            "type": "gems",
+            "pos": "s3w3",
+            "formatted": "tourmaline:s3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "s5e2",
+            "formatted": "flat file:s5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6e6",
+            "formatted": "goldstone:s6e6",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 7,
+      "timestamp": "2025-12-25T10:30:41.869291",
+      "action": "attack",
+      "player": {
+        "pos": "(5,2)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s1",
+            "formatted": "Goblin:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "e2",
+            "formatted": "Orc:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "tourmaline",
+            "type": "gems",
+            "pos": "s3w3",
+            "formatted": "tourmaline:s3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "s5e2",
+            "formatted": "flat file:s5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6e6",
+            "formatted": "goldstone:s6e6",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 8,
+      "timestamp": "2025-12-25T10:30:41.968474",
+      "action": "attack",
+      "player": {
+        "pos": "(5,2)",
+        "hp": "92/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "e1",
+            "formatted": "Orc:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Goblin",
+            "pos": "s1",
+            "formatted": "Goblin:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "flat file:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "tourmaline",
+            "type": "gems",
+            "pos": "s3w3",
+            "formatted": "tourmaline:s3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "s5e2",
+            "formatted": "flat file:s5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6e6",
+            "formatted": "goldstone:s6e6",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 9,
+      "timestamp": "2025-12-25T10:30:42.067960",
+      "action": "attack",
+      "player": {
+        "pos": "(5,2)",
+        "hp": "88/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s1",
+            "formatted": "Goblin:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "flat file:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "tourmaline",
+            "type": "gems",
+            "pos": "s3w3",
+            "formatted": "tourmaline:s3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "s5e2",
+            "formatted": "flat file:s5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6e6",
+            "formatted": "goldstone:s6e6",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-25T10:30:42.166574",
+      "action": "attack",
+      "player": {
+        "pos": "(5,2)",
+        "hp": "86/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s1",
+            "formatted": "Goblin:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "flat file:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "ravehook",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "ravehook:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "tourmaline",
+            "type": "gems",
+            "pos": "s3w3",
+            "formatted": "tourmaline:s3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "s5e2",
+            "formatted": "flat file:s5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6e6",
+            "formatted": "goldstone:s6e6",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-25T10:30:42.265094",
+      "action": "attack",
+      "player": {
+        "pos": "(5,2)",
+        "hp": "84/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "flat file:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "ravehook",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "ravehook:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "tourmaline",
+            "type": "gems",
+            "pos": "s3w3",
+            "formatted": "tourmaline:s3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "s5e2",
+            "formatted": "flat file:s5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6e6",
+            "formatted": "goldstone:s6e6",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 12,
+      "timestamp": "2025-12-25T10:30:43.868889",
+      "action": "move",
+      "player": {
+        "pos": "(4,2)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "air-to-air missile",
+            "type": "weapons",
+            "pos": "s1e1",
+            "formatted": "air-to-air missile:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "e2",
+            "formatted": "flat file:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "ravehook",
+            "type": "tools",
+            "pos": "e2",
+            "formatted": "ravehook:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "tourmaline",
+            "type": "gems",
+            "pos": "s3w2",
+            "formatted": "tourmaline:s3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "s5e3",
+            "formatted": "flat file:s5e3",
+            "distance": 5.8
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s6e7",
+            "formatted": "goldstone:s6e7",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(4,2)"
+      }
+    },
+    {
+      "turn": 13,
+      "timestamp": "2025-12-25T10:30:44.332101",
+      "action": "move",
+      "player": {
+        "pos": "(4,3)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "air-to-air missile",
+            "type": "weapons",
+            "pos": "e1",
+            "formatted": "air-to-air missile:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "n1e2",
+            "formatted": "flat file:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "ravehook",
+            "type": "tools",
+            "pos": "n1e2",
+            "formatted": "ravehook:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "tourmaline",
+            "type": "gems",
+            "pos": "s2w2",
+            "formatted": "tourmaline:s2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "s4e3",
+            "formatted": "flat file:s4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s5e7",
+            "formatted": "goldstone:s5e7",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(4,3)"
+      }
+    },
+    {
+      "turn": 14,
+      "timestamp": "2025-12-25T10:30:44.595079",
+      "action": "move",
+      "player": {
+        "pos": "(4,4)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "air-to-air missile",
+            "type": "weapons",
+            "pos": "n1e1",
+            "formatted": "air-to-air missile:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "tourmaline",
+            "type": "gems",
+            "pos": "s1w2",
+            "formatted": "tourmaline:s1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "n2e2",
+            "formatted": "flat file:n2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "ravehook",
+            "type": "tools",
+            "pos": "n2e2",
+            "formatted": "ravehook:n2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "s3e3",
+            "formatted": "flat file:s3e3",
+            "distance": 4.2
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s4e7",
+            "formatted": "goldstone:s4e7",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(4,4)"
+      }
+    },
+    {
+      "turn": 15,
+      "timestamp": "2025-12-25T10:30:44.813651",
+      "action": "move",
+      "player": {
+        "pos": "(4,5)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "tourmaline",
+            "type": "gems",
+            "pos": "w2",
+            "formatted": "tourmaline:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "air-to-air missile",
+            "type": "weapons",
+            "pos": "n2e1",
+            "formatted": "air-to-air missile:n2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "s2e3",
+            "formatted": "flat file:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "flat file",
+            "type": "tools",
+            "pos": "n3e2",
+            "formatted": "flat file:n3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "ravehook",
+            "type": "tools",
+            "pos": "n3e2",
+            "formatted": "ravehook:n3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "goldstone",
+            "type": "gems",
+            "pos": "s3e7",
+            "formatted": "goldstone:s3e7",
+            "distance": 7.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(4,5)"
+      }
+    }
+  ]
+}

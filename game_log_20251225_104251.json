@@ -1,0 +1,2563 @@
+{
+  "game_seed": 33798,
+  "total_turns": 35,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T10:42:54.890232",
+      "action": "move",
+      "player": {
+        "pos": "(15,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e7",
+            "formatted": "Skeleton:e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s8e2",
+            "formatted": "Orc:s8e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.2,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s9e3",
+            "formatted": "Skeleton:s9e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.5,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "s1e1",
+            "formatted": "stun gun:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "s6e4",
+            "formatted": "Cupid's bow:s6e4",
+            "distance": 7.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(15,3)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T10:43:00.717186",
+      "action": "move",
+      "player": {
+        "pos": "(16,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e5",
+            "formatted": "Skeleton:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s7",
+            "formatted": "Orc:s7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s9e2",
+            "formatted": "Skeleton:s9e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "s1",
+            "formatted": "stun gun:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "s6e3",
+            "formatted": "Cupid's bow:s6e3",
+            "distance": 6.7
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s9e4",
+            "formatted": "cabochon:s9e4",
+            "distance": 9.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(16,3)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T10:43:00.717186",
+      "action": "move",
+      "player": {
+        "pos": "(17,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e4",
+            "formatted": "Skeleton:e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s7w1",
+            "formatted": "Orc:s7w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s9e1",
+            "formatted": "Skeleton:s9e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "s1w1",
+            "formatted": "stun gun:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "s6e2",
+            "formatted": "Cupid's bow:s6e2",
+            "distance": 6.3
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s9e3",
+            "formatted": "cabochon:s9e3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(17,3)"
+      }
+    },
+    {
+      "turn": 4,
+      "timestamp": "2025-12-25T10:43:01.229070",
+      "action": "move",
+      "player": {
+        "pos": "(17,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n1e3",
+            "formatted": "Skeleton:n1e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s5",
+            "formatted": "Orc:s5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s7",
+            "formatted": "Skeleton:s7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "w1",
+            "formatted": "stun gun:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "s5e2",
+            "formatted": "Cupid's bow:s5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s8e3",
+            "formatted": "cabochon:s8e3",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(17,4)"
+      }
+    },
+    {
+      "turn": 5,
+      "timestamp": "2025-12-25T10:43:01.229070",
+      "action": "move",
+      "player": {
+        "pos": "(17,5)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n2e3",
+            "formatted": "Skeleton:n2e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.6,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s4",
+            "formatted": "Orc:s4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s6",
+            "formatted": "Skeleton:s6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "n1w1",
+            "formatted": "stun gun:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "s4e2",
+            "formatted": "Cupid's bow:s4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s7e3",
+            "formatted": "cabochon:s7e3",
+            "distance": 7.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(17,5)"
+      }
+    },
+    {
+      "turn": 6,
+      "timestamp": "2025-12-25T10:43:01.738991",
+      "action": "move",
+      "player": {
+        "pos": "(17,6)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "n2e2",
+            "formatted": "Skeleton:n2e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.8,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s4",
+            "formatted": "Skeleton:s4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "n2w1",
+            "formatted": "stun gun:n2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "s3e2",
+            "formatted": "Cupid's bow:s3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s6e3",
+            "formatted": "cabochon:s6e3",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(17,6)"
+      }
+    },
+    {
+      "turn": 7,
+      "timestamp": "2025-12-25T10:43:01.738991",
+      "action": "move",
+      "player": {
+        "pos": "(18,6)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n2e1",
+            "formatted": "Skeleton:n2e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s2w1",
+            "formatted": "Orc:s2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s4w1",
+            "formatted": "Skeleton:s4w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "n2w2",
+            "formatted": "stun gun:n2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "s3e1",
+            "formatted": "Cupid's bow:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s6e2",
+            "formatted": "cabochon:s6e2",
+            "distance": 6.3
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s5w8",
+            "formatted": "lapis lazuli:s5w8",
+            "distance": 9.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(18,6)"
+      }
+    },
+    {
+      "turn": 8,
+      "timestamp": "2025-12-25T10:43:02.879256",
+      "action": "attack",
+      "player": {
+        "pos": "(18,6)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n1",
+            "formatted": "Skeleton:n1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "s1",
+            "formatted": "Orc:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s3",
+            "formatted": "Skeleton:s3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "n2w2",
+            "formatted": "stun gun:n2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "s3e1",
+            "formatted": "Cupid's bow:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s6e2",
+            "formatted": "cabochon:s6e2",
+            "distance": 6.3
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s5w8",
+            "formatted": "lapis lazuli:s5w8",
+            "distance": 9.4
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 9,
+      "timestamp": "2025-12-25T10:43:03.208436",
+      "action": "attack",
+      "player": {
+        "pos": "(18,6)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1",
+            "formatted": "Orc:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s2",
+            "formatted": "Skeleton:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "n2w2",
+            "formatted": "stun gun:n2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "s3e1",
+            "formatted": "Cupid's bow:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s6e2",
+            "formatted": "cabochon:s6e2",
+            "distance": 6.3
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s5w8",
+            "formatted": "lapis lazuli:s5w8",
+            "distance": 9.4
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-25T10:43:03.390429",
+      "action": "attack",
+      "player": {
+        "pos": "(18,6)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1",
+            "formatted": "Orc:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s2",
+            "formatted": "Skeleton:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "n2w2",
+            "formatted": "stun gun:n2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "s3e1",
+            "formatted": "Cupid's bow:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s6e2",
+            "formatted": "cabochon:s6e2",
+            "distance": 6.3
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s5w8",
+            "formatted": "lapis lazuli:s5w8",
+            "distance": 9.4
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-25T10:43:03.571918",
+      "action": "attack",
+      "player": {
+        "pos": "(18,6)",
+        "hp": "92/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s2",
+            "formatted": "Skeleton:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "n2w2",
+            "formatted": "stun gun:n2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "s3e1",
+            "formatted": "Cupid's bow:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s6e2",
+            "formatted": "cabochon:s6e2",
+            "distance": 6.3
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s5w8",
+            "formatted": "lapis lazuli:s5w8",
+            "distance": 9.4
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 12,
+      "timestamp": "2025-12-25T10:43:03.769421",
+      "action": "attack",
+      "player": {
+        "pos": "(18,6)",
+        "hp": "92/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1",
+            "formatted": "Skeleton:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "n2w2",
+            "formatted": "stun gun:n2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "s3e1",
+            "formatted": "Cupid's bow:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s6e2",
+            "formatted": "cabochon:s6e2",
+            "distance": 6.3
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s5w8",
+            "formatted": "lapis lazuli:s5w8",
+            "distance": 9.4
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 13,
+      "timestamp": "2025-12-25T10:43:03.951134",
+      "action": "attack",
+      "player": {
+        "pos": "(18,6)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "n2w2",
+            "formatted": "stun gun:n2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "s3e1",
+            "formatted": "Cupid's bow:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s6e2",
+            "formatted": "cabochon:s6e2",
+            "distance": 6.3
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s5w8",
+            "formatted": "lapis lazuli:s5w8",
+            "distance": 9.4
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 14,
+      "timestamp": "2025-12-25T10:43:04.250655",
+      "action": "move",
+      "player": {
+        "pos": "(18,7)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s9e4",
+            "formatted": "Goblin:s9e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.8,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "s2e1",
+            "formatted": "Cupid's bow:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "n3w2",
+            "formatted": "stun gun:n3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s5e2",
+            "formatted": "cabochon:s5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s4w8",
+            "formatted": "lapis lazuli:s4w8",
+            "distance": 8.9
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(18,7)"
+      }
+    },
+    {
+      "turn": 15,
+      "timestamp": "2025-12-25T10:43:05.905778",
+      "action": "move",
+      "player": {
+        "pos": "(18,8)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s8e4",
+            "formatted": "Goblin:s8e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.9,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "s1e1",
+            "formatted": "Cupid's bow:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s4e2",
+            "formatted": "cabochon:s4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "n4w2",
+            "formatted": "stun gun:n4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s1w7",
+            "formatted": "Alkahest:s1w7",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(18,8)"
+      }
+    },
+    {
+      "turn": 16,
+      "timestamp": "2025-12-25T10:43:06.102587",
+      "action": "move",
+      "player": {
+        "pos": "(18,9)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s6e3",
+            "formatted": "Goblin:s6e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.7,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "e1",
+            "formatted": "Cupid's bow:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s3e2",
+            "formatted": "cabochon:s3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "n5w2",
+            "formatted": "stun gun:n5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "w7",
+            "formatted": "Alkahest:w7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(18,9)"
+      }
+    },
+    {
+      "turn": 17,
+      "timestamp": "2025-12-25T10:43:06.414465",
+      "action": "move",
+      "player": {
+        "pos": "(17,9)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s5e3",
+            "formatted": "Goblin:s5e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.8,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "e2",
+            "formatted": "Cupid's bow:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s3e3",
+            "formatted": "cabochon:s3e3",
+            "distance": 4.2
+          },
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "n5w1",
+            "formatted": "stun gun:n5w1",
+            "distance": 5.1
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "w6",
+            "formatted": "Alkahest:w6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(17,9)"
+      }
+    },
+    {
+      "turn": 18,
+      "timestamp": "2025-12-25T10:43:06.711090",
+      "action": "move",
+      "player": {
+        "pos": "(16,9)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s4e3",
+            "formatted": "Goblin:s4e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s1w9",
+            "formatted": "Skeleton:s1w9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "e3",
+            "formatted": "Cupid's bow:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s3e4",
+            "formatted": "cabochon:s3e4",
+            "distance": 5.0
+          },
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "n5",
+            "formatted": "stun gun:n5",
+            "distance": 5.0
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "w5",
+            "formatted": "Alkahest:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(16,9)"
+      }
+    },
+    {
+      "turn": 19,
+      "timestamp": "2025-12-25T10:43:07.223157",
+      "action": "move",
+      "player": {
+        "pos": "(15,9)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s3e3",
+            "formatted": "Goblin:s3e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.2,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "w7",
+            "formatted": "Skeleton:w7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "e4",
+            "formatted": "Cupid's bow:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "w4",
+            "formatted": "Alkahest:w4",
+            "distance": 4.0
+          },
+          {
+            "name": "stun gun",
+            "type": "weapons",
+            "pos": "n5e1",
+            "formatted": "stun gun:n5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s3e5",
+            "formatted": "cabochon:s3e5",
+            "distance": 5.8
+          },
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "s1w9",
+            "formatted": "jointer:s1w9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(15,9)"
+      }
+    },
+    {
+      "turn": 20,
+      "timestamp": "2025-12-25T10:43:07.781506",
+      "action": "move",
+      "player": {
+        "pos": "(14,9)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s2e3",
+            "formatted": "Goblin:s2e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.6,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "w5",
+            "formatted": "Skeleton:w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s2w9",
+            "formatted": "Skeleton:s2w9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "w3",
+            "formatted": "Alkahest:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s2w4",
+            "formatted": "lapis lazuli:s2w4",
+            "distance": 4.5
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "e5",
+            "formatted": "Cupid's bow:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s3e6",
+            "formatted": "cabochon:s3e6",
+            "distance": 6.7
+          },
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "s1w8",
+            "formatted": "jointer:s1w8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(14,9)"
+      }
+    },
+    {
+      "turn": 21,
+      "timestamp": "2025-12-25T10:43:15.024234",
+      "action": "move",
+      "player": {
+        "pos": "(13,9)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w3",
+            "formatted": "Skeleton:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Goblin",
+            "pos": "s1e3",
+            "formatted": "Goblin:s1e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s1w7",
+            "formatted": "Skeleton:s1w7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "w2",
+            "formatted": "Alkahest:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s2w3",
+            "formatted": "lapis lazuli:s2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "e6",
+            "formatted": "Cupid's bow:e6",
+            "distance": 6.0
+          },
+          {
+            "name": "ram",
+            "type": "tools",
+            "pos": "s5w4",
+            "formatted": "ram:s5w4",
+            "distance": 6.4
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n4w5",
+            "formatted": "Oleum Terra:n4w5",
+            "distance": 6.4
+          },
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "s1w7",
+            "formatted": "jointer:s1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "s3e7",
+            "formatted": "cabochon:s3e7",
+            "distance": 7.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(13,9)"
+      }
+    },
+    {
+      "turn": 22,
+      "timestamp": "2025-12-25T10:43:15.024234",
+      "action": "move",
+      "player": {
+        "pos": "(12,9)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w2",
+            "formatted": "Skeleton:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Goblin",
+            "pos": "s1e4",
+            "formatted": "Goblin:s1e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s1w6",
+            "formatted": "Skeleton:s1w6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "w1",
+            "formatted": "Alkahest:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s2w2",
+            "formatted": "lapis lazuli:s2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "water sapphire",
+            "type": "gems",
+            "pos": "n5w2",
+            "formatted": "water sapphire:n5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n4w4",
+            "formatted": "Oleum Terra:n4w4",
+            "distance": 5.7
+          },
+          {
+            "name": "ram",
+            "type": "tools",
+            "pos": "s5w3",
+            "formatted": "ram:s5w3",
+            "distance": 5.8
+          },
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "s1w6",
+            "formatted": "jointer:s1w6",
+            "distance": 6.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n6w3",
+            "formatted": "Aqua Ignis:n6w3",
+            "distance": 6.7
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "e7",
+            "formatted": "Cupid's bow:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(12,9)"
+      }
+    },
+    {
+      "turn": 23,
+      "timestamp": "2025-12-25T10:43:16.660776",
+      "action": "attack",
+      "player": {
+        "pos": "(12,9)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w1",
+            "formatted": "Skeleton:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Goblin",
+            "pos": "e3",
+            "formatted": "Goblin:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "w5",
+            "formatted": "Skeleton:w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "w1",
+            "formatted": "Alkahest:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s2w2",
+            "formatted": "lapis lazuli:s2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "water sapphire",
+            "type": "gems",
+            "pos": "n5w2",
+            "formatted": "water sapphire:n5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n4w4",
+            "formatted": "Oleum Terra:n4w4",
+            "distance": 5.7
+          },
+          {
+            "name": "ram",
+            "type": "tools",
+            "pos": "s5w3",
+            "formatted": "ram:s5w3",
+            "distance": 5.8
+          },
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "s1w6",
+            "formatted": "jointer:s1w6",
+            "distance": 6.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n6w3",
+            "formatted": "Aqua Ignis:n6w3",
+            "distance": 6.7
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "e7",
+            "formatted": "Cupid's bow:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 24,
+      "timestamp": "2025-12-25T10:43:16.975122",
+      "action": "attack",
+      "player": {
+        "pos": "(12,9)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "e2",
+            "formatted": "Goblin:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "w4",
+            "formatted": "Skeleton:w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "w1",
+            "formatted": "Alkahest:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s2w2",
+            "formatted": "lapis lazuli:s2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "water sapphire",
+            "type": "gems",
+            "pos": "n5w2",
+            "formatted": "water sapphire:n5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n4w4",
+            "formatted": "Oleum Terra:n4w4",
+            "distance": 5.7
+          },
+          {
+            "name": "ram",
+            "type": "tools",
+            "pos": "s5w3",
+            "formatted": "ram:s5w3",
+            "distance": 5.8
+          },
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "s1w6",
+            "formatted": "jointer:s1w6",
+            "distance": 6.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n6w3",
+            "formatted": "Aqua Ignis:n6w3",
+            "distance": 6.7
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "e7",
+            "formatted": "Cupid's bow:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 25,
+      "timestamp": "2025-12-25T10:43:17.040277",
+      "action": "move",
+      "player": {
+        "pos": "(11,9)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "e2",
+            "formatted": "Goblin:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "w2",
+            "formatted": "Skeleton:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Alkahest:here",
+            "distance": 0.0
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s2w1",
+            "formatted": "lapis lazuli:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n4w3",
+            "formatted": "Oleum Terra:n4w3",
+            "distance": 5.0
+          },
+          {
+            "name": "water sapphire",
+            "type": "gems",
+            "pos": "n5w1",
+            "formatted": "water sapphire:n5w1",
+            "distance": 5.1
+          },
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "s1w5",
+            "formatted": "jointer:s1w5",
+            "distance": 5.1
+          },
+          {
+            "name": "ram",
+            "type": "tools",
+            "pos": "s5w2",
+            "formatted": "ram:s5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n6w2",
+            "formatted": "Aqua Ignis:n6w2",
+            "distance": 6.3
+          },
+          {
+            "name": "Cupid's bow",
+            "type": "weapons",
+            "pos": "e8",
+            "formatted": "Cupid's bow:e8",
+            "distance": 8.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(11,9)"
+      }
+    },
+    {
+      "turn": 26,
+      "timestamp": "2025-12-25T10:43:17.040277",
+      "action": "move",
+      "player": {
+        "pos": "(11,10)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n1e2",
+            "formatted": "Goblin:n1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "n1w2",
+            "formatted": "Skeleton:n1w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "n1",
+            "formatted": "Alkahest:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s1w1",
+            "formatted": "lapis lazuli:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "ram",
+            "type": "tools",
+            "pos": "s4w2",
+            "formatted": "ram:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "w5",
+            "formatted": "jointer:w5",
+            "distance": 5.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n5w3",
+            "formatted": "Oleum Terra:n5w3",
+            "distance": 5.8
+          },
+          {
+            "name": "water sapphire",
+            "type": "gems",
+            "pos": "n6w1",
+            "formatted": "water sapphire:n6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n7w2",
+            "formatted": "Aqua Ignis:n7w2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(11,10)"
+      }
+    },
+    {
+      "turn": 27,
+      "timestamp": "2025-12-25T10:43:17.140321",
+      "action": "attack",
+      "player": {
+        "pos": "(11,10)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "e1",
+            "formatted": "Goblin:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "w1",
+            "formatted": "Skeleton:w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "n1",
+            "formatted": "Alkahest:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s1w1",
+            "formatted": "lapis lazuli:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "ram",
+            "type": "tools",
+            "pos": "s4w2",
+            "formatted": "ram:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "w5",
+            "formatted": "jointer:w5",
+            "distance": 5.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n5w3",
+            "formatted": "Oleum Terra:n5w3",
+            "distance": 5.8
+          },
+          {
+            "name": "water sapphire",
+            "type": "gems",
+            "pos": "n6w1",
+            "formatted": "water sapphire:n6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n7w2",
+            "formatted": "Aqua Ignis:n7w2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 28,
+      "timestamp": "2025-12-25T10:43:17.476072",
+      "action": "attack",
+      "player": {
+        "pos": "(11,10)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w1",
+            "formatted": "Skeleton:w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "n1",
+            "formatted": "Alkahest:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s1w1",
+            "formatted": "lapis lazuli:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "ram",
+            "type": "tools",
+            "pos": "s4w2",
+            "formatted": "ram:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "w5",
+            "formatted": "jointer:w5",
+            "distance": 5.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n5w3",
+            "formatted": "Oleum Terra:n5w3",
+            "distance": 5.8
+          },
+          {
+            "name": "water sapphire",
+            "type": "gems",
+            "pos": "n6w1",
+            "formatted": "water sapphire:n6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n7w2",
+            "formatted": "Aqua Ignis:n7w2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 29,
+      "timestamp": "2025-12-25T10:43:17.641186",
+      "action": "attack",
+      "player": {
+        "pos": "(11,10)",
+        "hp": "92/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w1",
+            "formatted": "Skeleton:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "n1",
+            "formatted": "Alkahest:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s1w1",
+            "formatted": "lapis lazuli:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "ram",
+            "type": "tools",
+            "pos": "s4w2",
+            "formatted": "ram:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "w5",
+            "formatted": "jointer:w5",
+            "distance": 5.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n5w3",
+            "formatted": "Oleum Terra:n5w3",
+            "distance": 5.8
+          },
+          {
+            "name": "water sapphire",
+            "type": "gems",
+            "pos": "n6w1",
+            "formatted": "water sapphire:n6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n7w2",
+            "formatted": "Aqua Ignis:n7w2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 30,
+      "timestamp": "2025-12-25T10:43:17.872288",
+      "action": "attack",
+      "player": {
+        "pos": "(11,10)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "n1",
+            "formatted": "Alkahest:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s1w1",
+            "formatted": "lapis lazuli:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "ram",
+            "type": "tools",
+            "pos": "s4w2",
+            "formatted": "ram:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "w5",
+            "formatted": "jointer:w5",
+            "distance": 5.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n5w3",
+            "formatted": "Oleum Terra:n5w3",
+            "distance": 5.8
+          },
+          {
+            "name": "water sapphire",
+            "type": "gems",
+            "pos": "n6w1",
+            "formatted": "water sapphire:n6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n7w2",
+            "formatted": "Aqua Ignis:n7w2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 31,
+      "timestamp": "2025-12-25T10:43:18.053670",
+      "action": "move",
+      "player": {
+        "pos": "(10,10)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "lapis lazuli:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "n1e1",
+            "formatted": "Alkahest:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "w4",
+            "formatted": "jointer:w4",
+            "distance": 4.0
+          },
+          {
+            "name": "ram",
+            "type": "tools",
+            "pos": "s4w1",
+            "formatted": "ram:s4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n5w2",
+            "formatted": "Oleum Terra:n5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "water sapphire",
+            "type": "gems",
+            "pos": "n6",
+            "formatted": "water sapphire:n6",
+            "distance": 6.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n7w1",
+            "formatted": "Aqua Ignis:n7w1",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(10,10)"
+      }
+    },
+    {
+      "turn": 32,
+      "timestamp": "2025-12-25T10:43:18.054173",
+      "action": "move",
+      "player": {
+        "pos": "(9,10)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s1e1",
+            "formatted": "lapis lazuli:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "n1e2",
+            "formatted": "Alkahest:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "w3",
+            "formatted": "jointer:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "ram",
+            "type": "tools",
+            "pos": "s4",
+            "formatted": "ram:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n5w1",
+            "formatted": "Oleum Terra:n5w1",
+            "distance": 5.1
+          },
+          {
+            "name": "water sapphire",
+            "type": "gems",
+            "pos": "n6e1",
+            "formatted": "water sapphire:n6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n7",
+            "formatted": "Aqua Ignis:n7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(9,10)"
+      }
+    },
+    {
+      "turn": 33,
+      "timestamp": "2025-12-25T10:43:18.566415",
+      "action": "move",
+      "player": {
+        "pos": "(8,10)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "w2",
+            "formatted": "jointer:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s1e2",
+            "formatted": "lapis lazuli:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "n1e3",
+            "formatted": "Alkahest:n1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "ram",
+            "type": "tools",
+            "pos": "s4e1",
+            "formatted": "ram:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n5",
+            "formatted": "Oleum Terra:n5",
+            "distance": 5.0
+          },
+          {
+            "name": "water sapphire",
+            "type": "gems",
+            "pos": "n6e2",
+            "formatted": "water sapphire:n6e2",
+            "distance": 6.3
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n7e1",
+            "formatted": "Aqua Ignis:n7e1",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(8,10)"
+      }
+    },
+    {
+      "turn": 34,
+      "timestamp": "2025-12-25T10:43:18.566415",
+      "action": "move",
+      "player": {
+        "pos": "(8,9)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "s1w2",
+            "formatted": "jointer:s1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s2e2",
+            "formatted": "lapis lazuli:s2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "e3",
+            "formatted": "Alkahest:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n4",
+            "formatted": "Oleum Terra:n4",
+            "distance": 4.0
+          },
+          {
+            "name": "ram",
+            "type": "tools",
+            "pos": "s5e1",
+            "formatted": "ram:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "water sapphire",
+            "type": "gems",
+            "pos": "n5e2",
+            "formatted": "water sapphire:n5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n6e1",
+            "formatted": "Aqua Ignis:n6e1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(8,9)"
+      }
+    },
+    {
+      "turn": 35,
+      "timestamp": "2025-12-25T10:43:19.084207",
+      "action": "move",
+      "player": {
+        "pos": "(7,9)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "jointer",
+            "type": "tools",
+            "pos": "s1w1",
+            "formatted": "jointer:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "lapis lazuli",
+            "type": "gems",
+            "pos": "s2e3",
+            "formatted": "lapis lazuli:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Alkahest:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n4e1",
+            "formatted": "Oleum Terra:n4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "ram",
+            "type": "tools",
+            "pos": "s5e2",
+            "formatted": "ram:s5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "water sapphire",
+            "type": "gems",
+            "pos": "n5e3",
+            "formatted": "water sapphire:n5e3",
+            "distance": 5.8
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "n6e2",
+            "formatted": "Aqua Ignis:n6e2",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(7,9)"
+      }
+    }
+  ]
+}

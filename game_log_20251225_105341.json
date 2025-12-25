@@ -1,0 +1,5297 @@
+{
+  "game_seed": 14584,
+  "total_turns": 140,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T10:53:53.746006",
+      "action": "move",
+      "player": {
+        "pos": "(10,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s4e3",
+            "formatted": "Skeleton:s4e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s6w1",
+            "formatted": "Troll:s6w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.1,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s8w1",
+            "formatted": "Orc:s8w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s8e3",
+            "formatted": "Rat:s8e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.5,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(10,2)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T10:53:55.508766",
+      "action": "move",
+      "player": {
+        "pos": "(10,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s2e2",
+            "formatted": "Skeleton:s2e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.8,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "s4",
+            "formatted": "Troll:s4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s6",
+            "formatted": "Orc:s6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s6e2",
+            "formatted": "Rat:s6e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.3,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s9e2",
+            "formatted": "Orc:s9e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s9e3",
+            "formatted": "projectile:s9e3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(10,3)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T10:53:56.940398",
+      "action": "attack",
+      "player": {
+        "pos": "(10,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1e1",
+            "formatted": "Skeleton:s1e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Troll",
+            "pos": "s3",
+            "formatted": "Troll:s3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s5",
+            "formatted": "Orc:s5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s5e1",
+            "formatted": "Rat:s5e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s8e1",
+            "formatted": "Orc:s8e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s9e3",
+            "formatted": "projectile:s9e3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "se",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 4,
+      "timestamp": "2025-12-25T10:53:57.341492",
+      "action": "attack",
+      "player": {
+        "pos": "(10,3)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "s2",
+            "formatted": "Troll:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s4",
+            "formatted": "Orc:s4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s5e1",
+            "formatted": "Rat:s5e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s7",
+            "formatted": "Orc:s7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s9e3",
+            "formatted": "projectile:s9e3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "se",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 5,
+      "timestamp": "2025-12-25T10:53:57.836389",
+      "action": "attack",
+      "player": {
+        "pos": "(10,3)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "s1",
+            "formatted": "Troll:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "s3",
+            "formatted": "Orc:s3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s4",
+            "formatted": "Rat:s4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s6",
+            "formatted": "Orc:s6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s1e1",
+            "formatted": "piece de resistance:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s9e3",
+            "formatted": "projectile:s9e3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Troll",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 6,
+      "timestamp": "2025-12-25T10:53:58.019085",
+      "action": "attack",
+      "player": {
+        "pos": "(10,3)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s3",
+            "formatted": "Rat:s3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s5",
+            "formatted": "Orc:s5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s1e1",
+            "formatted": "piece de resistance:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s9e3",
+            "formatted": "projectile:s9e3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Troll",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 7,
+      "timestamp": "2025-12-25T10:53:58.199622",
+      "action": "attack",
+      "player": {
+        "pos": "(10,3)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1",
+            "formatted": "Orc:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Rat",
+            "pos": "s2",
+            "formatted": "Rat:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s4",
+            "formatted": "Orc:s4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "opal",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "opal:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s1e1",
+            "formatted": "piece de resistance:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s9e3",
+            "formatted": "projectile:s9e3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 8,
+      "timestamp": "2025-12-25T10:53:58.415109",
+      "action": "attack",
+      "player": {
+        "pos": "(10,3)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s2",
+            "formatted": "Rat:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s3",
+            "formatted": "Orc:s3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "opal",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "opal:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s1e1",
+            "formatted": "piece de resistance:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s9e3",
+            "formatted": "projectile:s9e3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 9,
+      "timestamp": "2025-12-25T10:53:58.614620",
+      "action": "attack",
+      "player": {
+        "pos": "(10,3)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s1",
+            "formatted": "Rat:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "opal",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "opal:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s1e1",
+            "formatted": "piece de resistance:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s9e3",
+            "formatted": "projectile:s9e3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-25T10:53:58.783424",
+      "action": "attack",
+      "player": {
+        "pos": "(10,3)",
+        "hp": "92/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "opal",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "opal:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s1e1",
+            "formatted": "piece de resistance:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s9e3",
+            "formatted": "projectile:s9e3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-25T10:53:59.209149",
+      "action": "attack",
+      "player": {
+        "pos": "(10,3)",
+        "hp": "102/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1",
+            "formatted": "Orc:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "opal",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "opal:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s1e1",
+            "formatted": "piece de resistance:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s9e3",
+            "formatted": "projectile:s9e3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 12,
+      "timestamp": "2025-12-25T10:53:59.705701",
+      "action": "attack",
+      "player": {
+        "pos": "(10,3)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "opal",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "opal:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s1e1",
+            "formatted": "piece de resistance:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s9e3",
+            "formatted": "projectile:s9e3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 13,
+      "timestamp": "2025-12-25T10:54:00.760139",
+      "action": "move",
+      "player": {
+        "pos": "(10,4)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s9e3",
+            "formatted": "Skeleton:s9e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.5,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "opal",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "opal:here",
+            "distance": 0.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "e1",
+            "formatted": "piece de resistance:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s8e3",
+            "formatted": "projectile:s8e3",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(10,4)"
+      }
+    },
+    {
+      "turn": 13,
+      "timestamp": "2025-12-25T10:54:01.518957",
+      "action": "pickup",
+      "player": {
+        "pos": "(10,4)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s8e2",
+            "formatted": "Skeleton:s8e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "e1",
+            "formatted": "piece de resistance:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s8e3",
+            "formatted": "projectile:s8e3",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "opal"
+        ]
+      }
+    },
+    {
+      "turn": 14,
+      "timestamp": "2025-12-25T10:54:02.374956",
+      "action": "move",
+      "player": {
+        "pos": "(11,4)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s8e1",
+            "formatted": "Skeleton:s8e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "here",
+            "formatted": "piece de resistance:here",
+            "distance": 0.0
+          },
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s8e2",
+            "formatted": "projectile:s8e2",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(11,4)"
+      }
+    },
+    {
+      "turn": 14,
+      "timestamp": "2025-12-25T10:54:02.625243",
+      "action": "pickup",
+      "player": {
+        "pos": "(11,4)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s7",
+            "formatted": "Skeleton:s7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s8e2",
+            "formatted": "projectile:s8e2",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "piece de resistance"
+        ]
+      }
+    },
+    {
+      "turn": 15,
+      "timestamp": "2025-12-25T10:54:03.472536",
+      "action": "move",
+      "player": {
+        "pos": "(11,5)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s6",
+            "formatted": "Skeleton:s6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s7e2",
+            "formatted": "projectile:s7e2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(11,5)"
+      }
+    },
+    {
+      "turn": 16,
+      "timestamp": "2025-12-25T10:54:03.755552",
+      "action": "move",
+      "player": {
+        "pos": "(11,6)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s4",
+            "formatted": "Skeleton:s4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s6e2",
+            "formatted": "projectile:s6e2",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(11,6)"
+      }
+    },
+    {
+      "turn": 17,
+      "timestamp": "2025-12-25T10:54:03.971595",
+      "action": "move",
+      "player": {
+        "pos": "(11,7)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s2",
+            "formatted": "Skeleton:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s5e2",
+            "formatted": "projectile:s5e2",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(11,7)"
+      }
+    },
+    {
+      "turn": 18,
+      "timestamp": "2025-12-25T10:54:04.374965",
+      "action": "attack",
+      "player": {
+        "pos": "(11,7)",
+        "hp": "100/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1",
+            "formatted": "Skeleton:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s5e2",
+            "formatted": "projectile:s5e2",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 19,
+      "timestamp": "2025-12-25T10:54:04.675230",
+      "action": "attack",
+      "player": {
+        "pos": "(11,7)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s5e2",
+            "formatted": "projectile:s5e2",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 20,
+      "timestamp": "2025-12-25T10:54:05.689438",
+      "action": "move",
+      "player": {
+        "pos": "(11,8)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s4e2",
+            "formatted": "projectile:s4e2",
+            "distance": 4.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(11,8)"
+      }
+    },
+    {
+      "turn": 21,
+      "timestamp": "2025-12-25T10:54:05.872453",
+      "action": "move",
+      "player": {
+        "pos": "(11,9)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s3e2",
+            "formatted": "projectile:s3e2",
+            "distance": 3.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(11,9)"
+      }
+    },
+    {
+      "turn": 22,
+      "timestamp": "2025-12-25T10:54:06.006078",
+      "action": "move",
+      "player": {
+        "pos": "(11,10)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s2e2",
+            "formatted": "projectile:s2e2",
+            "distance": 2.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(11,10)"
+      }
+    },
+    {
+      "turn": 23,
+      "timestamp": "2025-12-25T10:54:06.189350",
+      "action": "move",
+      "player": {
+        "pos": "(11,11)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "s1e2",
+            "formatted": "projectile:s1e2",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(11,11)"
+      }
+    },
+    {
+      "turn": 24,
+      "timestamp": "2025-12-25T10:54:06.323716",
+      "action": "move",
+      "player": {
+        "pos": "(11,12)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "e2",
+            "formatted": "projectile:e2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(11,12)"
+      }
+    },
+    {
+      "turn": 25,
+      "timestamp": "2025-12-25T10:54:06.589410",
+      "action": "move",
+      "player": {
+        "pos": "(12,12)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "e1",
+            "formatted": "projectile:e1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(12,12)"
+      }
+    },
+    {
+      "turn": 26,
+      "timestamp": "2025-12-25T10:54:07.006376",
+      "action": "move",
+      "player": {
+        "pos": "(13,12)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "projectile",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "projectile:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(13,12)"
+      }
+    },
+    {
+      "turn": 26,
+      "timestamp": "2025-12-25T10:54:07.272307",
+      "action": "pickup",
+      "player": {
+        "pos": "(13,12)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "projectile"
+        ]
+      }
+    },
+    {
+      "turn": 27,
+      "timestamp": "2025-12-25T10:54:22.036562",
+      "action": "move",
+      "player": {
+        "pos": "(13,11)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(13,11)"
+      }
+    },
+    {
+      "turn": 28,
+      "timestamp": "2025-12-25T10:54:23.070651",
+      "action": "move",
+      "player": {
+        "pos": "(13,10)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(13,10)"
+      }
+    },
+    {
+      "turn": 29,
+      "timestamp": "2025-12-25T10:54:28.884195",
+      "action": "move",
+      "player": {
+        "pos": "(13,11)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(13,11)"
+      }
+    },
+    {
+      "turn": 30,
+      "timestamp": "2025-12-25T10:54:47.857009",
+      "action": "move",
+      "player": {
+        "pos": "(13,10)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(13,10)"
+      }
+    },
+    {
+      "turn": 31,
+      "timestamp": "2025-12-25T10:54:48.055752",
+      "action": "move",
+      "player": {
+        "pos": "(13,9)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(13,9)"
+      }
+    },
+    {
+      "turn": 32,
+      "timestamp": "2025-12-25T10:54:48.220738",
+      "action": "move",
+      "player": {
+        "pos": "(13,8)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e9",
+            "formatted": "Aqua Ignis:e9",
+            "distance": 9.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(13,8)"
+      }
+    },
+    {
+      "turn": 33,
+      "timestamp": "2025-12-25T10:54:48.519715",
+      "action": "move",
+      "player": {
+        "pos": "(14,8)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n1e6",
+            "formatted": "Goblin:n1e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e8",
+            "formatted": "Aqua Ignis:e8",
+            "distance": 8.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(14,8)"
+      }
+    },
+    {
+      "turn": 34,
+      "timestamp": "2025-12-25T10:54:48.719832",
+      "action": "move",
+      "player": {
+        "pos": "(15,8)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "e4",
+            "formatted": "Goblin:e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e7",
+            "formatted": "Aqua Ignis:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(15,8)"
+      }
+    },
+    {
+      "turn": 35,
+      "timestamp": "2025-12-25T10:54:48.886510",
+      "action": "move",
+      "player": {
+        "pos": "(16,8)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "e2",
+            "formatted": "Goblin:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n2e7",
+            "formatted": "Spider:n2e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.3,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e6",
+            "formatted": "Aqua Ignis:e6",
+            "distance": 6.0
+          },
+          {
+            "name": "brick trowel",
+            "type": "tools",
+            "pos": "n2e8",
+            "formatted": "brick trowel:n2e8",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(16,8)"
+      }
+    },
+    {
+      "turn": 36,
+      "timestamp": "2025-12-25T10:54:49.217177",
+      "action": "attack",
+      "player": {
+        "pos": "(16,8)",
+        "hp": "98/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "e1",
+            "formatted": "Goblin:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "n1e6",
+            "formatted": "Spider:n1e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e6",
+            "formatted": "Aqua Ignis:e6",
+            "distance": 6.0
+          },
+          {
+            "name": "brick trowel",
+            "type": "tools",
+            "pos": "n2e8",
+            "formatted": "brick trowel:n2e8",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 37,
+      "timestamp": "2025-12-25T10:54:49.502587",
+      "action": "attack",
+      "player": {
+        "pos": "(16,8)",
+        "hp": "96/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e5",
+            "formatted": "Spider:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e6",
+            "formatted": "Aqua Ignis:e6",
+            "distance": 6.0
+          },
+          {
+            "name": "brick trowel",
+            "type": "tools",
+            "pos": "n2e8",
+            "formatted": "brick trowel:n2e8",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 38,
+      "timestamp": "2025-12-25T10:54:50.252386",
+      "action": "move",
+      "player": {
+        "pos": "(17,8)",
+        "hp": "96/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e2",
+            "formatted": "Spider:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e5",
+            "formatted": "Aqua Ignis:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "brick trowel",
+            "type": "tools",
+            "pos": "n2e7",
+            "formatted": "brick trowel:n2e7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(17,8)"
+      }
+    },
+    {
+      "turn": 39,
+      "timestamp": "2025-12-25T10:54:50.534953",
+      "action": "attack",
+      "player": {
+        "pos": "(17,8)",
+        "hp": "96/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e1",
+            "formatted": "Spider:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e5",
+            "formatted": "Aqua Ignis:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "brick trowel",
+            "type": "tools",
+            "pos": "n2e7",
+            "formatted": "brick trowel:n2e7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 40,
+      "timestamp": "2025-12-25T10:54:50.748407",
+      "action": "attack",
+      "player": {
+        "pos": "(17,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e5",
+            "formatted": "Aqua Ignis:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "brick trowel",
+            "type": "tools",
+            "pos": "n2e7",
+            "formatted": "brick trowel:n2e7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 41,
+      "timestamp": "2025-12-25T10:54:51.216980",
+      "action": "move",
+      "player": {
+        "pos": "(18,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Aqua Ignis:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "brick trowel",
+            "type": "tools",
+            "pos": "n2e6",
+            "formatted": "brick trowel:n2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(18,8)"
+      }
+    },
+    {
+      "turn": 42,
+      "timestamp": "2025-12-25T10:54:51.396117",
+      "action": "move",
+      "player": {
+        "pos": "(19,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e3",
+            "formatted": "Aqua Ignis:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "brick trowel",
+            "type": "tools",
+            "pos": "n2e5",
+            "formatted": "brick trowel:n2e5",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(19,8)"
+      }
+    },
+    {
+      "turn": 43,
+      "timestamp": "2025-12-25T10:54:51.545287",
+      "action": "move",
+      "player": {
+        "pos": "(20,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Aqua Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "brick trowel",
+            "type": "tools",
+            "pos": "n2e4",
+            "formatted": "brick trowel:n2e4",
+            "distance": 4.5
+          },
+          {
+            "name": "full metal jacket",
+            "type": "weapons",
+            "pos": "n1e9",
+            "formatted": "full metal jacket:n1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(20,8)"
+      }
+    },
+    {
+      "turn": 44,
+      "timestamp": "2025-12-25T10:54:51.793640",
+      "action": "move",
+      "player": {
+        "pos": "(21,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "e1",
+            "formatted": "Aqua Ignis:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "brick trowel",
+            "type": "tools",
+            "pos": "n2e3",
+            "formatted": "brick trowel:n2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "full metal jacket",
+            "type": "weapons",
+            "pos": "n1e8",
+            "formatted": "full metal jacket:n1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(21,8)"
+      }
+    },
+    {
+      "turn": 45,
+      "timestamp": "2025-12-25T10:54:52.040188",
+      "action": "move",
+      "player": {
+        "pos": "(22,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Aqua Ignis:here",
+            "distance": 0.0
+          },
+          {
+            "name": "brick trowel",
+            "type": "tools",
+            "pos": "n2e2",
+            "formatted": "brick trowel:n2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "full metal jacket",
+            "type": "weapons",
+            "pos": "n1e7",
+            "formatted": "full metal jacket:n1e7",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(22,8)"
+      }
+    },
+    {
+      "turn": 45,
+      "timestamp": "2025-12-25T10:54:52.738511",
+      "action": "pickup",
+      "player": {
+        "pos": "(22,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "brick trowel",
+            "type": "tools",
+            "pos": "n2e2",
+            "formatted": "brick trowel:n2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "full metal jacket",
+            "type": "weapons",
+            "pos": "n1e7",
+            "formatted": "full metal jacket:n1e7",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Aqua Ignis"
+        ]
+      }
+    },
+    {
+      "turn": 46,
+      "timestamp": "2025-12-25T10:54:55.537489",
+      "action": "move",
+      "player": {
+        "pos": "(23,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "brick trowel",
+            "type": "tools",
+            "pos": "n2e1",
+            "formatted": "brick trowel:n2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "full metal jacket",
+            "type": "weapons",
+            "pos": "n1e6",
+            "formatted": "full metal jacket:n1e6",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(23,8)"
+      }
+    },
+    {
+      "turn": 47,
+      "timestamp": "2025-12-25T10:54:56.137198",
+      "action": "move",
+      "player": {
+        "pos": "(24,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "brick trowel",
+            "type": "tools",
+            "pos": "n2",
+            "formatted": "brick trowel:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "full metal jacket",
+            "type": "weapons",
+            "pos": "n1e5",
+            "formatted": "full metal jacket:n1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(24,8)"
+      }
+    },
+    {
+      "turn": 48,
+      "timestamp": "2025-12-25T10:54:56.537087",
+      "action": "move",
+      "player": {
+        "pos": "(24,7)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "brick trowel",
+            "type": "tools",
+            "pos": "n1",
+            "formatted": "brick trowel:n1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(24,7)"
+      }
+    },
+    {
+      "turn": 49,
+      "timestamp": "2025-12-25T10:54:56.853351",
+      "action": "move",
+      "player": {
+        "pos": "(24,6)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "brick trowel",
+            "type": "tools",
+            "pos": "here",
+            "formatted": "brick trowel:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(24,6)"
+      }
+    },
+    {
+      "turn": 49,
+      "timestamp": "2025-12-25T10:54:57.231409",
+      "action": "pickup",
+      "player": {
+        "pos": "(24,6)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "brick trowel"
+        ]
+      }
+    },
+    {
+      "turn": 50,
+      "timestamp": "2025-12-25T10:54:57.799461",
+      "action": "move",
+      "player": {
+        "pos": "(25,6)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(25,6)"
+      }
+    },
+    {
+      "turn": 51,
+      "timestamp": "2025-12-25T10:54:57.981940",
+      "action": "move",
+      "player": {
+        "pos": "(26,6)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(26,6)"
+      }
+    },
+    {
+      "turn": 52,
+      "timestamp": "2025-12-25T10:54:58.448419",
+      "action": "move",
+      "player": {
+        "pos": "(26,7)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(26,7)"
+      }
+    },
+    {
+      "turn": 53,
+      "timestamp": "2025-12-25T10:54:58.633783",
+      "action": "move",
+      "player": {
+        "pos": "(26,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "full metal jacket",
+            "type": "weapons",
+            "pos": "n1e3",
+            "formatted": "full metal jacket:n1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "e10",
+            "formatted": "topaz:e10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(26,8)"
+      }
+    },
+    {
+      "turn": 54,
+      "timestamp": "2025-12-25T10:54:58.933179",
+      "action": "move",
+      "player": {
+        "pos": "(27,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "full metal jacket",
+            "type": "weapons",
+            "pos": "n1e2",
+            "formatted": "full metal jacket:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "try square",
+            "type": "tools",
+            "pos": "n3e7",
+            "formatted": "try square:n3e7",
+            "distance": 7.6
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "e9",
+            "formatted": "topaz:e9",
+            "distance": 9.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(27,8)"
+      }
+    },
+    {
+      "turn": 55,
+      "timestamp": "2025-12-25T10:54:59.063838",
+      "action": "move",
+      "player": {
+        "pos": "(28,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "full metal jacket",
+            "type": "weapons",
+            "pos": "n1e1",
+            "formatted": "full metal jacket:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "try square",
+            "type": "tools",
+            "pos": "n3e6",
+            "formatted": "try square:n3e6",
+            "distance": 6.7
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "e8",
+            "formatted": "topaz:e8",
+            "distance": 8.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(28,8)"
+      }
+    },
+    {
+      "turn": 56,
+      "timestamp": "2025-12-25T10:54:59.279545",
+      "action": "move",
+      "player": {
+        "pos": "(29,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "full metal jacket",
+            "type": "weapons",
+            "pos": "n1",
+            "formatted": "full metal jacket:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "try square",
+            "type": "tools",
+            "pos": "n3e5",
+            "formatted": "try square:n3e5",
+            "distance": 5.8
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "e7",
+            "formatted": "topaz:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(29,8)"
+      }
+    },
+    {
+      "turn": 57,
+      "timestamp": "2025-12-25T10:54:59.609907",
+      "action": "move",
+      "player": {
+        "pos": "(29,7)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "full metal jacket",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "full metal jacket:here",
+            "distance": 0.0
+          },
+          {
+            "name": "try square",
+            "type": "tools",
+            "pos": "n2e5",
+            "formatted": "try square:n2e5",
+            "distance": 5.4
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "s1e7",
+            "formatted": "topaz:s1e7",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(29,7)"
+      }
+    },
+    {
+      "turn": 57,
+      "timestamp": "2025-12-25T10:54:59.954236",
+      "action": "pickup",
+      "player": {
+        "pos": "(29,7)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "try square",
+            "type": "tools",
+            "pos": "n2e5",
+            "formatted": "try square:n2e5",
+            "distance": 5.4
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "s1e7",
+            "formatted": "topaz:s1e7",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "full metal jacket"
+        ]
+      }
+    },
+    {
+      "turn": 58,
+      "timestamp": "2025-12-25T10:55:00.408413",
+      "action": "move",
+      "player": {
+        "pos": "(30,7)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "try square",
+            "type": "tools",
+            "pos": "n2e4",
+            "formatted": "try square:n2e4",
+            "distance": 4.5
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "s1e6",
+            "formatted": "topaz:s1e6",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(30,7)"
+      }
+    },
+    {
+      "turn": 59,
+      "timestamp": "2025-12-25T10:55:00.608762",
+      "action": "move",
+      "player": {
+        "pos": "(31,7)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "try square",
+            "type": "tools",
+            "pos": "n2e3",
+            "formatted": "try square:n2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "s1e5",
+            "formatted": "topaz:s1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(31,7)"
+      }
+    },
+    {
+      "turn": 60,
+      "timestamp": "2025-12-25T10:55:00.792385",
+      "action": "move",
+      "player": {
+        "pos": "(32,7)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "try square",
+            "type": "tools",
+            "pos": "n2e2",
+            "formatted": "try square:n2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "s1e4",
+            "formatted": "topaz:s1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(32,7)"
+      }
+    },
+    {
+      "turn": 61,
+      "timestamp": "2025-12-25T10:55:00.958340",
+      "action": "move",
+      "player": {
+        "pos": "(33,7)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "try square",
+            "type": "tools",
+            "pos": "n2e1",
+            "formatted": "try square:n2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "s1e3",
+            "formatted": "topaz:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "s1e9",
+            "formatted": "cannon:s1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(33,7)"
+      }
+    },
+    {
+      "turn": 62,
+      "timestamp": "2025-12-25T10:55:01.125001",
+      "action": "move",
+      "player": {
+        "pos": "(34,7)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "try square",
+            "type": "tools",
+            "pos": "n2",
+            "formatted": "try square:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "s1e2",
+            "formatted": "topaz:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "s1e8",
+            "formatted": "cannon:s1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(34,7)"
+      }
+    },
+    {
+      "turn": 63,
+      "timestamp": "2025-12-25T10:55:01.390201",
+      "action": "move",
+      "player": {
+        "pos": "(34,6)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "try square",
+            "type": "tools",
+            "pos": "n1",
+            "formatted": "try square:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "s2e2",
+            "formatted": "topaz:s2e2",
+            "distance": 2.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,6)"
+      }
+    },
+    {
+      "turn": 64,
+      "timestamp": "2025-12-25T10:55:01.653398",
+      "action": "move",
+      "player": {
+        "pos": "(34,5)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "try square",
+            "type": "tools",
+            "pos": "here",
+            "formatted": "try square:here",
+            "distance": 0.0
+          },
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "s3e2",
+            "formatted": "topaz:s3e2",
+            "distance": 3.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,5)"
+      }
+    },
+    {
+      "turn": 64,
+      "timestamp": "2025-12-25T10:55:01.902465",
+      "action": "pickup",
+      "player": {
+        "pos": "(34,5)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "s3e2",
+            "formatted": "topaz:s3e2",
+            "distance": 3.6
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "try square"
+        ]
+      }
+    },
+    {
+      "turn": 65,
+      "timestamp": "2025-12-25T10:55:02.452355",
+      "action": "move",
+      "player": {
+        "pos": "(35,5)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "s3e1",
+            "formatted": "topaz:s3e1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(35,5)"
+      }
+    },
+    {
+      "turn": 66,
+      "timestamp": "2025-12-25T10:55:02.652469",
+      "action": "move",
+      "player": {
+        "pos": "(36,5)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "s3",
+            "formatted": "topaz:s3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(36,5)"
+      }
+    },
+    {
+      "turn": 67,
+      "timestamp": "2025-12-25T10:55:03.066682",
+      "action": "move",
+      "player": {
+        "pos": "(36,6)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "s2",
+            "formatted": "topaz:s2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(36,6)"
+      }
+    },
+    {
+      "turn": 68,
+      "timestamp": "2025-12-25T10:55:03.264079",
+      "action": "move",
+      "player": {
+        "pos": "(36,7)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "topaz:s1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(36,7)"
+      }
+    },
+    {
+      "turn": 69,
+      "timestamp": "2025-12-25T10:55:03.378709",
+      "action": "move",
+      "player": {
+        "pos": "(36,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "topaz:here",
+            "distance": 0.0
+          },
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "e6",
+            "formatted": "cannon:e6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(36,8)"
+      }
+    },
+    {
+      "turn": 70,
+      "timestamp": "2025-12-25T10:55:03.626933",
+      "action": "move",
+      "player": {
+        "pos": "(36,9)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "topaz:n1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(36,9)"
+      }
+    },
+    {
+      "turn": 71,
+      "timestamp": "2025-12-25T10:55:04.056550",
+      "action": "move",
+      "player": {
+        "pos": "(36,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "topaz:here",
+            "distance": 0.0
+          },
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "e6",
+            "formatted": "cannon:e6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(36,8)"
+      }
+    },
+    {
+      "turn": 71,
+      "timestamp": "2025-12-25T10:55:04.372218",
+      "action": "pickup",
+      "player": {
+        "pos": "(36,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "e6",
+            "formatted": "cannon:e6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "topaz"
+        ]
+      }
+    },
+    {
+      "turn": 72,
+      "timestamp": "2025-12-25T10:55:04.806759",
+      "action": "move",
+      "player": {
+        "pos": "(37,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "e5",
+            "formatted": "cannon:e5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(37,8)"
+      }
+    },
+    {
+      "turn": 73,
+      "timestamp": "2025-12-25T10:55:05.005290",
+      "action": "move",
+      "player": {
+        "pos": "(38,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "e4",
+            "formatted": "cannon:e4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(38,8)"
+      }
+    },
+    {
+      "turn": 74,
+      "timestamp": "2025-12-25T10:55:05.189450",
+      "action": "move",
+      "player": {
+        "pos": "(39,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "e3",
+            "formatted": "cannon:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s4e3",
+            "formatted": "paintball gun:s4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "buttermilk",
+            "type": "food",
+            "pos": "n4e3",
+            "formatted": "buttermilk:n4e3",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(39,8)"
+      }
+    },
+    {
+      "turn": 75,
+      "timestamp": "2025-12-25T10:55:05.369378",
+      "action": "move",
+      "player": {
+        "pos": "(40,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "e2",
+            "formatted": "cannon:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s4e2",
+            "formatted": "paintball gun:s4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "buttermilk",
+            "type": "food",
+            "pos": "n4e2",
+            "formatted": "buttermilk:n4e2",
+            "distance": 4.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(40,8)"
+      }
+    },
+    {
+      "turn": 76,
+      "timestamp": "2025-12-25T10:55:05.536282",
+      "action": "move",
+      "player": {
+        "pos": "(41,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "e1",
+            "formatted": "cannon:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s4e1",
+            "formatted": "paintball gun:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "buttermilk",
+            "type": "food",
+            "pos": "n4e1",
+            "formatted": "buttermilk:n4e1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(41,8)"
+      }
+    },
+    {
+      "turn": 77,
+      "timestamp": "2025-12-25T10:55:05.735159",
+      "action": "move",
+      "player": {
+        "pos": "(42,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "cannon:here",
+            "distance": 0.0
+          },
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s4",
+            "formatted": "paintball gun:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "buttermilk",
+            "type": "food",
+            "pos": "n4",
+            "formatted": "buttermilk:n4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(42,8)"
+      }
+    },
+    {
+      "turn": 77,
+      "timestamp": "2025-12-25T10:55:06.183637",
+      "action": "pickup",
+      "player": {
+        "pos": "(42,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s4",
+            "formatted": "paintball gun:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "buttermilk",
+            "type": "food",
+            "pos": "n4",
+            "formatted": "buttermilk:n4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "cannon"
+        ]
+      }
+    },
+    {
+      "turn": 78,
+      "timestamp": "2025-12-25T10:55:06.470755",
+      "action": "move",
+      "player": {
+        "pos": "(42,7)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "buttermilk",
+            "type": "food",
+            "pos": "n3",
+            "formatted": "buttermilk:n3",
+            "distance": 3.0
+          },
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s5",
+            "formatted": "paintball gun:s5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(42,7)"
+      }
+    },
+    {
+      "turn": 79,
+      "timestamp": "2025-12-25T10:55:06.702576",
+      "action": "move",
+      "player": {
+        "pos": "(42,6)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "buttermilk",
+            "type": "food",
+            "pos": "n2",
+            "formatted": "buttermilk:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s6",
+            "formatted": "paintball gun:s6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(42,6)"
+      }
+    },
+    {
+      "turn": 80,
+      "timestamp": "2025-12-25T10:55:06.886665",
+      "action": "move",
+      "player": {
+        "pos": "(42,5)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "buttermilk",
+            "type": "food",
+            "pos": "n1",
+            "formatted": "buttermilk:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s7",
+            "formatted": "paintball gun:s7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(42,5)"
+      }
+    },
+    {
+      "turn": 81,
+      "timestamp": "2025-12-25T10:55:07.136140",
+      "action": "move",
+      "player": {
+        "pos": "(42,4)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "buttermilk",
+            "type": "food",
+            "pos": "here",
+            "formatted": "buttermilk:here",
+            "distance": 0.0
+          },
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s8",
+            "formatted": "paintball gun:s8",
+            "distance": 8.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(42,4)"
+      }
+    },
+    {
+      "turn": 81,
+      "timestamp": "2025-12-25T10:55:07.383173",
+      "action": "pickup",
+      "player": {
+        "pos": "(42,4)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s8",
+            "formatted": "paintball gun:s8",
+            "distance": 8.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "buttermilk"
+        ]
+      }
+    },
+    {
+      "turn": 82,
+      "timestamp": "2025-12-25T10:55:07.830002",
+      "action": "move",
+      "player": {
+        "pos": "(43,4)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s8w1",
+            "formatted": "paintball gun:s8w1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(43,4)"
+      }
+    },
+    {
+      "turn": 83,
+      "timestamp": "2025-12-25T10:55:08.013574",
+      "action": "move",
+      "player": {
+        "pos": "(44,4)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s8w2",
+            "formatted": "paintball gun:s8w2",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(44,4)"
+      }
+    },
+    {
+      "turn": 84,
+      "timestamp": "2025-12-25T10:55:08.194861",
+      "action": "move",
+      "player": {
+        "pos": "(45,4)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s8w3",
+            "formatted": "paintball gun:s8w3",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(45,4)"
+      }
+    },
+    {
+      "turn": 85,
+      "timestamp": "2025-12-25T10:55:08.641366",
+      "action": "move",
+      "player": {
+        "pos": "(45,5)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s7w3",
+            "formatted": "paintball gun:s7w3",
+            "distance": 7.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(45,5)"
+      }
+    },
+    {
+      "turn": 86,
+      "timestamp": "2025-12-25T10:55:08.839501",
+      "action": "move",
+      "player": {
+        "pos": "(45,6)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s6w3",
+            "formatted": "paintball gun:s6w3",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(45,6)"
+      }
+    },
+    {
+      "turn": 87,
+      "timestamp": "2025-12-25T10:55:09.055809",
+      "action": "move",
+      "player": {
+        "pos": "(45,7)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s5w3",
+            "formatted": "paintball gun:s5w3",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(45,7)"
+      }
+    },
+    {
+      "turn": 88,
+      "timestamp": "2025-12-25T10:55:09.305014",
+      "action": "move",
+      "player": {
+        "pos": "(45,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s4w3",
+            "formatted": "paintball gun:s4w3",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(45,8)"
+      }
+    },
+    {
+      "turn": 89,
+      "timestamp": "2025-12-25T10:55:09.519790",
+      "action": "move",
+      "player": {
+        "pos": "(45,9)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s3w3",
+            "formatted": "paintball gun:s3w3",
+            "distance": 4.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(45,9)"
+      }
+    },
+    {
+      "turn": 90,
+      "timestamp": "2025-12-25T10:55:09.687096",
+      "action": "move",
+      "player": {
+        "pos": "(45,10)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s2w3",
+            "formatted": "paintball gun:s2w3",
+            "distance": 3.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(45,10)"
+      }
+    },
+    {
+      "turn": 91,
+      "timestamp": "2025-12-25T10:55:09.869187",
+      "action": "move",
+      "player": {
+        "pos": "(45,11)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "s1w3",
+            "formatted": "paintball gun:s1w3",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(45,11)"
+      }
+    },
+    {
+      "turn": 92,
+      "timestamp": "2025-12-25T10:55:10.067847",
+      "action": "move",
+      "player": {
+        "pos": "(45,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "w3",
+            "formatted": "paintball gun:w3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(45,12)"
+      }
+    },
+    {
+      "turn": 93,
+      "timestamp": "2025-12-25T10:55:10.253628",
+      "action": "move",
+      "player": {
+        "pos": "(44,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "w2",
+            "formatted": "paintball gun:w2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(44,12)"
+      }
+    },
+    {
+      "turn": 94,
+      "timestamp": "2025-12-25T10:55:10.455296",
+      "action": "move",
+      "player": {
+        "pos": "(43,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "w1",
+            "formatted": "paintball gun:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s10",
+            "formatted": "Aqua Ignis:s10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(43,12)"
+      }
+    },
+    {
+      "turn": 95,
+      "timestamp": "2025-12-25T10:55:10.556538",
+      "action": "move",
+      "player": {
+        "pos": "(42,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "paintball gun:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(42,12)"
+      }
+    },
+    {
+      "turn": 96,
+      "timestamp": "2025-12-25T10:55:10.607039",
+      "action": "move",
+      "player": {
+        "pos": "(41,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "e1",
+            "formatted": "paintball gun:e1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(41,12)"
+      }
+    },
+    {
+      "turn": 97,
+      "timestamp": "2025-12-25T10:55:11.719475",
+      "action": "move",
+      "player": {
+        "pos": "(42,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "paintball gun:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(42,12)"
+      }
+    },
+    {
+      "turn": 98,
+      "timestamp": "2025-12-25T10:55:12.335272",
+      "action": "move",
+      "player": {
+        "pos": "(43,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "w1",
+            "formatted": "paintball gun:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s10",
+            "formatted": "Aqua Ignis:s10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(43,12)"
+      }
+    },
+    {
+      "turn": 99,
+      "timestamp": "2025-12-25T10:55:13.130539",
+      "action": "move",
+      "player": {
+        "pos": "(42,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "paintball gun:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(42,12)"
+      }
+    },
+    {
+      "turn": 100,
+      "timestamp": "2025-12-25T10:55:16.906548",
+      "action": "move",
+      "player": {
+        "pos": "(43,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "w1",
+            "formatted": "paintball gun:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s10",
+            "formatted": "Aqua Ignis:s10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(43,12)"
+      }
+    },
+    {
+      "turn": 101,
+      "timestamp": "2025-12-25T10:55:17.206630",
+      "action": "move",
+      "player": {
+        "pos": "(44,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "w2",
+            "formatted": "paintball gun:w2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(44,12)"
+      }
+    },
+    {
+      "turn": 101,
+      "timestamp": "2025-12-25T10:55:22.958478",
+      "action": "dissolve",
+      "player": {
+        "pos": "(44,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "w2",
+            "formatted": "paintball gun:w2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "item": "opal",
+        "solvent": "Aqua Ignis",
+        "extracted": {
+          "fire": 24.0,
+          "air": 16.0
+        }
+      }
+    },
+    {
+      "turn": 102,
+      "timestamp": "2025-12-25T10:55:24.588240",
+      "action": "move",
+      "player": {
+        "pos": "(43,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "w1",
+            "formatted": "paintball gun:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s10",
+            "formatted": "Aqua Ignis:s10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(43,12)"
+      }
+    },
+    {
+      "turn": 103,
+      "timestamp": "2025-12-25T10:55:24.938372",
+      "action": "move",
+      "player": {
+        "pos": "(42,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "paintball gun",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "paintball gun:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(42,12)"
+      }
+    },
+    {
+      "turn": 103,
+      "timestamp": "2025-12-25T10:55:26.151481",
+      "action": "pickup",
+      "player": {
+        "pos": "(42,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "paintball gun"
+        ]
+      }
+    },
+    {
+      "turn": 104,
+      "timestamp": "2025-12-25T10:55:26.655542",
+      "action": "move",
+      "player": {
+        "pos": "(43,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s10",
+            "formatted": "Aqua Ignis:s10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(43,12)"
+      }
+    },
+    {
+      "turn": 105,
+      "timestamp": "2025-12-25T10:55:27.086391",
+      "action": "move",
+      "player": {
+        "pos": "(43,11)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(43,11)"
+      }
+    },
+    {
+      "turn": 106,
+      "timestamp": "2025-12-25T10:55:27.269212",
+      "action": "move",
+      "player": {
+        "pos": "(43,10)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(43,10)"
+      }
+    },
+    {
+      "turn": 107,
+      "timestamp": "2025-12-25T10:55:27.501572",
+      "action": "move",
+      "player": {
+        "pos": "(44,10)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(44,10)"
+      }
+    },
+    {
+      "turn": 108,
+      "timestamp": "2025-12-25T10:55:27.699784",
+      "action": "move",
+      "player": {
+        "pos": "(45,10)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(45,10)"
+      }
+    },
+    {
+      "turn": 109,
+      "timestamp": "2025-12-25T10:55:27.913277",
+      "action": "move",
+      "player": {
+        "pos": "(46,10)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(46,10)"
+      }
+    },
+    {
+      "turn": 110,
+      "timestamp": "2025-12-25T10:55:28.096079",
+      "action": "move",
+      "player": {
+        "pos": "(47,10)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(47,10)"
+      }
+    },
+    {
+      "turn": 111,
+      "timestamp": "2025-12-25T10:55:28.311026",
+      "action": "move",
+      "player": {
+        "pos": "(48,10)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(48,10)"
+      }
+    },
+    {
+      "turn": 112,
+      "timestamp": "2025-12-25T10:55:28.510050",
+      "action": "move",
+      "player": {
+        "pos": "(49,10)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(49,10)"
+      }
+    },
+    {
+      "turn": 113,
+      "timestamp": "2025-12-25T10:55:28.609151",
+      "action": "move",
+      "player": {
+        "pos": "(50,10)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "picnic",
+            "type": "food",
+            "pos": "n2e1",
+            "formatted": "picnic:n2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s2e1",
+            "formatted": "Oleum Terra:s2e1",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(50,10)"
+      }
+    },
+    {
+      "turn": 114,
+      "timestamp": "2025-12-25T10:55:28.844179",
+      "action": "move",
+      "player": {
+        "pos": "(51,10)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "picnic",
+            "type": "food",
+            "pos": "n2",
+            "formatted": "picnic:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s2",
+            "formatted": "Oleum Terra:s2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(51,10)"
+      }
+    },
+    {
+      "turn": 115,
+      "timestamp": "2025-12-25T10:55:29.242332",
+      "action": "move",
+      "player": {
+        "pos": "(51,9)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "picnic",
+            "type": "food",
+            "pos": "n1",
+            "formatted": "picnic:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3",
+            "formatted": "Oleum Terra:s3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(51,9)"
+      }
+    },
+    {
+      "turn": 116,
+      "timestamp": "2025-12-25T10:55:29.489451",
+      "action": "move",
+      "player": {
+        "pos": "(51,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "picnic",
+            "type": "food",
+            "pos": "here",
+            "formatted": "picnic:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s4",
+            "formatted": "Oleum Terra:s4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(51,8)"
+      }
+    },
+    {
+      "turn": 116,
+      "timestamp": "2025-12-25T10:55:29.739448",
+      "action": "pickup",
+      "player": {
+        "pos": "(51,8)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s4",
+            "formatted": "Oleum Terra:s4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "picnic"
+        ]
+      }
+    },
+    {
+      "turn": 117,
+      "timestamp": "2025-12-25T10:55:30.199860",
+      "action": "move",
+      "player": {
+        "pos": "(51,9)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3",
+            "formatted": "Oleum Terra:s3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(51,9)"
+      }
+    },
+    {
+      "turn": 118,
+      "timestamp": "2025-12-25T10:55:30.381502",
+      "action": "move",
+      "player": {
+        "pos": "(51,10)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s2",
+            "formatted": "Oleum Terra:s2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(51,10)"
+      }
+    },
+    {
+      "turn": 119,
+      "timestamp": "2025-12-25T10:55:30.578224",
+      "action": "move",
+      "player": {
+        "pos": "(51,11)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s1",
+            "formatted": "Oleum Terra:s1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(51,11)"
+      }
+    },
+    {
+      "turn": 120,
+      "timestamp": "2025-12-25T10:55:30.712367",
+      "action": "move",
+      "player": {
+        "pos": "(51,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Oleum Terra:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(51,12)"
+      }
+    },
+    {
+      "turn": 121,
+      "timestamp": "2025-12-25T10:55:35.538188",
+      "action": "move",
+      "player": {
+        "pos": "(52,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "w1",
+            "formatted": "Oleum Terra:w1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(52,12)"
+      }
+    },
+    {
+      "turn": 122,
+      "timestamp": "2025-12-25T10:55:35.772782",
+      "action": "move",
+      "player": {
+        "pos": "(53,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "w2",
+            "formatted": "Oleum Terra:w2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(53,12)"
+      }
+    },
+    {
+      "turn": 123,
+      "timestamp": "2025-12-25T10:55:35.989208",
+      "action": "move",
+      "player": {
+        "pos": "(54,12)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "w3",
+            "formatted": "Oleum Terra:w3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(54,12)"
+      }
+    },
+    {
+      "turn": 124,
+      "timestamp": "2025-12-25T10:55:36.575807",
+      "action": "move",
+      "player": {
+        "pos": "(54,13)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n1w3",
+            "formatted": "Oleum Terra:n1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "s9e1",
+            "formatted": "chamfer plane:s9e1",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(54,13)"
+      }
+    },
+    {
+      "turn": 125,
+      "timestamp": "2025-12-25T10:55:36.789202",
+      "action": "move",
+      "player": {
+        "pos": "(54,14)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n2w3",
+            "formatted": "Oleum Terra:n2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "s8e1",
+            "formatted": "chamfer plane:s8e1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(54,14)"
+      }
+    },
+    {
+      "turn": 126,
+      "timestamp": "2025-12-25T10:55:36.984909",
+      "action": "move",
+      "player": {
+        "pos": "(54,15)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "s7e1",
+            "formatted": "chamfer plane:s7e1",
+            "distance": 7.1
+          },
+          {
+            "name": "scoop",
+            "type": "tools",
+            "pos": "s8w2",
+            "formatted": "scoop:s8w2",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(54,15)"
+      }
+    },
+    {
+      "turn": 127,
+      "timestamp": "2025-12-25T10:55:37.136941",
+      "action": "move",
+      "player": {
+        "pos": "(54,16)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "s6e1",
+            "formatted": "chamfer plane:s6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "scoop",
+            "type": "tools",
+            "pos": "s7w2",
+            "formatted": "scoop:s7w2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(54,16)"
+      }
+    },
+    {
+      "turn": 128,
+      "timestamp": "2025-12-25T10:55:37.338399",
+      "action": "move",
+      "player": {
+        "pos": "(54,17)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "s5e1",
+            "formatted": "chamfer plane:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s5w3",
+            "formatted": "Aqua Ignis:s5w3",
+            "distance": 5.8
+          },
+          {
+            "name": "scoop",
+            "type": "tools",
+            "pos": "s6w2",
+            "formatted": "scoop:s6w2",
+            "distance": 6.3
+          },
+          {
+            "name": "gem",
+            "type": "gems",
+            "pos": "s9e2",
+            "formatted": "gem:s9e2",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(54,17)"
+      }
+    },
+    {
+      "turn": 129,
+      "timestamp": "2025-12-25T10:55:38.257007",
+      "action": "move",
+      "player": {
+        "pos": "(54,18)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "spokeshave",
+            "type": "tools",
+            "pos": "w3",
+            "formatted": "spokeshave:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "s4e1",
+            "formatted": "chamfer plane:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4w3",
+            "formatted": "Aqua Ignis:s4w3",
+            "distance": 5.0
+          },
+          {
+            "name": "scoop",
+            "type": "tools",
+            "pos": "s5w2",
+            "formatted": "scoop:s5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "gem",
+            "type": "gems",
+            "pos": "s8e2",
+            "formatted": "gem:s8e2",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(54,18)"
+      }
+    },
+    {
+      "turn": 130,
+      "timestamp": "2025-12-25T10:55:38.487257",
+      "action": "move",
+      "player": {
+        "pos": "(54,19)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "s3e1",
+            "formatted": "chamfer plane:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "spokeshave",
+            "type": "tools",
+            "pos": "n1w3",
+            "formatted": "spokeshave:n1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s3w3",
+            "formatted": "Aqua Ignis:s3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "scoop",
+            "type": "tools",
+            "pos": "s4w2",
+            "formatted": "scoop:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "gem",
+            "type": "gems",
+            "pos": "s7e2",
+            "formatted": "gem:s7e2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(54,19)"
+      }
+    },
+    {
+      "turn": 131,
+      "timestamp": "2025-12-25T10:55:38.641451",
+      "action": "move",
+      "player": {
+        "pos": "(54,20)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "s2e1",
+            "formatted": "chamfer plane:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "scoop",
+            "type": "tools",
+            "pos": "s3w2",
+            "formatted": "scoop:s3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "spokeshave",
+            "type": "tools",
+            "pos": "n2w3",
+            "formatted": "spokeshave:n2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2w3",
+            "formatted": "Aqua Ignis:s2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "gem",
+            "type": "gems",
+            "pos": "s6e2",
+            "formatted": "gem:s6e2",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(54,20)"
+      }
+    },
+    {
+      "turn": 132,
+      "timestamp": "2025-12-25T10:55:38.840402",
+      "action": "move",
+      "player": {
+        "pos": "(54,21)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "s1e1",
+            "formatted": "chamfer plane:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "scoop",
+            "type": "tools",
+            "pos": "s2w2",
+            "formatted": "scoop:s2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1w3",
+            "formatted": "Aqua Ignis:s1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "spokeshave",
+            "type": "tools",
+            "pos": "n3w3",
+            "formatted": "spokeshave:n3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "gem",
+            "type": "gems",
+            "pos": "s5e2",
+            "formatted": "gem:s5e2",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(54,21)"
+      }
+    },
+    {
+      "turn": 133,
+      "timestamp": "2025-12-25T10:55:41.371354",
+      "action": "move",
+      "player": {
+        "pos": "(53,21)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "scoop",
+            "type": "tools",
+            "pos": "s2w1",
+            "formatted": "scoop:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "s1e2",
+            "formatted": "chamfer plane:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1w2",
+            "formatted": "Aqua Ignis:s1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "spokeshave",
+            "type": "tools",
+            "pos": "n3w2",
+            "formatted": "spokeshave:n3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "gem",
+            "type": "gems",
+            "pos": "s5e3",
+            "formatted": "gem:s5e3",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(53,21)"
+      }
+    },
+    {
+      "turn": 134,
+      "timestamp": "2025-12-25T10:55:41.572567",
+      "action": "move",
+      "player": {
+        "pos": "(52,21)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Aqua Ignis:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "scoop",
+            "type": "tools",
+            "pos": "s2",
+            "formatted": "scoop:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "s1e3",
+            "formatted": "chamfer plane:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "spokeshave",
+            "type": "tools",
+            "pos": "n3w1",
+            "formatted": "spokeshave:n3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "gem",
+            "type": "gems",
+            "pos": "s5e4",
+            "formatted": "gem:s5e4",
+            "distance": 6.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(52,21)"
+      }
+    },
+    {
+      "turn": 135,
+      "timestamp": "2025-12-25T10:55:41.854740",
+      "action": "move",
+      "player": {
+        "pos": "(51,21)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1",
+            "formatted": "Aqua Ignis:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "scoop",
+            "type": "tools",
+            "pos": "s2e1",
+            "formatted": "scoop:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "spokeshave",
+            "type": "tools",
+            "pos": "n3",
+            "formatted": "spokeshave:n3",
+            "distance": 3.0
+          },
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "s1e4",
+            "formatted": "chamfer plane:s1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "gem",
+            "type": "gems",
+            "pos": "s5e5",
+            "formatted": "gem:s5e5",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(51,21)"
+      }
+    },
+    {
+      "turn": 136,
+      "timestamp": "2025-12-25T10:55:42.568038",
+      "action": "move",
+      "player": {
+        "pos": "(51,22)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Aqua Ignis:here",
+            "distance": 0.0
+          },
+          {
+            "name": "scoop",
+            "type": "tools",
+            "pos": "s1e1",
+            "formatted": "scoop:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "e4",
+            "formatted": "chamfer plane:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "spokeshave",
+            "type": "tools",
+            "pos": "n4",
+            "formatted": "spokeshave:n4",
+            "distance": 4.0
+          },
+          {
+            "name": "gem",
+            "type": "gems",
+            "pos": "s4e5",
+            "formatted": "gem:s4e5",
+            "distance": 6.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(51,22)"
+      }
+    },
+    {
+      "turn": 137,
+      "timestamp": "2025-12-25T10:55:43.202264",
+      "action": "move",
+      "player": {
+        "pos": "(52,22)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "scoop",
+            "type": "tools",
+            "pos": "s1",
+            "formatted": "scoop:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "w1",
+            "formatted": "Aqua Ignis:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "e3",
+            "formatted": "chamfer plane:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "spokeshave",
+            "type": "tools",
+            "pos": "n4w1",
+            "formatted": "spokeshave:n4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "gem",
+            "type": "gems",
+            "pos": "s4e4",
+            "formatted": "gem:s4e4",
+            "distance": 5.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(52,22)"
+      }
+    },
+    {
+      "turn": 138,
+      "timestamp": "2025-12-25T10:55:43.650964",
+      "action": "move",
+      "player": {
+        "pos": "(53,22)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "scoop",
+            "type": "tools",
+            "pos": "s1w1",
+            "formatted": "scoop:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "e2",
+            "formatted": "chamfer plane:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "w2",
+            "formatted": "Aqua Ignis:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "spokeshave",
+            "type": "tools",
+            "pos": "n4w2",
+            "formatted": "spokeshave:n4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "gem",
+            "type": "gems",
+            "pos": "s4e3",
+            "formatted": "gem:s4e3",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(53,22)"
+      }
+    },
+    {
+      "turn": 139,
+      "timestamp": "2025-12-25T10:55:44.362337",
+      "action": "move",
+      "player": {
+        "pos": "(54,22)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "chamfer plane:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "scoop",
+            "type": "tools",
+            "pos": "s1w2",
+            "formatted": "scoop:s1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "w3",
+            "formatted": "Aqua Ignis:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "gem",
+            "type": "gems",
+            "pos": "s4e2",
+            "formatted": "gem:s4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "spokeshave",
+            "type": "tools",
+            "pos": "n4w3",
+            "formatted": "spokeshave:n4w3",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(54,22)"
+      }
+    },
+    {
+      "turn": 140,
+      "timestamp": "2025-12-25T10:55:48.855587",
+      "action": "move",
+      "player": {
+        "pos": "(55,22)",
+        "hp": "94/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chamfer plane",
+            "type": "tools",
+            "pos": "here",
+            "formatted": "chamfer plane:here",
+            "distance": 0.0
+          },
+          {
+            "name": "scoop",
+            "type": "tools",
+            "pos": "s1w3",
+            "formatted": "scoop:s1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "Aqua Ignis",
+            "type": "solvent",
+            "pos": "w4",
+            "formatted": "Aqua Ignis:w4",
+            "distance": 4.0
+          },
+          {
+            "name": "gem",
+            "type": "gems",
+            "pos": "s4e1",
+            "formatted": "gem:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "spokeshave",
+            "type": "tools",
+            "pos": "n4w4",
+            "formatted": "spokeshave:n4w4",
+            "distance": 5.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(55,22)"
+      }
+    }
+  ]
+}
