@@ -1,0 +1,405 @@
+{
+  "abandon.v.01": {
+    "word": "heysa",
+    "spirit": "air",
+    "composition": {
+      "fire": 40,
+      "water": 36,
+      "earth": 30,
+      "air": 58
+    },
+    "definition": "forsake, leave behind",
+    "spell_effect": {
+      "type": "modify_state",
+      "target": "Enemies",
+      "modification": {"following": -1},
+      "description": "A whisper of wind carries your scent away. Enemies lose interest in pursuing you."
+    }
+  },
+
+  "fireball.n.01": {
+    "word": "krata",
+    "spirit": "fire",
+    "composition": {
+      "fire": 58,
+      "water": 5,
+      "earth": 10,
+      "air": 12
+    },
+    "definition": "a ball of fire",
+    "spell_effect": {
+      "type": "damage",
+      "target": "Enemy",
+      "amount": "fire * 0.8",
+      "element": "fire",
+      "description": "A blazing sphere of flame erupts from your hands, roaring through the air!"
+    }
+  },
+
+  "heal.v.01": {
+    "word": "lumno",
+    "spirit": "water",
+    "composition": {
+      "fire": 8,
+      "water": 55,
+      "earth": 15,
+      "air": 18
+    },
+    "definition": "restore to health",
+    "spell_effect": {
+      "type": "heal",
+      "target": "Ally",
+      "amount": "water * 0.7",
+      "remove_status": ["burning", "poison"],
+      "description": "Soothing waters flow over wounds, knitting flesh and cleansing corruption."
+    }
+  },
+
+  "shield.n.01": {
+    "word": "brudo",
+    "spirit": "earth",
+    "composition": {
+      "fire": 12,
+      "water": 10,
+      "earth": 60,
+      "air": 8
+    },
+    "definition": "protective barrier",
+    "spell_effect": {
+      "type": "create_object",
+      "object_class": "Shield",
+      "properties": {
+        "hp": "earth",
+        "blocks": "physical"
+      },
+      "target": "Self",
+      "description": "Stone rises from the earth, forming a solid barrier before you."
+    }
+  },
+
+  "ignite.v.01": {
+    "word": "kata",
+    "spirit": "fire",
+    "composition": {
+      "fire": 45,
+      "water": 5,
+      "earth": 10,
+      "air": 8
+    },
+    "definition": "set on fire",
+    "spell_effect": {
+      "type": "apply_status",
+      "target": "Object",
+      "status": "burning",
+      "duration": "fire / 10",
+      "damage_per_turn": "fire / 5",
+      "description": "Flames leap from your fingertips, spreading across the target."
+    }
+  },
+
+  "earthquake.n.01": {
+    "word": "godrum",
+    "spirit": "earth",
+    "composition": {
+      "fire": 35,
+      "water": 10,
+      "earth": 60,
+      "air": 15
+    },
+    "definition": "violent ground shaking",
+    "spell_effect": {
+      "type": "area_effect",
+      "target": "All",
+      "radius": "earth / 10",
+      "effects": [
+        {"type": "damage", "amount": "earth / 2", "to": "structures", "element": "earth"},
+        {"type": "damage", "amount": "fire / 2", "to": "creatures", "element": "earth"},
+        {"type": "apply_status", "status": "prone", "to": "creatures"}
+      ],
+      "description": "The earth trembles violently! Fissures split the ground as everything shakes."
+    }
+  },
+
+  "teleport.v.01": {
+    "word": "seifya",
+    "spirit": "air",
+    "composition": {
+      "fire": 15,
+      "water": 12,
+      "earth": 8,
+      "air": 60
+    },
+    "definition": "move instantaneously",
+    "spell_effect": {
+      "type": "relocate",
+      "target": "Self",
+      "range": "air",
+      "description": "You dissolve into a gust of wind, reforming elsewhere in an instant."
+    }
+  },
+
+  "freeze.v.01": {
+    "word": "woufi",
+    "spirit": "water",
+    "composition": {
+      "fire": 5,
+      "water": 50,
+      "earth": 20,
+      "air": 35
+    },
+    "definition": "turn to ice",
+    "spell_effect": {
+      "type": "apply_status",
+      "target": "Enemy",
+      "status": "frozen",
+      "duration": "water / 10",
+      "effects": [
+        {"type": "modify", "modify": "speed", "value": -999},
+        {"type": "modify", "modify": "element_resistances.fire", "value": -30}
+      ],
+      "description": "Frost crystals spread rapidly, encasing the target in solid ice."
+    }
+  },
+
+  "steam.n.01": {
+    "word": "tralum",
+    "spirit": "water",
+    "composition": {
+      "fire": 48,
+      "water": 55,
+      "earth": 15,
+      "air": 18
+    },
+    "definition": "heated water vapor",
+    "spell_effect": {
+      "type": "area_effect",
+      "target": "All",
+      "radius": 5,
+      "effects": [
+        {"type": "damage", "amount": 25, "to": "all", "element": "fire"},
+        {"type": "apply_status", "status": "blinded", "to": "all"}
+      ],
+      "description": "Scalding steam billows forth, filling the area with burning mist!"
+    }
+  },
+
+  "lightning.n.01": {
+    "word": "kratsei",
+    "spirit": "fire",
+    "composition": {
+      "fire": 55,
+      "water": 8,
+      "earth": 12,
+      "air": 50
+    },
+    "definition": "electrical discharge",
+    "spell_effect": {
+      "type": "damage",
+      "target": "Enemy",
+      "amount": "(fire + air) / 2",
+      "element": "air",
+      "description": "A bolt of lightning arcs from the sky, striking with thunderous force!"
+    }
+  },
+
+  "wind.n.01": {
+    "word": "heisef",
+    "spirit": "air",
+    "composition": {
+      "fire": 8,
+      "water": 10,
+      "earth": 5,
+      "air": 58
+    },
+    "definition": "moving air",
+    "spell_effect": {
+      "type": "area_effect",
+      "target": "All",
+      "radius": "air / 10",
+      "effects": [
+        {"type": "damage", "amount": 15, "to": "projectile"},
+        {"type": "damage", "amount": 10, "to": "creatures"}
+      ],
+      "description": "A powerful gust of wind sweeps through the area, deflecting projectiles!"
+    }
+  },
+
+  "summon_elemental.v.01": {
+    "word": "kratesh",
+    "spirit": "fire",
+    "composition": {
+      "fire": 50,
+      "water": 15,
+      "earth": 20,
+      "air": 25
+    },
+    "definition": "call forth an elemental spirit",
+    "spell_effect": {
+      "type": "summon",
+      "creature": "Fire Elemental",
+      "hp": "fire * 0.6",
+      "duration": "fire / 10",
+      "description": "Flames coalesce into a living form - a Fire Elemental rises to serve you!"
+    }
+  },
+
+  "petrify.v.01": {
+    "word": "brugod",
+    "spirit": "earth",
+    "composition": {
+      "fire": 10,
+      "water": 8,
+      "earth": 58,
+      "air": 12
+    },
+    "definition": "turn to stone",
+    "spell_effect": {
+      "type": "transform",
+      "into": "Stone Statue",
+      "target": "Enemy",
+      "description": "Stone creeps across the target's body. They freeze, transformed into solid rock!"
+    }
+  },
+
+  "haste.v.01": {
+    "word": "yeisef",
+    "spirit": "air",
+    "composition": {
+      "fire": 20,
+      "water": 10,
+      "earth": 8,
+      "air": 55
+    },
+    "definition": "increase speed",
+    "spell_effect": {
+      "type": "buff",
+      "stat": "speed",
+      "amount": "air * 0.5",
+      "duration": "air / 10",
+      "target": "Ally",
+      "description": "Wind swirls around the target, lightening their steps and quickening their movements!"
+    }
+  },
+
+  "slow.v.01": {
+    "word": "woduh",
+    "spirit": "earth",
+    "composition": {
+      "fire": 8,
+      "water": 30,
+      "earth": 48,
+      "air": 15
+    },
+    "definition": "reduce speed",
+    "spell_effect": {
+      "type": "debuff",
+      "stat": "speed",
+      "amount": "-earth * 0.4",
+      "duration": "earth / 10",
+      "target": "Enemy",
+      "description": "The target's limbs grow heavy as if weighed down by the earth itself."
+    }
+  },
+
+  "poison.n.01": {
+    "word": "lumgr",
+    "spirit": "water",
+    "composition": {
+      "fire": 12,
+      "water": 45,
+      "earth": 25,
+      "air": 15
+    },
+    "definition": "toxic substance",
+    "spell_effect": {
+      "type": "apply_status",
+      "target": "Enemy",
+      "status": "poisoned",
+      "duration": "water / 8",
+      "damage_per_turn": "water / 6",
+      "description": "Toxic vapors seep into the target. Poison courses through their veins!"
+    }
+  },
+
+  "purify.v.01": {
+    "word": "skatra",
+    "spirit": "fire",
+    "composition": {
+      "fire": 48,
+      "water": 20,
+      "earth": 12,
+      "air": 30
+    },
+    "definition": "cleanse and remove impurities",
+    "spell_effect": {
+      "type": "heal",
+      "target": "Ally",
+      "amount": "fire * 0.3",
+      "remove_status": ["poisoned", "cursed", "diseased", "corrupted"],
+      "description": "Purifying flames burn away curses and toxins without harming the flesh."
+    }
+  },
+
+  "wall_of_flame.n.01": {
+    "word": "kratbru",
+    "spirit": "fire",
+    "composition": {
+      "fire": 55,
+      "water": 5,
+      "earth": 35,
+      "air": 15
+    },
+    "definition": "barrier of fire",
+    "spell_effect": {
+      "type": "create_object",
+      "object_class": "Fire Wall",
+      "properties": {
+        "hp": "earth",
+        "damage": "fire * 0.5"
+      },
+      "target": "Ground",
+      "description": "A wall of roaring flames erupts from the ground, forming an impassable barrier!"
+    }
+  },
+
+  "dispel.v.01": {
+    "word": "seiyei",
+    "spirit": "air",
+    "composition": {
+      "fire": 10,
+      "water": 15,
+      "earth": 8,
+      "air": 52
+    },
+    "definition": "cancel magic",
+    "spell_effect": {
+      "type": "modify_state",
+      "target": "Magic",
+      "modification": {"active": 0},
+      "description": "A gust of wind scatters magical energies, dispelling active enchantments."
+    }
+  },
+
+  "meteor.n.01": {
+    "word": "kratgod",
+    "spirit": "fire",
+    "composition": {
+      "fire": 60,
+      "water": 8,
+      "earth": 50,
+      "air": 20
+    },
+    "definition": "falling burning rock",
+    "spell_effect": {
+      "type": "area_effect",
+      "target": "All",
+      "radius": 8,
+      "effects": [
+        {"type": "damage", "amount": "fire", "to": "all", "element": "fire"},
+        {"type": "damage", "amount": "earth * 0.5", "to": "all", "element": "earth"},
+        {"type": "apply_status", "status": "burning", "to": "all"}
+      ],
+      "description": "A massive burning rock plummets from the heavens, exploding on impact!"
+    }
+  }
+}

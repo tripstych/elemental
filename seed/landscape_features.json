@@ -1,0 +1,196 @@
+{
+  "desert": {
+    "features": [
+      {
+        "char": "T",
+        "name": "cactus",
+        "density": 0.05,
+        "color": "green",
+        "cluster": true,
+        "cluster_size": 3
+      },
+      {
+        "char": "o",
+        "name": "rock",
+        "density": 0.08,
+        "color": "gray",
+        "cluster": false
+      },
+      {
+        "char": "~",
+        "name": "sand_dune",
+        "density": 0.15,
+        "color": "yellow",
+        "cluster": true,
+        "cluster_size": 8
+      }
+    ],
+    "ground_char": ".",
+    "ground_color": "yellow"
+  },
+  "forest": {
+    "features": [
+      {
+        "char": "Y",
+        "name": "pine",
+        "density": 0.3,
+        "color": "green",
+        "cluster": true,
+        "cluster_size": 5
+      },
+      {
+        "char": "T",
+        "name": "oak",
+        "density": 0.25,
+        "color": "green",
+        "cluster": true,
+        "cluster_size": 4
+      },
+      {
+        "char": "m",
+        "name": "mushroom",
+        "density": 0.02,
+        "color": "red",
+        "cluster": true,
+        "cluster_size": 2
+      },
+      {
+        "char": "O",
+        "name": "boulder",
+        "density": 0.05,
+        "color": "gray",
+        "cluster": false
+      }
+    ],
+    "ground_char": ".",
+    "ground_color": "dark_green"
+  },
+  "grassland": {
+    "features": [
+      {
+        "char": "*",
+        "name": "flower",
+        "density": 0.08,
+        "color": "yellow",
+        "cluster": true,
+        "cluster_size": 6
+      },
+      {
+        "char": "'",
+        "name": "grass_tuft",
+        "density": 0.2,
+        "color": "green",
+        "cluster": false
+      },
+      {
+        "char": "o",
+        "name": "rock",
+        "density": 0.03,
+        "color": "gray",
+        "cluster": false
+      }
+    ],
+    "ground_char": ".",
+    "ground_color": "green"
+  },
+  "mountain": {
+    "features": [
+      {
+        "char": "^",
+        "name": "peak",
+        "density": 0.02,
+        "color": "white",
+        "cluster": false
+      },
+      {
+        "char": "O",
+        "name": "boulder",
+        "density": 0.15,
+        "color": "gray",
+        "cluster": true,
+        "cluster_size": 4
+      },
+      {
+        "char": "/",
+        "name": "cliff",
+        "density": 0.1,
+        "color": "brown",
+        "cluster": true,
+        "cluster_size": 10
+      }
+    ],
+    "ground_char": ".",
+    "ground_color": "brown"
+  },
+  "ocean": {
+    "features": [
+      {
+        "char": "~",
+        "name": "wave",
+        "density": 0.3,
+        "color": "cyan",
+        "cluster": false
+      },
+      {
+        "char": "f",
+        "name": "fish",
+        "density": 0.01,
+        "color": "blue",
+        "cluster": false
+      }
+    ],
+    "ground_char": "~",
+    "ground_color": "blue"
+  },
+  "swamp": {
+    "features": [
+      {
+        "char": "w",
+        "name": "willow",
+        "density": 0.15,
+        "color": "green",
+        "cluster": true,
+        "cluster_size": 3
+      },
+      {
+        "char": "~",
+        "name": "water",
+        "density": 0.4,
+        "color": "dark_cyan",
+        "cluster": true,
+        "cluster_size": 8
+      },
+      {
+        "char": "l",
+        "name": "log",
+        "density": 0.08,
+        "color": "brown",
+        "cluster": false
+      }
+    ],
+    "ground_char": ".",
+    "ground_color": "dark_green"
+  },
+  "volcano": {
+    "features": [
+      {
+        "char": "#",
+        "name": "lava",
+        "density": 0.1,
+        "color": "red",
+        "cluster": true,
+        "cluster_size": 3
+      },
+      {
+        "char": "^",
+        "name": "rocks",
+        "density": 0.37,
+        "color": "black",
+        "cluster": true,
+        "cluster_size": 3
+      }
+    ],
+    "ground_char": ".",
+    "ground_color": "green"
+  }
+}
