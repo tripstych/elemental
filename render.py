@@ -667,6 +667,9 @@ class Render:
         imgui.separator()
         imgui.spacing()
 
+        # Get known patterns for step 1
+        patterns = self.game.controller.get_known_essences()
+
         # Render current step
         if not patterns:
             imgui.text_colored("No patterns known!", 0.8, 0.3, 0.3)

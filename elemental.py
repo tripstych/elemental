@@ -26,6 +26,7 @@ from seed.pathfinding import Pathfinder
 
 # Import from the original game
 from game import GameWorld
+from game_api import GameSession, GameAPIClient
 
 from render import Render
 
