@@ -35,8 +35,6 @@ from imguiui import ImguiUI
 # Import core modules (game logic separated from UI)
 from core import GameController
 
-from transmutation_engine import TransmutationEngine
-
 from constants import *
 
 
@@ -195,9 +193,6 @@ class ElementalGame:
         self.meditate_mode = False
         self.show_spell_book = False
 
-        # Transmutation engine
-        self.transmutation_engine = TransmutationEngine(self)
-        
         # Simplified mode system
         self.menu_mode = False  # False=gameplay, True=menu mode (blocks movement)
 
@@ -343,7 +338,6 @@ class ElementalGame:
         return (self.show_spell_book or 
                 self.meditate_mode or 
                 self.show_drop_menu or
-                self.transmutation_engine.transmute_mode or
                 self.melee_target_mode or
                 self.spell_target_mode or
                 self.ranged_mode)
@@ -422,10 +416,6 @@ class ElementalGame:
 
         # Handle menu mode inputs first
         if self.is_menu_mode():
-            # Transmute mode handled by engine
-            if self.transmutation_engine.transmute_mode:
-                self.transmutation_engine.handle_input(event)
-                return
             
             # Meditate mode - ESC to cancel (selection handled by imgui)
             if self.meditate_mode:
@@ -464,11 +454,6 @@ class ElementalGame:
         if self.is_menu_mode():
             return  # Block all gameplay input when in menu mode
 
-        # Toggle gameplay modes
-        if event.key == pygame.K_g:  # Transmute mode
-            self.transmutation_engine.toggle_mode()
-            return
-        
         if event.key == pygame.K_q:  # Meditate mode
             self.toggle_meditate_mode()
             return
@@ -1270,7 +1255,6 @@ class ElementalGame:
                 'paused': self.paused,
                 'show_full_map': self.show_full_map,
                 'show_spell_book': self.show_spell_book,
-                'transmute_mode': self.transmutation_engine.transmute_mode,
                 'meditate_mode': self.meditate_mode,
                 'messages': self.messages[-20:]
             }
@@ -1351,7 +1335,6 @@ class ElementalGame:
             self.paused = game_state['paused']
             self.show_full_map = game_state['show_full_map']
             self.show_spell_book = game_state['show_spell_book']
-            self.transmutation_engine.transmute_mode = game_state.get('transmute_mode', False)
             self.meditate_mode = game_state['meditate_mode']
             self.messages = game_state['messages']
 
@@ -1366,17 +1349,6 @@ class ElementalGame:
             self.add_message(f"Failed to load: {e}")
             traceback.print_exc()
             return False
-
-    def calculate_transmute_cost(self, source_item, target_pattern):
-        """Calculate if transmutation is possible based on weight and essence constraints"""
-        # Delegate to alchemy system
-        wisdom = getattr(self.world.player.stats, 'wisdom', 10)
-        return self.controller.alchemy.calculate_transmute_cost(
-            source_item=source_item,
-            target_pattern=target_pattern,
-            game_objects=self.world.game_objects,
-            wisdom=wisdom
-        )
 
     def respawn_player(self):
         player = self.world.player

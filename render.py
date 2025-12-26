@@ -11,11 +11,6 @@ class Render:
         self.game = game
         self.COLORS = game.COLORS
         
-        # Transmutation state
-        self._transmute_step = 0  # 0=item, 1=pattern (auto-calc amounts)
-        self._transmute_item = None
-        self._transmute_coagulant_amount = 0
-        self._transmute_pattern = None
 
     def render(self):
         """Main render method"""
@@ -32,8 +27,8 @@ class Render:
         self.render_controls()
         
         # Render overlays
-        if self.game.show_spell_book:
-            self.render_spell_book()
+        # if self.game.show_spell_book:
+        #     self.render_spell_book()
 
     def render_dungeon(self):
         """Render dungeon tiles"""
@@ -251,8 +246,6 @@ class Render:
                 item['index'] = i +1
             # items = [item['index']=i+1 for i, item in enumerate(player.inventory.objects)]
             items = [obj for obj in player.inventory.objects if not obj.get('is_solvent') and not obj.get('is_coagulant')]
-            solvents = [obj for obj in player.inventory.objects if obj.get('is_solvent')]
-            coagulants = [obj for obj in player.inventory.objects if obj.get('is_coagulant')]
             
             
             # Show regular items
@@ -274,39 +267,6 @@ class Render:
                     self.game.game_surface.blit(text, (sidebar_x + 10, y))
                     y += 18
                 
-            # Show solvents
-            if solvents:
-                y += 5
-                solvent_label = self.game.font_small.render("SOLVENTS:", True, self.COLORS['yellow'])
-                self.game.game_surface.blit(solvent_label, (sidebar_x + 10, y))
-                y += 18
-                
-                for i, solvent in enumerate(solvents):  # Show first 4 solvents
-                    solvent_text = f"{solvent['index']}. {solvent['name']}"
-                    color = self.game.COLORS['yellow']
-                    text = self.game.font_small.render(solvent_text, True, color)
-                    self.game.game_surface.blit(text, (sidebar_x + 10, y))
-                    y += 18
-                
-            # Show coagulants
-            if coagulants:
-                y += 5
-                coag_label = self.game.font_small.render("COAGULANTS:", True, self.COLORS['cyan'])
-                self.game.game_surface.blit(coag_label, (sidebar_x + 10, y))
-                y += 18
-
-                for i, coag in enumerate(coagulants):  # Show first 4 coagulants
-                    # Highlight if selected in transmute mode
-                    if self.game.transmutation_engine.transmute_mode and self.game.transmutation_engine.transmute_coagulant == coag:
-                        coag_text = f"> {coag['index']}. {coag['name']} ({coag.get('quantity', 0)}ml) <"
-                        color = self.game.COLORS['cyan']
-                    else:
-                        coag_text = f"{coag['index']}. {coag['name']} ({coag.get('quantity', 0)}ml)"
-                        color = self.game.COLORS['cyan']
-
-                    text = self.game.font_small.render(coag_text, True, color)
-                    self.game.game_surface.blit(text, (sidebar_x + 10, y))
-                    y += 18
         else:
             empty_text = self.game.font_small.render("Empty", True, self.COLORS['gray'])
             self.game.game_surface.blit(empty_text, (sidebar_x + 10, y))
@@ -315,11 +275,7 @@ class Render:
         y += 15
         
         # Movement mode
-        if self.game.transmutation_engine.transmute_mode:
-            mode_color = self.game.COLORS['cyan']
-            step_names = ["Item", "Solvent", "Sol.Amt", "Coagulant", "Coag.Amt", "Pattern"]
-            mode_text = f"MODE: TRANSMUTE ({step_names[self.game.transmutation_engine.transmute_step]})"
-        elif self.game.meditate_mode:
+        if self.game.meditate_mode:
             mode_color = self.game.COLORS['purple']
             mode_text = "MODE: MEDITATE"
         elif self.game.melee_target_mode:
@@ -465,91 +421,6 @@ class Render:
             placeholder = self.game.font.render("No content to display", True, self.COLORS['gray'])
             self.game.game_surface.blit(placeholder, (overlay_x + 20, y))
 
-    def render_spell_book(self):
-
-        """Render spell book overlay"""
-        # Semi-transparent overlay
-        overlay = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
-        overlay.fill(self.game.COLORS['black'])
-        overlay.set_alpha(200)
-        self.game.game_surface.blit(overlay, (0, 0))
-
-        # Spell book window
-        book_width = 600
-        book_height = 500
-        book_x = (SCREEN_WIDTH - book_width) // 2
-        book_y = (SCREEN_HEIGHT - book_height) // 2
-
-        # Background
-        book_rect = pygame.Rect(book_x, book_y, book_width, book_height)
-        pygame.draw.rect(self.game.game_surface, self.COLORS['ui_bg'], book_rect)
-        pygame.draw.rect(self.game.game_surface, self.COLORS['purple'], book_rect, 3)
-
-        # Title
-        title = self.game.font_large.render("SPELL BOOK", True, self.COLORS['purple'])
-        title_rect = title.get_rect(centerx=book_x + book_width // 2, top=book_y + 15)
-        self.game.game_surface.blit(title, title_rect)
-
-        # Instructions
-        instr = self.game.font_small.render("Press B to close", True, self.COLORS['gray'])
-        self.game.game_surface.blit(instr, (book_x + book_width - 120, book_y + 20))
-
-        y = book_y + 60
-
-        if not self.game.spell_book:
-            empty_text = self.game.font.render("No entries yet. Meditate (Q) on items to learn their essence.", True, self.COLORS['gray'])
-            self.game.game_surface.blit(empty_text, (book_x + 20, y))
-        else:
-            # Column headers
-            header_color = self.game.COLORS['cyan']
-            self.game.game_surface.blit(self.game.font_small.render("NAME", True, header_color), (book_x + 20, y))
-
-            # wrong! don't SHOW the synset
-            # self.game.game_surface.blit(self.game.font_small.render("SYNSET", True, header_color), (book_x + 180, y))
-            self.game.game_surface.blit(self.game.font_small.render("ESSENCE (F/W/E/A)", True, header_color), (book_x + 350, y))
-            y += 25
-
-            # Draw separator line
-            pygame.draw.line(self.game.screen, self.COLORS['ui_border'], (book_x + 15, y), (book_x + book_width - 15, y))
-            y += 10
-
-            # List entries (scrollable area - show first 15)
-            entries = list(self.game.spell_book.values())
-            for i, entry in enumerate(entries):
-                # Alternate row colors
-                if i % 2 == 0:
-                    row_rect = pygame.Rect(book_x + 15, y - 2, book_width - 30, 22)
-                    pygame.draw.rect(self.game.game_surface, (40, 40, 50), row_rect)
-
-                # Name (truncate if too long)
-                name = entry.name
-                name_text = self.game.font_small.render(name, True, self.COLORS['white'])
-                self.game.game_surface.blit(name_text, (book_x + 20, y))
-
-                # Synset #should never show [-20LLM]
-                # synset = entry['synset'][:20] if len(entry['synset']) > 20 else entry['synset']
-                # synset_text = self.game.font_small.render(synset, True, self.COLORS['light_gray'])
-                # self.game.game_surface.blit(synset_text, (book_x + 180, y))
-
-                # Essence composition
-                comp = entry['composition']
-                essence_str = f"F:{comp.get('fire', 0)} W:{comp.get('water', 0)} E:{comp.get('earth', 0)} A:{comp.get('air', 0)}"
-                essence_text = self.game.font_small.render(essence_str, True, self.COLORS['yellow'])
-                self.game.game_surface.blit(essence_text, (book_x + 350, y))
-
-                y += 22
-
-            # Show count if more entries
-            if len(entries) > 15:
-                more_text = self.game.font_small.render(f"...and {len(entries) - 15} more entries", True, self.COLORS['gray'])
-                self.game.game_surface.blit(more_text, (book_x + 20, y + 10))
-
-        # Footer with total count
-        footer_y = book_y + book_height - 30
-        pygame.draw.line(self.game.screen, self.COLORS['ui_border'], (book_x + 15, footer_y - 10), (book_x + book_width - 15, footer_y - 10))
-        count_text = self.game.font_small.render(f"Total entries: {len(self.game.spell_book)}", True, self.COLORS['light_gray'])
-        self.game.game_surface.blit(count_text, (book_x + 20, footer_y))
-
     def render_controls(self):
         controls_y = SCREEN_HEIGHT - 30
         
@@ -557,12 +428,6 @@ class Render:
             # Menu mode controls
             if self.game.show_spell_book:
                 controls = "B: Close Spell Book"
-            elif self.game.transmutation_engine.transmute_mode:
-                step_hints = [
-                    "1-9: Select item | ESC: Cancel",
-                    "1-9: Select pattern | ESC: Cancel",
-                ]
-                controls = step_hints[self._transmute_step]
             elif self.game.meditate_mode:
                 controls = "Click item to meditate | ESC: Cancel"
             elif self.game.show_drop_menu:
@@ -589,201 +454,6 @@ class Render:
         text = self.game.font_small.render(controls, True, self.COLORS['gray'])
         self.game.game_surface.blit(text, (10, controls_y))
 
-    def render_transmutation(self):
-        """Render transmutation mode overlay - simplified 2-step wizard"""
-        imgui.set_next_window_size(700, 500, imgui.FIRST_USE_EVER)
-        imgui.set_next_window_position(
-            SCREEN_WIDTH // 2 - 350, SCREEN_HEIGHT // 2 - 250,
-            imgui.FIRST_USE_EVER
-        )
-
-        expanded, opened = imgui.begin("Transmutation", True)
-        if not opened:
-            self.game.transmutation_engine.transmute_mode = False
-            self._reset_transmute()
-            imgui.end()
-            return
-
-        if not expanded:
-            imgui.end()
-            return
-
-        # Two column layout
-        imgui.columns(2, "transmute_cols", True)
-        imgui.set_column_width(0, 400)
-
-        # Left panel: current step
-        self._render_transmute_left_panel()
-
-        imgui.next_column()
-
-        # Right panel: known essences reference
-        self._render_transmute_right_panel()
-
-        imgui.columns(1)
-
-        # Bottom bar
-        imgui.separator()
-        if imgui.button("Cancel [ESC]"):
-            self.game.transmutation_engine.transmute_mode = False
-            self._reset_transmute()
-
-        # Back button (if not on first step)
-        if self._transmute_step > 0:
-            imgui.same_line()
-            if imgui.button("< Back"):
-                self._transmute_step -= 1
-
-        # Transmute button when ready
-        if self._can_transmute():
-            imgui.same_line(imgui.get_window_width() - 120)
-            if imgui.button("TRANSMUTE!"):
-                self._do_transmute()
-
-        imgui.end()
-
-    def _render_transmute_left_panel(self):
-        """Render the left panel with step-by-step selections"""
-        step_names = ["Select Item", "Select Pattern"]
-
-        imgui.text_colored(f"Step {self._transmute_step + 1}/2: {step_names[self._transmute_step]}", 0.4, 0.8, 1.0)
-        imgui.text_colored("(UP/DOWN + ENTER, or click)", 0.5, 0.5, 0.5)
-        imgui.separator()
-
-        # Show current selections
-        imgui.text("Current Selections:")
-        if self._transmute_item:
-            imgui.bullet_text(f"Item: {self._transmute_item['name']}/{self._transmute_item['weight']}g")
-            essence = self.game.controller.get_essence_for_item(self._transmute_item)
-            if essence:
-                imgui.same_line()
-                self._render_essence_inline(essence)
-            else:
-                imgui.same_line()
-                imgui.text_colored("(unknown)", 1.0, 0.3, 0.3)
-
-        if self._transmute_pattern:
-            imgui.bullet_text(f"Pattern: {self._transmute_pattern.name}")
-
-        imgui.spacing()
-        imgui.separator()
-        imgui.spacing()
-
-        # Get known patterns for step 1
-        patterns = self.game.controller.get_known_essences()
-
-        # Render current step
-        if not patterns:
-            imgui.text_colored("No patterns known!", 0.8, 0.3, 0.3)
-            imgui.text("Meditate (Q) on items first.")
-            return
-
-        def select_pattern(pattern):
-            self._transmute_pattern = pattern
-            self.reset_selection("transmute_pattern")
-            
-            # Calculate transmutation cost using new system
-            cost, target_weight, solvent, coagulant, error = self.calculate_required_amounts(pattern)
-            
-            if error:
-                self.game.add_message(f"Cannot transmute: {error}")
-            elif cost:
-                # Store cost for display purposes only
-                self._calculated_cost = cost
-            else:
-                self._calculated_cost = None
-
-        def label_fn(entry, i):
-            return entry.name
-
-        self._render_selectable_list(
-            list_id="transmute_pattern",
-            items=patterns,
-            label_fn=label_fn,
-            on_select=select_pattern
-        )
-
-        # Show essence composition for selected pattern
-        if self._transmute_pattern:
-            imgui.spacing()
-            imgui.text("Target essence:")
-            imgui.same_line()
-            self._render_essence_inline(self._transmute_pattern.composition)
-            
-            # Show automatically calculated amounts
-            imgui.spacing()
-            imgui.separator()
-            imgui.text_colored("Automatically calculated amounts:", 0.4, 0.8, 1.0)
-            
-            # Show source item weight
-            if self._transmute_item:
-                source_weight = self._transmute_item.get('weight', 0)
-                imgui.bullet_text(f"Source item weight: {source_weight:.1f}g")
-            
-            # Show target spell weight
-            cost, target_weight, _, _, error = self.calculate_required_amounts(self._transmute_pattern)
-            if target_weight:
-                imgui.bullet_text(f"Target spell weight: {target_weight:.1f}g")
-            
-            if hasattr(self, '_calculated_cost') and self._calculated_cost:
-                imgui.bullet_text(f"Essence Cost: {sum(self._calculated_cost.values()):.1f} total")
-                
-                # Show individual essence costs
-                for element, amount in self._calculated_cost.items():
-                    imgui.bullet_text(f"  {element.capitalize()}: {amount:.1f}")
-            else:
-                imgui.text_colored("No suitable materials available", 0.8, 0.3, 0.3)
-
-    def _render_transmute_right_panel(self):
-        """Render the right panel with known essences reference"""
-        imgui.text_colored("Known Essences (Reference)", 0.8, 0.4, 1.0)
-        imgui.separator()
-
-        known = self.game.controller.get_known_essences()
-        if not known:
-            imgui.text_colored("No essences known!", 0.5, 0.5, 0.5)
-            imgui.text("Meditate (Q) on items")
-            imgui.text("to learn their essence.")
-            return
-
-        # Table
-        imgui.columns(5, "essence_ref_table", True)
-        imgui.set_column_width(0, 100)
-        imgui.set_column_width(1, 35)
-        imgui.set_column_width(2, 35)
-        imgui.set_column_width(3, 35)
-        imgui.set_column_width(4, 35)
-
-        imgui.text("Name")
-        imgui.next_column()
-        imgui.text_colored("F", 1.0, 0.4, 0.2)
-        imgui.next_column()
-        imgui.text_colored("W", 0.2, 0.6, 1.0)
-        imgui.next_column()
-        imgui.text_colored("E", 0.6, 0.4, 0.2)
-        imgui.next_column()
-        imgui.text_colored("A", 0.7, 0.7, 1.0)
-        imgui.next_column()
-
-        imgui.separator()
-
-        for entry in known:
-            comp = entry.composition
-            name = entry.name[:12] + ".." if len(entry.name) > 12 else entry.name
-
-            imgui.text(name)
-            imgui.next_column()
-            imgui.text_colored(str(comp.get('fire', 0)), 1.0, 0.4, 0.2)
-            imgui.next_column()
-            imgui.text_colored(str(comp.get('water', 0)), 0.2, 0.6, 1.0)
-            imgui.next_column()
-            imgui.text_colored(str(comp.get('earth', 0)), 0.6, 0.4, 0.2)
-            imgui.next_column()
-            imgui.text_colored(str(comp.get('air', 0)), 0.7, 0.7, 1.0)
-            imgui.next_column()
-
-        imgui.columns(1)
-
     def _render_essence_inline(self, comp):
         """Render essence values inline with colors"""
         imgui.text_colored(f"F:{comp.get('fire', 0)}", 1.0, 0.4, 0.2)
@@ -793,33 +463,6 @@ class Render:
         imgui.text_colored(f"E:{comp.get('earth', 0)}", 0.6, 0.4, 0.2)
         imgui.same_line()
         imgui.text_colored(f"A:{comp.get('air', 0)}", 0.7, 0.7, 1.0)
-
-    def _can_transmute(self):
-        """Check if all selections are complete for simplified 2-step system"""
-        return (self._transmute_item is not None and
-                self._transmute_pattern is not None)
-
-    def _do_transmute(self):
-        """Execute the transmutation for simplified 2-step system"""
-        # For simplified system, pass None for solvent/coagulant and let controller handle it
-        result = self.game.controller.transmute(
-            item=self._transmute_item,
-            solvent=None,
-            solvent_amount=0,
-            coagulant=None,
-            coagulant_amount=0,
-            pattern=self._transmute_pattern
-        )
-
-        self.game.add_message(result.message)
-        self.game.transmutation_engine.transmute_mode = False
-        self._reset_transmute()
-
-    def _reset_transmute(self):
-        """Reset all transmutation state for simplified 2-step system"""
-        self._transmute_step = 0
-        self._transmute_item = None
-        self._transmute_pattern = None
 
     def reset_selection(self, list_id):
         """Reset selection for a specific list"""
@@ -837,17 +480,3 @@ class Render:
             if imgui.selectable(label, False)[0]:
                 on_select(item)
                 break
-
-    def calculate_required_amounts(self, target_pattern):
-        """Calculate required essence amounts for target transmutation using weight-based system"""
-        if not target_pattern or not self._transmute_item:
-            return None, None, None, None, "No source item selected"
-        
-        # Use the new cost calculation system
-        cost, target_weight, solvent, coagulant, error = self.game.calculate_transmute_cost(self._transmute_item, target_pattern)
-        
-        if error:
-            return None, None, None, None, error
-        
-        # Return cost as essence requirements
-        return cost, target_weight, None, None, None

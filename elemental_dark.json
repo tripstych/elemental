@@ -1,0 +1,394 @@
+{
+    "earth": [
+        {
+            "morpheme": "grav-",
+            "ipa": "/\u0261r\u00e6v/",
+            "description": "heavy, weighty",
+            "value": 1
+        },
+        {
+            "morpheme": "lith-",
+            "ipa": "/l\u026a\u03b8/",
+            "description": "stone",
+            "value": 2
+        },
+        {
+            "morpheme": "terr-",
+            "ipa": "/t\u025br/",
+            "description": "earth, land",
+            "value": 3
+        },
+        {
+            "morpheme": "sepul-",
+            "ipa": "/\u02c8s\u025bp\u0259l/",
+            "description": "burial, tomb",
+            "value": 4
+        },
+        {
+            "morpheme": "crypt-",
+            "ipa": "/kr\u026apt/",
+            "description": "hidden, vault",
+            "value": 5
+        },
+        {
+            "morpheme": "umbr-",
+            "ipa": "/\u02c8\u028cmbr\u0259/",
+            "description": "shadow, shade",
+            "value": 6
+        },
+        {
+            "morpheme": "sax-",
+            "ipa": "/s\u00e6ks/",
+            "description": "rock, boulder",
+            "value": 7
+        },
+        {
+            "morpheme": "mor-",
+            "ipa": "/m\u0254r/",
+            "description": "death",
+            "value": 8
+        },
+        {
+            "morpheme": "styg-",
+            "ipa": "/st\u026ad\u0292/",
+            "description": "from Styx, the river of hate",
+            "value": 9
+        },
+        {
+            "morpheme": "crep-",
+            "ipa": "/kr\u025bp/",
+            "description": "to burst, but suggesting crumbling",
+            "value": 10
+        },
+        {
+            "morpheme": "glac-",
+            "ipa": "/\u0261le\u026as/",
+            "description": "ice, suggesting frozen earth",
+            "value": 11
+        },
+        {
+            "morpheme": "pall-",
+            "ipa": "/p\u00e6l/",
+            "description": "pale, cloak - as in a shroud",
+            "value": 12
+        },
+        {
+            "morpheme": "scor-",
+            "ipa": "/sk\u0254r/",
+            "description": "to dry up, wither",
+            "value": 13
+        },
+        {
+            "morpheme": "somn-",
+            "ipa": "/s\u0252mn/",
+            "description": "sleep",
+            "value": 14
+        },
+        {
+            "morpheme": "vor-",
+            "ipa": "/v\u0254r/",
+            "description": "to devour",
+            "value": 15
+        },
+        {
+            "morpheme": "thol-",
+            "ipa": "/\u03b8o\u028al/",
+            "description": "dome, but suggestive of a mounded grave",
+            "value": 16
+        }
+    ],
+    "water": [
+        {
+            "morpheme": "mar-",
+            "ipa": "/m\u0251r/",
+            "description": "sea",
+            "value": 1
+        },
+        {
+            "morpheme": "abyss-",
+            "ipa": "/\u0259\u02c8b\u026as/",
+            "description": "bottomless depth",
+            "value": 2
+        },
+        {
+            "morpheme": "thalass-",
+            "ipa": "/\u03b8\u0259\u02c8l\u00e6s/",
+            "description": "sea",
+            "value": 3
+        },
+        {
+            "morpheme": "styg-",
+            "ipa": "/st\u026ad\u0292/",
+            "description": "hateful, dark water",
+            "value": 4
+        },
+        {
+            "morpheme": "phag-",
+            "ipa": "/fe\u026ad\u0292/",
+            "description": "to eat, consume - as by the sea",
+            "value": 5
+        },
+        {
+            "morpheme": "lath-",
+            "ipa": "/l\u00e6\u03b8/",
+            "description": "lethargy, forgetfulness - like drowning",
+            "value": 6
+        },
+        {
+            "morpheme": "nym-",
+            "ipa": "/n\u026am/",
+            "description": "related to water nymphs, but distorted",
+            "value": 7
+        },
+        {
+            "morpheme": "byss-",
+            "ipa": "/b\u026as/",
+            "description": "deep, abyss",
+            "value": 8
+        },
+        {
+            "morpheme": "noct-",
+            "ipa": "/n\u0252kt/",
+            "description": "night",
+            "value": 9
+        },
+        {
+            "morpheme": "liqu-",
+            "ipa": "/l\u026akw/",
+            "description": "to flow, but also to dissolve",
+            "value": 10
+        },
+        {
+            "morpheme": "vor-",
+            "ipa": "/v\u0254r/",
+            "description": "to devour",
+            "value": 11
+        },
+        {
+            "morpheme": "crepusc-",
+            "ipa": "/kr\u026a\u02c8p\u028csk/",
+            "description": "twilight, dim light",
+            "value": 12
+        },
+        {
+            "morpheme": "sor-",
+            "ipa": "/s\u0254r/",
+            "description": "to rise in a mass, like a wave",
+            "value": 13
+        },
+        {
+            "morpheme": "psith-",
+            "ipa": "/s\u026a\u03b8/",
+            "description": "whisper, murmur - of hidden currents",
+            "value": 14
+        },
+        {
+            "morpheme": "sten-",
+            "ipa": "/st\u025bn/",
+            "description": "narrow, constricting",
+            "value": 15
+        },
+        {
+            "morpheme": "lachrym-",
+            "ipa": "/\u02c8l\u00e6kr\u026am/",
+            "description": "tear, weeping",
+            "value": 16
+        }
+    ],
+    "fire": [
+        {
+            "morpheme": "pyr-",
+            "ipa": "/pa\u026ar/",
+            "description": "fire",
+            "value": 1
+        },
+        {
+            "morpheme": "cinder-",
+            "ipa": "/\u02c8s\u026and\u0259r/",
+            "description": "ash, ember",
+            "value": 2
+        },
+        {
+            "morpheme": "ign-",
+            "ipa": "/\u026a\u0261n/",
+            "description": "fire",
+            "value": 3
+        },
+        {
+            "morpheme": "phleg-",
+            "ipa": "/fl\u025b\u0261/",
+            "description": "burn, inflammation",
+            "value": 4
+        },
+        {
+            "morpheme": "ust-",
+            "ipa": "/\u028cst/",
+            "description": "burnt",
+            "value": 5
+        },
+        {
+            "morpheme": "calx-",
+            "ipa": "/k\u00e6lks/",
+            "description": "limestone, ash",
+            "value": 6
+        },
+        {
+            "morpheme": "cin-",
+            "ipa": "/s\u026an/",
+            "description": "ash",
+            "value": 7
+        },
+        {
+            "morpheme": "fum-",
+            "ipa": "/fju\u02d0m/",
+            "description": "smoke",
+            "value": 8
+        },
+        {
+            "morpheme": "vac-",
+            "ipa": "/v\u00e6k/",
+            "description": "empty, void",
+            "value": 9
+        },
+        {
+            "morpheme": "van-",
+            "ipa": "/v\u00e6n/",
+            "description": "to vanish",
+            "value": 10
+        },
+        {
+            "morpheme": "necr-",
+            "ipa": "/n\u025bkr/",
+            "description": "death, corpse",
+            "value": 11
+        },
+        {
+            "morpheme": "sabr-",
+            "ipa": "/se\u026abr/",
+            "description": "to rust, corrode - a slow fire",
+            "value": 12
+        },
+        {
+            "morpheme": "scorch-",
+            "ipa": "/sk\u0254rt\u0283/",
+            "description": "to burn superficially",
+            "value": 13
+        },
+        {
+            "morpheme": "tephr-",
+            "ipa": "/t\u025bfr/",
+            "description": "ash, as in tephra from a volcano",
+            "value": 14
+        },
+        {
+            "morpheme": "an-",
+            "ipa": "/\u00e6n/",
+            "description": "without, lacking - as in extinguished",
+            "value": 15
+        },
+        {
+            "morpheme": "phthis-",
+            "ipa": "/\u03b8a\u026as/",
+            "description": "to decay, waste away",
+            "value": 16
+        }
+    ],
+    "air": [
+        {
+            "morpheme": "aer-",
+            "ipa": "/\u025b\u0259r/",
+            "description": "air",
+            "value": 1
+        },
+        {
+            "morpheme": "ether-",
+            "ipa": "/\u02c8i\u02d0\u03b8\u0259r/",
+            "description": "upper air, sky",
+            "value": 2
+        },
+        {
+            "morpheme": "vacu-",
+            "ipa": "/\u02c8v\u00e6kju\u02d0/",
+            "description": "empty",
+            "value": 3
+        },
+        {
+            "morpheme": "vent-",
+            "ipa": "/v\u025bnt/",
+            "description": "wind",
+            "value": 4
+        },
+        {
+            "morpheme": "psych-",
+            "ipa": "/sa\u026ak/",
+            "description": "breath, soul - but a lost soul",
+            "value": 5
+        },
+        {
+            "morpheme": "anim-",
+            "ipa": "/\u00e6n\u026am/",
+            "description": "spirit, breath",
+            "value": 6
+        },
+        {
+            "morpheme": "silent-",
+            "ipa": "/\u02c8sa\u026al\u0259nt/",
+            "description": "silence",
+            "value": 7
+        },
+        {
+            "morpheme": "stell-",
+            "ipa": "/st\u025bl/",
+            "description": "star, suggesting cold, empty space",
+            "value": 8
+        },
+        {
+            "morpheme": "nihil-",
+            "ipa": "/\u02c8na\u026a\u026al/",
+            "description": "nothing",
+            "value": 9
+        },
+        {
+            "morpheme": "van-",
+            "ipa": "/v\u00e6n/",
+            "description": "to vanish, empty",
+            "value": 10
+        },
+        {
+            "morpheme": "hiat-",
+            "ipa": "/ha\u026a\u0259t/",
+            "description": "gap, opening",
+            "value": 11
+        },
+        {
+            "morpheme": "sibil-",
+            "ipa": "/\u02c8s\u026ab\u026al/",
+            "description": "hiss - of a faint, dying wind",
+            "value": 12
+        },
+        {
+            "morpheme": "cyan-",
+            "ipa": "/sa\u026a\u02c8\u00e6n/",
+            "description": "dark blue, suggesting a deep sky",
+            "value": 13
+        },
+        {
+            "morpheme": "aph-",
+            "ipa": "/\u00e6f/",
+            "description": "away from, without - as in aphonic, voiceless",
+            "value": 14
+        },
+        {
+            "morpheme": "pneum-",
+            "ipa": "/nju\u02d0m/",
+            "description": "lung, breath - but breathless",
+            "value": 15
+        },
+        {
+            "morpheme": "leth-",
+            "ipa": "/l\u025b\u03b8/",
+            "description": "forgetfulness, oblivion",
+            "value": 16
+        }
+    ]
+}

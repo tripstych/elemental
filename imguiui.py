@@ -210,9 +210,6 @@ class ImguiUI:
         """Render all active imgui windows"""
         if self.game.show_spell_book:
             self._render_spell_book()
-        if self.game.transmutation_engine.transmute_mode:
-            # Call the transmutation method from render.py
-            self.game.renderer.render_transmutation()
         if self.game.meditate_mode:
             self._render_meditate()
         if self.game.show_drop_menu:
@@ -265,9 +262,9 @@ class ImguiUI:
             imgui.separator()
 
             for key, entry in spell_book.items():
-                comp = entry['composition']
-                name = entry['name']
-                synset = entry['synset']
+                comp = entry.composition
+                name = entry.name
+                synset = entry.synset
 
                 imgui.text(name)
                 imgui.next_column()
@@ -488,393 +485,6 @@ class ImguiUI:
         self.game.meditate_mode = False
         self.reset_selection("meditate")
 
-    def _reset_transmute(self):
-        """Reset all transmutation state"""
-        self._transmute_step = 0
-        self._transmute_item = None
-        self._transmute_solvent = None
-        self._transmute_solvent_amount = 50
-        self._transmute_coagulant = None
-        self._transmute_coagulant_amount = 50
-        self._transmute_pattern = None
-        self.reset_selection("transmute_item")
-        self.reset_selection("transmute_solvent")
-        self.reset_selection("transmute_coagulant")
-        self.reset_selection("transmute_pattern")
-
-    def _render_transmute(self):
-        """Render transmutation mode overlay - full wizard"""
-        imgui.set_next_window_size(700, 500, imgui.FIRST_USE_EVER)
-        imgui.set_next_window_position(
-            SCREEN_WIDTH // 2 - 350, SCREEN_HEIGHT // 2 - 250,
-            imgui.FIRST_USE_EVER
-        )
-
-        expanded, opened = imgui.begin("Transmutation", True)
-        if not opened:
-            self.game.transmutation_engine.transmute_mode = False
-            self._reset_transmute()
-            imgui.end()
-            return
-
-        if not expanded:
-            imgui.end()
-            return
-
-        # Two column layout
-        imgui.columns(2, "transmute_cols", True)
-        imgui.set_column_width(0, 400)
-
-        # Left panel: current step
-        self._render_transmute_left_panel()
-
-        imgui.next_column()
-
-        # Right panel: known essences reference
-        self._render_transmute_right_panel()
-
-        imgui.columns(1)
-
-        # Bottom bar
-        imgui.separator()
-        if imgui.button("Cancel [ESC]"):
-            self.game.transmutation_engine.transmute_mode = False
-            self._reset_transmute()
-
-        # Back button (if not on first step)
-        if self._transmute_step > 0:
-            imgui.same_line()
-            if imgui.button("< Back"):
-                self._transmute_step -= 1
-
-        # Transmute button when ready
-        if self._can_transmute():
-            imgui.same_line(imgui.get_window_width() - 120)
-            if imgui.button("TRANSMUTE!"):
-                self._do_transmute()
-
-        imgui.end()
-
-    def _render_transmute_left_panel(self):
-        """Render the left panel with step-by-step selections"""
-        step_names = ["Select Item", "Select Solvent", "Solvent Amount",
-                      "Select Coagulant", "Coagulant Amount", "Select Pattern"]
-
-        imgui.text_colored(f"Step {self._transmute_step + 1}/6: {step_names[self._transmute_step]}", 0.4, 0.8, 1.0)
-        imgui.text_colored("(UP/DOWN + ENTER, or click)", 0.5, 0.5, 0.5)
-        imgui.separator()
-
-        # Show current selections
-        imgui.text("Current Selections:")
-        if self._transmute_item:
-            imgui.bullet_text(f"Item: {self._transmute_item['name']}")
-            essence = self.game.controller.get_essence_for_item(self._transmute_item)
-            if essence:
-                imgui.same_line()
-                self._render_essence_inline(essence)
-            else:
-                imgui.same_line()
-                imgui.text_colored("(unknown)", 1.0, 0.3, 0.3)
-
-        if self._transmute_solvent:
-            imgui.bullet_text(f"Solvent: {self._transmute_solvent['name']} ({self._transmute_solvent_amount}ml)")
-
-        if self._transmute_coagulant:
-            imgui.bullet_text(f"Coagulant: {self._transmute_coagulant['name']} ({self._transmute_coagulant_amount}ml)")
-
-        if self._transmute_pattern:
-            imgui.bullet_text(f"Pattern: {self._transmute_pattern.name}")
-
-        imgui.spacing()
-        imgui.separator()
-        imgui.spacing()
-
-        # Render current step
-        if self._transmute_step == 0:
-            self._render_transmute_item_step()
-        elif self._transmute_step == 1:
-            self._render_transmute_pattern_step()
-
-    def _render_transmute_item_step(self):
-        """Step 0: Select item to transmute"""
-        imgui.text("Select an item to transmute:")
-        imgui.spacing()
-
-        player = self.game.world.player
-        items = [obj for obj in player.inventory.objects
-                 if not obj.get('is_solvent') and not obj.get('is_coagulant')]
-
-        if not items:
-            imgui.text_colored("No items available!", 0.8, 0.3, 0.3)
-            return
-
-        def select_item(item):
-            self._transmute_item = item
-            self._transmute_step = 1  # Go directly to pattern selection
-            self.reset_selection("transmute_item")
-
-        def label_fn(item, i):
-            essence = self.game.controller.get_essence_for_item(item)
-            if essence:
-                return f"{i+1}. {item['name']}"
-            return f"{i+1}. {item['name']} (?)"
-
-        self._render_selectable_list(
-            list_id="transmute_item",
-            items=items,
-            label_fn=label_fn,
-            on_select=select_item
-        )
-
-    def _render_transmute_solvent_step(self):
-        """Step 1: Select solvent"""
-        imgui.text("Select a solvent:")
-        imgui.spacing()
-
-        player = self.game.world.player
-        solvents = [obj for obj in player.inventory.objects if obj.get('is_solvent')]
-
-        if not solvents:
-            imgui.text_colored("No solvents in inventory!", 0.8, 0.3, 0.3)
-            return
-
-        def select_solvent(solvent):
-            self._transmute_solvent = solvent
-            self._transmute_solvent_amount = min(50, solvent.get('quantity', 0))
-            self._transmute_step = 2
-            self.reset_selection("transmute_solvent")
-
-        self._render_selectable_list(
-            list_id="transmute_solvent",
-            items=solvents,
-            label_fn=lambda obj, i: f"{obj['name']} ({obj.get('quantity', 0)}ml)",
-            on_select=select_solvent
-        )
-
-    def calculate_required_amounts(self, target_pattern):
-        """Calculate required essence amounts for target transmutation using weight-based system"""
-        if not target_pattern or not self._transmute_item:
-            return None, None, None, None, "No source item selected"
-        
-        # Use the new cost calculation system
-        cost, target_weight, solvent, coagulant, error = self.game.calculate_transmute_cost(self._transmute_item, target_pattern)
-        
-        if error:
-            return None, None, None, None, error
-        
-        # Return cost as essence requirements
-        return cost, target_weight, None, None, None
-
-    def _render_transmute_solvent_amount_step(self):
-        """Step 2: Set solvent amount"""
-        if not self._transmute_solvent:
-            return
-
-        max_amt = self._transmute_solvent.get('quantity', 0)
-        imgui.text(f"Select solvent amount (max {max_amt}ml):")
-        imgui.spacing()
-
-        changed, self._transmute_solvent_amount = imgui.slider_int(
-            "##solvent_amt", self._transmute_solvent_amount, 1, max_amt,
-            f"{self._transmute_solvent_amount}ml"
-        )
-
-        # Quick buttons
-        imgui.spacing()
-        if imgui.button("25ml"):
-            self._transmute_solvent_amount = min(25, max_amt)
-        imgui.same_line()
-        if imgui.button("50ml"):
-            self._transmute_solvent_amount = min(50, max_amt)
-        imgui.same_line()
-        if imgui.button("100ml"):
-            self._transmute_solvent_amount = min(100, max_amt)
-        imgui.same_line()
-        if imgui.button("Max"):
-            self._transmute_solvent_amount = max_amt
-
-        imgui.spacing()
-        if imgui.button("Confirm Amount") or imgui.is_key_pressed(imgui.KEY_ENTER):
-            self._transmute_step = 3
-
-    def _render_transmute_coagulant_step(self):
-        """Step 3: Select coagulant"""
-        imgui.text("Select a coagulant:")
-        imgui.spacing()
-
-        player = self.game.world.player
-        coagulants = [obj for obj in player.inventory.objects if obj.get('is_coagulant')]
-
-        if not coagulants:
-            imgui.text_colored("No coagulants in inventory!", 0.8, 0.3, 0.3)
-            return
-
-        def select_coagulant(coag):
-            self._transmute_coagulant = coag
-            self._transmute_coagulant_amount = min(50, coag.get('quantity', 0))
-            self._transmute_step = 4
-            self.reset_selection("transmute_coagulant")
-
-        self._render_selectable_list(
-            list_id="transmute_coagulant",
-            items=coagulants,
-            label_fn=lambda obj, i: f"{obj['name']} ({obj.get('quantity', 0)}ml)",
-            on_select=select_coagulant
-        )
-
-    def _render_transmute_coagulant_amount_step(self):
-        """Step 4: Set coagulant amount"""
-        if not self._transmute_coagulant:
-            return
-
-        max_amt = self._transmute_coagulant.get('quantity', 0)
-        imgui.text(f"Select coagulant amount (max {max_amt}ml):")
-        imgui.spacing()
-
-        changed, self._transmute_coagulant_amount = imgui.slider_int(
-            "##coag_amt", self._transmute_coagulant_amount, 1, max_amt,
-            f"{self._transmute_coagulant_amount}ml"
-        )
-
-        imgui.spacing()
-        if imgui.button("25ml##c"):
-            self._transmute_coagulant_amount = min(25, max_amt)
-        imgui.same_line()
-        if imgui.button("50ml##c"):
-            self._transmute_coagulant_amount = min(50, max_amt)
-        imgui.same_line()
-        if imgui.button("100ml##c"):
-            self._transmute_coagulant_amount = min(100, max_amt)
-        imgui.same_line()
-        if imgui.button("Max##c"):
-            self._transmute_coagulant_amount = max_amt
-
-        imgui.spacing()
-        if imgui.button("Confirm Amount##c") or imgui.is_key_pressed(imgui.KEY_ENTER):
-            self._transmute_step = 5
-
-    def _render_transmute_pattern_step(self):
-        """Step 5: Select target pattern from spell book"""
-        imgui.text("Select target pattern from known essences:")
-        imgui.spacing()
-
-        patterns = self.game.controller.get_known_essences()
-        if not patterns:
-            imgui.text_colored("No patterns known!", 0.8, 0.3, 0.3)
-            imgui.text("Meditate (Q) on items first.")
-            return
-
-        def select_pattern(pattern):
-            self._transmute_pattern = pattern
-            self.reset_selection("transmute_pattern")
-            
-            # Calculate transmutation cost using new system
-            cost, target_weight, solvent, coagulant, error = self.calculate_required_amounts(pattern)
-            
-            if error:
-                self._transmute_solvent = None
-                self._transmute_coagulant = None
-                self.game.add_message(f"Cannot transmute: {error}")
-            elif cost:
-                # Convert essence cost to display format
-                self._transmute_solvent_amount = sum(cost.values())
-                self._transmute_coagulant_amount = 0
-                self._transmute_solvent = {'name': 'Essence Cost', 'quantity': 999}
-                self._transmute_coagulant = None
-            else:
-                self._transmute_solvent = None
-                self._transmute_coagulant = None
-
-        def label_fn(entry, i):
-            return entry.name
-
-        self._render_selectable_list(
-            list_id="transmute_pattern",
-            items=patterns,
-            label_fn=label_fn,
-            on_select=select_pattern
-        )
-
-        # Show essence composition for selected pattern
-        if self._transmute_pattern:
-            imgui.spacing()
-            imgui.text("Target essence:")
-            imgui.same_line()
-            self._render_essence_inline(self._transmute_pattern.composition)
-            
-            # Show automatically calculated amounts
-            imgui.spacing()
-            imgui.separator()
-            imgui.text_colored("Automatically calculated amounts:", 0.4, 0.8, 1.0)
-            
-            if self._transmute_solvent and self._transmute_solvent['name'] == 'Essence Cost':
-                imgui.bullet_text(f"Essence Cost: {self._transmute_solvent_amount:.1f} total")
-                
-                # Show individual essence costs if available
-                cost, target_weight, _, _, error = self.calculate_required_amounts(self._transmute_pattern)
-                if cost:
-                    for element, amount in cost.items():
-                        imgui.bullet_text(f"  {element.capitalize()}: {amount:.1f}")
-            else:
-                imgui.text_colored("No suitable materials available", 0.8, 0.3, 0.3)
-            
-            imgui.spacing()
-            if self._can_transmute():
-                if imgui.button("Execute Transmutation") or imgui.is_key_pressed(imgui.KEY_ENTER):
-                    self._do_transmute()
-            else:
-                imgui.text_colored("Cannot execute - missing required materials", 0.8, 0.3, 0.3)
-
-    def _render_transmute_right_panel(self):
-        """Render the right panel with known essences reference"""
-        imgui.text_colored("Known Essences (Reference)", 0.8, 0.4, 1.0)
-        imgui.separator()
-
-        known = self.game.controller.get_known_essences()
-        if not known:
-            imgui.text_colored("No essences known!", 0.5, 0.5, 0.5)
-            imgui.text("Meditate (Q) on items")
-            imgui.text("to learn their essence.")
-            return
-
-        # Table
-        imgui.columns(5, "essence_ref_table", True)
-        imgui.set_column_width(0, 100)
-        imgui.set_column_width(1, 35)
-        imgui.set_column_width(2, 35)
-        imgui.set_column_width(3, 35)
-        imgui.set_column_width(4, 35)
-
-        imgui.text("Name")
-        imgui.next_column()
-        imgui.text_colored("F", 1.0, 0.4, 0.2)
-        imgui.next_column()
-        imgui.text_colored("W", 0.2, 0.6, 1.0)
-        imgui.next_column()
-        imgui.text_colored("E", 0.6, 0.4, 0.2)
-        imgui.next_column()
-        imgui.text_colored("A", 0.7, 0.7, 1.0)
-        imgui.next_column()
-
-        imgui.separator()
-
-        for entry in known:
-            comp = entry.composition
-            name = entry.name[:12] + ".." if len(entry.name) > 12 else entry.name
-
-            imgui.text(name)
-            imgui.next_column()
-            imgui.text_colored(str(comp.get('fire', 0)), 1.0, 0.4, 0.2)
-            imgui.next_column()
-            imgui.text_colored(str(comp.get('water', 0)), 0.2, 0.6, 1.0)
-            imgui.next_column()
-            imgui.text_colored(str(comp.get('earth', 0)), 0.6, 0.4, 0.2)
-            imgui.next_column()
-            imgui.text_colored(str(comp.get('air', 0)), 0.7, 0.7, 1.0)
-            imgui.next_column()
-
-        imgui.columns(1)
-
     def _render_essence_inline(self, comp):
         """Render essence values inline with colors"""
         imgui.text_colored(f"F:{comp.get('fire', 0)}", 1.0, 0.4, 0.2)
@@ -884,28 +494,6 @@ class ImguiUI:
         imgui.text_colored(f"E:{comp.get('earth', 0)}", 0.6, 0.4, 0.2)
         imgui.same_line()
         imgui.text_colored(f"A:{comp.get('air', 0)}", 0.7, 0.7, 1.0)
-
-    def _can_transmute(self):
-        """Check if all selections are complete"""
-        return (self._transmute_item is not None and
-                self._transmute_solvent is not None and
-                self._transmute_coagulant is not None and
-                self._transmute_pattern is not None)
-
-    def _do_transmute(self):
-        """Execute the transmutation"""
-        result = self.game.controller.transmute(
-            item=self._transmute_item,
-            solvent=self._transmute_solvent,
-            solvent_amount=self._transmute_solvent_amount,
-            coagulant=self._transmute_coagulant,
-            coagulant_amount=self._transmute_coagulant_amount,
-            pattern=self._transmute_pattern
-        )
-
-        self.game.add_message(result.message)
-        self.game.transmutation_engine.transmute_mode = False
-        self._reset_transmute()
 
     # =========================================================================
     # SPELL SPEAKING MODE
@@ -935,7 +523,7 @@ class ImguiUI:
 
     def _render_speak_spell(self):
         """Render the spell speaking interface"""
-        imgui.set_next_window_size(800, 550, imgui.FIRST_USE_EVER)
+        imgui.set_next_window_size(800, 650, imgui.FIRST_USE_EVER)
         imgui.set_next_window_position(
             SCREEN_WIDTH // 2 - 400, SCREEN_HEIGHT // 2 - 275,
             imgui.FIRST_USE_EVER
@@ -981,9 +569,9 @@ class ImguiUI:
                 self._speak_step = 0
                 self._speak_phrase = ""
 
-        # Cast button
+        # Cast buttn
         if self._speak_item and self._speak_phrase.strip():
-            imgui.same_line(imgui.get_window_width() - 150)
+            imgui.same_line(imgui.get_window_width() - 250)
             if imgui.button("SPEAK SPELL!"):
                 self._do_speak_spell()
 
