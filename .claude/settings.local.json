@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(pip show:*)",
-      "Bash(pip install:*)"
+      "Bash(pip install:*)",
+      "Bash(git -C \"f:\\\\elemental\" log --oneline -20)",
+      "Bash(git -C \"f:\\\\elemental\" status)",
+      "Bash(wc:*)",
+      "Bash(grep:*)"
     ]
   }
 }

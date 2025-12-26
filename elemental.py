@@ -26,7 +26,6 @@ from seed.pathfinding import Pathfinder
 
 # Import from the original game
 from game import GameWorld
-from game_api import GameSession, GameAPIClient
 
 from render import Render
 
@@ -125,9 +124,9 @@ class ElementalGame:
             m.stats.defense = int(6 * TOUGHNESS)
         self.world.scatter_items(20)
         
-        # Spawn solvents and coagulants throughout the dungeon
-        self.spawn_solvents(SPAWN_SOLVENTS)
-        self.spawn_coagulants(SPAWN_COAGULANTS)
+        # Spawn solvents and coagulants throughout the dungeon (via controller)
+        self.controller.spawn_solvents(SPAWN_SOLVENTS)
+        self.controller.spawn_coagulants(SPAWN_COAGULANTS)
 
         # Initialize pathfinding
         self.pathfinder = Pathfinder(
@@ -172,15 +171,13 @@ class ElementalGame:
         # Autotarget mode - auto-targets nearest enemy for attacks/spells
         self.autotarget_mode = False
 
-        # Spell book - records meditated items with their essence
-        self.spell_book = {}
+        # Initialize spell book with basic spells (single source of truth in controller)
+        from core.alchemy import SpellBookEntry
         basic_spells = ['fireball.n.01', 'heal.v.01', 'shield.n.01']
-        
+
         for synset_id in basic_spells:
             if synset_id in self.world.spells:
                 spell_data = self.world.spells[synset_id]
-                # Add to controller's spell book as castable spells
-                from core.alchemy import SpellBookEntry
                 entry = SpellBookEntry(
                     name=spell_data['definition'],
                     synset=synset_id,
@@ -192,17 +189,6 @@ class ElementalGame:
                     power=1.0
                 )
                 self.controller.alchemy.spell_book[synset_id] = entry
-                # Also add to game's spell book for compatibility
-                self.spell_book[synset_id] = {
-                    'name': spell_data['definition'],
-                    'synset': synset_id,
-                    'definition': spell_data['definition'],
-                    'composition': spell_data['composition'],
-                    'type': 'spell',
-                    'castable': True,
-                    'spell_effect': spell_data.get('spell_effect'),
-                    'word': spell_data.get('word')
-                }  # {synset: {name, synset, composition, definition}}
 
         # Meditation mode
         self.meditate_mode = False
@@ -253,6 +239,11 @@ class ElementalGame:
         self.add_message("Q=Meditate, G=Coagulate, B=Spell Book, I=Inventory")
         self.add_message("1=Fireball, 2=Heal")
     
+    @property
+    def spell_book(self):
+        """Access spell book through controller (single source of truth)"""
+        return self.controller.alchemy.spell_book
+
     def add_message(self, msg: str):
         """Add a message to the log"""
         self.messages.append(msg)
@@ -286,98 +277,6 @@ class ElementalGame:
                 'actions': self.action_log
             }, f, indent=2)
     
-    def spawn_solvents(self, count: int):
-        """Spawn solvent items in the dungeon with random vial sizes"""
-        solvent_keys = list(SOLVENTS.keys())
-
-        # Weighted vial size distribution (smaller vials more common)
-        vial_weights = [
-            ("tiny", 30),
-            ("small", 35),
-            ("medium", 20),
-            ("large", 10),
-            ("grand", 5),
-        ]
-        vial_pool = []
-        for vial_key, weight in vial_weights:
-            vial_pool.extend([vial_key] * weight)
-
-        floors = (self.world.dungeon.find_positions(DungeonGenerator.ROOM_FLOOR) +
-                  self.world.dungeon.find_positions(DungeonGenerator.CORRIDOR))
-
-        for _ in range(count):
-            if not floors:
-                break
-            pos = random.choice(floors)
-            solvent_key = random.choice(solvent_keys)
-            vial_key = random.choice(vial_pool)
-
-            solvent_data = SOLVENTS[solvent_key]
-            vial_data = VIAL_SIZES[vial_key]
-
-            # Create solvent item with quantity
-            solvent_item = {
-                'name': f"{vial_data['name']} of {solvent_data['name']}",
-                'type': 'solvent',
-                'is_solvent': True,
-                'solvent_type': solvent_key,
-                'vial_size': vial_key,
-                'quantity': vial_data['volume'],
-                'max_quantity': vial_data['volume'],
-                'description': f"{solvent_data['description']} ({vial_data['volume']}ml)",
-                'weight': vial_data['weight'],
-            }
-
-            if pos not in self.world.items_on_ground:
-                self.world.items_on_ground[pos] = []
-            self.world.items_on_ground[pos].append(solvent_item)
-
-    def spawn_coagulants(self, count: int):
-        """Spawn coagulant items in the dungeon with random vial sizes"""
-        coagulant_keys = list(COAGULANTS.keys())
-
-        # Weighted vial size distribution (smaller vials more common)
-        vial_weights = [
-            ("tiny", 30),
-            ("small", 35),
-            ("medium", 20),
-            ("large", 10),
-            ("grand", 5),
-        ]
-        vial_pool = []
-        for vial_key, weight in vial_weights:
-            vial_pool.extend([vial_key] * weight)
-
-        floors = (self.world.dungeon.find_positions(DungeonGenerator.ROOM_FLOOR) +
-                  self.world.dungeon.find_positions(DungeonGenerator.CORRIDOR))
-
-        for _ in range(count):
-            if not floors:
-                break
-            pos = random.choice(floors)
-            coagulant_key = random.choice(coagulant_keys)
-            vial_key = random.choice(vial_pool)
-
-            coagulant_data = COAGULANTS[coagulant_key]
-            vial_data = VIAL_SIZES[vial_key]
-
-            # Create coagulant item with quantity
-            coagulant_item = {
-                'name': f"{vial_data['name']} of {coagulant_data['name']}",
-                'type': 'coagulant',
-                'is_coagulant': True,
-                'coagulant_type': coagulant_key,
-                'vial_size': vial_key,
-                'quantity': vial_data['volume'],
-                'max_quantity': vial_data['volume'],
-                'description': f"{coagulant_data['description']} ({vial_data['volume']}ml)",
-                'weight': vial_data['weight'],
-            }
-
-            if pos not in self.world.items_on_ground:
-                self.world.items_on_ground[pos] = []
-            self.world.items_on_ground[pos].append(coagulant_item)
-
     def update_camera(self):
         """Center camera on player"""
         player = self.world.player
@@ -492,7 +391,7 @@ class ElementalGame:
         if event.key == pygame.K_b:
             self.show_spell_book = not self.show_spell_book
             if self.show_spell_book:
-                self.add_message(f"Spell Book: {len(self.spell_book)} entries (B to close)")
+                self.add_message(f"Spell Book: {len(self.controller.alchemy.spell_book)} entries (B to close)")
 
         # Toggle inventory view with 'I'
         if event.key == pygame.K_i:
@@ -684,83 +583,47 @@ class ElementalGame:
     def meditate_on_item(self, index: int):
         """Meditate on an inventory item to record it in the spell book"""
         player = self.world.player
-        
+
         # Find item by actual inventory index, not filtered position
         target_item = None
         for obj in player.inventory.objects:
             if obj.get('index') == index and not obj.get('is_solvent'):
                 target_item = obj
                 break
-        
+
         if not target_item:
             self.add_message("No meditate-able item at that slot!")
             return
-        
+
         self.add_message(f"Meditating on: {target_item['name']}")
 
-        # Check if item has a synset (from WordNet database)
-        synset = target_item.get('synset')
-        if not synset:
-            self.add_message(f"Cannot meditate on {target_item['name']} - no essence pattern!")
-            self.meditate_mode = False
-            return
+        # Delegate to controller
+        result = self.controller.meditate(target_item)
 
-        # Calculate essence composition based on item type/material
-        item_type = target_item.get('type', 'default')
-        base_essence = MATERIAL_ESSENCES.get(item_type, MATERIAL_ESSENCES['default'])
-
-        # Create spell book entry
-        entry = {
-            'name': target_item['name'],
-            'synset': synset,
-            'definition': target_item.get('definition', 'Unknown'),
-            'composition': base_essence.copy(),
-            'type': item_type,
-        }
-
-        # Check if already in spell book
-        if synset in self.spell_book:
-            self.add_message(f"'{target_item['name']}' is already in your Spell Book!")
-        else:
-            self.spell_book[synset] = entry
-            essence_str = ", ".join(f"{e[0].upper()}:{v}" for e, v in base_essence.items())
-            self.add_message(f"Recorded '{target_item['name']}' to Spell Book!")
-            self.add_message(f"Essence: {essence_str}")
+        if result.success:
             self.log_action('meditate', {
                 'item': target_item['name'],
-                'synset': synset,
-                'essence': base_essence
+                'synset': target_item.get('synset'),
+                'essence': result.data.get('composition', {})
             })
 
         self.meditate_mode = False
 
     def drop_item(self, index: int):
         """Drop an inventory item to the ground"""
-        player = self.world.player
-        items = player.inventory.objects
+        # Delegate to controller
+        result = self.controller.drop_item(index)
 
-        if index >= len(items):
-            self.add_message("No item at that slot!")
-            return
+        if result.success:
+            self.add_message(f"Dropped {result.data['item']['name']} on the ground")
+            self.log_action('drop_item', {
+                'item': result.data['item']['name'],
+                'position': result.data['position']
+            })
+        else:
+            self.add_message(result.message)
 
-        item = items[index]
-        
-        # Remove item from inventory
-        player.inventory.objects.pop(index)
-        
-        # Add item to ground at player position
-        player_pos = (player.x, player.y)
-        if player_pos not in self.world.items_on_ground:
-            self.world.items_on_ground[player_pos] = []
-        self.world.items_on_ground[player_pos].append(item)
-        
-        self.add_message(f"Dropped {item['name']} on the ground")
         self.show_drop_menu = False
-        
-        self.log_action('drop_item', {
-            'item': item['name'],
-            'position': player_pos
-        })
 
     def find_nearest_enemy_in_range(self, max_range: float, require_los: bool = True):
         """Find the nearest living enemy within range, optionally requiring line of sight"""
@@ -1099,43 +962,34 @@ class ElementalGame:
     
     def try_move(self, dx: int, dy: int) -> bool:
         """Try to move player in direction"""
-        player = self.world.player
-        new_x = player.x + dx
-        new_y = player.y + dy
-        direction = {(0,-1): 'n', (0,1): 's', (1,0): 'e', (-1,0): 'w'}.get((dx, dy), '?')
-        
-        # Check for entity blocking movement
-        entity = self.world.get_entity_at(new_x, new_y)
-        if entity and entity != player:
-            # Can't walk through entities - they're like walls
+        # Delegate to controller
+        result = self.controller.move_player(dx, dy)
+
+        if not result.success:
             return False
-        
-        # Check walkable
-        if not self.world.is_walkable(new_x, new_y):
-            return False
-        
-        # Move
-        player.x = new_x
-        player.y = new_y
+
+        # UI-specific updates
         self.turn += 1
-        self.log_action('move', {'direction': direction, 'to': f"({new_x},{new_y})"})
-        
+        self.log_action('move', {
+            'direction': result.data.get('direction', '?'),
+            'to': f"({result.data['x']},{result.data['y']})"
+        })
+
         # Update camera to follow player
         self.update_camera()
-        
+
         # Check for items
-        pos = (new_x, new_y)
-        if pos in self.world.items_on_ground and self.world.items_on_ground[pos]:
-            items = self.world.items_on_ground[pos]
-            if len(items) == 1:
-                self.add_message(f"You see a {items[0]['name']} here. (E to pickup)")
+        items_here = result.data.get('items_here', [])
+        if items_here:
+            if len(items_here) == 1:
+                self.add_message(f"You see a {items_here[0]['name']} here. (E to pickup)")
             else:
-                self.add_message(f"You see {len(items)} items here. (E to pickup)")
-        
+                self.add_message(f"You see {len(items_here)} items here. (E to pickup)")
+
         # Check for exit
-        if self.world.dungeon.grid[new_y, new_x] == DungeonGenerator.EXIT:
+        if result.data.get('is_exit'):
             self.add_message("You found the exit! (Next level coming soon)")
-        
+
         return True
     
     def do_attack(self):
@@ -1205,55 +1059,37 @@ class ElementalGame:
 
     def perform_melee_attack(self, target):
         """Perform a melee attack on target"""
-        player = self.world.player
-        result = player.attack(target)
+        # Delegate to controller
+        result = self.controller.attack(target)
 
-        if result['success']:
-            # Determine direction for logging
-            dx = target.x - player.x
-            dy = target.y - player.y
-            direction = {(0,-1):'n', (1,-1):'ne', (1,0):'e', (1,1):'se',
-                        (0,1):'s', (-1,1):'sw', (-1,0):'w', (-1,-1):'nw'}.get((dx, dy), '?')
+        if result.success:
             rel_pos = self.get_relative_pos(target.x, target.y)
 
-            self.add_message(f"You hit {target.name} {rel_pos} for {result['damage']} damage!")
+            self.add_message(f"You hit {target.name} {rel_pos} for {result.data['damage']} damage!")
             self.turn += 1
             self.log_action('attack', {
                 'target': target.name,
-                'direction': direction,
-                'damage': result['damage'],
-                'target_hp': f"{target.stats.current_health}/{target.stats.max_health}",
-                'killed': not result['target_alive']
+                'direction': result.data.get('direction', '?'),
+                'damage': result.data['damage'],
+                'target_hp': result.data.get('target_hp', ''),
+                'killed': result.data.get('killed', False)
             })
-            if not result['target_alive']:
+            if result.data.get('killed'):
                 self.add_message(f"{target.name} is defeated!")
                 self.drop_monster_loot(target)
     
     def do_pickup(self):
         """Pick up items at player's feet"""
-        player = self.world.player
-        pos = (player.x, player.y)
-        
-        if pos not in self.world.items_on_ground or not self.world.items_on_ground[pos]:
-            self.add_message("Nothing here to pick up.")
-            return
-        
-        items = self.world.items_on_ground[pos]
-        picked = []
-        for item in items[:]:
-            if player.inventory.add_object(item):
-                items.remove(item)
-                picked.append(item['name'])
+        # Delegate to controller
+        result = self.controller.pickup_item()
+
+        if result.success:
+            picked = result.data.get('items', [])
+            for item in picked:
                 self.add_message(f"Picked up {item['name']}")
-            else:
-                self.add_message("Inventory full!")
-                break
-        
-        if picked:
-            self.log_action('pickup', {'items': picked})
-        
-        if not items:
-            del self.world.items_on_ground[pos]
+            self.log_action('pickup', {'items': [i['name'] for i in picked]})
+        else:
+            self.add_message(result.message)
             
     def do_dropitem(self):
         """Toggle drop item mode"""
@@ -1325,51 +1161,26 @@ class ElementalGame:
             return
 
         player = self.world.player
-        inv = player.inventory
 
-        # Get solvent properties
-        solvent_key = self.selected_solvent.get('solvent_type', 'alkahest')
-        solvent_data = SOLVENTS.get(solvent_key, SOLVENTS['alkahest'])
+        # Delegate to controller
+        result = self.controller.dissolve(
+            item=self.selected_item,
+            solvent=self.selected_solvent,
+            amount=10  # Standard extraction amount
+        )
 
-        # Check solvent has enough quantity (10ml per extraction)
-        solvent_cost = 10
-        current_qty = self.selected_solvent.get('quantity', 0)
-        if current_qty < solvent_cost:
-            self.add_message(f"Not enough solvent! Need {solvent_cost}ml, have {current_qty}ml")
-            self.selected_item = None
-            self.selected_solvent = None
-            return
+        if result.success:
+            # Add extracted essence to player inventory
+            extracted = result.data.get('extracted', {})
+            for elem, amount in extracted.items():
+                player.inventory.add_essence(elem, amount)
 
-        # Get item's material essence
-        item_type = self.selected_item.get('type', 'default')
-        base_essence = MATERIAL_ESSENCES.get(item_type, MATERIAL_ESSENCES['default'])
-
-        # Extract essences based on solvent affinity
-        extracted = {}
-        for elem in solvent_data['extracts']:
-            amount = base_essence.get(elem, 10) * solvent_data['strength']
-            extracted[elem] = amount
-            inv.add_essence(elem, amount)
-
-        # Consume solvent quantity (not the item!)
-        self.selected_solvent['quantity'] -= solvent_cost
-
-        # Remove empty solvent containers
-        if self.selected_solvent['quantity'] <= 0:
-            inv.objects.remove(self.selected_solvent)
-            self.add_message(f"{self.selected_solvent['name']} is now empty!")
-
-        # Report results
-        extracted_str = ", ".join(f"{elem[:1].upper()}:{int(amount)}" for elem, amount in extracted.items())
-        remaining = self.selected_solvent.get('quantity', 0)
-        self.add_message(f"Extracted essence from {self.selected_item['name']}!")
-        self.add_message(f"Got: {extracted_str} (used {solvent_cost}ml, {remaining}ml left)")
-        self.log_action('extract', {
-            'item': self.selected_item['name'],
-            'solvent': self.selected_solvent['name'],
-            'solvent_used': solvent_cost,
-            'extracted': extracted
-        })
+            self.log_action('extract', {
+                'item': self.selected_item['name'],
+                'solvent': self.selected_solvent['name'],
+                'solvent_used': result.data.get('solvent_consumed', 10),
+                'extracted': extracted
+            })
 
         self.selected_item = None
         self.selected_solvent = None
@@ -1395,46 +1206,26 @@ class ElementalGame:
     
     def monster_turns(self):
         """Process monster AI"""
-        player = self.world.player
-        
-        for monster in self.world.monsters:
-            if not monster.stats.is_alive():
-                continue
-            
-            dist = monster.distance_to(player)
-            
-            # If adjacent, attack
-            if dist <= 1.5:
-                result = monster.attack(player)
-                if result['success']:
-                    self.add_message(f"{monster.name} hits you for {result['damage']} damage!")
-                    if not player.stats.is_alive():
-                        self.add_message("You have died! Press any key to respawn.")
-            
-            # If close, move toward player
-            elif dist < 10:
-                dx = 1 if player.x > monster.x else -1 if player.x < monster.x else 0
-                dy = 1 if player.y > monster.y else -1 if player.y < monster.y else 0
-                
-                new_x, new_y = monster.x + dx, monster.y + dy
-                
-                # Check if position is walkable and not blocked by any entity
-                if self.world.is_walkable(new_x, new_y):
-                    blocking_entity = self.world.get_entity_at(new_x, new_y)
-                    if not blocking_entity:
-                        monster.x = new_x
-                        monster.y = new_y
+        # Delegate to controller
+        results = self.controller.process_monster_turns()
+
+        # Handle UI messages for monster actions
+        for result in results:
+            if result.success:
+                self.add_message(result.message)
+                if not result.data.get('player_alive', True):
+                    self.add_message("You have died! Press any key to respawn.")
     
     def save_game(self, filename: str = None):
         """Save game state to file"""
         if filename is None:
             timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
             filename = f"savegame_{timestamp}.json"
-        
-        # Save controller's spell book too
-        controller_spell_book = {}
+
+        # Serialize spell book from controller (single source of truth)
+        spell_book_data = {}
         for synset, entry in self.controller.alchemy.spell_book.items():
-            controller_spell_book[synset] = {
+            spell_book_data[synset] = {
                 'name': entry.name,
                 'synset': entry.synset,
                 'definition': entry.definition,
@@ -1444,9 +1235,9 @@ class ElementalGame:
                 'spell_effect': entry.spell_effect,
                 'power': entry.power
             }
-        
+
         save_data = {
-            'version': '1.0',
+            'version': '1.1',  # Bumped version for new format
             'timestamp': datetime.now().isoformat(),
             'player': {
                 'name': self.world.player.name,
@@ -1471,8 +1262,7 @@ class ElementalGame:
                 'essences': self.world.player.inventory.essences,
                 'grimoire': list(self.world.player.inventory.grimoire)
             },
-            'spell_book': self.spell_book,
-            'controller_spell_book': controller_spell_book,
+            'spell_book': spell_book_data,
             'world': {
                 'dungeon_seed': self.world.dungeon.seed,
                 'turn': self.turn,
@@ -1483,9 +1273,9 @@ class ElementalGame:
                 'paused': self.paused,
                 'show_full_map': self.show_full_map,
                 'show_spell_book': self.show_spell_book,
-                'transmute_mode': self.transmute_mode,
+                'transmute_mode': self.transmutation_engine.transmute_mode,
                 'meditate_mode': self.meditate_mode,
-                'messages': self.messages[-20:]  # Save last 20 messages
+                'messages': self.messages[-20:]
             }
         }
         
@@ -1504,7 +1294,7 @@ class ElementalGame:
         try:
             with open(filename, 'r') as f:
                 save_data = json.load(f)
-            
+
             # Restore player stats and position
             player = self.world.player
             player.name = save_data['player']['name']
@@ -1512,7 +1302,7 @@ class ElementalGame:
             player.y = save_data['player']['y']
             player.level = save_data['player']['level']
             player.experience = save_data['player']['experience']
-            
+
             stats = save_data['player']['stats']
             player.stats.max_health = stats['max_health']
             player.stats.current_health = stats['current_health']
@@ -1520,36 +1310,36 @@ class ElementalGame:
             player.stats.current_stamina = stats['current_stamina']
             player.stats.strength = stats['strength']
             player.stats.magic_power = stats['magic_power']
-            
+
             # Restore inventory-specific properties
             if 'inventory' in save_data['player'] and 'max_essence' in save_data['player']['inventory']:
                 player.inventory.max_essence = save_data['player']['inventory']['max_essence']
-            
+
             # Restore inventory
             player.inventory.objects = save_data['inventory']['objects']
             player.inventory.essences = save_data['inventory']['essences']
             player.inventory.grimoire = set(save_data['inventory']['grimoire'])
-            
-            # Restore spell book
-            self.spell_book = save_data['spell_book']
-            
-            # Restore controller's spell book
-            if 'controller_spell_book' in save_data:
-                self.controller.alchemy.spell_book.clear()
-                for synset, entry_data in save_data['controller_spell_book'].items():
-                    from core.alchemy import SpellBookEntry
-                    entry = SpellBookEntry(
-                        name=entry_data['name'],
-                        synset=entry_data['synset'],
-                        definition=entry_data['definition'],
-                        composition=entry_data['composition'],
-                        item_type=entry_data['item_type'],
-                        castable=entry_data.get('castable', False),
-                        spell_effect=entry_data.get('spell_effect'),
-                        power=entry_data.get('power', 0.0)
-                    )
-                    self.controller.alchemy.spell_book[synset] = entry
-            
+
+            # Restore spell book (single source of truth in controller)
+            from core.alchemy import SpellBookEntry
+            self.controller.alchemy.spell_book.clear()
+
+            # Handle both old format (controller_spell_book) and new format (spell_book)
+            spell_book_data = save_data.get('controller_spell_book') or save_data.get('spell_book', {})
+            for synset, entry_data in spell_book_data.items():
+                # Handle both SpellBookEntry format and old dict format
+                entry = SpellBookEntry(
+                    name=entry_data.get('name', 'Unknown'),
+                    synset=entry_data.get('synset', synset),
+                    definition=entry_data.get('definition', ''),
+                    composition=entry_data.get('composition', {}),
+                    item_type=entry_data.get('item_type', entry_data.get('type', 'misc')),
+                    castable=entry_data.get('castable', False),
+                    spell_effect=entry_data.get('spell_effect'),
+                    power=entry_data.get('power', 1.0)
+                )
+                self.controller.alchemy.spell_book[synset] = entry
+
             # Restore world state
             self.turn = save_data['world']['turn']
             # Convert string keys back to tuples for items_on_ground
@@ -1557,84 +1347,39 @@ class ElementalGame:
             for pos_str, items in save_data['world']['items_on_ground'].items():
                 pos = eval(pos_str)  # Convert string back to tuple
                 self.world.items_on_ground[pos] = items
-            
+
             # Restore game state
             game_state = save_data['game_state']
             self.running = game_state['running']
             self.paused = game_state['paused']
             self.show_full_map = game_state['show_full_map']
             self.show_spell_book = game_state['show_spell_book']
-            self.transmute_mode = game_state['transmute_mode']
+            self.transmutation_engine.transmute_mode = game_state.get('transmute_mode', False)
             self.meditate_mode = game_state['meditate_mode']
             self.messages = game_state['messages']
-            
+
             # Update camera
             self.update_camera()
-            
+
             self.add_message(f"Game loaded from {filename}")
             self.log_action('load', {'filename': filename})
             return True
-            
+
         except Exception as e:
             self.add_message(f"Failed to load: {e}")
+            traceback.print_exc()
             return False
 
     def calculate_transmute_cost(self, source_item, target_pattern):
         """Calculate if transmutation is possible based on weight and essence constraints"""
-        player = self.world.player
-        
-        # Get source item weight
-        source_weight = source_item.get('weight', 0)
-        
-        # Find target object weight from game objects database
-        target_weight = 0
-        target_material = None
-        
-        # Check if this is a spell (castable) or object pattern
-        if hasattr(target_pattern, 'castable') and target_pattern.castable:
-            # For spells, use fixed weight property or default to 1g
-            target_weight = getattr(target_pattern, 'weight', 1.0)
-        else:
-            # For objects, look up physical weight
-            for obj in self.world.game_objects:
-                if obj.get('synset') == target_pattern.synset:
-                    target_weight = obj.get('weight', 0)
-                    target_material = obj.get('material', None)
-                    break
-        
-        if target_weight == 0 and not (hasattr(target_pattern, 'castable') and target_pattern.castable):
-            return None, None, None, None, "Unknown target object"
-        
-        # Check weight constraint - can't create heavier object without more mass
-        if target_weight > source_weight * 2:  # Allow some essence to add mass
-            return None, None, None, None, f"Target too heavy: {target_weight}kg vs {source_weight}kg source"
-        
-        # Calculate essence requirements based on weight difference
-        weight_ratio = target_weight / max(source_weight, 0.1)
-        
-        # Base essence cost scales with weight difference
-        base_cost = {
-            'fire': 5 * weight_ratio,
-            'water': 5 * weight_ratio, 
-            'earth': 5 * weight_ratio,
-            'air': 5 * weight_ratio
-        }
-        
-        # Adjust for target's actual composition
-        if hasattr(target_pattern, 'composition'):
-            for element, amount in target_pattern.composition.items():
-                if element in base_cost:
-                    base_cost[element] = amount * weight_ratio
-        
-        # Apply Wisdom modifier (5% reduction per point above 10)
-        wisdom_modifier = max(0, (player.stats.wisdom - 10) * 0.05)
-        
-        # Apply modifier to costs
-        final_cost = {}
-        for element, cost in base_cost.items():
-            final_cost[element] = cost * (1.0 - wisdom_modifier)
-        
-        return final_cost, target_weight, None, None, None
+        # Delegate to alchemy system
+        wisdom = getattr(self.world.player.stats, 'wisdom', 10)
+        return self.controller.alchemy.calculate_transmute_cost(
+            source_item=source_item,
+            target_pattern=target_pattern,
+            game_objects=self.world.game_objects,
+            wisdom=wisdom
+        )
 
     def respawn_player(self):
         player = self.world.player

@@ -91,13 +91,20 @@ COAGULANTS = {
     },
 }
 
-# Material essence values for dissolution
+# Material essence values for dissolution (use singular keys to match item types)
 MATERIAL_ESSENCES = {
-    'weapons': {'fire': 25, 'water': 5, 'earth': 40, 'air': 5},
-    'tools': {'fire': 20, 'water': 10, 'earth': 35, 'air': 10},
-    'gems': {'fire': 30, 'water': 20, 'earth': 30, 'air': 20},
+    'weapon': {'fire': 25, 'water': 5, 'earth': 40, 'air': 5},
+    'weapons': {'fire': 25, 'water': 5, 'earth': 40, 'air': 5},  # Alias for compatibility
+    'armor': {'fire': 10, 'water': 10, 'earth': 50, 'air': 5},
+    'tool': {'fire': 20, 'water': 10, 'earth': 35, 'air': 10},
+    'tools': {'fire': 20, 'water': 10, 'earth': 35, 'air': 10},  # Alias for compatibility
+    'gem': {'fire': 30, 'water': 20, 'earth': 30, 'air': 20},
+    'gems': {'fire': 30, 'water': 20, 'earth': 30, 'air': 20},  # Alias for compatibility
+    'potion': {'fire': 10, 'water': 40, 'earth': 20, 'air': 5},
+    'scroll': {'fire': 15, 'water': 10, 'earth': 20, 'air': 30},
     'food': {'fire': 10, 'water': 40, 'earth': 20, 'air': 5},
-    'liquids': {'fire': 5, 'water': 50, 'earth': 5, 'air': 15},
+    'liquid': {'fire': 5, 'water': 50, 'earth': 5, 'air': 15},
+    'liquids': {'fire': 5, 'water': 50, 'earth': 5, 'air': 15},  # Alias for compatibility
     'default': {'fire': 15, 'water': 15, 'earth': 15, 'air': 15},
 }
 
