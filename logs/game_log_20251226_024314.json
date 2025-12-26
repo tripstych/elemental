@@ -1,0 +1,23 @@
+{
+  "game_seed": 42,
+  "total_turns": 159,
+  "actions": [
+    {
+      "turn": 159,
+      "timestamp": "2025-12-26T02:43:16.451516",
+      "action": "load",
+      "player": {
+        "pos": "(52,27)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "filename": "savegame_20251226_023517.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "game_seed": 504812,
+  "total_turns": 3,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T21:02:06.255292",
+      "action": "move",
+      "player": {
+        "pos": "(2,5)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s2e6",
+            "formatted": "Skeleton:s2e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.3,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s6e4",
+            "formatted": "Skeleton:s6e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.2,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s4e6",
+            "formatted": "Spider:s4e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.2,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s7e7",
+            "formatted": "Spider:s7e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.9,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "e4",
+            "formatted": "star sapphire:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "twenty-two",
+            "type": "weapons",
+            "pos": "s3e5",
+            "formatted": "twenty-two:s3e5",
+            "distance": 5.8
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s3e5",
+            "formatted": "Tiny Vial of Prima Ite:s3e5",
+            "distance": 5.8
+          },
+          {
+            "name": "crown saw",
+            "type": "tools",
+            "pos": "s4e6",
+            "formatted": "crown saw:s4e6",
+            "distance": 7.2
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "s7e3",
+            "formatted": "Medium Flask of Alkahest:s7e3",
+            "distance": 7.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(2,5)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T21:02:06.487296",
+      "action": "move",
+      "player": {
+        "pos": "(2,6)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s4e3",
+            "formatted": "Skeleton:s4e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e5",
+            "formatted": "Skeleton:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s2e5",
+            "formatted": "Spider:s2e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.4,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s5e6",
+            "formatted": "Spider:s5e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.8,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "n1e4",
+            "formatted": "star sapphire:n1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "twenty-two",
+            "type": "weapons",
+            "pos": "s2e5",
+            "formatted": "twenty-two:s2e5",
+            "distance": 5.4
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s2e5",
+            "formatted": "Tiny Vial of Prima Ite:s2e5",
+            "distance": 5.4
+          },
+          {
+            "name": "crown saw",
+            "type": "tools",
+            "pos": "s3e6",
+            "formatted": "crown saw:s3e6",
+            "distance": 6.7
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "s6e3",
+            "formatted": "Medium Flask of Alkahest:s6e3",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(2,6)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T21:02:06.951496",
+      "action": "move",
+      "player": {
+        "pos": "(2,7)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s2e2",
+            "formatted": "Skeleton:s2e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.8,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "e4",
+            "formatted": "Spider:e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "n1e4",
+            "formatted": "Skeleton:n1e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s3e5",
+            "formatted": "Spider:s3e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.8,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "n2e4",
+            "formatted": "star sapphire:n2e4",
+            "distance": 4.5
+          },
+          {
+            "name": "twenty-two",
+            "type": "weapons",
+            "pos": "s1e5",
+            "formatted": "twenty-two:s1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s1e5",
+            "formatted": "Tiny Vial of Prima Ite:s1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "s5e3",
+            "formatted": "Medium Flask of Alkahest:s5e3",
+            "distance": 5.8
+          },
+          {
+            "name": "crown saw",
+            "type": "tools",
+            "pos": "s2e6",
+            "formatted": "crown saw:s2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(2,7)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T21:02:07.468356",
+      "action": "drop_item",
+      "player": {
+        "pos": "(2,7)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1e1",
+            "formatted": "Skeleton:s1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e3",
+            "formatted": "Skeleton:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "e4",
+            "formatted": "Spider:e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s2e4",
+            "formatted": "Spider:s2e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.5,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          },
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "n2e4",
+            "formatted": "star sapphire:n2e4",
+            "distance": 4.5
+          },
+          {
+            "name": "twenty-two",
+            "type": "weapons",
+            "pos": "s1e5",
+            "formatted": "twenty-two:s1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s1e5",
+            "formatted": "Tiny Vial of Prima Ite:s1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "s5e3",
+            "formatted": "Medium Flask of Alkahest:s5e3",
+            "distance": 5.8
+          },
+          {
+            "name": "crown saw",
+            "type": "tools",
+            "pos": "s2e6",
+            "formatted": "crown saw:s2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "item": "blit",
+        "position": [
+          2,
+          7
+        ]
+      }
+    }
+  ]
+}

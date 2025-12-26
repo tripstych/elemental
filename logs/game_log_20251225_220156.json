@@ -1,0 +1,184 @@
+{
+  "game_seed": 262393,
+  "total_turns": 93,
+  "actions": [
+    {
+      "turn": 92,
+      "timestamp": "2025-12-25T22:01:58.547893",
+      "action": "load",
+      "player": {
+        "pos": "(19,10)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1w4",
+            "formatted": "Skeleton:s1w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s4w3",
+            "formatted": "Rat:s4w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "n2w5",
+            "formatted": "Rat:n2w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.4,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s3w4",
+            "formatted": "Small Vial of Aqua Ignis:s3w4",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "filename": "savegame_20251225_215836.json"
+      }
+    },
+    {
+      "turn": 92,
+      "timestamp": "2025-12-25T22:02:00.313949",
+      "action": "load",
+      "player": {
+        "pos": "(19,10)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1w4",
+            "formatted": "Skeleton:s1w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s4w3",
+            "formatted": "Rat:s4w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "n2w5",
+            "formatted": "Rat:n2w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.4,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s3w4",
+            "formatted": "Small Vial of Aqua Ignis:s3w4",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "filename": "savegame_20251225_215836.json"
+      }
+    },
+    {
+      "turn": 93,
+      "timestamp": "2025-12-25T22:02:01.059438",
+      "action": "move",
+      "player": {
+        "pos": "(18,10)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1w3",
+            "formatted": "Skeleton:s1w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s4w1",
+            "formatted": "Skeleton:s4w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "s4w1",
+            "formatted": "Bat:s4w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s4w2",
+            "formatted": "Rat:s4w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.5,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "n2w4",
+            "formatted": "Rat:n2w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.5,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s3w3",
+            "formatted": "Small Vial of Aqua Ignis:s3w3",
+            "distance": 4.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(18,10)"
+      }
+    }
+  ]
+}

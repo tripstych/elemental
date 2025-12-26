@@ -1,0 +1,1065 @@
+{
+  "game_seed": 42,
+  "total_turns": 88,
+  "actions": [
+    {
+      "turn": 54,
+      "timestamp": "2025-12-26T02:00:14.143281",
+      "action": "load",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "filename": "savegame_20251226_004158.json"
+      }
+    },
+    {
+      "turn": 54,
+      "timestamp": "2025-12-26T02:00:14.343121",
+      "action": "load",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "filename": "savegame_20251226_004158.json"
+      }
+    },
+    {
+      "turn": 55,
+      "timestamp": "2025-12-26T02:00:22.721536",
+      "action": "move",
+      "player": {
+        "pos": "(35,22)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,22)"
+      }
+    },
+    {
+      "turn": 56,
+      "timestamp": "2025-12-26T02:00:25.354200",
+      "action": "move",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,21)"
+      }
+    },
+    {
+      "turn": 57,
+      "timestamp": "2025-12-26T02:00:26.077179",
+      "action": "move",
+      "player": {
+        "pos": "(35,22)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,22)"
+      }
+    },
+    {
+      "turn": 58,
+      "timestamp": "2025-12-26T02:00:26.603975",
+      "action": "move",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,21)"
+      }
+    },
+    {
+      "turn": 59,
+      "timestamp": "2025-12-26T02:00:27.321564",
+      "action": "move",
+      "player": {
+        "pos": "(35,22)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,22)"
+      }
+    },
+    {
+      "turn": 60,
+      "timestamp": "2025-12-26T02:00:27.974319",
+      "action": "move",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,21)"
+      }
+    },
+    {
+      "turn": 61,
+      "timestamp": "2025-12-26T02:00:29.671855",
+      "action": "move",
+      "player": {
+        "pos": "(35,22)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,22)"
+      }
+    },
+    {
+      "turn": 62,
+      "timestamp": "2025-12-26T02:00:31.098649",
+      "action": "move",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,21)"
+      }
+    },
+    {
+      "turn": 63,
+      "timestamp": "2025-12-26T02:00:32.592529",
+      "action": "move",
+      "player": {
+        "pos": "(35,22)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,22)"
+      }
+    },
+    {
+      "turn": 64,
+      "timestamp": "2025-12-26T02:00:34.051248",
+      "action": "move",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,21)"
+      }
+    },
+    {
+      "turn": 65,
+      "timestamp": "2025-12-26T02:00:36.715042",
+      "action": "move",
+      "player": {
+        "pos": "(35,20)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,20)"
+      }
+    },
+    {
+      "turn": 66,
+      "timestamp": "2025-12-26T02:00:36.929453",
+      "action": "move",
+      "player": {
+        "pos": "(35,19)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,19)"
+      }
+    },
+    {
+      "turn": 67,
+      "timestamp": "2025-12-26T02:00:37.770573",
+      "action": "move",
+      "player": {
+        "pos": "(35,20)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,20)"
+      }
+    },
+    {
+      "turn": 68,
+      "timestamp": "2025-12-26T02:00:39.063384",
+      "action": "move",
+      "player": {
+        "pos": "(35,19)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,19)"
+      }
+    },
+    {
+      "turn": 69,
+      "timestamp": "2025-12-26T02:00:39.964080",
+      "action": "move",
+      "player": {
+        "pos": "(35,20)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,20)"
+      }
+    },
+    {
+      "turn": 70,
+      "timestamp": "2025-12-26T02:00:40.355591",
+      "action": "move",
+      "player": {
+        "pos": "(35,19)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,19)"
+      }
+    },
+    {
+      "turn": 71,
+      "timestamp": "2025-12-26T02:00:40.616057",
+      "action": "move",
+      "player": {
+        "pos": "(35,18)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,18)"
+      }
+    },
+    {
+      "turn": 72,
+      "timestamp": "2025-12-26T02:00:41.288278",
+      "action": "move",
+      "player": {
+        "pos": "(35,19)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,19)"
+      }
+    },
+    {
+      "turn": 73,
+      "timestamp": "2025-12-26T02:00:42.219134",
+      "action": "move",
+      "player": {
+        "pos": "(35,20)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,20)"
+      }
+    },
+    {
+      "turn": 74,
+      "timestamp": "2025-12-26T02:00:42.881271",
+      "action": "move",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,21)"
+      }
+    },
+    {
+      "turn": 75,
+      "timestamp": "2025-12-26T02:00:43.473180",
+      "action": "move",
+      "player": {
+        "pos": "(35,22)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,22)"
+      }
+    },
+    {
+      "turn": 76,
+      "timestamp": "2025-12-26T02:00:44.939697",
+      "action": "move",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,21)"
+      }
+    },
+    {
+      "turn": 54,
+      "timestamp": "2025-12-26T02:00:47.615696",
+      "action": "load",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "filename": "savegame_20251226_004158.json"
+      }
+    },
+    {
+      "turn": 55,
+      "timestamp": "2025-12-26T02:00:52.651652",
+      "action": "move",
+      "player": {
+        "pos": "(35,22)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,22)"
+      }
+    },
+    {
+      "turn": 56,
+      "timestamp": "2025-12-26T02:00:52.927368",
+      "action": "move",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,21)"
+      }
+    },
+    {
+      "turn": 57,
+      "timestamp": "2025-12-26T02:00:53.525905",
+      "action": "move",
+      "player": {
+        "pos": "(35,22)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,22)"
+      }
+    },
+    {
+      "turn": 58,
+      "timestamp": "2025-12-26T02:00:54.301700",
+      "action": "move",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,21)"
+      }
+    },
+    {
+      "turn": 59,
+      "timestamp": "2025-12-26T02:00:55.128860",
+      "action": "move",
+      "player": {
+        "pos": "(35,22)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,22)"
+      }
+    },
+    {
+      "turn": 60,
+      "timestamp": "2025-12-26T02:00:56.242476",
+      "action": "move",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,21)"
+      }
+    },
+    {
+      "turn": 61,
+      "timestamp": "2025-12-26T02:00:56.939834",
+      "action": "move",
+      "player": {
+        "pos": "(35,20)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,20)"
+      }
+    },
+    {
+      "turn": 62,
+      "timestamp": "2025-12-26T02:00:57.414134",
+      "action": "move",
+      "player": {
+        "pos": "(35,19)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,19)"
+      }
+    },
+    {
+      "turn": 63,
+      "timestamp": "2025-12-26T02:00:57.873306",
+      "action": "move",
+      "player": {
+        "pos": "(35,18)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,18)"
+      }
+    },
+    {
+      "turn": 64,
+      "timestamp": "2025-12-26T02:00:58.425041",
+      "action": "move",
+      "player": {
+        "pos": "(35,17)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,17)"
+      }
+    },
+    {
+      "turn": 65,
+      "timestamp": "2025-12-26T02:06:15.012809",
+      "action": "move",
+      "player": {
+        "pos": "(35,18)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,18)"
+      }
+    },
+    {
+      "turn": 66,
+      "timestamp": "2025-12-26T02:06:15.428837",
+      "action": "move",
+      "player": {
+        "pos": "(35,19)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,19)"
+      }
+    },
+    {
+      "turn": 67,
+      "timestamp": "2025-12-26T02:06:15.872991",
+      "action": "move",
+      "player": {
+        "pos": "(35,18)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,18)"
+      }
+    },
+    {
+      "turn": 68,
+      "timestamp": "2025-12-26T02:06:16.150703",
+      "action": "move",
+      "player": {
+        "pos": "(35,17)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,17)"
+      }
+    },
+    {
+      "turn": 69,
+      "timestamp": "2025-12-26T02:06:16.549546",
+      "action": "move",
+      "player": {
+        "pos": "(35,18)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,18)"
+      }
+    },
+    {
+      "turn": 70,
+      "timestamp": "2025-12-26T02:06:19.563065",
+      "action": "move",
+      "player": {
+        "pos": "(35,17)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,17)"
+      }
+    },
+    {
+      "turn": 71,
+      "timestamp": "2025-12-26T02:06:23.963361",
+      "action": "move",
+      "player": {
+        "pos": "(35,18)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,18)"
+      }
+    },
+    {
+      "turn": 72,
+      "timestamp": "2025-12-26T02:06:24.161248",
+      "action": "move",
+      "player": {
+        "pos": "(35,19)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,19)"
+      }
+    },
+    {
+      "turn": 73,
+      "timestamp": "2025-12-26T02:06:24.529268",
+      "action": "move",
+      "player": {
+        "pos": "(35,18)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,18)"
+      }
+    },
+    {
+      "turn": 74,
+      "timestamp": "2025-12-26T02:06:24.713960",
+      "action": "move",
+      "player": {
+        "pos": "(35,17)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,17)"
+      }
+    },
+    {
+      "turn": 75,
+      "timestamp": "2025-12-26T02:06:30.908496",
+      "action": "move",
+      "player": {
+        "pos": "(35,18)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,18)"
+      }
+    },
+    {
+      "turn": 76,
+      "timestamp": "2025-12-26T02:06:31.105762",
+      "action": "move",
+      "player": {
+        "pos": "(35,19)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,19)"
+      }
+    },
+    {
+      "turn": 77,
+      "timestamp": "2025-12-26T02:06:31.290665",
+      "action": "move",
+      "player": {
+        "pos": "(35,20)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,20)"
+      }
+    },
+    {
+      "turn": 78,
+      "timestamp": "2025-12-26T02:06:34.744993",
+      "action": "move",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(35,21)"
+      }
+    },
+    {
+      "turn": 79,
+      "timestamp": "2025-12-26T02:06:34.744993",
+      "action": "move",
+      "player": {
+        "pos": "(36,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(36,21)"
+      }
+    },
+    {
+      "turn": 80,
+      "timestamp": "2025-12-26T02:06:36.865249",
+      "action": "move",
+      "player": {
+        "pos": "(36,22)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(36,22)"
+      }
+    },
+    {
+      "turn": 81,
+      "timestamp": "2025-12-26T02:07:34.706842",
+      "action": "move",
+      "player": {
+        "pos": "(36,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(36,21)"
+      }
+    },
+    {
+      "turn": 82,
+      "timestamp": "2025-12-26T02:07:34.942505",
+      "action": "move",
+      "player": {
+        "pos": "(36,20)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(36,20)"
+      }
+    },
+    {
+      "turn": 83,
+      "timestamp": "2025-12-26T02:07:35.130607",
+      "action": "move",
+      "player": {
+        "pos": "(36,19)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(36,19)"
+      }
+    },
+    {
+      "turn": 84,
+      "timestamp": "2025-12-26T02:07:35.325895",
+      "action": "move",
+      "player": {
+        "pos": "(36,18)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(36,18)"
+      }
+    },
+    {
+      "turn": 85,
+      "timestamp": "2025-12-26T02:07:35.511424",
+      "action": "move",
+      "player": {
+        "pos": "(36,17)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(36,17)"
+      }
+    },
+    {
+      "turn": 86,
+      "timestamp": "2025-12-26T02:07:36.867670",
+      "action": "move",
+      "player": {
+        "pos": "(36,18)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(36,18)"
+      }
+    },
+    {
+      "turn": 87,
+      "timestamp": "2025-12-26T02:07:37.248417",
+      "action": "move",
+      "player": {
+        "pos": "(36,17)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(36,17)"
+      }
+    },
+    {
+      "turn": 88,
+      "timestamp": "2025-12-26T02:07:41.923790",
+      "action": "move",
+      "player": {
+        "pos": "(36,18)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(36,18)"
+      }
+    }
+  ]
+}

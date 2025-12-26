@@ -1,0 +1,40 @@
+{
+  "game_seed": 42,
+  "total_turns": 54,
+  "actions": [
+    {
+      "turn": 54,
+      "timestamp": "2025-12-26T01:15:10.907422",
+      "action": "load",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "filename": "savegame_20251226_004158.json"
+      }
+    },
+    {
+      "turn": 54,
+      "timestamp": "2025-12-26T01:15:11.118518",
+      "action": "load",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "filename": "savegame_20251226_004158.json"
+      }
+    }
+  ]
+}

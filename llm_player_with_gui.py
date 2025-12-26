@@ -23,7 +23,7 @@ from game_api import GameSession, GameAPIClient
 import pygame
 
 # Import Pygame game class
-from game_pygame import PygameGame, COLORS, SCREEN_WIDTH, SCREEN_HEIGHT
+from game_pygame import ElementalGame, COLORS, SCREEN_WIDTH, SCREEN_HEIGHT
 
 # Load the prompt
 PROMPT_FILE = os.path.join(os.path.dirname(__file__), 'llm_player_prompt.md')
@@ -95,7 +95,7 @@ def format_state_for_llm(state: dict) -> str:
     lines.append("")
     lines.append("VISIBLE ITEMS:")
     if visible.get('items'):
-        for item in visible['items'][:8]:
+        for item in visible['items']:
             formatted = f"{item['name']}:{item['pos']}"
             lines.append(f"  {formatted} ({item['type']})")
     else:
@@ -262,7 +262,7 @@ class OpenAILLM:
             return result['choices'][0]['message']['content']
 
 
-class LLMGameWithGUI(PygameGame):
+class LLMGameWithGUI(ElementalGame):
     """Pygame game with LLM player overlay"""
     
     def __init__(self, llm, max_turns: int = 100, delay: float = 1.0):
@@ -438,9 +438,9 @@ class LLMGameWithGUI(PygameGame):
         # LLM response (truncated)
         if self.llm_response:
             response_lines = self.llm_response.split('\n')
-            for line in response_lines[:3]:  # Show first 3 lines
+            for line in response_lines:
                 if len(line) > 30:
-                    line = line[:27] + "..."
+                    line = line
                 resp_text = self.font_small.render(line, True, COLORS['gray'])
                 self.screen.blit(resp_text, (sidebar_x + 10, y))
                 y += 16

@@ -1,0 +1,3716 @@
+{
+  "game_seed": 42,
+  "total_turns": 61,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-26T02:27:21.146261",
+      "action": "move",
+      "player": {
+        "pos": "(30,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s4e1",
+            "formatted": "Orc:s4e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Goblin",
+            "pos": "s4e2",
+            "formatted": "Goblin:s4e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.5,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s1e8",
+            "formatted": "Skeleton:s1e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s1e2",
+            "formatted": "Small Vial of Ite Ignis:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s3",
+            "formatted": "fruit juice:s3",
+            "distance": 3.0
+          },
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s3e1",
+            "formatted": "bur:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "s1e3",
+            "formatted": "Grand Bottle of Alkahest:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "Small Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s1e5",
+            "formatted": "Small Vial of Prima Ite:s1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s5e3",
+            "formatted": "chow mein:s5e3",
+            "distance": 5.8
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s3e8",
+            "formatted": "Tiny Vial of Ite Ignis:s3e8",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(30,3)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-26T02:27:21.310865",
+      "action": "move",
+      "player": {
+        "pos": "(30,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Goblin",
+            "pos": "s2e1",
+            "formatted": "Goblin:s2e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e8",
+            "formatted": "Skeleton:e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "fruit juice:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Small Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e2",
+            "formatted": "Small Vial of Ite Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2e1",
+            "formatted": "bur:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "e3",
+            "formatted": "Grand Bottle of Alkahest:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4e3",
+            "formatted": "chow mein:s4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "Small Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "e5",
+            "formatted": "Small Vial of Prima Ite:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s2e8",
+            "formatted": "Tiny Vial of Ite Ignis:s2e8",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(30,4)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-26T02:27:22.273104",
+      "action": "move",
+      "player": {
+        "pos": "(31,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1w1",
+            "formatted": "Orc:s1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Goblin",
+            "pos": "s2",
+            "formatted": "Goblin:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e6",
+            "formatted": "Skeleton:e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e1",
+            "formatted": "Small Vial of Ite Ignis:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2",
+            "formatted": "bur:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Grand Bottle of Alkahest:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w1",
+            "formatted": "fruit juice:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "Small Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "e4",
+            "formatted": "Small Vial of Prima Ite:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4e2",
+            "formatted": "chow mein:s4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s2e7",
+            "formatted": "Tiny Vial of Ite Ignis:s2e7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(31,4)"
+      }
+    },
+    {
+      "turn": 4,
+      "timestamp": "2025-12-26T02:27:30.984875",
+      "action": "attack",
+      "player": {
+        "pos": "(31,4)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "s1",
+            "formatted": "Goblin:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "s1w1",
+            "formatted": "Orc:s1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e4",
+            "formatted": "Skeleton:e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e1",
+            "formatted": "Small Vial of Ite Ignis:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2",
+            "formatted": "bur:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Grand Bottle of Alkahest:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w1",
+            "formatted": "fruit juice:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "Small Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "e4",
+            "formatted": "Small Vial of Prima Ite:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4e2",
+            "formatted": "chow mein:s4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s2e7",
+            "formatted": "Tiny Vial of Ite Ignis:s2e7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 5,
+      "timestamp": "2025-12-26T02:27:31.166643",
+      "action": "attack",
+      "player": {
+        "pos": "(31,4)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1w1",
+            "formatted": "Orc:s1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e3",
+            "formatted": "Skeleton:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e1",
+            "formatted": "Small Vial of Ite Ignis:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2",
+            "formatted": "bur:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Grand Bottle of Alkahest:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w1",
+            "formatted": "fruit juice:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "Small Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "e4",
+            "formatted": "Small Vial of Prima Ite:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4e2",
+            "formatted": "chow mein:s4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s2e7",
+            "formatted": "Tiny Vial of Ite Ignis:s2e7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 6,
+      "timestamp": "2025-12-26T02:27:31.363824",
+      "action": "attack",
+      "player": {
+        "pos": "(31,4)",
+        "hp": "88/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1w1",
+            "formatted": "Orc:s1w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e2",
+            "formatted": "Skeleton:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e1",
+            "formatted": "Small Vial of Ite Ignis:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2",
+            "formatted": "bur:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Grand Bottle of Alkahest:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w1",
+            "formatted": "fruit juice:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "Small Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "e4",
+            "formatted": "Small Vial of Prima Ite:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4e2",
+            "formatted": "chow mein:s4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s2e7",
+            "formatted": "Tiny Vial of Ite Ignis:s2e7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "direction": "sw",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 7,
+      "timestamp": "2025-12-26T02:27:31.561455",
+      "action": "attack",
+      "player": {
+        "pos": "(31,4)",
+        "hp": "86/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e1",
+            "formatted": "Skeleton:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "s1w1",
+            "formatted": "Orc:s1w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e1",
+            "formatted": "Small Vial of Ite Ignis:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2",
+            "formatted": "bur:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Grand Bottle of Alkahest:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w1",
+            "formatted": "fruit juice:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "Small Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "e4",
+            "formatted": "Small Vial of Prima Ite:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4e2",
+            "formatted": "chow mein:s4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s2e7",
+            "formatted": "Tiny Vial of Ite Ignis:s2e7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 8,
+      "timestamp": "2025-12-26T02:27:31.742336",
+      "action": "attack",
+      "player": {
+        "pos": "(31,4)",
+        "hp": "82/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1w1",
+            "formatted": "Orc:s1w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e1",
+            "formatted": "Small Vial of Ite Ignis:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2",
+            "formatted": "bur:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Grand Bottle of Alkahest:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w1",
+            "formatted": "fruit juice:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "Small Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "e4",
+            "formatted": "Small Vial of Prima Ite:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4e2",
+            "formatted": "chow mein:s4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s2e7",
+            "formatted": "Tiny Vial of Ite Ignis:s2e7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 9,
+      "timestamp": "2025-12-26T02:27:31.907820",
+      "action": "attack",
+      "player": {
+        "pos": "(31,4)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e1",
+            "formatted": "Small Vial of Ite Ignis:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "e1",
+            "formatted": "BB:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2",
+            "formatted": "bur:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Grand Bottle of Alkahest:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w1",
+            "formatted": "fruit juice:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "Small Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "e4",
+            "formatted": "Small Vial of Prima Ite:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4e2",
+            "formatted": "chow mein:s4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s2e7",
+            "formatted": "Tiny Vial of Ite Ignis:s2e7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "direction": "sw",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-26T02:27:33.082760",
+      "action": "move",
+      "player": {
+        "pos": "(32,4)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "here",
+            "formatted": "Small Vial of Ite Ignis:here",
+            "distance": 0.0
+          },
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "BB:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "e1",
+            "formatted": "Grand Bottle of Alkahest:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2w1",
+            "formatted": "bur:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w2",
+            "formatted": "fruit juice:s2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Small Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "e3",
+            "formatted": "Small Vial of Prima Ite:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4e1",
+            "formatted": "chow mein:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s2e6",
+            "formatted": "Tiny Vial of Ite Ignis:s2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(32,4)"
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-26T02:27:33.906654",
+      "action": "pickup",
+      "player": {
+        "pos": "(32,4)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "e1",
+            "formatted": "Grand Bottle of Alkahest:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2w1",
+            "formatted": "bur:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w2",
+            "formatted": "fruit juice:s2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Small Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "e3",
+            "formatted": "Small Vial of Prima Ite:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4e1",
+            "formatted": "chow mein:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s2e6",
+            "formatted": "Tiny Vial of Ite Ignis:s2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Small Vial of Ite Ignis",
+          "BB"
+        ]
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-26T02:27:34.632395",
+      "action": "move",
+      "player": {
+        "pos": "(33,4)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Grand Bottle of Alkahest:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Small Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "e2",
+            "formatted": "Small Vial of Prima Ite:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2w2",
+            "formatted": "bur:s2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w3",
+            "formatted": "fruit juice:s2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4",
+            "formatted": "chow mein:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s1e9",
+            "formatted": "amethyst:s1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(33,4)"
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-26T02:27:35.083864",
+      "action": "pickup",
+      "player": {
+        "pos": "(33,4)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s1e8",
+            "formatted": "Spider:s1e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "e2",
+            "formatted": "Small Vial of Prima Ite:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2w2",
+            "formatted": "bur:s2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w3",
+            "formatted": "fruit juice:s2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4",
+            "formatted": "chow mein:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s1e9",
+            "formatted": "amethyst:s1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Grand Bottle of Alkahest"
+        ]
+      }
+    },
+    {
+      "turn": 12,
+      "timestamp": "2025-12-26T02:27:35.516517",
+      "action": "move",
+      "player": {
+        "pos": "(34,4)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s1e7",
+            "formatted": "Spider:s1e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "e1",
+            "formatted": "Small Vial of Prima Ite:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2w3",
+            "formatted": "bur:s2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4w1",
+            "formatted": "chow mein:s4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w4",
+            "formatted": "fruit juice:s2w4",
+            "distance": 4.5
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s1e8",
+            "formatted": "amethyst:s1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(34,4)"
+      }
+    },
+    {
+      "turn": 13,
+      "timestamp": "2025-12-26T02:27:35.734057",
+      "action": "move",
+      "player": {
+        "pos": "(35,4)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e5",
+            "formatted": "Spider:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "here",
+            "formatted": "Small Vial of Prima Ite:here",
+            "distance": 0.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4w2",
+            "formatted": "chow mein:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2w4",
+            "formatted": "bur:s2w4",
+            "distance": 4.5
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w5",
+            "formatted": "fruit juice:s2w5",
+            "distance": 5.4
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s1e7",
+            "formatted": "amethyst:s1e7",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(35,4)"
+      }
+    },
+    {
+      "turn": 13,
+      "timestamp": "2025-12-26T02:27:36.066400",
+      "action": "pickup",
+      "player": {
+        "pos": "(35,4)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e4",
+            "formatted": "Spider:e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4w2",
+            "formatted": "chow mein:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2w4",
+            "formatted": "bur:s2w4",
+            "distance": 4.5
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w5",
+            "formatted": "fruit juice:s2w5",
+            "distance": 5.4
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s1e7",
+            "formatted": "amethyst:s1e7",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Small Vial of Prima Ite"
+        ]
+      }
+    },
+    {
+      "turn": 14,
+      "timestamp": "2025-12-26T02:27:36.483967",
+      "action": "move",
+      "player": {
+        "pos": "(34,4)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e5",
+            "formatted": "Spider:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2w3",
+            "formatted": "bur:s2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4w1",
+            "formatted": "chow mein:s4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w4",
+            "formatted": "fruit juice:s2w4",
+            "distance": 4.5
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s1e8",
+            "formatted": "amethyst:s1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(34,4)"
+      }
+    },
+    {
+      "turn": 15,
+      "timestamp": "2025-12-26T02:27:36.615878",
+      "action": "move",
+      "player": {
+        "pos": "(33,4)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e5",
+            "formatted": "Spider:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2w2",
+            "formatted": "bur:s2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w3",
+            "formatted": "fruit juice:s2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4",
+            "formatted": "chow mein:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s1e9",
+            "formatted": "amethyst:s1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(33,4)"
+      }
+    },
+    {
+      "turn": 16,
+      "timestamp": "2025-12-26T02:27:36.796496",
+      "action": "move",
+      "player": {
+        "pos": "(32,4)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e5",
+            "formatted": "Spider:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2w1",
+            "formatted": "bur:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w2",
+            "formatted": "fruit juice:s2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4e1",
+            "formatted": "chow mein:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s2e6",
+            "formatted": "Tiny Vial of Ite Ignis:s2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(32,4)"
+      }
+    },
+    {
+      "turn": 17,
+      "timestamp": "2025-12-26T02:27:36.995337",
+      "action": "move",
+      "player": {
+        "pos": "(31,4)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e5",
+            "formatted": "Spider:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s2",
+            "formatted": "bur:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s2w1",
+            "formatted": "fruit juice:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s4e2",
+            "formatted": "chow mein:s4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s2e7",
+            "formatted": "Tiny Vial of Ite Ignis:s2e7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(31,4)"
+      }
+    },
+    {
+      "turn": 18,
+      "timestamp": "2025-12-26T02:27:37.275540",
+      "action": "move",
+      "player": {
+        "pos": "(31,5)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n1e4",
+            "formatted": "Spider:n1e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "s1",
+            "formatted": "bur:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "s1w1",
+            "formatted": "fruit juice:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s3e2",
+            "formatted": "chow mein:s3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s1e7",
+            "formatted": "Tiny Vial of Ite Ignis:s1e7",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(31,5)"
+      }
+    },
+    {
+      "turn": 19,
+      "timestamp": "2025-12-26T02:27:37.761373",
+      "action": "move",
+      "player": {
+        "pos": "(31,6)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n1e3",
+            "formatted": "Spider:n1e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n1w5",
+            "formatted": "Bat:n1w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "bur",
+            "type": "tools",
+            "pos": "here",
+            "formatted": "bur:here",
+            "distance": 0.0
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "w1",
+            "formatted": "fruit juice:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s2e2",
+            "formatted": "chow mein:s2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e7",
+            "formatted": "Tiny Vial of Ite Ignis:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(31,6)"
+      }
+    },
+    {
+      "turn": 19,
+      "timestamp": "2025-12-26T02:27:38.078721",
+      "action": "pickup",
+      "player": {
+        "pos": "(31,6)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e2",
+            "formatted": "Spider:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "w4",
+            "formatted": "Bat:w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "w1",
+            "formatted": "fruit juice:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s2e2",
+            "formatted": "chow mein:s2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e7",
+            "formatted": "Tiny Vial of Ite Ignis:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "bur"
+        ]
+      }
+    },
+    {
+      "turn": 20,
+      "timestamp": "2025-12-26T02:27:38.507084",
+      "action": "move",
+      "player": {
+        "pos": "(32,6)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e1",
+            "formatted": "Spider:e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Bat",
+            "pos": "w5",
+            "formatted": "Bat:w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "w2",
+            "formatted": "fruit juice:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s2e1",
+            "formatted": "chow mein:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e6",
+            "formatted": "Tiny Vial of Ite Ignis:e6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(32,6)"
+      }
+    },
+    {
+      "turn": 21,
+      "timestamp": "2025-12-26T02:27:38.738427",
+      "action": "attack",
+      "player": {
+        "pos": "(32,6)",
+        "hp": "78/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e1",
+            "formatted": "Spider:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Bat",
+            "pos": "w4",
+            "formatted": "Bat:w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "w2",
+            "formatted": "fruit juice:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s2e1",
+            "formatted": "chow mein:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e6",
+            "formatted": "Tiny Vial of Ite Ignis:e6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 22,
+      "timestamp": "2025-12-26T02:27:38.939446",
+      "action": "attack",
+      "player": {
+        "pos": "(32,6)",
+        "hp": "76/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "w3",
+            "formatted": "Bat:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "w2",
+            "formatted": "fruit juice:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s2e1",
+            "formatted": "chow mein:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e6",
+            "formatted": "Tiny Vial of Ite Ignis:e6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 23,
+      "timestamp": "2025-12-26T02:27:39.155435",
+      "action": "attack",
+      "player": {
+        "pos": "(32,6)",
+        "hp": "86/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "w1",
+            "formatted": "Bat:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "spatula",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "spatula:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "w2",
+            "formatted": "fruit juice:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s2e1",
+            "formatted": "chow mein:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e6",
+            "formatted": "Tiny Vial of Ite Ignis:e6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Bat",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 24,
+      "timestamp": "2025-12-26T02:27:39.255883",
+      "action": "attack",
+      "player": {
+        "pos": "(32,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "spatula",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "spatula:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "w2",
+            "formatted": "fruit juice:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s2e1",
+            "formatted": "chow mein:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e6",
+            "formatted": "Tiny Vial of Ite Ignis:e6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Bat",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 25,
+      "timestamp": "2025-12-26T02:27:39.998147",
+      "action": "move",
+      "player": {
+        "pos": "(33,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "spatula",
+            "type": "tools",
+            "pos": "here",
+            "formatted": "spatula:here",
+            "distance": 0.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "chow mein:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "w3",
+            "formatted": "fruit juice:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e5",
+            "formatted": "Tiny Vial of Ite Ignis:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e9",
+            "formatted": "amethyst:n1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(33,6)"
+      }
+    },
+    {
+      "turn": 25,
+      "timestamp": "2025-12-26T02:27:40.279241",
+      "action": "pickup",
+      "player": {
+        "pos": "(33,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "chow mein:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "w3",
+            "formatted": "fruit juice:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e5",
+            "formatted": "Tiny Vial of Ite Ignis:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e9",
+            "formatted": "amethyst:n1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "spatula"
+        ]
+      }
+    },
+    {
+      "turn": 26,
+      "timestamp": "2025-12-26T02:27:40.511501",
+      "action": "move",
+      "player": {
+        "pos": "(32,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "w2",
+            "formatted": "fruit juice:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s2e1",
+            "formatted": "chow mein:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e6",
+            "formatted": "Tiny Vial of Ite Ignis:e6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(32,6)"
+      }
+    },
+    {
+      "turn": 27,
+      "timestamp": "2025-12-26T02:27:40.661611",
+      "action": "move",
+      "player": {
+        "pos": "(31,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "w1",
+            "formatted": "fruit juice:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s2e2",
+            "formatted": "chow mein:s2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e7",
+            "formatted": "Tiny Vial of Ite Ignis:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(31,6)"
+      }
+    },
+    {
+      "turn": 28,
+      "timestamp": "2025-12-26T02:27:40.861389",
+      "action": "move",
+      "player": {
+        "pos": "(30,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "fruit juice",
+            "type": "food",
+            "pos": "here",
+            "formatted": "fruit juice:here",
+            "distance": 0.0
+          },
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s2e3",
+            "formatted": "chow mein:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e8",
+            "formatted": "Tiny Vial of Ite Ignis:e8",
+            "distance": 8.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(30,6)"
+      }
+    },
+    {
+      "turn": 28,
+      "timestamp": "2025-12-26T02:27:41.145169",
+      "action": "pickup",
+      "player": {
+        "pos": "(30,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s2e3",
+            "formatted": "chow mein:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e8",
+            "formatted": "Tiny Vial of Ite Ignis:e8",
+            "distance": 8.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "fruit juice"
+        ]
+      }
+    },
+    {
+      "turn": 29,
+      "timestamp": "2025-12-26T02:27:41.528735",
+      "action": "move",
+      "player": {
+        "pos": "(31,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s2e2",
+            "formatted": "chow mein:s2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e7",
+            "formatted": "Tiny Vial of Ite Ignis:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(31,6)"
+      }
+    },
+    {
+      "turn": 30,
+      "timestamp": "2025-12-26T02:27:41.796067",
+      "action": "move",
+      "player": {
+        "pos": "(32,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s2e1",
+            "formatted": "chow mein:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e6",
+            "formatted": "Tiny Vial of Ite Ignis:e6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(32,6)"
+      }
+    },
+    {
+      "turn": 31,
+      "timestamp": "2025-12-26T02:27:41.963387",
+      "action": "move",
+      "player": {
+        "pos": "(33,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "chow mein:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e5",
+            "formatted": "Tiny Vial of Ite Ignis:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e9",
+            "formatted": "amethyst:n1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(33,6)"
+      }
+    },
+    {
+      "turn": 32,
+      "timestamp": "2025-12-26T02:27:49.433211",
+      "action": "move",
+      "player": {
+        "pos": "(33,7)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "chow mein:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "n1e5",
+            "formatted": "Tiny Vial of Ite Ignis:n1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n2e9",
+            "formatted": "amethyst:n2e9",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(33,7)"
+      }
+    },
+    {
+      "turn": 33,
+      "timestamp": "2025-12-26T02:27:49.650186",
+      "action": "move",
+      "player": {
+        "pos": "(33,8)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chow mein",
+            "type": "food",
+            "pos": "here",
+            "formatted": "chow mein:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(33,8)"
+      }
+    },
+    {
+      "turn": 33,
+      "timestamp": "2025-12-26T02:27:49.950850",
+      "action": "pickup",
+      "player": {
+        "pos": "(33,8)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "chow mein"
+        ]
+      }
+    },
+    {
+      "turn": 34,
+      "timestamp": "2025-12-26T02:27:55.648924",
+      "action": "move",
+      "player": {
+        "pos": "(33,7)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "n1e5",
+            "formatted": "Tiny Vial of Ite Ignis:n1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n2e9",
+            "formatted": "amethyst:n2e9",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(33,7)"
+      }
+    },
+    {
+      "turn": 35,
+      "timestamp": "2025-12-26T02:27:55.848697",
+      "action": "move",
+      "player": {
+        "pos": "(33,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e5",
+            "formatted": "Tiny Vial of Ite Ignis:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e9",
+            "formatted": "amethyst:n1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(33,6)"
+      }
+    },
+    {
+      "turn": 36,
+      "timestamp": "2025-12-26T02:27:56.032877",
+      "action": "move",
+      "player": {
+        "pos": "(34,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e4",
+            "formatted": "Tiny Vial of Ite Ignis:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e8",
+            "formatted": "amethyst:n1e8",
+            "distance": 8.1
+          },
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s9",
+            "formatted": "Small Vial of Ite Aether:s9",
+            "distance": 9.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(34,6)"
+      }
+    },
+    {
+      "turn": 37,
+      "timestamp": "2025-12-26T02:27:56.230779",
+      "action": "move",
+      "player": {
+        "pos": "(35,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e3",
+            "formatted": "Tiny Vial of Ite Ignis:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e7",
+            "formatted": "amethyst:n1e7",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(35,6)"
+      }
+    },
+    {
+      "turn": 38,
+      "timestamp": "2025-12-26T02:27:56.343026",
+      "action": "move",
+      "player": {
+        "pos": "(36,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e2",
+            "formatted": "Tiny Vial of Ite Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e6",
+            "formatted": "amethyst:n1e6",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(36,6)"
+      }
+    },
+    {
+      "turn": 39,
+      "timestamp": "2025-12-26T02:27:56.556448",
+      "action": "move",
+      "player": {
+        "pos": "(37,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e1",
+            "formatted": "Tiny Vial of Ite Ignis:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e5",
+            "formatted": "amethyst:n1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(37,6)"
+      }
+    },
+    {
+      "turn": 40,
+      "timestamp": "2025-12-26T02:27:56.688436",
+      "action": "move",
+      "player": {
+        "pos": "(38,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "here",
+            "formatted": "Tiny Vial of Ite Ignis:here",
+            "distance": 0.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e4",
+            "formatted": "amethyst:n1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(38,6)"
+      }
+    },
+    {
+      "turn": 40,
+      "timestamp": "2025-12-26T02:27:57.006657",
+      "action": "pickup",
+      "player": {
+        "pos": "(38,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e4",
+            "formatted": "amethyst:n1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Tiny Vial of Ite Ignis"
+        ]
+      }
+    },
+    {
+      "turn": 41,
+      "timestamp": "2025-12-26T02:27:57.121435",
+      "action": "move",
+      "player": {
+        "pos": "(39,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e3",
+            "formatted": "amethyst:n1e3",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(39,6)"
+      }
+    },
+    {
+      "turn": 42,
+      "timestamp": "2025-12-26T02:27:57.323756",
+      "action": "move",
+      "player": {
+        "pos": "(40,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e2",
+            "formatted": "amethyst:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n4e3",
+            "formatted": "Large Flask of Aqua Ignis:n4e3",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(40,6)"
+      }
+    },
+    {
+      "turn": 43,
+      "timestamp": "2025-12-26T02:27:57.539709",
+      "action": "move",
+      "player": {
+        "pos": "(41,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e1",
+            "formatted": "amethyst:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n4e2",
+            "formatted": "Large Flask of Aqua Ignis:n4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1e9",
+            "formatted": "cabochon:n1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(41,6)"
+      }
+    },
+    {
+      "turn": 44,
+      "timestamp": "2025-12-26T02:27:57.706196",
+      "action": "move",
+      "player": {
+        "pos": "(42,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "amethyst:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n4e1",
+            "formatted": "Large Flask of Aqua Ignis:n4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1e8",
+            "formatted": "cabochon:n1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(42,6)"
+      }
+    },
+    {
+      "turn": 45,
+      "timestamp": "2025-12-26T02:27:58.023005",
+      "action": "move",
+      "player": {
+        "pos": "(42,5)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "amethyst:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n3e1",
+            "formatted": "Large Flask of Aqua Ignis:n3e1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(42,5)"
+      }
+    },
+    {
+      "turn": 45,
+      "timestamp": "2025-12-26T02:27:58.222970",
+      "action": "pickup",
+      "player": {
+        "pos": "(42,5)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n3e1",
+            "formatted": "Large Flask of Aqua Ignis:n3e1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "amethyst"
+        ]
+      }
+    },
+    {
+      "turn": 46,
+      "timestamp": "2025-12-26T02:27:58.470876",
+      "action": "move",
+      "player": {
+        "pos": "(42,4)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n2e1",
+            "formatted": "Large Flask of Aqua Ignis:n2e1",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(42,4)"
+      }
+    },
+    {
+      "turn": 47,
+      "timestamp": "2025-12-26T02:27:58.685207",
+      "action": "move",
+      "player": {
+        "pos": "(42,3)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e1",
+            "formatted": "Large Flask of Aqua Ignis:n1e1",
+            "distance": 1.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(42,3)"
+      }
+    },
+    {
+      "turn": 48,
+      "timestamp": "2025-12-26T02:27:58.933164",
+      "action": "move",
+      "player": {
+        "pos": "(42,2)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "e1",
+            "formatted": "Large Flask of Aqua Ignis:e1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(42,2)"
+      }
+    },
+    {
+      "turn": 49,
+      "timestamp": "2025-12-26T02:27:59.182904",
+      "action": "move",
+      "player": {
+        "pos": "(43,2)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Large Flask of Aqua Ignis:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(43,2)"
+      }
+    },
+    {
+      "turn": 49,
+      "timestamp": "2025-12-26T02:27:59.497375",
+      "action": "pickup",
+      "player": {
+        "pos": "(43,2)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "Large Flask of Aqua Ignis"
+        ]
+      }
+    },
+    {
+      "turn": 49,
+      "timestamp": "2025-12-26T02:28:08.287432",
+      "action": "drop_item",
+      "player": {
+        "pos": "(43,2)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "item": "blit",
+        "position": [
+          43,
+          2
+        ]
+      }
+    },
+    {
+      "turn": 49,
+      "timestamp": "2025-12-26T02:28:09.067403",
+      "action": "drop_item",
+      "player": {
+        "pos": "(43,2)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "item": "blit",
+        "position": [
+          43,
+          2
+        ]
+      }
+    },
+    {
+      "turn": 49,
+      "timestamp": "2025-12-26T02:28:09.665743",
+      "action": "drop_item",
+      "player": {
+        "pos": "(43,2)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "item": "blit",
+        "position": [
+          43,
+          2
+        ]
+      }
+    },
+    {
+      "turn": 49,
+      "timestamp": "2025-12-26T02:28:11.253825",
+      "action": "drop_item",
+      "player": {
+        "pos": "(43,2)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "item": "blit",
+        "position": [
+          43,
+          2
+        ]
+      }
+    },
+    {
+      "turn": 50,
+      "timestamp": "2025-12-26T02:28:12.066494",
+      "action": "move",
+      "player": {
+        "pos": "(44,2)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "w1",
+            "formatted": "blit:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "w1",
+            "formatted": "blit:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "w1",
+            "formatted": "blit:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "w1",
+            "formatted": "blit:w1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(44,2)"
+      }
+    },
+    {
+      "turn": 51,
+      "timestamp": "2025-12-26T02:28:12.267092",
+      "action": "move",
+      "player": {
+        "pos": "(45,2)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "w2",
+            "formatted": "blit:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "w2",
+            "formatted": "blit:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "w2",
+            "formatted": "blit:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "w2",
+            "formatted": "blit:w2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(45,2)"
+      }
+    },
+    {
+      "turn": 52,
+      "timestamp": "2025-12-26T02:28:12.449568",
+      "action": "move",
+      "player": {
+        "pos": "(46,2)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "w3",
+            "formatted": "blit:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "w3",
+            "formatted": "blit:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "w3",
+            "formatted": "blit:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "w3",
+            "formatted": "blit:w3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(46,2)"
+      }
+    },
+    {
+      "turn": 53,
+      "timestamp": "2025-12-26T02:28:12.996904",
+      "action": "move",
+      "player": {
+        "pos": "(46,3)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n1w3",
+            "formatted": "blit:n1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n1w3",
+            "formatted": "blit:n1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n1w3",
+            "formatted": "blit:n1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n1w3",
+            "formatted": "blit:n1w3",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(46,3)"
+      }
+    },
+    {
+      "turn": 54,
+      "timestamp": "2025-12-26T02:28:13.228450",
+      "action": "move",
+      "player": {
+        "pos": "(46,4)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n2w3",
+            "formatted": "blit:n2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n2w3",
+            "formatted": "blit:n2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n2w3",
+            "formatted": "blit:n2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n2w3",
+            "formatted": "blit:n2w3",
+            "distance": 3.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(46,4)"
+      }
+    },
+    {
+      "turn": 55,
+      "timestamp": "2025-12-26T02:28:13.495206",
+      "action": "move",
+      "player": {
+        "pos": "(47,4)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n2w4",
+            "formatted": "blit:n2w4",
+            "distance": 4.5
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n2w4",
+            "formatted": "blit:n2w4",
+            "distance": 4.5
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n2w4",
+            "formatted": "blit:n2w4",
+            "distance": 4.5
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n2w4",
+            "formatted": "blit:n2w4",
+            "distance": 4.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(47,4)"
+      }
+    },
+    {
+      "turn": 56,
+      "timestamp": "2025-12-26T02:28:13.859835",
+      "action": "move",
+      "player": {
+        "pos": "(47,5)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n3w4",
+            "formatted": "blit:n3w4",
+            "distance": 5.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n3w4",
+            "formatted": "blit:n3w4",
+            "distance": 5.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n3w4",
+            "formatted": "blit:n3w4",
+            "distance": 5.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n3w4",
+            "formatted": "blit:n3w4",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(47,5)"
+      }
+    },
+    {
+      "turn": 57,
+      "timestamp": "2025-12-26T02:28:14.091814",
+      "action": "move",
+      "player": {
+        "pos": "(47,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1e3",
+            "formatted": "cabochon:n1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n4w4",
+            "formatted": "blit:n4w4",
+            "distance": 5.7
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n4w4",
+            "formatted": "blit:n4w4",
+            "distance": 5.7
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n4w4",
+            "formatted": "blit:n4w4",
+            "distance": 5.7
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n4w4",
+            "formatted": "blit:n4w4",
+            "distance": 5.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(47,6)"
+      }
+    },
+    {
+      "turn": 58,
+      "timestamp": "2025-12-26T02:28:14.373143",
+      "action": "move",
+      "player": {
+        "pos": "(48,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1e2",
+            "formatted": "cabochon:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n4w5",
+            "formatted": "blit:n4w5",
+            "distance": 6.4
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n4w5",
+            "formatted": "blit:n4w5",
+            "distance": 6.4
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n4w5",
+            "formatted": "blit:n4w5",
+            "distance": 6.4
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "n4w5",
+            "formatted": "blit:n4w5",
+            "distance": 6.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(48,6)"
+      }
+    },
+    {
+      "turn": 59,
+      "timestamp": "2025-12-26T02:28:14.606688",
+      "action": "move",
+      "player": {
+        "pos": "(49,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1e1",
+            "formatted": "cabochon:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s3e2",
+            "formatted": "Small Vial of Ite Aether:s3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "stiletto",
+            "type": "weapons",
+            "pos": "n3e3",
+            "formatted": "stiletto:n3e3",
+            "distance": 4.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(49,6)"
+      }
+    },
+    {
+      "turn": 60,
+      "timestamp": "2025-12-26T02:28:14.739360",
+      "action": "move",
+      "player": {
+        "pos": "(50,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "cabochon:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s3e1",
+            "formatted": "Small Vial of Ite Aether:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "stiletto",
+            "type": "weapons",
+            "pos": "n3e2",
+            "formatted": "stiletto:n3e2",
+            "distance": 3.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(50,6)"
+      }
+    },
+    {
+      "turn": 61,
+      "timestamp": "2025-12-26T02:28:15.025535",
+      "action": "move",
+      "player": {
+        "pos": "(50,5)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "cabochon:here",
+            "distance": 0.0
+          },
+          {
+            "name": "stiletto",
+            "type": "weapons",
+            "pos": "n2e2",
+            "formatted": "stiletto:n2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s4e1",
+            "formatted": "Small Vial of Ite Aether:s4e1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(50,5)"
+      }
+    }
+  ]
+}

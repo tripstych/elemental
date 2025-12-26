@@ -1,0 +1,276 @@
+{
+  "game_seed": 599964,
+  "total_turns": 3,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T23:44:17.970656",
+      "action": "move",
+      "player": {
+        "pos": "(3,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s7e2",
+            "formatted": "Skeleton:s7e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.3,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s7e4",
+            "formatted": "Skeleton:s7e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Grand Bottle of Alkahest:here",
+            "distance": 0.0
+          },
+          {
+            "name": "rake",
+            "type": "tools",
+            "pos": "e4",
+            "formatted": "rake:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Grand Bottle of Alkahest:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "turquoise",
+            "type": "gems",
+            "pos": "s7",
+            "formatted": "turquoise:s7",
+            "distance": 7.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s7",
+            "formatted": "Tiny Vial of Alkahest:s7",
+            "distance": 7.0
+          },
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s9w1",
+            "formatted": "Medium Flask of Ite Ignis:s9w1",
+            "distance": 9.1
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "s9e3",
+            "formatted": "Small Vial of Oleum Terra:s9e3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(3,2)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T23:44:18.187045",
+      "action": "move",
+      "player": {
+        "pos": "(4,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s6",
+            "formatted": "Skeleton:s6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s6e2",
+            "formatted": "Skeleton:s6e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.3,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "w1",
+            "formatted": "Grand Bottle of Alkahest:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "rake",
+            "type": "tools",
+            "pos": "e3",
+            "formatted": "rake:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "e3",
+            "formatted": "Grand Bottle of Alkahest:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "turquoise",
+            "type": "gems",
+            "pos": "s7w1",
+            "formatted": "turquoise:s7w1",
+            "distance": 7.1
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s7w1",
+            "formatted": "Tiny Vial of Alkahest:s7w1",
+            "distance": 7.1
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "s9e2",
+            "formatted": "Small Vial of Oleum Terra:s9e2",
+            "distance": 9.2
+          },
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s9w2",
+            "formatted": "Medium Flask of Ite Ignis:s9w2",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(4,2)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T23:44:19.013483",
+      "action": "move",
+      "player": {
+        "pos": "(4,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s4",
+            "formatted": "Skeleton:s4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s4e1",
+            "formatted": "Skeleton:s4e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s9e2",
+            "formatted": "Orc:s9e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "n1w1",
+            "formatted": "Grand Bottle of Alkahest:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "rake",
+            "type": "tools",
+            "pos": "n1e3",
+            "formatted": "rake:n1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "Grand Bottle of Alkahest",
+            "type": "solvent",
+            "pos": "n1e3",
+            "formatted": "Grand Bottle of Alkahest:n1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "turquoise",
+            "type": "gems",
+            "pos": "s6w1",
+            "formatted": "turquoise:s6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s6w1",
+            "formatted": "Tiny Vial of Alkahest:s6w1",
+            "distance": 6.1
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "s8e2",
+            "formatted": "Small Vial of Oleum Terra:s8e2",
+            "distance": 8.2
+          },
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s8w2",
+            "formatted": "Medium Flask of Ite Ignis:s8w2",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(4,3)"
+      }
+    }
+  ]
+}

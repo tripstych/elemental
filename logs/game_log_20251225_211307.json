@@ -1,0 +1,250 @@
+{
+  "game_seed": 761228,
+  "total_turns": 4,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T21:13:10.049286",
+      "action": "move",
+      "player": {
+        "pos": "(30,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s4e6",
+            "formatted": "Spider:s4e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.2,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s7e6",
+            "formatted": "Skeleton:s7e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.2,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "s3e9",
+            "formatted": "Bat:s3e9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.5,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s6",
+            "formatted": "Small Vial of Aqua Ignis:s6",
+            "distance": 6.0
+          },
+          {
+            "name": "kylie",
+            "type": "weapons",
+            "pos": "s2e6",
+            "formatted": "kylie:s2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(30,3)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T21:13:10.248356",
+      "action": "move",
+      "player": {
+        "pos": "(30,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s2e5",
+            "formatted": "Spider:s2e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.4,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s5e5",
+            "formatted": "Skeleton:s5e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "s1e8",
+            "formatted": "Bat:s1e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s5",
+            "formatted": "Small Vial of Aqua Ignis:s5",
+            "distance": 5.0
+          },
+          {
+            "name": "kylie",
+            "type": "weapons",
+            "pos": "s1e6",
+            "formatted": "kylie:s1e6",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(30,4)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T21:13:10.415727",
+      "action": "move",
+      "player": {
+        "pos": "(30,5)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e4",
+            "formatted": "Spider:e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s3e4",
+            "formatted": "Skeleton:s3e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n1e7",
+            "formatted": "Bat:n1e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4",
+            "formatted": "Small Vial of Aqua Ignis:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "kylie",
+            "type": "weapons",
+            "pos": "e6",
+            "formatted": "kylie:e6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(30,5)"
+      }
+    },
+    {
+      "turn": 4,
+      "timestamp": "2025-12-25T21:13:12.602283",
+      "action": "move",
+      "player": {
+        "pos": "(30,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s1e3",
+            "formatted": "Spider:s1e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s3e3",
+            "formatted": "Skeleton:s3e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.2,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "s1e6",
+            "formatted": "Bat:s1e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s5",
+            "formatted": "Small Vial of Aqua Ignis:s5",
+            "distance": 5.0
+          },
+          {
+            "name": "kylie",
+            "type": "weapons",
+            "pos": "s1e6",
+            "formatted": "kylie:s1e6",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(30,4)"
+      }
+    }
+  ]
+}

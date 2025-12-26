@@ -70,7 +70,7 @@ def format_state_for_llm(state: dict) -> str:
     lines.append("")
     lines.append("VISIBLE ITEMS:")
     if visible.get('items'):
-        for item in visible['items'][:8]:
+        for item in visible['items']:
             formatted = f"{item['name']}:{item['pos']}"
             lines.append(f"  {formatted} ({item['type']})")
     else:

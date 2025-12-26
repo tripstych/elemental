@@ -996,6 +996,7 @@
   "fireball.n.01": {
     "word": "krata",
     "spirit": "fire",
+    "weight": 1.2,
     "composition": {
       "fire": 58,
       "water": 5,

@@ -1,0 +1,2590 @@
+{
+  "game_seed": 42,
+  "total_turns": 112,
+  "actions": [
+    {
+      "turn": 54,
+      "timestamp": "2025-12-26T02:20:34.175917",
+      "action": "load",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "filename": "savegame_20251226_004158.json"
+      }
+    },
+    {
+      "turn": 54,
+      "timestamp": "2025-12-26T02:20:38.746780",
+      "action": "drop_item",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "item": "blit",
+        "position": [
+          35,
+          21
+        ]
+      }
+    },
+    {
+      "turn": 54,
+      "timestamp": "2025-12-26T02:20:39.541701",
+      "action": "drop_item",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "item": "blit",
+        "position": [
+          35,
+          21
+        ]
+      }
+    },
+    {
+      "turn": 54,
+      "timestamp": "2025-12-26T02:20:39.934445",
+      "action": "drop_item",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "item": "blit",
+        "position": [
+          35,
+          21
+        ]
+      }
+    },
+    {
+      "turn": 54,
+      "timestamp": "2025-12-26T02:20:41.093748",
+      "action": "drop_item",
+      "player": {
+        "pos": "(35,21)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "here",
+            "formatted": "blit:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "item": "blit",
+        "position": [
+          35,
+          21
+        ]
+      }
+    },
+    {
+      "turn": 55,
+      "timestamp": "2025-12-26T02:20:43.261399",
+      "action": "move",
+      "player": {
+        "pos": "(35,20)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "blit:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "blit:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "blit:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s1",
+            "formatted": "blit:s1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,20)"
+      }
+    },
+    {
+      "turn": 56,
+      "timestamp": "2025-12-26T02:20:43.475824",
+      "action": "move",
+      "player": {
+        "pos": "(35,19)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "blit:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "blit:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "blit:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "blit:s2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,19)"
+      }
+    },
+    {
+      "turn": 56,
+      "timestamp": "2025-12-26T02:20:43.942264",
+      "action": "save",
+      "player": {
+        "pos": "(35,19)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "blit:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "blit:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "blit:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "blit:s2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "filename": "savegame_20251226_022043.json"
+      }
+    },
+    {
+      "turn": 57,
+      "timestamp": "2025-12-26T02:20:47.669319",
+      "action": "move",
+      "player": {
+        "pos": "(35,18)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s3",
+            "formatted": "blit:s3",
+            "distance": 3.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s3",
+            "formatted": "blit:s3",
+            "distance": 3.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s3",
+            "formatted": "blit:s3",
+            "distance": 3.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s3",
+            "formatted": "blit:s3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,18)"
+      }
+    },
+    {
+      "turn": 58,
+      "timestamp": "2025-12-26T02:20:47.952033",
+      "action": "move",
+      "player": {
+        "pos": "(34,18)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s3e1",
+            "formatted": "blit:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s3e1",
+            "formatted": "blit:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s3e1",
+            "formatted": "blit:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s3e1",
+            "formatted": "blit:s3e1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(34,18)"
+      }
+    },
+    {
+      "turn": 59,
+      "timestamp": "2025-12-26T02:20:48.165529",
+      "action": "move",
+      "player": {
+        "pos": "(34,17)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s4e1",
+            "formatted": "blit:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s4e1",
+            "formatted": "blit:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s4e1",
+            "formatted": "blit:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s4e1",
+            "formatted": "blit:s4e1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,17)"
+      }
+    },
+    {
+      "turn": 60,
+      "timestamp": "2025-12-26T02:20:48.381438",
+      "action": "move",
+      "player": {
+        "pos": "(34,16)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,16)"
+      }
+    },
+    {
+      "turn": 61,
+      "timestamp": "2025-12-26T02:20:48.478502",
+      "action": "move",
+      "player": {
+        "pos": "(34,15)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n7w1",
+            "formatted": "Goblin:n7w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s6e1",
+            "formatted": "blit:s6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s6e1",
+            "formatted": "blit:s6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s6e1",
+            "formatted": "blit:s6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s6e1",
+            "formatted": "blit:s6e1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,15)"
+      }
+    },
+    {
+      "turn": 62,
+      "timestamp": "2025-12-26T02:20:48.577305",
+      "action": "move",
+      "player": {
+        "pos": "(34,14)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n5",
+            "formatted": "Goblin:n5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s7e1",
+            "formatted": "blit:s7e1",
+            "distance": 7.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s7e1",
+            "formatted": "blit:s7e1",
+            "distance": 7.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s7e1",
+            "formatted": "blit:s7e1",
+            "distance": 7.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s7e1",
+            "formatted": "blit:s7e1",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,14)"
+      }
+    },
+    {
+      "turn": 63,
+      "timestamp": "2025-12-26T02:20:48.673714",
+      "action": "move",
+      "player": {
+        "pos": "(34,13)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n3",
+            "formatted": "Goblin:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s8e1",
+            "formatted": "blit:s8e1",
+            "distance": 8.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s8e1",
+            "formatted": "blit:s8e1",
+            "distance": 8.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s8e1",
+            "formatted": "blit:s8e1",
+            "distance": 8.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s8e1",
+            "formatted": "blit:s8e1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,13)"
+      }
+    },
+    {
+      "turn": 64,
+      "timestamp": "2025-12-26T02:20:48.772858",
+      "action": "move",
+      "player": {
+        "pos": "(34,12)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n1",
+            "formatted": "Goblin:n1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,12)"
+      }
+    },
+    {
+      "turn": 65,
+      "timestamp": "2025-12-26T02:21:01.001854",
+      "action": "move",
+      "player": {
+        "pos": "(34,13)",
+        "hp": "68/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n2",
+            "formatted": "Goblin:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s8e1",
+            "formatted": "blit:s8e1",
+            "distance": 8.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s8e1",
+            "formatted": "blit:s8e1",
+            "distance": 8.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s8e1",
+            "formatted": "blit:s8e1",
+            "distance": 8.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s8e1",
+            "formatted": "blit:s8e1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(34,13)"
+      }
+    },
+    {
+      "turn": 66,
+      "timestamp": "2025-12-26T02:21:01.202681",
+      "action": "move",
+      "player": {
+        "pos": "(34,14)",
+        "hp": "68/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n2",
+            "formatted": "Goblin:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s7e1",
+            "formatted": "blit:s7e1",
+            "distance": 7.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s7e1",
+            "formatted": "blit:s7e1",
+            "distance": 7.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s7e1",
+            "formatted": "blit:s7e1",
+            "distance": 7.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s7e1",
+            "formatted": "blit:s7e1",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(34,14)"
+      }
+    },
+    {
+      "turn": 67,
+      "timestamp": "2025-12-26T02:21:01.450297",
+      "action": "move",
+      "player": {
+        "pos": "(34,15)",
+        "hp": "68/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n2",
+            "formatted": "Goblin:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s6e1",
+            "formatted": "blit:s6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s6e1",
+            "formatted": "blit:s6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s6e1",
+            "formatted": "blit:s6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s6e1",
+            "formatted": "blit:s6e1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(34,15)"
+      }
+    },
+    {
+      "turn": 68,
+      "timestamp": "2025-12-26T02:21:02.316549",
+      "action": "move",
+      "player": {
+        "pos": "(34,16)",
+        "hp": "68/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n2",
+            "formatted": "Goblin:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(34,16)"
+      }
+    },
+    {
+      "turn": 69,
+      "timestamp": "2025-12-26T02:21:04.083113",
+      "action": "attack",
+      "player": {
+        "pos": "(34,16)",
+        "hp": "68/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n1",
+            "formatted": "Goblin:n1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 70,
+      "timestamp": "2025-12-26T02:21:05.058140",
+      "action": "attack",
+      "player": {
+        "pos": "(34,16)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 71,
+      "timestamp": "2025-12-26T02:21:05.771990",
+      "action": "move",
+      "player": {
+        "pos": "(34,15)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s6e1",
+            "formatted": "blit:s6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s6e1",
+            "formatted": "blit:s6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s6e1",
+            "formatted": "blit:s6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s6e1",
+            "formatted": "blit:s6e1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,15)"
+      }
+    },
+    {
+      "turn": 72,
+      "timestamp": "2025-12-26T02:21:05.973102",
+      "action": "move",
+      "player": {
+        "pos": "(34,14)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s7e1",
+            "formatted": "blit:s7e1",
+            "distance": 7.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s7e1",
+            "formatted": "blit:s7e1",
+            "distance": 7.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s7e1",
+            "formatted": "blit:s7e1",
+            "distance": 7.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s7e1",
+            "formatted": "blit:s7e1",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,14)"
+      }
+    },
+    {
+      "turn": 73,
+      "timestamp": "2025-12-26T02:21:06.073165",
+      "action": "move",
+      "player": {
+        "pos": "(34,13)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s8e1",
+            "formatted": "blit:s8e1",
+            "distance": 8.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s8e1",
+            "formatted": "blit:s8e1",
+            "distance": 8.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s8e1",
+            "formatted": "blit:s8e1",
+            "distance": 8.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s8e1",
+            "formatted": "blit:s8e1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,13)"
+      }
+    },
+    {
+      "turn": 74,
+      "timestamp": "2025-12-26T02:21:06.189458",
+      "action": "move",
+      "player": {
+        "pos": "(34,12)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,12)"
+      }
+    },
+    {
+      "turn": 75,
+      "timestamp": "2025-12-26T02:21:06.286856",
+      "action": "move",
+      "player": {
+        "pos": "(34,11)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,11)"
+      }
+    },
+    {
+      "turn": 76,
+      "timestamp": "2025-12-26T02:21:06.387971",
+      "action": "move",
+      "player": {
+        "pos": "(34,10)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,10)"
+      }
+    },
+    {
+      "turn": 77,
+      "timestamp": "2025-12-26T02:21:06.489354",
+      "action": "move",
+      "player": {
+        "pos": "(34,9)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n1w2",
+            "formatted": "Orc:n1w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,9)"
+      }
+    },
+    {
+      "turn": 78,
+      "timestamp": "2025-12-26T02:21:06.815530",
+      "action": "move",
+      "player": {
+        "pos": "(34,8)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "w2",
+            "formatted": "Orc:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,8)"
+      }
+    },
+    {
+      "turn": 79,
+      "timestamp": "2025-12-26T02:21:07.362906",
+      "action": "attack",
+      "player": {
+        "pos": "(34,8)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "w1",
+            "formatted": "Orc:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "target": "Orc",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 80,
+      "timestamp": "2025-12-26T02:21:07.578848",
+      "action": "attack",
+      "player": {
+        "pos": "(34,8)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "target": "Orc",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 81,
+      "timestamp": "2025-12-26T02:21:08.107435",
+      "action": "move",
+      "player": {
+        "pos": "(34,7)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s1w1",
+            "formatted": "BB:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "n1e4",
+            "formatted": "Tiny Vial of Ite Ignis:n1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,7)"
+      }
+    },
+    {
+      "turn": 82,
+      "timestamp": "2025-12-26T02:21:08.406350",
+      "action": "move",
+      "player": {
+        "pos": "(34,6)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e8",
+            "formatted": "Spider:e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s2w1",
+            "formatted": "BB:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e4",
+            "formatted": "Tiny Vial of Ite Ignis:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e8",
+            "formatted": "amethyst:n1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,6)"
+      }
+    },
+    {
+      "turn": 83,
+      "timestamp": "2025-12-26T02:21:08.936172",
+      "action": "move",
+      "player": {
+        "pos": "(34,7)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s1w1",
+            "formatted": "BB:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "n1e4",
+            "formatted": "Tiny Vial of Ite Ignis:n1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(34,7)"
+      }
+    },
+    {
+      "turn": 84,
+      "timestamp": "2025-12-26T02:21:09.237689",
+      "action": "move",
+      "player": {
+        "pos": "(34,8)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "w1",
+            "formatted": "BB:w1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(34,8)"
+      }
+    },
+    {
+      "turn": 85,
+      "timestamp": "2025-12-26T02:21:09.585927",
+      "action": "move",
+      "player": {
+        "pos": "(33,8)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "BB:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(33,8)"
+      }
+    },
+    {
+      "turn": 86,
+      "timestamp": "2025-12-26T02:21:13.178477",
+      "action": "move",
+      "player": {
+        "pos": "(34,8)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "w1",
+            "formatted": "BB:w1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(34,8)"
+      }
+    },
+    {
+      "turn": 87,
+      "timestamp": "2025-12-26T02:21:13.505188",
+      "action": "move",
+      "player": {
+        "pos": "(35,8)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "w2",
+            "formatted": "BB:w2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(35,8)"
+      }
+    },
+    {
+      "turn": 88,
+      "timestamp": "2025-12-26T02:21:13.622285",
+      "action": "move",
+      "player": {
+        "pos": "(35,7)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s1w2",
+            "formatted": "BB:s1w2",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,7)"
+      }
+    },
+    {
+      "turn": 89,
+      "timestamp": "2025-12-26T02:21:13.858546",
+      "action": "move",
+      "player": {
+        "pos": "(35,6)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e6",
+            "formatted": "Spider:e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s2w2",
+            "formatted": "BB:s2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e3",
+            "formatted": "Tiny Vial of Ite Ignis:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e7",
+            "formatted": "amethyst:n1e7",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,6)"
+      }
+    },
+    {
+      "turn": 90,
+      "timestamp": "2025-12-26T02:21:14.429403",
+      "action": "move",
+      "player": {
+        "pos": "(35,5)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s3w2",
+            "formatted": "BB:s3w2",
+            "distance": 3.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,5)"
+      }
+    },
+    {
+      "turn": 91,
+      "timestamp": "2025-12-26T02:21:14.645392",
+      "action": "move",
+      "player": {
+        "pos": "(35,4)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e3",
+            "formatted": "Skeleton:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s4w2",
+            "formatted": "BB:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s1e7",
+            "formatted": "amethyst:s1e7",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,4)"
+      }
+    },
+    {
+      "turn": 92,
+      "timestamp": "2025-12-26T02:21:14.810004",
+      "action": "move",
+      "player": {
+        "pos": "(35,3)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1e2",
+            "formatted": "Skeleton:s1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s5w2",
+            "formatted": "BB:s5w2",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,3)"
+      }
+    },
+    {
+      "turn": 93,
+      "timestamp": "2025-12-26T02:21:15.026442",
+      "action": "move",
+      "player": {
+        "pos": "(35,2)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s6w2",
+            "formatted": "BB:s6w2",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,2)"
+      }
+    },
+    {
+      "turn": 94,
+      "timestamp": "2025-12-26T02:21:15.998871",
+      "action": "move",
+      "player": {
+        "pos": "(34,2)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s2e3",
+            "formatted": "Skeleton:s2e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.6,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s6w1",
+            "formatted": "BB:s6w1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(34,2)"
+      }
+    },
+    {
+      "turn": 95,
+      "timestamp": "2025-12-26T02:21:16.247763",
+      "action": "move",
+      "player": {
+        "pos": "(33,2)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s2e4",
+            "formatted": "Skeleton:s2e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.5,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s6",
+            "formatted": "BB:s6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(33,2)"
+      }
+    },
+    {
+      "turn": 96,
+      "timestamp": "2025-12-26T02:21:16.478899",
+      "action": "move",
+      "player": {
+        "pos": "(32,2)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s2e5",
+            "formatted": "Skeleton:s2e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.4,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s6e1",
+            "formatted": "BB:s6e1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(32,2)"
+      }
+    },
+    {
+      "turn": 97,
+      "timestamp": "2025-12-26T02:21:16.693788",
+      "action": "move",
+      "player": {
+        "pos": "(32,3)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1e5",
+            "formatted": "Skeleton:s1e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s5e1",
+            "formatted": "BB:s5e1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(32,3)"
+      }
+    },
+    {
+      "turn": 98,
+      "timestamp": "2025-12-26T02:21:16.905889",
+      "action": "move",
+      "player": {
+        "pos": "(32,4)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e5",
+            "formatted": "Skeleton:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s4e1",
+            "formatted": "BB:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s2e6",
+            "formatted": "Tiny Vial of Ite Ignis:s2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(32,4)"
+      }
+    },
+    {
+      "turn": 99,
+      "timestamp": "2025-12-26T02:21:17.075183",
+      "action": "move",
+      "player": {
+        "pos": "(32,5)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n1e4",
+            "formatted": "Skeleton:n1e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s1e8",
+            "formatted": "Spider:s1e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s3e1",
+            "formatted": "BB:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s1e6",
+            "formatted": "Tiny Vial of Ite Ignis:s1e6",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(32,5)"
+      }
+    },
+    {
+      "turn": 100,
+      "timestamp": "2025-12-26T02:21:17.291727",
+      "action": "move",
+      "player": {
+        "pos": "(32,6)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n1e3",
+            "formatted": "Skeleton:n1e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "e8",
+            "formatted": "Spider:e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s2e1",
+            "formatted": "BB:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e6",
+            "formatted": "Tiny Vial of Ite Ignis:e6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(32,6)"
+      }
+    },
+    {
+      "turn": 101,
+      "timestamp": "2025-12-26T02:21:17.439362",
+      "action": "move",
+      "player": {
+        "pos": "(32,7)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n1e2",
+            "formatted": "Skeleton:n1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n1e7",
+            "formatted": "Spider:n1e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s1e1",
+            "formatted": "BB:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "n1e6",
+            "formatted": "Tiny Vial of Ite Ignis:n1e6",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(32,7)"
+      }
+    },
+    {
+      "turn": 102,
+      "timestamp": "2025-12-26T02:21:17.621669",
+      "action": "move",
+      "player": {
+        "pos": "(32,8)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n1e1",
+            "formatted": "Skeleton:n1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "e1",
+            "formatted": "BB:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "n2e6",
+            "formatted": "Tiny Vial of Ite Ignis:n2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(32,8)"
+      }
+    },
+    {
+      "turn": 103,
+      "timestamp": "2025-12-26T02:21:17.951694",
+      "action": "move",
+      "player": {
+        "pos": "(31,8)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n1e2",
+            "formatted": "Skeleton:n1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n2e8",
+            "formatted": "Spider:n2e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "e2",
+            "formatted": "BB:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "n2e7",
+            "formatted": "Tiny Vial of Ite Ignis:n2e7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(31,8)"
+      }
+    },
+    {
+      "turn": 104,
+      "timestamp": "2025-12-26T02:21:19.518519",
+      "action": "attack",
+      "player": {
+        "pos": "(31,8)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e1",
+            "formatted": "Skeleton:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "n2e8",
+            "formatted": "Spider:n2e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "e2",
+            "formatted": "BB:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "n2e7",
+            "formatted": "Tiny Vial of Ite Ignis:n2e7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 105,
+      "timestamp": "2025-12-26T02:21:19.786553",
+      "action": "attack",
+      "player": {
+        "pos": "(31,8)",
+        "hp": "60/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "n2e8",
+            "formatted": "Spider:n2e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "e2",
+            "formatted": "BB:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "n2e7",
+            "formatted": "Tiny Vial of Ite Ignis:n2e7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 106,
+      "timestamp": "2025-12-26T02:21:20.345029",
+      "action": "move",
+      "player": {
+        "pos": "(32,8)",
+        "hp": "60/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "e1",
+            "formatted": "BB:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "n2e6",
+            "formatted": "Tiny Vial of Ite Ignis:n2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(32,8)"
+      }
+    },
+    {
+      "turn": 107,
+      "timestamp": "2025-12-26T02:21:20.575915",
+      "action": "move",
+      "player": {
+        "pos": "(33,8)",
+        "hp": "60/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "BB:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(33,8)"
+      }
+    },
+    {
+      "turn": 108,
+      "timestamp": "2025-12-26T02:21:20.708835",
+      "action": "move",
+      "player": {
+        "pos": "(34,8)",
+        "hp": "60/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "w1",
+            "formatted": "BB:w1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(34,8)"
+      }
+    },
+    {
+      "turn": 109,
+      "timestamp": "2025-12-26T02:21:20.959380",
+      "action": "move",
+      "player": {
+        "pos": "(34,9)",
+        "hp": "60/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "n1w1",
+            "formatted": "BB:n1w1",
+            "distance": 1.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(34,9)"
+      }
+    },
+    {
+      "turn": 110,
+      "timestamp": "2025-12-26T02:21:21.139597",
+      "action": "move",
+      "player": {
+        "pos": "(34,10)",
+        "hp": "60/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "n2w1",
+            "formatted": "BB:n2w1",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(34,10)"
+      }
+    },
+    {
+      "turn": 111,
+      "timestamp": "2025-12-26T02:21:21.306766",
+      "action": "move",
+      "player": {
+        "pos": "(34,11)",
+        "hp": "60/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "n3w1",
+            "formatted": "BB:n3w1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(34,11)"
+      }
+    },
+    {
+      "turn": 112,
+      "timestamp": "2025-12-26T02:21:21.488809",
+      "action": "move",
+      "player": {
+        "pos": "(34,12)",
+        "hp": "60/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "n4w1",
+            "formatted": "BB:n4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(34,12)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3994 @@
+{
+  "game_seed": 42,
+  "total_turns": 159,
+  "actions": [
+    {
+      "turn": 56,
+      "timestamp": "2025-12-26T02:33:44.337704",
+      "action": "load",
+      "player": {
+        "pos": "(35,19)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "blit:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "blit:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "blit:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "blit:s2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "filename": "savegame_20251226_022043.json"
+      }
+    },
+    {
+      "turn": 57,
+      "timestamp": "2025-12-26T02:33:45.526870",
+      "action": "move",
+      "player": {
+        "pos": "(35,18)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s3",
+            "formatted": "blit:s3",
+            "distance": 3.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s3",
+            "formatted": "blit:s3",
+            "distance": 3.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s3",
+            "formatted": "blit:s3",
+            "distance": 3.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s3",
+            "formatted": "blit:s3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,18)"
+      }
+    },
+    {
+      "turn": 58,
+      "timestamp": "2025-12-26T02:33:45.808397",
+      "action": "move",
+      "player": {
+        "pos": "(35,17)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s4",
+            "formatted": "blit:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s4",
+            "formatted": "blit:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s4",
+            "formatted": "blit:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s4",
+            "formatted": "blit:s4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(35,17)"
+      }
+    },
+    {
+      "turn": 59,
+      "timestamp": "2025-12-26T02:33:46.555597",
+      "action": "move",
+      "player": {
+        "pos": "(34,17)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s4e1",
+            "formatted": "blit:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s4e1",
+            "formatted": "blit:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s4e1",
+            "formatted": "blit:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s4e1",
+            "formatted": "blit:s4e1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(34,17)"
+      }
+    },
+    {
+      "turn": 60,
+      "timestamp": "2025-12-26T02:33:46.869868",
+      "action": "move",
+      "player": {
+        "pos": "(34,16)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s5e1",
+            "formatted": "blit:s5e1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,16)"
+      }
+    },
+    {
+      "turn": 61,
+      "timestamp": "2025-12-26T02:33:47.040311",
+      "action": "move",
+      "player": {
+        "pos": "(34,15)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n7w1",
+            "formatted": "Goblin:n7w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s6e1",
+            "formatted": "blit:s6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s6e1",
+            "formatted": "blit:s6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s6e1",
+            "formatted": "blit:s6e1",
+            "distance": 6.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s6e1",
+            "formatted": "blit:s6e1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,15)"
+      }
+    },
+    {
+      "turn": 62,
+      "timestamp": "2025-12-26T02:33:47.304463",
+      "action": "move",
+      "player": {
+        "pos": "(34,14)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n5",
+            "formatted": "Goblin:n5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s7e1",
+            "formatted": "blit:s7e1",
+            "distance": 7.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s7e1",
+            "formatted": "blit:s7e1",
+            "distance": 7.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s7e1",
+            "formatted": "blit:s7e1",
+            "distance": 7.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s7e1",
+            "formatted": "blit:s7e1",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,14)"
+      }
+    },
+    {
+      "turn": 63,
+      "timestamp": "2025-12-26T02:33:52.542427",
+      "action": "move",
+      "player": {
+        "pos": "(34,13)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n3",
+            "formatted": "Goblin:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s8e1",
+            "formatted": "blit:s8e1",
+            "distance": 8.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s8e1",
+            "formatted": "blit:s8e1",
+            "distance": 8.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s8e1",
+            "formatted": "blit:s8e1",
+            "distance": 8.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s8e1",
+            "formatted": "blit:s8e1",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,13)"
+      }
+    },
+    {
+      "turn": 64,
+      "timestamp": "2025-12-26T02:33:52.574607",
+      "action": "move",
+      "player": {
+        "pos": "(34,12)",
+        "hp": "72/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n1",
+            "formatted": "Goblin:n1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,12)"
+      }
+    },
+    {
+      "turn": 65,
+      "timestamp": "2025-12-26T02:33:53.620700",
+      "action": "attack",
+      "player": {
+        "pos": "(34,12)",
+        "hp": "70/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n1",
+            "formatted": "Goblin:n1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 66,
+      "timestamp": "2025-12-26T02:33:54.019276",
+      "action": "attack",
+      "player": {
+        "pos": "(34,12)",
+        "hp": "68/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          },
+          {
+            "name": "blit",
+            "type": "food",
+            "pos": "s9e1",
+            "formatted": "blit:s9e1",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 67,
+      "timestamp": "2025-12-26T02:33:54.727583",
+      "action": "move",
+      "player": {
+        "pos": "(34,11)",
+        "hp": "68/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,11)"
+      }
+    },
+    {
+      "turn": 68,
+      "timestamp": "2025-12-26T02:33:54.861624",
+      "action": "move",
+      "player": {
+        "pos": "(34,10)",
+        "hp": "68/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,10)"
+      }
+    },
+    {
+      "turn": 69,
+      "timestamp": "2025-12-26T02:33:55.042593",
+      "action": "move",
+      "player": {
+        "pos": "(34,9)",
+        "hp": "68/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "n1w2",
+            "formatted": "Orc:n1w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,9)"
+      }
+    },
+    {
+      "turn": 70,
+      "timestamp": "2025-12-26T02:33:55.619351",
+      "action": "move",
+      "player": {
+        "pos": "(34,8)",
+        "hp": "68/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "w2",
+            "formatted": "Orc:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,8)"
+      }
+    },
+    {
+      "turn": 71,
+      "timestamp": "2025-12-26T02:33:56.319232",
+      "action": "attack",
+      "player": {
+        "pos": "(34,8)",
+        "hp": "68/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "w1",
+            "formatted": "Orc:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "target": "Orc",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 72,
+      "timestamp": "2025-12-26T02:33:56.569206",
+      "action": "attack",
+      "player": {
+        "pos": "(34,8)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "target": "Orc",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 73,
+      "timestamp": "2025-12-26T02:33:57.212907",
+      "action": "move",
+      "player": {
+        "pos": "(34,7)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s1w1",
+            "formatted": "BB:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "n1e4",
+            "formatted": "Tiny Vial of Ite Ignis:n1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(34,7)"
+      }
+    },
+    {
+      "turn": 74,
+      "timestamp": "2025-12-26T02:33:57.877184",
+      "action": "move",
+      "player": {
+        "pos": "(33,7)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "s1",
+            "formatted": "BB:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "n1e5",
+            "formatted": "Tiny Vial of Ite Ignis:n1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n2e9",
+            "formatted": "amethyst:n2e9",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(33,7)"
+      }
+    },
+    {
+      "turn": 75,
+      "timestamp": "2025-12-26T02:33:58.061436",
+      "action": "move",
+      "player": {
+        "pos": "(33,8)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "BB",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "BB:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(33,8)"
+      }
+    },
+    {
+      "turn": 75,
+      "timestamp": "2025-12-26T02:33:59.140903",
+      "action": "pickup",
+      "player": {
+        "pos": "(33,8)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "BB"
+        ]
+      }
+    },
+    {
+      "turn": 76,
+      "timestamp": "2025-12-26T02:34:00.640943",
+      "action": "move",
+      "player": {
+        "pos": "(33,7)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "n1e5",
+            "formatted": "Tiny Vial of Ite Ignis:n1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n2e9",
+            "formatted": "amethyst:n2e9",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(33,7)"
+      }
+    },
+    {
+      "turn": 77,
+      "timestamp": "2025-12-26T02:34:00.937092",
+      "action": "move",
+      "player": {
+        "pos": "(33,6)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e9",
+            "formatted": "Spider:e9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e5",
+            "formatted": "Tiny Vial of Ite Ignis:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e9",
+            "formatted": "amethyst:n1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(33,6)"
+      }
+    },
+    {
+      "turn": 78,
+      "timestamp": "2025-12-26T02:34:01.461563",
+      "action": "move",
+      "player": {
+        "pos": "(34,6)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e7",
+            "formatted": "Spider:e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e4",
+            "formatted": "Tiny Vial of Ite Ignis:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e8",
+            "formatted": "amethyst:n1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(34,6)"
+      }
+    },
+    {
+      "turn": 79,
+      "timestamp": "2025-12-26T02:34:01.759910",
+      "action": "move",
+      "player": {
+        "pos": "(35,6)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e5",
+            "formatted": "Spider:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e3",
+            "formatted": "Tiny Vial of Ite Ignis:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e7",
+            "formatted": "amethyst:n1e7",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(35,6)"
+      }
+    },
+    {
+      "turn": 80,
+      "timestamp": "2025-12-26T02:34:02.023450",
+      "action": "move",
+      "player": {
+        "pos": "(36,6)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e3",
+            "formatted": "Spider:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e2",
+            "formatted": "Tiny Vial of Ite Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e6",
+            "formatted": "amethyst:n1e6",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(36,6)"
+      }
+    },
+    {
+      "turn": 81,
+      "timestamp": "2025-12-26T02:34:02.238369",
+      "action": "move",
+      "player": {
+        "pos": "(37,6)",
+        "hp": "66/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e1",
+            "formatted": "Spider:e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e1",
+            "formatted": "Tiny Vial of Ite Ignis:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e5",
+            "formatted": "amethyst:n1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(37,6)"
+      }
+    },
+    {
+      "turn": 82,
+      "timestamp": "2025-12-26T02:34:02.738584",
+      "action": "attack",
+      "player": {
+        "pos": "(37,6)",
+        "hp": "64/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e1",
+            "formatted": "Spider:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e1",
+            "formatted": "Tiny Vial of Ite Ignis:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e5",
+            "formatted": "amethyst:n1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 83,
+      "timestamp": "2025-12-26T02:34:02.986054",
+      "action": "attack",
+      "player": {
+        "pos": "(37,6)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e1",
+            "formatted": "Tiny Vial of Ite Ignis:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e5",
+            "formatted": "amethyst:n1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 84,
+      "timestamp": "2025-12-26T02:34:03.677535",
+      "action": "move",
+      "player": {
+        "pos": "(38,6)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Ignis",
+            "type": "coagulant",
+            "pos": "here",
+            "formatted": "Tiny Vial of Ite Ignis:here",
+            "distance": 0.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e4",
+            "formatted": "amethyst:n1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(38,6)"
+      }
+    },
+    {
+      "turn": 84,
+      "timestamp": "2025-12-26T02:34:03.874905",
+      "action": "pickup",
+      "player": {
+        "pos": "(38,6)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e4",
+            "formatted": "amethyst:n1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Tiny Vial of Ite Ignis"
+        ]
+      }
+    },
+    {
+      "turn": 85,
+      "timestamp": "2025-12-26T02:34:23.317475",
+      "action": "move",
+      "player": {
+        "pos": "(39,6)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e3",
+            "formatted": "amethyst:n1e3",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(39,6)"
+      }
+    },
+    {
+      "turn": 86,
+      "timestamp": "2025-12-26T02:34:23.448602",
+      "action": "move",
+      "player": {
+        "pos": "(40,6)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e2",
+            "formatted": "amethyst:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n4e3",
+            "formatted": "Large Flask of Aqua Ignis:n4e3",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(40,6)"
+      }
+    },
+    {
+      "turn": 87,
+      "timestamp": "2025-12-26T02:34:23.698759",
+      "action": "move",
+      "player": {
+        "pos": "(41,6)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1e1",
+            "formatted": "amethyst:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n4e2",
+            "formatted": "Large Flask of Aqua Ignis:n4e2",
+            "distance": 4.5
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1e9",
+            "formatted": "cabochon:n1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(41,6)"
+      }
+    },
+    {
+      "turn": 88,
+      "timestamp": "2025-12-26T02:34:23.832637",
+      "action": "move",
+      "player": {
+        "pos": "(42,6)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "amethyst:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n4e1",
+            "formatted": "Large Flask of Aqua Ignis:n4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1e8",
+            "formatted": "cabochon:n1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(42,6)"
+      }
+    },
+    {
+      "turn": 89,
+      "timestamp": "2025-12-26T02:34:24.298772",
+      "action": "move",
+      "player": {
+        "pos": "(42,5)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n1w4",
+            "formatted": "Skeleton:n1w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "amethyst:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n3e1",
+            "formatted": "Large Flask of Aqua Ignis:n3e1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(42,5)"
+      }
+    },
+    {
+      "turn": 89,
+      "timestamp": "2025-12-26T02:34:24.758058",
+      "action": "pickup",
+      "player": {
+        "pos": "(42,5)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n1w4",
+            "formatted": "Skeleton:n1w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n3e1",
+            "formatted": "Large Flask of Aqua Ignis:n3e1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "amethyst"
+        ]
+      }
+    },
+    {
+      "turn": 90,
+      "timestamp": "2025-12-26T02:34:29.270416",
+      "action": "move",
+      "player": {
+        "pos": "(43,5)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n1w5",
+            "formatted": "Skeleton:n1w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n3",
+            "formatted": "Large Flask of Aqua Ignis:n3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(43,5)"
+      }
+    },
+    {
+      "turn": 91,
+      "timestamp": "2025-12-26T02:34:29.452342",
+      "action": "move",
+      "player": {
+        "pos": "(43,4)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w5",
+            "formatted": "Skeleton:w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n2",
+            "formatted": "Large Flask of Aqua Ignis:n2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(43,4)"
+      }
+    },
+    {
+      "turn": 92,
+      "timestamp": "2025-12-26T02:34:29.670793",
+      "action": "move",
+      "player": {
+        "pos": "(43,3)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1w4",
+            "formatted": "Skeleton:s1w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1",
+            "formatted": "Large Flask of Aqua Ignis:n1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(43,3)"
+      }
+    },
+    {
+      "turn": 93,
+      "timestamp": "2025-12-26T02:34:29.853021",
+      "action": "move",
+      "player": {
+        "pos": "(43,2)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s2w4",
+            "formatted": "Skeleton:s2w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.5,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Large Flask of Aqua Ignis",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Large Flask of Aqua Ignis:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(43,2)"
+      }
+    },
+    {
+      "turn": 93,
+      "timestamp": "2025-12-26T02:34:30.615680",
+      "action": "pickup",
+      "player": {
+        "pos": "(43,2)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s2w4",
+            "formatted": "Skeleton:s2w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.5,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "Large Flask of Aqua Ignis"
+        ]
+      }
+    },
+    {
+      "turn": 94,
+      "timestamp": "2025-12-26T02:34:36.775205",
+      "action": "move",
+      "player": {
+        "pos": "(43,3)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1w4",
+            "formatted": "Skeleton:s1w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(43,3)"
+      }
+    },
+    {
+      "turn": 95,
+      "timestamp": "2025-12-26T02:34:36.989607",
+      "action": "move",
+      "player": {
+        "pos": "(43,4)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w4",
+            "formatted": "Skeleton:w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(43,4)"
+      }
+    },
+    {
+      "turn": 96,
+      "timestamp": "2025-12-26T02:34:37.203093",
+      "action": "move",
+      "player": {
+        "pos": "(43,5)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n1w3",
+            "formatted": "Skeleton:n1w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(43,5)"
+      }
+    },
+    {
+      "turn": 97,
+      "timestamp": "2025-12-26T02:34:37.604183",
+      "action": "move",
+      "player": {
+        "pos": "(44,5)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w3",
+            "formatted": "Skeleton:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(44,5)"
+      }
+    },
+    {
+      "turn": 98,
+      "timestamp": "2025-12-26T02:34:37.805219",
+      "action": "move",
+      "player": {
+        "pos": "(45,5)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w3",
+            "formatted": "Skeleton:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(45,5)"
+      }
+    },
+    {
+      "turn": 99,
+      "timestamp": "2025-12-26T02:34:37.922969",
+      "action": "move",
+      "player": {
+        "pos": "(46,5)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w3",
+            "formatted": "Skeleton:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(46,5)"
+      }
+    },
+    {
+      "turn": 100,
+      "timestamp": "2025-12-26T02:34:38.848668",
+      "action": "move",
+      "player": {
+        "pos": "(45,5)",
+        "hp": "62/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w1",
+            "formatted": "Skeleton:w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(45,5)"
+      }
+    },
+    {
+      "turn": 101,
+      "timestamp": "2025-12-26T02:34:39.225254",
+      "action": "attack",
+      "player": {
+        "pos": "(45,5)",
+        "hp": "60/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "w1",
+            "formatted": "Skeleton:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 102,
+      "timestamp": "2025-12-26T02:34:39.441048",
+      "action": "attack",
+      "player": {
+        "pos": "(45,5)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 103,
+      "timestamp": "2025-12-26T02:34:40.087174",
+      "action": "move",
+      "player": {
+        "pos": "(44,5)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "spatula",
+            "type": "tools",
+            "pos": "here",
+            "formatted": "spatula:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(44,5)"
+      }
+    },
+    {
+      "turn": 103,
+      "timestamp": "2025-12-26T02:34:40.252120",
+      "action": "pickup",
+      "player": {
+        "pos": "(44,5)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "spatula"
+        ]
+      }
+    },
+    {
+      "turn": 104,
+      "timestamp": "2025-12-26T02:34:46.261761",
+      "action": "move",
+      "player": {
+        "pos": "(44,6)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1e6",
+            "formatted": "cabochon:n1e6",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(44,6)"
+      }
+    },
+    {
+      "turn": 105,
+      "timestamp": "2025-12-26T02:34:46.571810",
+      "action": "move",
+      "player": {
+        "pos": "(45,6)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1e5",
+            "formatted": "cabochon:n1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(45,6)"
+      }
+    },
+    {
+      "turn": 106,
+      "timestamp": "2025-12-26T02:34:46.837803",
+      "action": "move",
+      "player": {
+        "pos": "(46,6)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1e4",
+            "formatted": "cabochon:n1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(46,6)"
+      }
+    },
+    {
+      "turn": 107,
+      "timestamp": "2025-12-26T02:34:47.004121",
+      "action": "move",
+      "player": {
+        "pos": "(47,6)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1e3",
+            "formatted": "cabochon:n1e3",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(47,6)"
+      }
+    },
+    {
+      "turn": 108,
+      "timestamp": "2025-12-26T02:34:47.287089",
+      "action": "move",
+      "player": {
+        "pos": "(48,6)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1e2",
+            "formatted": "cabochon:n1e2",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(48,6)"
+      }
+    },
+    {
+      "turn": 109,
+      "timestamp": "2025-12-26T02:34:47.732369",
+      "action": "move",
+      "player": {
+        "pos": "(49,6)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1e1",
+            "formatted": "cabochon:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s3e2",
+            "formatted": "Small Vial of Ite Aether:s3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "stiletto",
+            "type": "weapons",
+            "pos": "n3e3",
+            "formatted": "stiletto:n3e3",
+            "distance": 4.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(49,6)"
+      }
+    },
+    {
+      "turn": 110,
+      "timestamp": "2025-12-26T02:34:47.982488",
+      "action": "move",
+      "player": {
+        "pos": "(50,6)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "cabochon:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s3e1",
+            "formatted": "Small Vial of Ite Aether:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "stiletto",
+            "type": "weapons",
+            "pos": "n3e2",
+            "formatted": "stiletto:n3e2",
+            "distance": 3.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(50,6)"
+      }
+    },
+    {
+      "turn": 111,
+      "timestamp": "2025-12-26T02:34:48.230854",
+      "action": "move",
+      "player": {
+        "pos": "(51,6)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1w1",
+            "formatted": "cabochon:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s3",
+            "formatted": "Small Vial of Ite Aether:s3",
+            "distance": 3.0
+          },
+          {
+            "name": "stiletto",
+            "type": "weapons",
+            "pos": "n3e1",
+            "formatted": "stiletto:n3e1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(51,6)"
+      }
+    },
+    {
+      "turn": 112,
+      "timestamp": "2025-12-26T02:34:48.593309",
+      "action": "move",
+      "player": {
+        "pos": "(52,6)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1w2",
+            "formatted": "cabochon:n1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "stiletto",
+            "type": "weapons",
+            "pos": "n3",
+            "formatted": "stiletto:n3",
+            "distance": 3.0
+          },
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s3w1",
+            "formatted": "Small Vial of Ite Aether:s3w1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(52,6)"
+      }
+    },
+    {
+      "turn": 113,
+      "timestamp": "2025-12-26T02:34:48.755696",
+      "action": "move",
+      "player": {
+        "pos": "(51,6)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1w1",
+            "formatted": "cabochon:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s3",
+            "formatted": "Small Vial of Ite Aether:s3",
+            "distance": 3.0
+          },
+          {
+            "name": "stiletto",
+            "type": "weapons",
+            "pos": "n3e1",
+            "formatted": "stiletto:n3e1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(51,6)"
+      }
+    },
+    {
+      "turn": 114,
+      "timestamp": "2025-12-26T02:34:49.255287",
+      "action": "move",
+      "player": {
+        "pos": "(50,6)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "cabochon:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s3e1",
+            "formatted": "Small Vial of Ite Aether:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "stiletto",
+            "type": "weapons",
+            "pos": "n3e2",
+            "formatted": "stiletto:n3e2",
+            "distance": 3.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(50,6)"
+      }
+    },
+    {
+      "turn": 115,
+      "timestamp": "2025-12-26T02:34:49.756790",
+      "action": "move",
+      "player": {
+        "pos": "(50,5)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cabochon",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "cabochon:here",
+            "distance": 0.0
+          },
+          {
+            "name": "stiletto",
+            "type": "weapons",
+            "pos": "n2e2",
+            "formatted": "stiletto:n2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s4e1",
+            "formatted": "Small Vial of Ite Aether:s4e1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(50,5)"
+      }
+    },
+    {
+      "turn": 115,
+      "timestamp": "2025-12-26T02:34:50.271651",
+      "action": "pickup",
+      "player": {
+        "pos": "(50,5)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "stiletto",
+            "type": "weapons",
+            "pos": "n2e2",
+            "formatted": "stiletto:n2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s4e1",
+            "formatted": "Small Vial of Ite Aether:s4e1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "cabochon"
+        ]
+      }
+    },
+    {
+      "turn": 116,
+      "timestamp": "2025-12-26T02:34:50.776288",
+      "action": "move",
+      "player": {
+        "pos": "(51,5)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "stiletto",
+            "type": "weapons",
+            "pos": "n2e1",
+            "formatted": "stiletto:n2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s4",
+            "formatted": "Small Vial of Ite Aether:s4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(51,5)"
+      }
+    },
+    {
+      "turn": 117,
+      "timestamp": "2025-12-26T02:34:51.154076",
+      "action": "move",
+      "player": {
+        "pos": "(52,5)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "stiletto",
+            "type": "weapons",
+            "pos": "n2",
+            "formatted": "stiletto:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s4w1",
+            "formatted": "Small Vial of Ite Aether:s4w1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(52,5)"
+      }
+    },
+    {
+      "turn": 118,
+      "timestamp": "2025-12-26T02:34:51.470627",
+      "action": "move",
+      "player": {
+        "pos": "(52,4)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "stiletto",
+            "type": "weapons",
+            "pos": "n1",
+            "formatted": "stiletto:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s5w1",
+            "formatted": "Small Vial of Ite Aether:s5w1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(52,4)"
+      }
+    },
+    {
+      "turn": 119,
+      "timestamp": "2025-12-26T02:34:51.770490",
+      "action": "move",
+      "player": {
+        "pos": "(52,3)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "stiletto",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "stiletto:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s6w1",
+            "formatted": "Small Vial of Ite Aether:s6w1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(52,3)"
+      }
+    },
+    {
+      "turn": 119,
+      "timestamp": "2025-12-26T02:34:52.239826",
+      "action": "pickup",
+      "player": {
+        "pos": "(52,3)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s6w1",
+            "formatted": "Small Vial of Ite Aether:s6w1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "stiletto"
+        ]
+      }
+    },
+    {
+      "turn": 120,
+      "timestamp": "2025-12-26T02:34:52.570234",
+      "action": "move",
+      "player": {
+        "pos": "(52,4)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s5w1",
+            "formatted": "Small Vial of Ite Aether:s5w1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(52,4)"
+      }
+    },
+    {
+      "turn": 121,
+      "timestamp": "2025-12-26T02:34:52.834756",
+      "action": "move",
+      "player": {
+        "pos": "(52,5)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s4w1",
+            "formatted": "Small Vial of Ite Aether:s4w1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(52,5)"
+      }
+    },
+    {
+      "turn": 122,
+      "timestamp": "2025-12-26T02:34:52.965386",
+      "action": "move",
+      "player": {
+        "pos": "(52,6)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s3w1",
+            "formatted": "Small Vial of Ite Aether:s3w1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(52,6)"
+      }
+    },
+    {
+      "turn": 123,
+      "timestamp": "2025-12-26T02:34:53.198327",
+      "action": "move",
+      "player": {
+        "pos": "(52,7)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s2w1",
+            "formatted": "Small Vial of Ite Aether:s2w1",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(52,7)"
+      }
+    },
+    {
+      "turn": 124,
+      "timestamp": "2025-12-26T02:34:53.315576",
+      "action": "move",
+      "player": {
+        "pos": "(52,8)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s1w1",
+            "formatted": "Small Vial of Ite Aether:s1w1",
+            "distance": 1.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(52,8)"
+      }
+    },
+    {
+      "turn": 125,
+      "timestamp": "2025-12-26T02:34:53.663499",
+      "action": "move",
+      "player": {
+        "pos": "(52,9)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "w1",
+            "formatted": "Small Vial of Ite Aether:w1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(52,9)"
+      }
+    },
+    {
+      "turn": 126,
+      "timestamp": "2025-12-26T02:34:53.961902",
+      "action": "move",
+      "player": {
+        "pos": "(51,9)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "here",
+            "formatted": "Small Vial of Ite Aether:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(51,9)"
+      }
+    },
+    {
+      "turn": 126,
+      "timestamp": "2025-12-26T02:34:54.239501",
+      "action": "pickup",
+      "player": {
+        "pos": "(51,9)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "Small Vial of Ite Aether"
+        ]
+      }
+    },
+    {
+      "turn": 127,
+      "timestamp": "2025-12-26T02:34:54.670068",
+      "action": "move",
+      "player": {
+        "pos": "(51,10)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(51,10)"
+      }
+    },
+    {
+      "turn": 128,
+      "timestamp": "2025-12-26T02:34:54.903100",
+      "action": "move",
+      "player": {
+        "pos": "(52,10)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(52,10)"
+      }
+    },
+    {
+      "turn": 129,
+      "timestamp": "2025-12-26T02:34:55.102525",
+      "action": "move",
+      "player": {
+        "pos": "(53,10)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Phillips screwdriver",
+            "type": "tools",
+            "pos": "s8w2",
+            "formatted": "Phillips screwdriver:s8w2",
+            "distance": 8.2
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s8w2",
+            "formatted": "Medium Flask of Oleum Terra:s8w2",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(53,10)"
+      }
+    },
+    {
+      "turn": 130,
+      "timestamp": "2025-12-26T02:34:55.414029",
+      "action": "move",
+      "player": {
+        "pos": "(53,11)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Phillips screwdriver",
+            "type": "tools",
+            "pos": "s7w2",
+            "formatted": "Phillips screwdriver:s7w2",
+            "distance": 7.3
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s7w2",
+            "formatted": "Medium Flask of Oleum Terra:s7w2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(53,11)"
+      }
+    },
+    {
+      "turn": 131,
+      "timestamp": "2025-12-26T02:34:55.629200",
+      "action": "move",
+      "player": {
+        "pos": "(53,12)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "s1w2",
+            "formatted": "Tiny Vial of Ite Aether:s1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "Phillips screwdriver",
+            "type": "tools",
+            "pos": "s6w2",
+            "formatted": "Phillips screwdriver:s6w2",
+            "distance": 6.3
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s6w2",
+            "formatted": "Medium Flask of Oleum Terra:s6w2",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(53,12)"
+      }
+    },
+    {
+      "turn": 132,
+      "timestamp": "2025-12-26T02:34:55.808506",
+      "action": "move",
+      "player": {
+        "pos": "(53,13)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "w2",
+            "formatted": "Tiny Vial of Ite Aether:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "Phillips screwdriver",
+            "type": "tools",
+            "pos": "s5w2",
+            "formatted": "Phillips screwdriver:s5w2",
+            "distance": 5.4
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s5w2",
+            "formatted": "Medium Flask of Oleum Terra:s5w2",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(53,13)"
+      }
+    },
+    {
+      "turn": 133,
+      "timestamp": "2025-12-26T02:34:56.132700",
+      "action": "move",
+      "player": {
+        "pos": "(52,13)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "w1",
+            "formatted": "Tiny Vial of Ite Aether:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "Phillips screwdriver",
+            "type": "tools",
+            "pos": "s5w1",
+            "formatted": "Phillips screwdriver:s5w1",
+            "distance": 5.1
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s5w1",
+            "formatted": "Medium Flask of Oleum Terra:s5w1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(52,13)"
+      }
+    },
+    {
+      "turn": 134,
+      "timestamp": "2025-12-26T02:34:56.348908",
+      "action": "move",
+      "player": {
+        "pos": "(51,13)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Ite Aether",
+            "type": "coagulant",
+            "pos": "here",
+            "formatted": "Tiny Vial of Ite Aether:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Phillips screwdriver",
+            "type": "tools",
+            "pos": "s5",
+            "formatted": "Phillips screwdriver:s5",
+            "distance": 5.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s5",
+            "formatted": "Medium Flask of Oleum Terra:s5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(51,13)"
+      }
+    },
+    {
+      "turn": 134,
+      "timestamp": "2025-12-26T02:34:56.582691",
+      "action": "pickup",
+      "player": {
+        "pos": "(51,13)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Phillips screwdriver",
+            "type": "tools",
+            "pos": "s5",
+            "formatted": "Phillips screwdriver:s5",
+            "distance": 5.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s5",
+            "formatted": "Medium Flask of Oleum Terra:s5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Tiny Vial of Ite Aether"
+        ]
+      }
+    },
+    {
+      "turn": 135,
+      "timestamp": "2025-12-26T02:34:56.846294",
+      "action": "move",
+      "player": {
+        "pos": "(51,14)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Phillips screwdriver",
+            "type": "tools",
+            "pos": "s4",
+            "formatted": "Phillips screwdriver:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s4",
+            "formatted": "Medium Flask of Oleum Terra:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "longbow",
+            "type": "weapons",
+            "pos": "s9e3",
+            "formatted": "longbow:s9e3",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(51,14)"
+      }
+    },
+    {
+      "turn": 136,
+      "timestamp": "2025-12-26T02:34:57.027846",
+      "action": "move",
+      "player": {
+        "pos": "(51,15)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Phillips screwdriver",
+            "type": "tools",
+            "pos": "s3",
+            "formatted": "Phillips screwdriver:s3",
+            "distance": 3.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3",
+            "formatted": "Medium Flask of Oleum Terra:s3",
+            "distance": 3.0
+          },
+          {
+            "name": "longbow",
+            "type": "weapons",
+            "pos": "s8e3",
+            "formatted": "longbow:s8e3",
+            "distance": 8.5
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s9e4",
+            "formatted": "carbuncle:s9e4",
+            "distance": 9.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(51,15)"
+      }
+    },
+    {
+      "turn": 137,
+      "timestamp": "2025-12-26T02:34:57.240766",
+      "action": "move",
+      "player": {
+        "pos": "(51,16)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Phillips screwdriver",
+            "type": "tools",
+            "pos": "s2",
+            "formatted": "Phillips screwdriver:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s2",
+            "formatted": "Medium Flask of Oleum Terra:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "longbow",
+            "type": "weapons",
+            "pos": "s7e3",
+            "formatted": "longbow:s7e3",
+            "distance": 7.6
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s8e4",
+            "formatted": "carbuncle:s8e4",
+            "distance": 8.9
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(51,16)"
+      }
+    },
+    {
+      "turn": 138,
+      "timestamp": "2025-12-26T02:34:57.455771",
+      "action": "move",
+      "player": {
+        "pos": "(51,17)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Phillips screwdriver",
+            "type": "tools",
+            "pos": "s1",
+            "formatted": "Phillips screwdriver:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1",
+            "formatted": "Medium Flask of Oleum Terra:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "longbow",
+            "type": "weapons",
+            "pos": "s6e3",
+            "formatted": "longbow:s6e3",
+            "distance": 6.7
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s7e4",
+            "formatted": "carbuncle:s7e4",
+            "distance": 8.1
+          },
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "s9e2",
+            "formatted": "scampi:s9e2",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(51,17)"
+      }
+    },
+    {
+      "turn": 139,
+      "timestamp": "2025-12-26T02:34:57.636031",
+      "action": "move",
+      "player": {
+        "pos": "(51,18)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Phillips screwdriver",
+            "type": "tools",
+            "pos": "here",
+            "formatted": "Phillips screwdriver:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Medium Flask of Oleum Terra:here",
+            "distance": 0.0
+          },
+          {
+            "name": "longbow",
+            "type": "weapons",
+            "pos": "s5e3",
+            "formatted": "longbow:s5e3",
+            "distance": 5.8
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s6e4",
+            "formatted": "carbuncle:s6e4",
+            "distance": 7.2
+          },
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "s8e2",
+            "formatted": "scampi:s8e2",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(51,18)"
+      }
+    },
+    {
+      "turn": 139,
+      "timestamp": "2025-12-26T02:34:57.870740",
+      "action": "pickup",
+      "player": {
+        "pos": "(51,18)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "longbow",
+            "type": "weapons",
+            "pos": "s5e3",
+            "formatted": "longbow:s5e3",
+            "distance": 5.8
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s6e4",
+            "formatted": "carbuncle:s6e4",
+            "distance": 7.2
+          },
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "s8e2",
+            "formatted": "scampi:s8e2",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Phillips screwdriver",
+          "Medium Flask of Oleum Terra"
+        ]
+      }
+    },
+    {
+      "turn": 140,
+      "timestamp": "2025-12-26T02:34:58.220232",
+      "action": "move",
+      "player": {
+        "pos": "(51,19)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "longbow",
+            "type": "weapons",
+            "pos": "s4e3",
+            "formatted": "longbow:s4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s5e4",
+            "formatted": "carbuncle:s5e4",
+            "distance": 6.4
+          },
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "s7e2",
+            "formatted": "scampi:s7e2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(51,19)"
+      }
+    },
+    {
+      "turn": 141,
+      "timestamp": "2025-12-26T02:34:58.419508",
+      "action": "move",
+      "player": {
+        "pos": "(51,20)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "longbow",
+            "type": "weapons",
+            "pos": "s3e3",
+            "formatted": "longbow:s3e3",
+            "distance": 4.2
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s4e4",
+            "formatted": "carbuncle:s4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "s6e2",
+            "formatted": "scampi:s6e2",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(51,20)"
+      }
+    },
+    {
+      "turn": 142,
+      "timestamp": "2025-12-26T02:34:58.638180",
+      "action": "move",
+      "player": {
+        "pos": "(51,21)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "longbow",
+            "type": "weapons",
+            "pos": "s2e3",
+            "formatted": "longbow:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s3e4",
+            "formatted": "carbuncle:s3e4",
+            "distance": 5.0
+          },
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "s5e2",
+            "formatted": "scampi:s5e2",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(51,21)"
+      }
+    },
+    {
+      "turn": 143,
+      "timestamp": "2025-12-26T02:34:58.771534",
+      "action": "move",
+      "player": {
+        "pos": "(51,22)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "longbow",
+            "type": "weapons",
+            "pos": "s1e3",
+            "formatted": "longbow:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s2e4",
+            "formatted": "carbuncle:s2e4",
+            "distance": 4.5
+          },
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "s4e2",
+            "formatted": "scampi:s4e2",
+            "distance": 4.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(51,22)"
+      }
+    },
+    {
+      "turn": 144,
+      "timestamp": "2025-12-26T02:34:59.070504",
+      "action": "move",
+      "player": {
+        "pos": "(52,22)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "longbow",
+            "type": "weapons",
+            "pos": "s1e2",
+            "formatted": "longbow:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s2e3",
+            "formatted": "carbuncle:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "s4e1",
+            "formatted": "scampi:s4e1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(52,22)"
+      }
+    },
+    {
+      "turn": 145,
+      "timestamp": "2025-12-26T02:34:59.306096",
+      "action": "move",
+      "player": {
+        "pos": "(53,22)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "longbow",
+            "type": "weapons",
+            "pos": "s1e1",
+            "formatted": "longbow:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s2e2",
+            "formatted": "carbuncle:s2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "s4",
+            "formatted": "scampi:s4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(53,22)"
+      }
+    },
+    {
+      "turn": 146,
+      "timestamp": "2025-12-26T02:34:59.784814",
+      "action": "move",
+      "player": {
+        "pos": "(53,23)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "longbow",
+            "type": "weapons",
+            "pos": "e1",
+            "formatted": "longbow:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s1e2",
+            "formatted": "carbuncle:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "s3",
+            "formatted": "scampi:s3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(53,23)"
+      }
+    },
+    {
+      "turn": 147,
+      "timestamp": "2025-12-26T02:35:00.728606",
+      "action": "move",
+      "player": {
+        "pos": "(54,23)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "longbow",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "longbow:here",
+            "distance": 0.0
+          },
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s1e1",
+            "formatted": "carbuncle:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "s3w1",
+            "formatted": "scampi:s3w1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(54,23)"
+      }
+    },
+    {
+      "turn": 147,
+      "timestamp": "2025-12-26T02:35:01.323693",
+      "action": "pickup",
+      "player": {
+        "pos": "(54,23)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "s1e1",
+            "formatted": "carbuncle:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "s3w1",
+            "formatted": "scampi:s3w1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "longbow"
+        ]
+      }
+    },
+    {
+      "turn": 148,
+      "timestamp": "2025-12-26T02:35:01.676095",
+      "action": "move",
+      "player": {
+        "pos": "(54,24)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "e1",
+            "formatted": "carbuncle:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "s2w1",
+            "formatted": "scampi:s2w1",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(54,24)"
+      }
+    },
+    {
+      "turn": 149,
+      "timestamp": "2025-12-26T02:35:01.959678",
+      "action": "move",
+      "player": {
+        "pos": "(55,24)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "carbuncle",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "carbuncle:here",
+            "distance": 0.0
+          },
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "s2w2",
+            "formatted": "scampi:s2w2",
+            "distance": 2.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(55,24)"
+      }
+    },
+    {
+      "turn": 149,
+      "timestamp": "2025-12-26T02:35:02.504093",
+      "action": "pickup",
+      "player": {
+        "pos": "(55,24)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "s2w2",
+            "formatted": "scampi:s2w2",
+            "distance": 2.8
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "carbuncle"
+        ]
+      }
+    },
+    {
+      "turn": 150,
+      "timestamp": "2025-12-26T02:35:02.821563",
+      "action": "move",
+      "player": {
+        "pos": "(55,25)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "s1w2",
+            "formatted": "scampi:s1w2",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(55,25)"
+      }
+    },
+    {
+      "turn": 151,
+      "timestamp": "2025-12-26T02:35:03.020363",
+      "action": "move",
+      "player": {
+        "pos": "(55,26)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "w2",
+            "formatted": "scampi:w2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(55,26)"
+      }
+    },
+    {
+      "turn": 152,
+      "timestamp": "2025-12-26T02:35:03.338686",
+      "action": "move",
+      "player": {
+        "pos": "(54,26)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "w1",
+            "formatted": "scampi:w1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(54,26)"
+      }
+    },
+    {
+      "turn": 153,
+      "timestamp": "2025-12-26T02:35:03.556429",
+      "action": "move",
+      "player": {
+        "pos": "(53,26)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "scampi",
+            "type": "food",
+            "pos": "here",
+            "formatted": "scampi:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(53,26)"
+      }
+    },
+    {
+      "turn": 153,
+      "timestamp": "2025-12-26T02:35:03.904413",
+      "action": "pickup",
+      "player": {
+        "pos": "(53,26)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "scampi"
+        ]
+      }
+    },
+    {
+      "turn": 154,
+      "timestamp": "2025-12-26T02:35:04.655330",
+      "action": "move",
+      "player": {
+        "pos": "(53,27)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(53,27)"
+      }
+    },
+    {
+      "turn": 155,
+      "timestamp": "2025-12-26T02:35:04.924280",
+      "action": "move",
+      "player": {
+        "pos": "(54,27)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(54,27)"
+      }
+    },
+    {
+      "turn": 156,
+      "timestamp": "2025-12-26T02:35:05.188817",
+      "action": "move",
+      "player": {
+        "pos": "(55,27)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "e",
+        "to": "(55,27)"
+      }
+    },
+    {
+      "turn": 157,
+      "timestamp": "2025-12-26T02:35:07.588543",
+      "action": "move",
+      "player": {
+        "pos": "(54,27)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(54,27)"
+      }
+    },
+    {
+      "turn": 158,
+      "timestamp": "2025-12-26T02:35:07.915915",
+      "action": "move",
+      "player": {
+        "pos": "(53,27)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(53,27)"
+      }
+    },
+    {
+      "turn": 159,
+      "timestamp": "2025-12-26T02:35:08.049496",
+      "action": "move",
+      "player": {
+        "pos": "(52,27)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(52,27)"
+      }
+    },
+    {
+      "turn": 159,
+      "timestamp": "2025-12-26T02:35:17.075955",
+      "action": "save",
+      "player": {
+        "pos": "(52,27)",
+        "hp": "58/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "filename": "savegame_20251226_023517.json"
+      }
+    }
+  ]
+}
