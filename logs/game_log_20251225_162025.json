@@ -1,0 +1,5629 @@
+{
+  "game_seed": 731906,
+  "total_turns": 97,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T16:20:30.990136",
+      "action": "move",
+      "player": {
+        "pos": "(22,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s5e2",
+            "formatted": "Skeleton:s5e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.4,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "e6",
+            "formatted": "Troll:e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "s6e5",
+            "formatted": "Bat:s6e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.8,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s9e4",
+            "formatted": "Rat:s9e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.8,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s3w1",
+            "formatted": "Tiny Vial of Alkahest:s3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s6e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s6e4",
+            "distance": 7.2
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e6",
+            "formatted": "Grand Bottle of Aqua Ignis:s4e6",
+            "distance": 7.2
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s5e8",
+            "formatted": "Medium Flask of Oleum Terra:s5e8",
+            "distance": 9.4
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s7e7",
+            "formatted": "rifle ball:s7e7",
+            "distance": 9.9
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s8e6",
+            "formatted": "socket wrench:s8e6",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(22,3)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T16:20:31.223938",
+      "action": "move",
+      "player": {
+        "pos": "(22,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s3e1",
+            "formatted": "Skeleton:s3e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n1e5",
+            "formatted": "Troll:n1e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "s4e4",
+            "formatted": "Bat:s4e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.7,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s7e3",
+            "formatted": "Rat:s7e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.6,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s7e7",
+            "formatted": "Rat:s7e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.9,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s2w1",
+            "formatted": "Tiny Vial of Alkahest:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s5e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s5e4",
+            "distance": 6.4
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s3e6",
+            "formatted": "Grand Bottle of Aqua Ignis:s3e6",
+            "distance": 6.7
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s4e8",
+            "formatted": "Medium Flask of Oleum Terra:s4e8",
+            "distance": 8.9
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s6e7",
+            "formatted": "rifle ball:s6e7",
+            "distance": 9.2
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s7e6",
+            "formatted": "socket wrench:s7e6",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(22,4)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T16:20:31.455269",
+      "action": "move",
+      "player": {
+        "pos": "(22,5)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1",
+            "formatted": "Skeleton:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Bat",
+            "pos": "s2e3",
+            "formatted": "Bat:s2e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.6,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "n1e4",
+            "formatted": "Troll:n1e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s5e2",
+            "formatted": "Rat:s5e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.4,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s5e6",
+            "formatted": "Rat:s5e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.8,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s8e5",
+            "formatted": "Orc:s8e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.4,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Tiny Vial of Alkahest:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e6",
+            "formatted": "Grand Bottle of Aqua Ignis:s2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s6e6",
+            "formatted": "socket wrench:s6e6",
+            "distance": 8.5
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e8",
+            "formatted": "Medium Flask of Oleum Terra:s3e8",
+            "distance": 8.5
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s5e7",
+            "formatted": "rifle ball:s5e7",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(22,5)"
+      }
+    },
+    {
+      "turn": 4,
+      "timestamp": "2025-12-25T16:20:31.772524",
+      "action": "attack",
+      "player": {
+        "pos": "(22,5)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1",
+            "formatted": "Skeleton:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Bat",
+            "pos": "s1e2",
+            "formatted": "Bat:s1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "e3",
+            "formatted": "Troll:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s4e1",
+            "formatted": "Rat:s4e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s4e5",
+            "formatted": "Rat:s4e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.4,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s7e4",
+            "formatted": "Orc:s7e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Tiny Vial of Alkahest:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e6",
+            "formatted": "Grand Bottle of Aqua Ignis:s2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s6e6",
+            "formatted": "socket wrench:s6e6",
+            "distance": 8.5
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e8",
+            "formatted": "Medium Flask of Oleum Terra:s3e8",
+            "distance": 8.5
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s5e7",
+            "formatted": "rifle ball:s5e7",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 5,
+      "timestamp": "2025-12-25T16:20:32.171300",
+      "action": "attack",
+      "player": {
+        "pos": "(22,5)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "e1",
+            "formatted": "Bat:e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Troll",
+            "pos": "e2",
+            "formatted": "Troll:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s3",
+            "formatted": "Rat:s3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s3e4",
+            "formatted": "Rat:s3e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s6e3",
+            "formatted": "Orc:s6e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.7,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Tiny Vial of Alkahest:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e6",
+            "formatted": "Grand Bottle of Aqua Ignis:s2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s6e6",
+            "formatted": "socket wrench:s6e6",
+            "distance": 8.5
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e8",
+            "formatted": "Medium Flask of Oleum Terra:s3e8",
+            "distance": 8.5
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s5e7",
+            "formatted": "rifle ball:s5e7",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 6,
+      "timestamp": "2025-12-25T16:20:32.372456",
+      "action": "attack",
+      "player": {
+        "pos": "(22,5)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "e1",
+            "formatted": "Bat:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Troll",
+            "pos": "e2",
+            "formatted": "Troll:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s2",
+            "formatted": "Rat:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s2e3",
+            "formatted": "Rat:s2e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.6,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s5e2",
+            "formatted": "Orc:s5e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.4,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Tiny Vial of Alkahest:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e6",
+            "formatted": "Grand Bottle of Aqua Ignis:s2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s6e6",
+            "formatted": "socket wrench:s6e6",
+            "distance": 8.5
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e8",
+            "formatted": "Medium Flask of Oleum Terra:s3e8",
+            "distance": 8.5
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s5e7",
+            "formatted": "rifle ball:s5e7",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "target": "Bat",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 7,
+      "timestamp": "2025-12-25T16:20:32.487722",
+      "action": "attack",
+      "player": {
+        "pos": "(22,5)",
+        "hp": "92/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s1",
+            "formatted": "Rat:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Troll",
+            "pos": "e2",
+            "formatted": "Troll:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s1e2",
+            "formatted": "Rat:s1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s4e1",
+            "formatted": "Orc:s4e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Tiny Vial of Alkahest:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e6",
+            "formatted": "Grand Bottle of Aqua Ignis:s2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s6e6",
+            "formatted": "socket wrench:s6e6",
+            "distance": 8.5
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e8",
+            "formatted": "Medium Flask of Oleum Terra:s3e8",
+            "distance": 8.5
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s5e7",
+            "formatted": "rifle ball:s5e7",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "target": "Bat",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 8,
+      "timestamp": "2025-12-25T16:20:32.586144",
+      "action": "attack",
+      "player": {
+        "pos": "(22,5)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "e1",
+            "formatted": "Rat:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Rat",
+            "pos": "s1",
+            "formatted": "Rat:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Troll",
+            "pos": "e2",
+            "formatted": "Troll:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Orc",
+            "pos": "s3",
+            "formatted": "Orc:s3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Tiny Vial of Alkahest:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e6",
+            "formatted": "Grand Bottle of Aqua Ignis:s2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s6e6",
+            "formatted": "socket wrench:s6e6",
+            "distance": 8.5
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e8",
+            "formatted": "Medium Flask of Oleum Terra:s3e8",
+            "distance": 8.5
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s5e7",
+            "formatted": "rifle ball:s5e7",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 9,
+      "timestamp": "2025-12-25T16:20:32.672783",
+      "action": "attack",
+      "player": {
+        "pos": "(22,5)",
+        "hp": "86/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s1",
+            "formatted": "Rat:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "e2",
+            "formatted": "Troll:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Tiny Vial of Alkahest:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e6",
+            "formatted": "Grand Bottle of Aqua Ignis:s2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s6e6",
+            "formatted": "socket wrench:s6e6",
+            "distance": 8.5
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e8",
+            "formatted": "Medium Flask of Oleum Terra:s3e8",
+            "distance": 8.5
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s5e7",
+            "formatted": "rifle ball:s5e7",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-25T16:20:32.772831",
+      "action": "attack",
+      "player": {
+        "pos": "(22,5)",
+        "hp": "84/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "e1",
+            "formatted": "Troll:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Rat",
+            "pos": "s1",
+            "formatted": "Rat:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "fork",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "fork:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Tiny Vial of Alkahest:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e6",
+            "formatted": "Grand Bottle of Aqua Ignis:s2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s6e6",
+            "formatted": "socket wrench:s6e6",
+            "distance": 8.5
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e8",
+            "formatted": "Medium Flask of Oleum Terra:s3e8",
+            "distance": 8.5
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s5e7",
+            "formatted": "rifle ball:s5e7",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "target": "Troll",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-25T16:20:32.873357",
+      "action": "attack",
+      "player": {
+        "pos": "(22,5)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s1",
+            "formatted": "Rat:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "fork",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "fork:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Tiny Vial of Alkahest:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e6",
+            "formatted": "Grand Bottle of Aqua Ignis:s2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s6e6",
+            "formatted": "socket wrench:s6e6",
+            "distance": 8.5
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e8",
+            "formatted": "Medium Flask of Oleum Terra:s3e8",
+            "distance": 8.5
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s5e7",
+            "formatted": "rifle ball:s5e7",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "target": "Troll",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 12,
+      "timestamp": "2025-12-25T16:20:32.988463",
+      "action": "attack",
+      "player": {
+        "pos": "(22,5)",
+        "hp": "88/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s1",
+            "formatted": "Rat:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "fork",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "fork:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Tiny Vial of Alkahest:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e6",
+            "formatted": "Grand Bottle of Aqua Ignis:s2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s6e6",
+            "formatted": "socket wrench:s6e6",
+            "distance": 8.5
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e8",
+            "formatted": "Medium Flask of Oleum Terra:s3e8",
+            "distance": 8.5
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s5e7",
+            "formatted": "rifle ball:s5e7",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 13,
+      "timestamp": "2025-12-25T16:20:33.088389",
+      "action": "attack",
+      "player": {
+        "pos": "(22,5)",
+        "hp": "86/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s2",
+            "formatted": "Orc:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "fork",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "fork:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Tiny Vial of Alkahest:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e6",
+            "formatted": "Grand Bottle of Aqua Ignis:s2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s6e6",
+            "formatted": "socket wrench:s6e6",
+            "distance": 8.5
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e8",
+            "formatted": "Medium Flask of Oleum Terra:s3e8",
+            "distance": 8.5
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s5e7",
+            "formatted": "rifle ball:s5e7",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 14,
+      "timestamp": "2025-12-25T16:20:33.186495",
+      "action": "attack",
+      "player": {
+        "pos": "(22,5)",
+        "hp": "86/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1",
+            "formatted": "Orc:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "fork",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "fork:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Tiny Vial of Alkahest:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e6",
+            "formatted": "Grand Bottle of Aqua Ignis:s2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s6e6",
+            "formatted": "socket wrench:s6e6",
+            "distance": 8.5
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e8",
+            "formatted": "Medium Flask of Oleum Terra:s3e8",
+            "distance": 8.5
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s5e7",
+            "formatted": "rifle ball:s5e7",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 15,
+      "timestamp": "2025-12-25T16:20:33.286392",
+      "action": "attack",
+      "player": {
+        "pos": "(22,5)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "fork",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "fork:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Tiny Vial of Alkahest:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e6",
+            "formatted": "Grand Bottle of Aqua Ignis:s2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s6e6",
+            "formatted": "socket wrench:s6e6",
+            "distance": 8.5
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e8",
+            "formatted": "Medium Flask of Oleum Terra:s3e8",
+            "distance": 8.5
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s5e7",
+            "formatted": "rifle ball:s5e7",
+            "distance": 8.6
+          }
+        ]
+      },
+      "details": {
+        "target": "Orc",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 16,
+      "timestamp": "2025-12-25T16:20:33.849828",
+      "action": "move",
+      "player": {
+        "pos": "(23,5)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "fork",
+            "type": "tools",
+            "pos": "here",
+            "formatted": "fork:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s1w2",
+            "formatted": "Tiny Vial of Alkahest:s1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e3",
+            "formatted": "Tiny Vial of Aqua Ignis:s4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e5",
+            "formatted": "Grand Bottle of Aqua Ignis:s2e5",
+            "distance": 5.4
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e7",
+            "formatted": "Medium Flask of Oleum Terra:s3e7",
+            "distance": 7.6
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s5e6",
+            "formatted": "rifle ball:s5e6",
+            "distance": 7.8
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s6e5",
+            "formatted": "socket wrench:s6e5",
+            "distance": 7.8
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "s1e9",
+            "formatted": "Medium Flask of Alkahest:s1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(23,5)"
+      }
+    },
+    {
+      "turn": 16,
+      "timestamp": "2025-12-25T16:20:34.265752",
+      "action": "pickup",
+      "player": {
+        "pos": "(23,5)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s1w2",
+            "formatted": "Tiny Vial of Alkahest:s1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e3",
+            "formatted": "Tiny Vial of Aqua Ignis:s4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e5",
+            "formatted": "Grand Bottle of Aqua Ignis:s2e5",
+            "distance": 5.4
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e7",
+            "formatted": "Medium Flask of Oleum Terra:s3e7",
+            "distance": 7.6
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s5e6",
+            "formatted": "rifle ball:s5e6",
+            "distance": 7.8
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s6e5",
+            "formatted": "socket wrench:s6e5",
+            "distance": 7.8
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "s1e9",
+            "formatted": "Medium Flask of Alkahest:s1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "fork"
+        ]
+      }
+    },
+    {
+      "turn": 17,
+      "timestamp": "2025-12-25T16:20:34.882901",
+      "action": "move",
+      "player": {
+        "pos": "(23,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "w2",
+            "formatted": "Tiny Vial of Alkahest:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s3e3",
+            "formatted": "Tiny Vial of Aqua Ignis:s3e3",
+            "distance": 4.2
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e5",
+            "formatted": "Grand Bottle of Aqua Ignis:s1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s5e5",
+            "formatted": "socket wrench:s5e5",
+            "distance": 7.1
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s4e6",
+            "formatted": "rifle ball:s4e6",
+            "distance": 7.2
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s2e7",
+            "formatted": "Medium Flask of Oleum Terra:s2e7",
+            "distance": 7.3
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e9",
+            "formatted": "Medium Flask of Alkahest:e9",
+            "distance": 9.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(23,6)"
+      }
+    },
+    {
+      "turn": 18,
+      "timestamp": "2025-12-25T16:20:35.093771",
+      "action": "move",
+      "player": {
+        "pos": "(23,7)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1w4",
+            "formatted": "Skeleton:s1w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s1w5",
+            "formatted": "Skeleton:s1w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n1w2",
+            "formatted": "Tiny Vial of Alkahest:n1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e3",
+            "formatted": "Tiny Vial of Aqua Ignis:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "e5",
+            "formatted": "Grand Bottle of Aqua Ignis:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s4e5",
+            "formatted": "socket wrench:s4e5",
+            "distance": 6.4
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s3e6",
+            "formatted": "rifle ball:s3e6",
+            "distance": 6.7
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e7",
+            "formatted": "Medium Flask of Oleum Terra:s1e7",
+            "distance": 7.1
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "n1e9",
+            "formatted": "Medium Flask of Alkahest:n1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(23,7)"
+      }
+    },
+    {
+      "turn": 19,
+      "timestamp": "2025-12-25T16:20:35.507576",
+      "action": "move",
+      "player": {
+        "pos": "(22,7)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n1w1",
+            "formatted": "Tiny Vial of Alkahest:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s2e4",
+            "distance": 4.5
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "e6",
+            "formatted": "Grand Bottle of Aqua Ignis:e6",
+            "distance": 6.0
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s4e6",
+            "formatted": "socket wrench:s4e6",
+            "distance": 7.2
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s3e7",
+            "formatted": "rifle ball:s3e7",
+            "distance": 7.6
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e8",
+            "formatted": "Medium Flask of Oleum Terra:s1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(22,7)"
+      }
+    },
+    {
+      "turn": 20,
+      "timestamp": "2025-12-25T16:20:35.841535",
+      "action": "move",
+      "player": {
+        "pos": "(22,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "w1",
+            "formatted": "Tiny Vial of Alkahest:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s3e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s3e4",
+            "distance": 5.0
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e6",
+            "formatted": "Grand Bottle of Aqua Ignis:s1e6",
+            "distance": 6.1
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s5e6",
+            "formatted": "socket wrench:s5e6",
+            "distance": 7.8
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s4e7",
+            "formatted": "rifle ball:s4e7",
+            "distance": 8.1
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s2e8",
+            "formatted": "Medium Flask of Oleum Terra:s2e8",
+            "distance": 8.2
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e10",
+            "formatted": "Medium Flask of Alkahest:e10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(22,6)"
+      }
+    },
+    {
+      "turn": 21,
+      "timestamp": "2025-12-25T16:20:36.172702",
+      "action": "move",
+      "player": {
+        "pos": "(21,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Tiny Vial of Alkahest:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s3e5",
+            "formatted": "Tiny Vial of Aqua Ignis:s3e5",
+            "distance": 5.8
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e7",
+            "formatted": "Grand Bottle of Aqua Ignis:s1e7",
+            "distance": 7.1
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s5e7",
+            "formatted": "socket wrench:s5e7",
+            "distance": 8.6
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s4e8",
+            "formatted": "rifle ball:s4e8",
+            "distance": 8.9
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s2e9",
+            "formatted": "Medium Flask of Oleum Terra:s2e9",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(21,6)"
+      }
+    },
+    {
+      "turn": 21,
+      "timestamp": "2025-12-25T16:20:36.674896",
+      "action": "pickup",
+      "player": {
+        "pos": "(21,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s3e5",
+            "formatted": "Tiny Vial of Aqua Ignis:s3e5",
+            "distance": 5.8
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e7",
+            "formatted": "Grand Bottle of Aqua Ignis:s1e7",
+            "distance": 7.1
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s5e7",
+            "formatted": "socket wrench:s5e7",
+            "distance": 8.6
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s4e8",
+            "formatted": "rifle ball:s4e8",
+            "distance": 8.9
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s2e9",
+            "formatted": "Medium Flask of Oleum Terra:s2e9",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Tiny Vial of Alkahest"
+        ]
+      }
+    },
+    {
+      "turn": 22,
+      "timestamp": "2025-12-25T16:20:37.207121",
+      "action": "move",
+      "player": {
+        "pos": "(20,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e8",
+            "formatted": "Grand Bottle of Aqua Ignis:s1e8",
+            "distance": 8.1
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "w10",
+            "formatted": "Tiny Vial of Prima Ite:w10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(20,6)"
+      }
+    },
+    {
+      "turn": 23,
+      "timestamp": "2025-12-25T16:20:37.490338",
+      "action": "move",
+      "player": {
+        "pos": "(19,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "w9",
+            "formatted": "Tiny Vial of Prima Ite:w9",
+            "distance": 9.0
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e9",
+            "formatted": "Grand Bottle of Aqua Ignis:s1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(19,6)"
+      }
+    },
+    {
+      "turn": 24,
+      "timestamp": "2025-12-25T16:20:37.555343",
+      "action": "move",
+      "player": {
+        "pos": "(18,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "w8",
+            "formatted": "Tiny Vial of Prima Ite:w8",
+            "distance": 8.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(18,6)"
+      }
+    },
+    {
+      "turn": 25,
+      "timestamp": "2025-12-25T16:20:37.755737",
+      "action": "move",
+      "player": {
+        "pos": "(17,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "w7",
+            "formatted": "Tiny Vial of Prima Ite:w7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(17,6)"
+      }
+    },
+    {
+      "turn": 26,
+      "timestamp": "2025-12-25T16:20:37.970752",
+      "action": "move",
+      "player": {
+        "pos": "(16,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "w6",
+            "formatted": "Tiny Vial of Prima Ite:w6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(16,6)"
+      }
+    },
+    {
+      "turn": 27,
+      "timestamp": "2025-12-25T16:20:38.170937",
+      "action": "move",
+      "player": {
+        "pos": "(15,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "w5",
+            "formatted": "Tiny Vial of Prima Ite:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(15,6)"
+      }
+    },
+    {
+      "turn": 28,
+      "timestamp": "2025-12-25T16:20:38.386175",
+      "action": "move",
+      "player": {
+        "pos": "(14,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "w4",
+            "formatted": "Tiny Vial of Prima Ite:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(14,6)"
+      }
+    },
+    {
+      "turn": 29,
+      "timestamp": "2025-12-25T16:20:38.517832",
+      "action": "move",
+      "player": {
+        "pos": "(13,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "w3",
+            "formatted": "Tiny Vial of Prima Ite:w3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(13,6)"
+      }
+    },
+    {
+      "turn": 30,
+      "timestamp": "2025-12-25T16:20:38.715717",
+      "action": "move",
+      "player": {
+        "pos": "(12,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "w2",
+            "formatted": "Tiny Vial of Prima Ite:w2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(12,6)"
+      }
+    },
+    {
+      "turn": 31,
+      "timestamp": "2025-12-25T16:20:38.898124",
+      "action": "move",
+      "player": {
+        "pos": "(11,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "w1",
+            "formatted": "Tiny Vial of Prima Ite:w1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(11,6)"
+      }
+    },
+    {
+      "turn": 32,
+      "timestamp": "2025-12-25T16:20:39.508555",
+      "action": "move",
+      "player": {
+        "pos": "(10,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s2w1",
+            "formatted": "Rat:s2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "here",
+            "formatted": "Tiny Vial of Prima Ite:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(10,6)"
+      }
+    },
+    {
+      "turn": 32,
+      "timestamp": "2025-12-25T16:20:39.708098",
+      "action": "pickup",
+      "player": {
+        "pos": "(10,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s2w1",
+            "formatted": "Rat:s2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "Tiny Vial of Prima Ite"
+        ]
+      }
+    },
+    {
+      "turn": 33,
+      "timestamp": "2025-12-25T16:20:40.209171",
+      "action": "move",
+      "player": {
+        "pos": "(9,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s2",
+            "formatted": "Rat:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "sparkplug wrench",
+            "type": "tools",
+            "pos": "s7e2",
+            "formatted": "sparkplug wrench:s7e2",
+            "distance": 7.3
+          },
+          {
+            "name": "gas gun",
+            "type": "weapons",
+            "pos": "s7e2",
+            "formatted": "gas gun:s7e2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(9,6)"
+      }
+    },
+    {
+      "turn": 34,
+      "timestamp": "2025-12-25T16:20:40.825210",
+      "action": "attack",
+      "player": {
+        "pos": "(9,6)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s1",
+            "formatted": "Rat:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "sparkplug wrench",
+            "type": "tools",
+            "pos": "s7e2",
+            "formatted": "sparkplug wrench:s7e2",
+            "distance": 7.3
+          },
+          {
+            "name": "gas gun",
+            "type": "weapons",
+            "pos": "s7e2",
+            "formatted": "gas gun:s7e2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 35,
+      "timestamp": "2025-12-25T16:20:41.042262",
+      "action": "attack",
+      "player": {
+        "pos": "(9,6)",
+        "hp": "82/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "sparkplug wrench",
+            "type": "tools",
+            "pos": "s7e2",
+            "formatted": "sparkplug wrench:s7e2",
+            "distance": 7.3
+          },
+          {
+            "name": "gas gun",
+            "type": "weapons",
+            "pos": "s7e2",
+            "formatted": "gas gun:s7e2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 36,
+      "timestamp": "2025-12-25T16:20:41.724276",
+      "action": "move",
+      "player": {
+        "pos": "(9,7)",
+        "hp": "82/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Exocet",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "Exocet:here",
+            "distance": 0.0
+          },
+          {
+            "name": "sparkplug wrench",
+            "type": "tools",
+            "pos": "s6e2",
+            "formatted": "sparkplug wrench:s6e2",
+            "distance": 6.3
+          },
+          {
+            "name": "gas gun",
+            "type": "weapons",
+            "pos": "s6e2",
+            "formatted": "gas gun:s6e2",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(9,7)"
+      }
+    },
+    {
+      "turn": 36,
+      "timestamp": "2025-12-25T16:20:42.037860",
+      "action": "pickup",
+      "player": {
+        "pos": "(9,7)",
+        "hp": "82/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "sparkplug wrench",
+            "type": "tools",
+            "pos": "s6e2",
+            "formatted": "sparkplug wrench:s6e2",
+            "distance": 6.3
+          },
+          {
+            "name": "gas gun",
+            "type": "weapons",
+            "pos": "s6e2",
+            "formatted": "gas gun:s6e2",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Exocet"
+        ]
+      }
+    },
+    {
+      "turn": 37,
+      "timestamp": "2025-12-25T16:20:42.417873",
+      "action": "move",
+      "player": {
+        "pos": "(9,8)",
+        "hp": "82/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e3",
+            "formatted": "Spider:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e9",
+            "formatted": "Skeleton:e9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e10",
+            "formatted": "Skeleton:e10",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 10.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "e3",
+            "formatted": "Tiny Vial of Aqua Ignis:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "sparkplug wrench",
+            "type": "tools",
+            "pos": "s5e2",
+            "formatted": "sparkplug wrench:s5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "gas gun",
+            "type": "weapons",
+            "pos": "s5e2",
+            "formatted": "gas gun:s5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e8",
+            "formatted": "Small Vial of Oleum Terra:e8",
+            "distance": 8.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(9,8)"
+      }
+    },
+    {
+      "turn": 38,
+      "timestamp": "2025-12-25T16:20:43.790475",
+      "action": "move",
+      "player": {
+        "pos": "(10,8)",
+        "hp": "82/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e1",
+            "formatted": "Spider:e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e7",
+            "formatted": "Skeleton:e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e9",
+            "formatted": "Skeleton:e9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Tiny Vial of Aqua Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "sparkplug wrench",
+            "type": "tools",
+            "pos": "s5e1",
+            "formatted": "sparkplug wrench:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "gas gun",
+            "type": "weapons",
+            "pos": "s5e1",
+            "formatted": "gas gun:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e7",
+            "formatted": "Small Vial of Oleum Terra:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(10,8)"
+      }
+    },
+    {
+      "turn": 39,
+      "timestamp": "2025-12-25T16:20:44.074753",
+      "action": "attack",
+      "player": {
+        "pos": "(10,8)",
+        "hp": "80/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e1",
+            "formatted": "Spider:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e6",
+            "formatted": "Skeleton:e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e8",
+            "formatted": "Skeleton:e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Tiny Vial of Aqua Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "sparkplug wrench",
+            "type": "tools",
+            "pos": "s5e1",
+            "formatted": "sparkplug wrench:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "gas gun",
+            "type": "weapons",
+            "pos": "s5e1",
+            "formatted": "gas gun:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e7",
+            "formatted": "Small Vial of Oleum Terra:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 40,
+      "timestamp": "2025-12-25T16:20:44.273962",
+      "action": "attack",
+      "player": {
+        "pos": "(10,8)",
+        "hp": "78/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e5",
+            "formatted": "Skeleton:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e7",
+            "formatted": "Skeleton:e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Tiny Vial of Aqua Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "sparkplug wrench",
+            "type": "tools",
+            "pos": "s5e1",
+            "formatted": "sparkplug wrench:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "gas gun",
+            "type": "weapons",
+            "pos": "s5e1",
+            "formatted": "gas gun:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e7",
+            "formatted": "Small Vial of Oleum Terra:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 41,
+      "timestamp": "2025-12-25T16:20:44.790655",
+      "action": "attack",
+      "player": {
+        "pos": "(10,8)",
+        "hp": "78/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e1",
+            "formatted": "Skeleton:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e3",
+            "formatted": "Skeleton:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Tiny Vial of Aqua Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "sparkplug wrench",
+            "type": "tools",
+            "pos": "s5e1",
+            "formatted": "sparkplug wrench:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "gas gun",
+            "type": "weapons",
+            "pos": "s5e1",
+            "formatted": "gas gun:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e7",
+            "formatted": "Small Vial of Oleum Terra:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 42,
+      "timestamp": "2025-12-25T16:20:44.890256",
+      "action": "attack",
+      "player": {
+        "pos": "(10,8)",
+        "hp": "76/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e2",
+            "formatted": "Skeleton:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Tiny Vial of Aqua Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "sparkplug wrench",
+            "type": "tools",
+            "pos": "s5e1",
+            "formatted": "sparkplug wrench:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "gas gun",
+            "type": "weapons",
+            "pos": "s5e1",
+            "formatted": "gas gun:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e7",
+            "formatted": "Small Vial of Oleum Terra:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 43,
+      "timestamp": "2025-12-25T16:20:44.990177",
+      "action": "attack",
+      "player": {
+        "pos": "(10,8)",
+        "hp": "76/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e1",
+            "formatted": "Skeleton:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Tiny Vial of Aqua Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "sparkplug wrench",
+            "type": "tools",
+            "pos": "s5e1",
+            "formatted": "sparkplug wrench:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "gas gun",
+            "type": "weapons",
+            "pos": "s5e1",
+            "formatted": "gas gun:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e7",
+            "formatted": "Small Vial of Oleum Terra:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 44,
+      "timestamp": "2025-12-25T16:20:45.090622",
+      "action": "attack",
+      "player": {
+        "pos": "(10,8)",
+        "hp": "74/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Tiny Vial of Aqua Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "sparkplug wrench",
+            "type": "tools",
+            "pos": "s5e1",
+            "formatted": "sparkplug wrench:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "gas gun",
+            "type": "weapons",
+            "pos": "s5e1",
+            "formatted": "gas gun:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e7",
+            "formatted": "Small Vial of Oleum Terra:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 45,
+      "timestamp": "2025-12-25T16:20:45.538665",
+      "action": "move",
+      "player": {
+        "pos": "(11,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "e1",
+            "formatted": "Tiny Vial of Aqua Ignis:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "sparkplug wrench",
+            "type": "tools",
+            "pos": "s5",
+            "formatted": "sparkplug wrench:s5",
+            "distance": 5.0
+          },
+          {
+            "name": "gas gun",
+            "type": "weapons",
+            "pos": "s5",
+            "formatted": "gas gun:s5",
+            "distance": 5.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e6",
+            "formatted": "Small Vial of Oleum Terra:e6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(11,8)"
+      }
+    },
+    {
+      "turn": 46,
+      "timestamp": "2025-12-25T16:20:45.756635",
+      "action": "move",
+      "player": {
+        "pos": "(12,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Tiny Vial of Aqua Ignis:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e5",
+            "formatted": "Small Vial of Oleum Terra:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "sparkplug wrench",
+            "type": "tools",
+            "pos": "s5w1",
+            "formatted": "sparkplug wrench:s5w1",
+            "distance": 5.1
+          },
+          {
+            "name": "gas gun",
+            "type": "weapons",
+            "pos": "s5w1",
+            "formatted": "gas gun:s5w1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(12,8)"
+      }
+    },
+    {
+      "turn": 46,
+      "timestamp": "2025-12-25T16:20:46.088520",
+      "action": "pickup",
+      "player": {
+        "pos": "(12,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e5",
+            "formatted": "Small Vial of Oleum Terra:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "sparkplug wrench",
+            "type": "tools",
+            "pos": "s5w1",
+            "formatted": "sparkplug wrench:s5w1",
+            "distance": 5.1
+          },
+          {
+            "name": "gas gun",
+            "type": "weapons",
+            "pos": "s5w1",
+            "formatted": "gas gun:s5w1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Tiny Vial of Aqua Ignis"
+        ]
+      }
+    },
+    {
+      "turn": 47,
+      "timestamp": "2025-12-25T16:20:46.619040",
+      "action": "move",
+      "player": {
+        "pos": "(13,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Small Vial of Oleum Terra:e4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(13,8)"
+      }
+    },
+    {
+      "turn": 48,
+      "timestamp": "2025-12-25T16:20:46.785670",
+      "action": "move",
+      "player": {
+        "pos": "(14,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e3",
+            "formatted": "Small Vial of Oleum Terra:e3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(14,8)"
+      }
+    },
+    {
+      "turn": 49,
+      "timestamp": "2025-12-25T16:20:46.935131",
+      "action": "move",
+      "player": {
+        "pos": "(15,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Small Vial of Oleum Terra:e2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(15,8)"
+      }
+    },
+    {
+      "turn": 50,
+      "timestamp": "2025-12-25T16:20:47.168011",
+      "action": "move",
+      "player": {
+        "pos": "(16,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e1",
+            "formatted": "Small Vial of Oleum Terra:e1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(16,8)"
+      }
+    },
+    {
+      "turn": 51,
+      "timestamp": "2025-12-25T16:20:47.796771",
+      "action": "move",
+      "player": {
+        "pos": "(17,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Small Vial of Oleum Terra:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e9",
+            "formatted": "Tiny Vial of Aqua Ignis:s1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(17,8)"
+      }
+    },
+    {
+      "turn": 51,
+      "timestamp": "2025-12-25T16:20:47.996549",
+      "action": "pickup",
+      "player": {
+        "pos": "(17,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e9",
+            "formatted": "Tiny Vial of Aqua Ignis:s1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Small Vial of Oleum Terra"
+        ]
+      }
+    },
+    {
+      "turn": 52,
+      "timestamp": "2025-12-25T16:20:52.451515",
+      "action": "move",
+      "player": {
+        "pos": "(18,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e8",
+            "formatted": "Tiny Vial of Aqua Ignis:s1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(18,8)"
+      }
+    },
+    {
+      "turn": 53,
+      "timestamp": "2025-12-25T16:20:52.633329",
+      "action": "move",
+      "player": {
+        "pos": "(19,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e7",
+            "formatted": "Tiny Vial of Aqua Ignis:s1e7",
+            "distance": 7.1
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e9",
+            "formatted": "Grand Bottle of Aqua Ignis:n1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(19,8)"
+      }
+    },
+    {
+      "turn": 54,
+      "timestamp": "2025-12-25T16:20:52.799760",
+      "action": "move",
+      "player": {
+        "pos": "(20,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e6",
+            "formatted": "Tiny Vial of Aqua Ignis:s1e6",
+            "distance": 6.1
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e8",
+            "formatted": "Grand Bottle of Aqua Ignis:n1e8",
+            "distance": 8.1
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s3e8",
+            "formatted": "socket wrench:s3e8",
+            "distance": 8.5
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s2e9",
+            "formatted": "rifle ball:s2e9",
+            "distance": 9.2
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "e10",
+            "formatted": "Medium Flask of Oleum Terra:e10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(20,8)"
+      }
+    },
+    {
+      "turn": 55,
+      "timestamp": "2025-12-25T16:20:52.984033",
+      "action": "move",
+      "player": {
+        "pos": "(21,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e5",
+            "formatted": "Tiny Vial of Aqua Ignis:s1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e7",
+            "formatted": "Grand Bottle of Aqua Ignis:n1e7",
+            "distance": 7.1
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s3e7",
+            "formatted": "socket wrench:s3e7",
+            "distance": 7.6
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s2e8",
+            "formatted": "rifle ball:s2e8",
+            "distance": 8.2
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "e9",
+            "formatted": "Medium Flask of Oleum Terra:e9",
+            "distance": 9.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(21,8)"
+      }
+    },
+    {
+      "turn": 56,
+      "timestamp": "2025-12-25T16:20:53.149192",
+      "action": "move",
+      "player": {
+        "pos": "(22,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e4",
+            "formatted": "Tiny Vial of Aqua Ignis:s1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e6",
+            "formatted": "Grand Bottle of Aqua Ignis:n1e6",
+            "distance": 6.1
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s3e6",
+            "formatted": "socket wrench:s3e6",
+            "distance": 6.7
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s2e7",
+            "formatted": "rifle ball:s2e7",
+            "distance": 7.3
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "e8",
+            "formatted": "Medium Flask of Oleum Terra:e8",
+            "distance": 8.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(22,8)"
+      }
+    },
+    {
+      "turn": 57,
+      "timestamp": "2025-12-25T16:20:53.367960",
+      "action": "move",
+      "player": {
+        "pos": "(23,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e3",
+            "formatted": "Tiny Vial of Aqua Ignis:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e5",
+            "formatted": "Grand Bottle of Aqua Ignis:n1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s3e5",
+            "formatted": "socket wrench:s3e5",
+            "distance": 5.8
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s2e6",
+            "formatted": "rifle ball:s2e6",
+            "distance": 6.3
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "e7",
+            "formatted": "Medium Flask of Oleum Terra:e7",
+            "distance": 7.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "n2e9",
+            "formatted": "Medium Flask of Alkahest:n2e9",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(23,8)"
+      }
+    },
+    {
+      "turn": 58,
+      "timestamp": "2025-12-25T16:20:53.518295",
+      "action": "move",
+      "player": {
+        "pos": "(24,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e2",
+            "formatted": "Tiny Vial of Aqua Ignis:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e4",
+            "formatted": "Grand Bottle of Aqua Ignis:n1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s3e4",
+            "formatted": "socket wrench:s3e4",
+            "distance": 5.0
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s2e5",
+            "formatted": "rifle ball:s2e5",
+            "distance": 5.4
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "e6",
+            "formatted": "Medium Flask of Oleum Terra:e6",
+            "distance": 6.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "n2e8",
+            "formatted": "Medium Flask of Alkahest:n2e8",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(24,8)"
+      }
+    },
+    {
+      "turn": 59,
+      "timestamp": "2025-12-25T16:20:53.717193",
+      "action": "move",
+      "player": {
+        "pos": "(25,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1e1",
+            "formatted": "Tiny Vial of Aqua Ignis:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e3",
+            "formatted": "Grand Bottle of Aqua Ignis:n1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s3e3",
+            "formatted": "socket wrench:s3e3",
+            "distance": 4.2
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s2e4",
+            "formatted": "rifle ball:s2e4",
+            "distance": 4.5
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "e5",
+            "formatted": "Medium Flask of Oleum Terra:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "n2e7",
+            "formatted": "Medium Flask of Alkahest:n2e7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(25,8)"
+      }
+    },
+    {
+      "turn": 60,
+      "timestamp": "2025-12-25T16:20:53.900630",
+      "action": "move",
+      "player": {
+        "pos": "(26,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1",
+            "formatted": "Tiny Vial of Aqua Ignis:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1e2",
+            "formatted": "Grand Bottle of Aqua Ignis:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s2e3",
+            "formatted": "rifle ball:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s3e2",
+            "formatted": "socket wrench:s3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Medium Flask of Oleum Terra:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "n2e6",
+            "formatted": "Medium Flask of Alkahest:n2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(26,8)"
+      }
+    },
+    {
+      "turn": 61,
+      "timestamp": "2025-12-25T16:20:54.147757",
+      "action": "move",
+      "player": {
+        "pos": "(26,9)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Tiny Vial of Aqua Ignis:here",
+            "distance": 0.0
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s2e2",
+            "formatted": "socket wrench:s2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n2e2",
+            "formatted": "Grand Bottle of Aqua Ignis:n2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s1e3",
+            "formatted": "rifle ball:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e4",
+            "formatted": "Medium Flask of Oleum Terra:n1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(26,9)"
+      }
+    },
+    {
+      "turn": 61,
+      "timestamp": "2025-12-25T16:20:54.651000",
+      "action": "pickup",
+      "player": {
+        "pos": "(26,9)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s2e2",
+            "formatted": "socket wrench:s2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n2e2",
+            "formatted": "Grand Bottle of Aqua Ignis:n2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s1e3",
+            "formatted": "rifle ball:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e4",
+            "formatted": "Medium Flask of Oleum Terra:n1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Tiny Vial of Aqua Ignis"
+        ]
+      }
+    },
+    {
+      "turn": 62,
+      "timestamp": "2025-12-25T16:20:58.405884",
+      "action": "move",
+      "player": {
+        "pos": "(27,9)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s1e2",
+            "formatted": "rifle ball:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s2e1",
+            "formatted": "socket wrench:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n2e1",
+            "formatted": "Grand Bottle of Aqua Ignis:n2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e3",
+            "formatted": "Medium Flask of Oleum Terra:n1e3",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(27,9)"
+      }
+    },
+    {
+      "turn": 63,
+      "timestamp": "2025-12-25T16:20:58.589365",
+      "action": "move",
+      "player": {
+        "pos": "(28,9)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s1e1",
+            "formatted": "rifle ball:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s2",
+            "formatted": "socket wrench:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n2",
+            "formatted": "Grand Bottle of Aqua Ignis:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e2",
+            "formatted": "Medium Flask of Oleum Terra:n1e2",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(28,9)"
+      }
+    },
+    {
+      "turn": 64,
+      "timestamp": "2025-12-25T16:20:58.737141",
+      "action": "move",
+      "player": {
+        "pos": "(29,9)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "s1",
+            "formatted": "rifle ball:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e1",
+            "formatted": "Medium Flask of Oleum Terra:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s2w1",
+            "formatted": "socket wrench:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n2w1",
+            "formatted": "Grand Bottle of Aqua Ignis:n2w1",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(29,9)"
+      }
+    },
+    {
+      "turn": 65,
+      "timestamp": "2025-12-25T16:20:59.036538",
+      "action": "move",
+      "player": {
+        "pos": "(29,10)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "rifle ball",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "rifle ball:here",
+            "distance": 0.0
+          },
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s1w1",
+            "formatted": "socket wrench:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e1",
+            "formatted": "Medium Flask of Oleum Terra:n2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n3w1",
+            "formatted": "Grand Bottle of Aqua Ignis:n3w1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(29,10)"
+      }
+    },
+    {
+      "turn": 65,
+      "timestamp": "2025-12-25T16:20:59.415175",
+      "action": "pickup",
+      "player": {
+        "pos": "(29,10)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "s1w1",
+            "formatted": "socket wrench:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e1",
+            "formatted": "Medium Flask of Oleum Terra:n2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n3w1",
+            "formatted": "Grand Bottle of Aqua Ignis:n3w1",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "rifle ball"
+        ]
+      }
+    },
+    {
+      "turn": 66,
+      "timestamp": "2025-12-25T16:20:59.864920",
+      "action": "move",
+      "player": {
+        "pos": "(29,11)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "w1",
+            "formatted": "socket wrench:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e1",
+            "formatted": "Medium Flask of Oleum Terra:n3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n4w1",
+            "formatted": "Grand Bottle of Aqua Ignis:n4w1",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(29,11)"
+      }
+    },
+    {
+      "turn": 67,
+      "timestamp": "2025-12-25T16:21:00.115869",
+      "action": "move",
+      "player": {
+        "pos": "(28,11)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "socket wrench",
+            "type": "tools",
+            "pos": "here",
+            "formatted": "socket wrench:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e2",
+            "formatted": "Medium Flask of Oleum Terra:n3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n4",
+            "formatted": "Grand Bottle of Aqua Ignis:n4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(28,11)"
+      }
+    },
+    {
+      "turn": 67,
+      "timestamp": "2025-12-25T16:21:00.499988",
+      "action": "pickup",
+      "player": {
+        "pos": "(28,11)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e2",
+            "formatted": "Medium Flask of Oleum Terra:n3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n4",
+            "formatted": "Grand Bottle of Aqua Ignis:n4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "socket wrench"
+        ]
+      }
+    },
+    {
+      "turn": 68,
+      "timestamp": "2025-12-25T16:21:02.719317",
+      "action": "move",
+      "player": {
+        "pos": "(28,10)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e2",
+            "formatted": "Medium Flask of Oleum Terra:n2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n3",
+            "formatted": "Grand Bottle of Aqua Ignis:n3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(28,10)"
+      }
+    },
+    {
+      "turn": 69,
+      "timestamp": "2025-12-25T16:21:02.982440",
+      "action": "move",
+      "player": {
+        "pos": "(28,9)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n2",
+            "formatted": "Grand Bottle of Aqua Ignis:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e2",
+            "formatted": "Medium Flask of Oleum Terra:n1e2",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(28,9)"
+      }
+    },
+    {
+      "turn": 70,
+      "timestamp": "2025-12-25T16:21:03.098452",
+      "action": "move",
+      "player": {
+        "pos": "(28,8)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "n1",
+            "formatted": "Grand Bottle of Aqua Ignis:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Medium Flask of Oleum Terra:e2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(28,8)"
+      }
+    },
+    {
+      "turn": 71,
+      "timestamp": "2025-12-25T16:21:03.298646",
+      "action": "move",
+      "player": {
+        "pos": "(28,7)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Grand Bottle of Aqua Ignis",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Grand Bottle of Aqua Ignis:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e2",
+            "formatted": "Medium Flask of Oleum Terra:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "n1e4",
+            "formatted": "Medium Flask of Alkahest:n1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(28,7)"
+      }
+    },
+    {
+      "turn": 71,
+      "timestamp": "2025-12-25T16:21:03.603246",
+      "action": "pickup",
+      "player": {
+        "pos": "(28,7)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e2",
+            "formatted": "Medium Flask of Oleum Terra:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "n1e4",
+            "formatted": "Medium Flask of Alkahest:n1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Grand Bottle of Aqua Ignis"
+        ]
+      }
+    },
+    {
+      "turn": 72,
+      "timestamp": "2025-12-25T16:21:04.500858",
+      "action": "move",
+      "player": {
+        "pos": "(29,7)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e1",
+            "formatted": "Medium Flask of Oleum Terra:s1e1",
+            "distance": 1.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(29,7)"
+      }
+    },
+    {
+      "turn": 73,
+      "timestamp": "2025-12-25T16:21:05.116666",
+      "action": "move",
+      "player": {
+        "pos": "(29,6)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "s2e1",
+            "formatted": "Medium Flask of Oleum Terra:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e3",
+            "formatted": "Medium Flask of Alkahest:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "s1e9",
+            "formatted": "surface-to-air missile:s1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(29,6)"
+      }
+    },
+    {
+      "turn": 74,
+      "timestamp": "2025-12-25T16:21:05.361371",
+      "action": "move",
+      "player": {
+        "pos": "(30,6)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Medium Flask of Alkahest:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "s1e8",
+            "formatted": "surface-to-air missile:s1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(30,6)"
+      }
+    },
+    {
+      "turn": 75,
+      "timestamp": "2025-12-25T16:21:05.593290",
+      "action": "move",
+      "player": {
+        "pos": "(31,6)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "e10",
+            "formatted": "Troll:e10",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 10.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e1",
+            "formatted": "Medium Flask of Alkahest:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "s1e7",
+            "formatted": "surface-to-air missile:s1e7",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(31,6)"
+      }
+    },
+    {
+      "turn": 76,
+      "timestamp": "2025-12-25T16:21:05.725274",
+      "action": "move",
+      "player": {
+        "pos": "(32,6)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "e9",
+            "formatted": "Troll:e9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s1e9",
+            "formatted": "Spider:s1e9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Medium Flask of Alkahest:here",
+            "distance": 0.0
+          },
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "s1e6",
+            "formatted": "surface-to-air missile:s1e6",
+            "distance": 6.1
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e9",
+            "formatted": "Medium Flask of Oleum Terra:n1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(32,6)"
+      }
+    },
+    {
+      "turn": 76,
+      "timestamp": "2025-12-25T16:21:06.076747",
+      "action": "pickup",
+      "player": {
+        "pos": "(32,6)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e8",
+            "formatted": "Spider:e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "e9",
+            "formatted": "Troll:e9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "s1e6",
+            "formatted": "surface-to-air missile:s1e6",
+            "distance": 6.1
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e9",
+            "formatted": "Medium Flask of Oleum Terra:n1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Medium Flask of Alkahest"
+        ]
+      }
+    },
+    {
+      "turn": 77,
+      "timestamp": "2025-12-25T16:21:06.653336",
+      "action": "move",
+      "player": {
+        "pos": "(33,6)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e7",
+            "formatted": "Spider:e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "e8",
+            "formatted": "Troll:e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "s1e5",
+            "formatted": "surface-to-air missile:s1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e8",
+            "formatted": "Medium Flask of Oleum Terra:n1e8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(33,6)"
+      }
+    },
+    {
+      "turn": 78,
+      "timestamp": "2025-12-25T16:21:06.965710",
+      "action": "move",
+      "player": {
+        "pos": "(34,6)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e5",
+            "formatted": "Spider:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "e6",
+            "formatted": "Troll:e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "s1e4",
+            "formatted": "surface-to-air missile:s1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e7",
+            "formatted": "Medium Flask of Oleum Terra:n1e7",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(34,6)"
+      }
+    },
+    {
+      "turn": 79,
+      "timestamp": "2025-12-25T16:21:07.134358",
+      "action": "move",
+      "player": {
+        "pos": "(35,6)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e3",
+            "formatted": "Spider:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Troll",
+            "pos": "e4",
+            "formatted": "Troll:e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "s1e3",
+            "formatted": "surface-to-air missile:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e6",
+            "formatted": "Medium Flask of Oleum Terra:n1e6",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(35,6)"
+      }
+    },
+    {
+      "turn": 80,
+      "timestamp": "2025-12-25T16:21:07.813596",
+      "action": "move",
+      "player": {
+        "pos": "(36,6)",
+        "hp": "84/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e1",
+            "formatted": "Spider:e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Troll",
+            "pos": "e2",
+            "formatted": "Troll:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "s1e2",
+            "formatted": "surface-to-air missile:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e5",
+            "formatted": "Medium Flask of Oleum Terra:n1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(36,6)"
+      }
+    },
+    {
+      "turn": 81,
+      "timestamp": "2025-12-25T16:21:08.265402",
+      "action": "attack",
+      "player": {
+        "pos": "(36,6)",
+        "hp": "82/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "e1",
+            "formatted": "Spider:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Troll",
+            "pos": "e2",
+            "formatted": "Troll:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "s1e2",
+            "formatted": "surface-to-air missile:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e5",
+            "formatted": "Medium Flask of Oleum Terra:n1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 82,
+      "timestamp": "2025-12-25T16:21:08.480952",
+      "action": "attack",
+      "player": {
+        "pos": "(36,6)",
+        "hp": "80/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "e2",
+            "formatted": "Troll:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "s1e2",
+            "formatted": "surface-to-air missile:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e5",
+            "formatted": "Medium Flask of Oleum Terra:n1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 83,
+      "timestamp": "2025-12-25T16:21:08.565818",
+      "action": "attack",
+      "player": {
+        "pos": "(36,6)",
+        "hp": "80/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "e1",
+            "formatted": "Troll:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "s1e2",
+            "formatted": "surface-to-air missile:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e5",
+            "formatted": "Medium Flask of Oleum Terra:n1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Troll",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 84,
+      "timestamp": "2025-12-25T16:21:08.678625",
+      "action": "attack",
+      "player": {
+        "pos": "(36,6)",
+        "hp": "78/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "s1e2",
+            "formatted": "surface-to-air missile:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e5",
+            "formatted": "Medium Flask of Oleum Terra:n1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Troll",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 85,
+      "timestamp": "2025-12-25T16:21:09.240551",
+      "action": "move",
+      "player": {
+        "pos": "(37,6)",
+        "hp": "78/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "miter box",
+            "type": "tools",
+            "pos": "here",
+            "formatted": "miter box:here",
+            "distance": 0.0
+          },
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "s1e1",
+            "formatted": "surface-to-air missile:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e4",
+            "formatted": "Medium Flask of Oleum Terra:n1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(37,6)"
+      }
+    },
+    {
+      "turn": 85,
+      "timestamp": "2025-12-25T16:21:09.488750",
+      "action": "pickup",
+      "player": {
+        "pos": "(37,6)",
+        "hp": "78/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "s1e1",
+            "formatted": "surface-to-air missile:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e4",
+            "formatted": "Medium Flask of Oleum Terra:n1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "miter box"
+        ]
+      }
+    },
+    {
+      "turn": 86,
+      "timestamp": "2025-12-25T16:21:09.771090",
+      "action": "move",
+      "player": {
+        "pos": "(38,6)",
+        "hp": "78/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "n3",
+            "formatted": "Troll:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "s1",
+            "formatted": "surface-to-air missile:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e3",
+            "formatted": "Medium Flask of Oleum Terra:n1e3",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(38,6)"
+      }
+    },
+    {
+      "turn": 87,
+      "timestamp": "2025-12-25T16:21:10.280523",
+      "action": "move",
+      "player": {
+        "pos": "(38,7)",
+        "hp": "78/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "n3",
+            "formatted": "Troll:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "surface-to-air missile",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "surface-to-air missile:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e3",
+            "formatted": "Medium Flask of Oleum Terra:n2e3",
+            "distance": 3.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(38,7)"
+      }
+    },
+    {
+      "turn": 87,
+      "timestamp": "2025-12-25T16:21:10.926166",
+      "action": "pickup",
+      "player": {
+        "pos": "(38,7)",
+        "hp": "78/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "n2",
+            "formatted": "Troll:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e3",
+            "formatted": "Medium Flask of Oleum Terra:n2e3",
+            "distance": 3.6
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "surface-to-air missile"
+        ]
+      }
+    },
+    {
+      "turn": 88,
+      "timestamp": "2025-12-25T16:21:11.490271",
+      "action": "move",
+      "player": {
+        "pos": "(38,6)",
+        "hp": "78/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "n1",
+            "formatted": "Troll:n1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e3",
+            "formatted": "Medium Flask of Oleum Terra:n1e3",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(38,6)"
+      }
+    },
+    {
+      "turn": 89,
+      "timestamp": "2025-12-25T16:21:12.493207",
+      "action": "attack",
+      "player": {
+        "pos": "(38,6)",
+        "hp": "76/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Troll",
+            "pos": "n1",
+            "formatted": "Troll:n1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e3",
+            "formatted": "Medium Flask of Oleum Terra:n1e3",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "target": "Troll",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 90,
+      "timestamp": "2025-12-25T16:21:12.706040",
+      "action": "attack",
+      "player": {
+        "pos": "(38,6)",
+        "hp": "74/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e3",
+            "formatted": "Medium Flask of Oleum Terra:n1e3",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "target": "Troll",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 91,
+      "timestamp": "2025-12-25T16:21:13.490333",
+      "action": "move",
+      "player": {
+        "pos": "(38,5)",
+        "hp": "74/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "lister",
+            "type": "tools",
+            "pos": "here",
+            "formatted": "lister:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "e3",
+            "formatted": "Medium Flask of Oleum Terra:e3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(38,5)"
+      }
+    },
+    {
+      "turn": 91,
+      "timestamp": "2025-12-25T16:21:13.887160",
+      "action": "pickup",
+      "player": {
+        "pos": "(38,5)",
+        "hp": "74/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "e3",
+            "formatted": "Medium Flask of Oleum Terra:e3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "lister"
+        ]
+      }
+    },
+    {
+      "turn": 92,
+      "timestamp": "2025-12-25T16:21:14.377615",
+      "action": "move",
+      "player": {
+        "pos": "(39,5)",
+        "hp": "74/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "e2",
+            "formatted": "Medium Flask of Oleum Terra:e2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(39,5)"
+      }
+    },
+    {
+      "turn": 93,
+      "timestamp": "2025-12-25T16:21:14.592619",
+      "action": "move",
+      "player": {
+        "pos": "(40,5)",
+        "hp": "74/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "e1",
+            "formatted": "Medium Flask of Oleum Terra:e1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(40,5)"
+      }
+    },
+    {
+      "turn": 94,
+      "timestamp": "2025-12-25T16:21:14.771804",
+      "action": "move",
+      "player": {
+        "pos": "(41,5)",
+        "hp": "74/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Oleum Terra",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Medium Flask of Oleum Terra:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(41,5)"
+      }
+    },
+    {
+      "turn": 94,
+      "timestamp": "2025-12-25T16:21:15.567250",
+      "action": "pickup",
+      "player": {
+        "pos": "(41,5)",
+        "hp": "74/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "Medium Flask of Oleum Terra"
+        ]
+      }
+    },
+    {
+      "turn": 95,
+      "timestamp": "2025-12-25T16:21:16.871678",
+      "action": "move",
+      "player": {
+        "pos": "(41,6)",
+        "hp": "74/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(41,6)"
+      }
+    },
+    {
+      "turn": 96,
+      "timestamp": "2025-12-25T16:21:17.102601",
+      "action": "move",
+      "player": {
+        "pos": "(41,7)",
+        "hp": "74/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(41,7)"
+      }
+    },
+    {
+      "turn": 97,
+      "timestamp": "2025-12-25T16:21:17.287760",
+      "action": "move",
+      "player": {
+        "pos": "(41,8)",
+        "hp": "74/120",
+        "level": 3
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(41,8)"
+      }
+    }
+  ]
+}

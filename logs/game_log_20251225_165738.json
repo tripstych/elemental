@@ -1,0 +1,1004 @@
+{
+  "game_seed": 409823,
+  "total_turns": 14,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T16:57:39.514755",
+      "action": "move",
+      "player": {
+        "pos": "(41,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s5e3",
+            "formatted": "Rat:s5e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.8,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s6w1",
+            "formatted": "Spider:s6w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e2",
+            "formatted": "Small Vial of Oleum Terra:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4e1",
+            "formatted": "Tiny Vial of Aqua Ignis:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s5e3",
+            "formatted": "amethyst:s5e3",
+            "distance": 5.8
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s6e2",
+            "formatted": "Tiny Vial of Prima Ite:s6e2",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(41,2)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T16:57:39.729533",
+      "action": "move",
+      "player": {
+        "pos": "(42,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s4e1",
+            "formatted": "Rat:s4e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s5w1",
+            "formatted": "Spider:s5w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e1",
+            "formatted": "Small Vial of Oleum Terra:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4",
+            "formatted": "Tiny Vial of Aqua Ignis:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s5e2",
+            "formatted": "amethyst:s5e2",
+            "distance": 5.4
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s6e1",
+            "formatted": "Tiny Vial of Prima Ite:s6e1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(42,2)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T16:57:39.983536",
+      "action": "move",
+      "player": {
+        "pos": "(43,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s3w1",
+            "formatted": "Rat:s3w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s4w1",
+            "formatted": "Spider:s4w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1",
+            "formatted": "Small Vial of Oleum Terra:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4w1",
+            "formatted": "Tiny Vial of Aqua Ignis:s4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s5e1",
+            "formatted": "amethyst:s5e1",
+            "distance": 5.1
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s6",
+            "formatted": "Tiny Vial of Prima Ite:s6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(43,2)"
+      }
+    },
+    {
+      "turn": 4,
+      "timestamp": "2025-12-25T16:57:41.309214",
+      "action": "move",
+      "player": {
+        "pos": "(44,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s2w1",
+            "formatted": "Rat:s2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s3w1",
+            "formatted": "Spider:s3w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Small Vial of Oleum Terra:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4w2",
+            "formatted": "Tiny Vial of Aqua Ignis:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s5",
+            "formatted": "amethyst:s5",
+            "distance": 5.0
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s6w1",
+            "formatted": "Tiny Vial of Prima Ite:s6w1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(44,2)"
+      }
+    },
+    {
+      "turn": 5,
+      "timestamp": "2025-12-25T16:57:41.893443",
+      "action": "attack",
+      "player": {
+        "pos": "(44,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s1",
+            "formatted": "Rat:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "s2",
+            "formatted": "Spider:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Small Vial of Oleum Terra:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4w2",
+            "formatted": "Tiny Vial of Aqua Ignis:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s5",
+            "formatted": "amethyst:s5",
+            "distance": 5.0
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s6w1",
+            "formatted": "Tiny Vial of Prima Ite:s6w1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 6,
+      "timestamp": "2025-12-25T16:57:42.095137",
+      "action": "attack",
+      "player": {
+        "pos": "(44,2)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s2",
+            "formatted": "Spider:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Small Vial of Oleum Terra:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4w2",
+            "formatted": "Tiny Vial of Aqua Ignis:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s5",
+            "formatted": "amethyst:s5",
+            "distance": 5.0
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s6w1",
+            "formatted": "Tiny Vial of Prima Ite:s6w1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 7,
+      "timestamp": "2025-12-25T16:57:42.197138",
+      "action": "attack",
+      "player": {
+        "pos": "(44,2)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s1",
+            "formatted": "Spider:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Small Vial of Oleum Terra:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4w2",
+            "formatted": "Tiny Vial of Aqua Ignis:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s5",
+            "formatted": "amethyst:s5",
+            "distance": 5.0
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s6w1",
+            "formatted": "Tiny Vial of Prima Ite:s6w1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 8,
+      "timestamp": "2025-12-25T16:57:42.296977",
+      "action": "attack",
+      "player": {
+        "pos": "(44,2)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Small Vial of Oleum Terra:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s4w2",
+            "formatted": "Tiny Vial of Aqua Ignis:s4w2",
+            "distance": 4.5
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s5",
+            "formatted": "amethyst:s5",
+            "distance": 5.0
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s6w1",
+            "formatted": "Tiny Vial of Prima Ite:s6w1",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 9,
+      "timestamp": "2025-12-25T16:57:42.743383",
+      "action": "move",
+      "player": {
+        "pos": "(44,3)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "w1",
+            "formatted": "Small Vial of Oleum Terra:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s3w2",
+            "formatted": "Tiny Vial of Aqua Ignis:s3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s4",
+            "formatted": "amethyst:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s5w1",
+            "formatted": "Tiny Vial of Prima Ite:s5w1",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(44,3)"
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-25T16:57:43.094775",
+      "action": "move",
+      "player": {
+        "pos": "(43,3)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Small Vial of Oleum Terra:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s3w1",
+            "formatted": "Tiny Vial of Aqua Ignis:s3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s4e1",
+            "formatted": "amethyst:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s5",
+            "formatted": "Tiny Vial of Prima Ite:s5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(43,3)"
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-25T16:57:43.326437",
+      "action": "pickup",
+      "player": {
+        "pos": "(43,3)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s3w1",
+            "formatted": "Tiny Vial of Aqua Ignis:s3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s4e1",
+            "formatted": "amethyst:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s5",
+            "formatted": "Tiny Vial of Prima Ite:s5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Small Vial of Oleum Terra"
+        ]
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-25T16:57:43.726080",
+      "action": "move",
+      "player": {
+        "pos": "(43,4)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s2w1",
+            "formatted": "Tiny Vial of Aqua Ignis:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s3e1",
+            "formatted": "amethyst:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s4",
+            "formatted": "Tiny Vial of Prima Ite:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "Tiny Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e8",
+            "formatted": "Tiny Vial of Oleum Terra:s3e8",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(43,4)"
+      }
+    },
+    {
+      "turn": 12,
+      "timestamp": "2025-12-25T16:57:43.928890",
+      "action": "move",
+      "player": {
+        "pos": "(43,5)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "s1e7",
+            "formatted": "Orc:s1e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1w1",
+            "formatted": "Tiny Vial of Aqua Ignis:s1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s2e1",
+            "formatted": "amethyst:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s3",
+            "formatted": "Tiny Vial of Prima Ite:s3",
+            "distance": 3.0
+          },
+          {
+            "name": "shot",
+            "type": "weapons",
+            "pos": "s1e7",
+            "formatted": "shot:s1e7",
+            "distance": 7.1
+          },
+          {
+            "name": "Small Vial of Alkahest",
+            "type": "solvent",
+            "pos": "s1e8",
+            "formatted": "Small Vial of Alkahest:s1e8",
+            "distance": 8.1
+          },
+          {
+            "name": "Tiny Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "s2e8",
+            "formatted": "Tiny Vial of Oleum Terra:s2e8",
+            "distance": 8.2
+          },
+          {
+            "name": "fire ship",
+            "type": "weapons",
+            "pos": "s2e9",
+            "formatted": "fire ship:s2e9",
+            "distance": 9.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(43,5)"
+      }
+    },
+    {
+      "turn": 13,
+      "timestamp": "2025-12-25T16:57:44.096024",
+      "action": "move",
+      "player": {
+        "pos": "(43,6)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "e7",
+            "formatted": "Orc:e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "w1",
+            "formatted": "Tiny Vial of Aqua Ignis:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s1e1",
+            "formatted": "amethyst:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s2",
+            "formatted": "Tiny Vial of Prima Ite:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "shot",
+            "type": "weapons",
+            "pos": "e7",
+            "formatted": "shot:e7",
+            "distance": 7.0
+          },
+          {
+            "name": "Small Vial of Alkahest",
+            "type": "solvent",
+            "pos": "e8",
+            "formatted": "Small Vial of Alkahest:e8",
+            "distance": 8.0
+          },
+          {
+            "name": "cat's eye",
+            "type": "gems",
+            "pos": "n1w8",
+            "formatted": "cat's eye:n1w8",
+            "distance": 8.1
+          },
+          {
+            "name": "Tiny Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e8",
+            "formatted": "Tiny Vial of Oleum Terra:s1e8",
+            "distance": 8.1
+          },
+          {
+            "name": "fire ship",
+            "type": "weapons",
+            "pos": "s1e9",
+            "formatted": "fire ship:s1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(43,6)"
+      }
+    },
+    {
+      "turn": 14,
+      "timestamp": "2025-12-25T16:57:44.427390",
+      "action": "move",
+      "player": {
+        "pos": "(42,6)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "e7",
+            "formatted": "Orc:e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Tiny Vial of Aqua Ignis:here",
+            "distance": 0.0
+          },
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s1e2",
+            "formatted": "amethyst:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s2e1",
+            "formatted": "Tiny Vial of Prima Ite:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "cat's eye",
+            "type": "gems",
+            "pos": "n1w7",
+            "formatted": "cat's eye:n1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "shot",
+            "type": "weapons",
+            "pos": "e8",
+            "formatted": "shot:e8",
+            "distance": 8.0
+          },
+          {
+            "name": "Small Vial of Alkahest",
+            "type": "solvent",
+            "pos": "e9",
+            "formatted": "Small Vial of Alkahest:e9",
+            "distance": 9.0
+          },
+          {
+            "name": "Tiny Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e9",
+            "formatted": "Tiny Vial of Oleum Terra:s1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(42,6)"
+      }
+    },
+    {
+      "turn": 14,
+      "timestamp": "2025-12-25T16:57:44.660073",
+      "action": "pickup",
+      "player": {
+        "pos": "(42,6)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Orc",
+            "pos": "e6",
+            "formatted": "Orc:e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "amethyst",
+            "type": "gems",
+            "pos": "s1e2",
+            "formatted": "amethyst:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Prima Ite",
+            "type": "coagulant",
+            "pos": "s2e1",
+            "formatted": "Tiny Vial of Prima Ite:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "cat's eye",
+            "type": "gems",
+            "pos": "n1w7",
+            "formatted": "cat's eye:n1w7",
+            "distance": 7.1
+          },
+          {
+            "name": "shot",
+            "type": "weapons",
+            "pos": "e8",
+            "formatted": "shot:e8",
+            "distance": 8.0
+          },
+          {
+            "name": "Small Vial of Alkahest",
+            "type": "solvent",
+            "pos": "e9",
+            "formatted": "Small Vial of Alkahest:e9",
+            "distance": 9.0
+          },
+          {
+            "name": "Tiny Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e9",
+            "formatted": "Tiny Vial of Oleum Terra:s1e9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Tiny Vial of Aqua Ignis"
+        ]
+      }
+    }
+  ]
+}

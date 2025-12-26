@@ -1,0 +1,3560 @@
+{
+  "game_seed": 188396,
+  "total_turns": 77,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T17:18:36.060778",
+      "action": "move",
+      "player": {
+        "pos": "(17,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s3e5",
+            "formatted": "Skeleton:s3e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.8,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s1e6",
+            "formatted": "Rat:s1e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "mousse",
+            "type": "food",
+            "pos": "e5",
+            "formatted": "mousse:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s2e8",
+            "formatted": "tamale pie:s2e8",
+            "distance": 8.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(17,2)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T17:18:36.224186",
+      "action": "move",
+      "player": {
+        "pos": "(18,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s2e3",
+            "formatted": "Skeleton:s2e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.6,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "e4",
+            "formatted": "Rat:e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "mousse",
+            "type": "food",
+            "pos": "e4",
+            "formatted": "mousse:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s2e7",
+            "formatted": "tamale pie:s2e7",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(18,2)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T17:18:36.394042",
+      "action": "move",
+      "player": {
+        "pos": "(19,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1e1",
+            "formatted": "Skeleton:s1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Rat",
+            "pos": "e2",
+            "formatted": "Rat:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "mousse",
+            "type": "food",
+            "pos": "e3",
+            "formatted": "mousse:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s2e6",
+            "formatted": "tamale pie:s2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(19,2)"
+      }
+    },
+    {
+      "turn": 4,
+      "timestamp": "2025-12-25T17:18:38.069126",
+      "action": "attack",
+      "player": {
+        "pos": "(19,2)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "e1",
+            "formatted": "Rat:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s1e1",
+            "formatted": "Skeleton:s1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "mousse",
+            "type": "food",
+            "pos": "e3",
+            "formatted": "mousse:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s2e6",
+            "formatted": "tamale pie:s2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 5,
+      "timestamp": "2025-12-25T17:18:38.270857",
+      "action": "attack",
+      "player": {
+        "pos": "(19,2)",
+        "hp": "94/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1e1",
+            "formatted": "Skeleton:s1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "mousse",
+            "type": "food",
+            "pos": "e3",
+            "formatted": "mousse:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s2e6",
+            "formatted": "tamale pie:s2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 6,
+      "timestamp": "2025-12-25T17:18:38.370787",
+      "action": "attack",
+      "player": {
+        "pos": "(19,2)",
+        "hp": "92/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1e1",
+            "formatted": "Skeleton:s1e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "porridge",
+            "type": "food",
+            "pos": "e1",
+            "formatted": "porridge:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "mousse",
+            "type": "food",
+            "pos": "e3",
+            "formatted": "mousse:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s2e6",
+            "formatted": "tamale pie:s2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "se",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 7,
+      "timestamp": "2025-12-25T17:18:38.486168",
+      "action": "attack",
+      "player": {
+        "pos": "(19,2)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "porridge",
+            "type": "food",
+            "pos": "e1",
+            "formatted": "porridge:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "mousse",
+            "type": "food",
+            "pos": "e3",
+            "formatted": "mousse:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s2e6",
+            "formatted": "tamale pie:s2e6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "se",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 8,
+      "timestamp": "2025-12-25T17:18:39.186402",
+      "action": "move",
+      "player": {
+        "pos": "(20,2)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "porridge",
+            "type": "food",
+            "pos": "here",
+            "formatted": "porridge:here",
+            "distance": 0.0
+          },
+          {
+            "name": "hiddenite",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "hiddenite:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "mousse",
+            "type": "food",
+            "pos": "e2",
+            "formatted": "mousse:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s2e5",
+            "formatted": "tamale pie:s2e5",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(20,2)"
+      }
+    },
+    {
+      "turn": 8,
+      "timestamp": "2025-12-25T17:18:39.384173",
+      "action": "pickup",
+      "player": {
+        "pos": "(20,2)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "hiddenite",
+            "type": "gems",
+            "pos": "s1",
+            "formatted": "hiddenite:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "mousse",
+            "type": "food",
+            "pos": "e2",
+            "formatted": "mousse:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s2e5",
+            "formatted": "tamale pie:s2e5",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "porridge"
+        ]
+      }
+    },
+    {
+      "turn": 9,
+      "timestamp": "2025-12-25T17:18:39.865428",
+      "action": "move",
+      "player": {
+        "pos": "(20,3)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "hiddenite",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "hiddenite:here",
+            "distance": 0.0
+          },
+          {
+            "name": "mousse",
+            "type": "food",
+            "pos": "n1e2",
+            "formatted": "mousse:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s1e5",
+            "formatted": "tamale pie:s1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(20,3)"
+      }
+    },
+    {
+      "turn": 9,
+      "timestamp": "2025-12-25T17:18:40.112137",
+      "action": "pickup",
+      "player": {
+        "pos": "(20,3)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "mousse",
+            "type": "food",
+            "pos": "n1e2",
+            "formatted": "mousse:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s1e5",
+            "formatted": "tamale pie:s1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "hiddenite"
+        ]
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-25T17:18:40.664651",
+      "action": "move",
+      "player": {
+        "pos": "(21,3)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "mousse",
+            "type": "food",
+            "pos": "n1e1",
+            "formatted": "mousse:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s1e4",
+            "formatted": "tamale pie:s1e4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(21,3)"
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-25T17:18:40.745959",
+      "action": "move",
+      "player": {
+        "pos": "(22,3)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "mousse",
+            "type": "food",
+            "pos": "n1",
+            "formatted": "mousse:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s1e3",
+            "formatted": "tamale pie:s1e3",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(22,3)"
+      }
+    },
+    {
+      "turn": 12,
+      "timestamp": "2025-12-25T17:18:40.927051",
+      "action": "move",
+      "player": {
+        "pos": "(23,3)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "mousse",
+            "type": "food",
+            "pos": "n1w1",
+            "formatted": "mousse:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s1e2",
+            "formatted": "tamale pie:s1e2",
+            "distance": 2.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(23,3)"
+      }
+    },
+    {
+      "turn": 13,
+      "timestamp": "2025-12-25T17:18:41.693326",
+      "action": "move",
+      "player": {
+        "pos": "(22,3)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "mousse",
+            "type": "food",
+            "pos": "n1",
+            "formatted": "mousse:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s1e3",
+            "formatted": "tamale pie:s1e3",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(22,3)"
+      }
+    },
+    {
+      "turn": 14,
+      "timestamp": "2025-12-25T17:18:42.125050",
+      "action": "move",
+      "player": {
+        "pos": "(22,2)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "mousse",
+            "type": "food",
+            "pos": "here",
+            "formatted": "mousse:here",
+            "distance": 0.0
+          },
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s2e3",
+            "formatted": "tamale pie:s2e3",
+            "distance": 3.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(22,2)"
+      }
+    },
+    {
+      "turn": 14,
+      "timestamp": "2025-12-25T17:18:42.342553",
+      "action": "pickup",
+      "player": {
+        "pos": "(22,2)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s2e3",
+            "formatted": "tamale pie:s2e3",
+            "distance": 3.6
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "mousse"
+        ]
+      }
+    },
+    {
+      "turn": 15,
+      "timestamp": "2025-12-25T17:18:42.972224",
+      "action": "move",
+      "player": {
+        "pos": "(22,3)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "s1e3",
+            "formatted": "tamale pie:s1e3",
+            "distance": 3.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(22,3)"
+      }
+    },
+    {
+      "turn": 16,
+      "timestamp": "2025-12-25T17:18:43.005774",
+      "action": "move",
+      "player": {
+        "pos": "(22,4)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "e3",
+            "formatted": "tamale pie:e3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(22,4)"
+      }
+    },
+    {
+      "turn": 17,
+      "timestamp": "2025-12-25T17:18:43.387073",
+      "action": "move",
+      "player": {
+        "pos": "(23,4)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "e2",
+            "formatted": "tamale pie:e2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(23,4)"
+      }
+    },
+    {
+      "turn": 18,
+      "timestamp": "2025-12-25T17:18:43.504517",
+      "action": "move",
+      "player": {
+        "pos": "(24,4)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "e1",
+            "formatted": "tamale pie:e1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(24,4)"
+      }
+    },
+    {
+      "turn": 19,
+      "timestamp": "2025-12-25T17:18:43.736237",
+      "action": "move",
+      "player": {
+        "pos": "(25,4)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "tamale pie",
+            "type": "food",
+            "pos": "here",
+            "formatted": "tamale pie:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(25,4)"
+      }
+    },
+    {
+      "turn": 19,
+      "timestamp": "2025-12-25T17:18:44.168827",
+      "action": "pickup",
+      "player": {
+        "pos": "(25,4)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "tamale pie"
+        ]
+      }
+    },
+    {
+      "turn": 20,
+      "timestamp": "2025-12-25T17:18:45.354555",
+      "action": "move",
+      "player": {
+        "pos": "(24,4)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(24,4)"
+      }
+    },
+    {
+      "turn": 21,
+      "timestamp": "2025-12-25T17:18:45.632668",
+      "action": "move",
+      "player": {
+        "pos": "(23,4)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(23,4)"
+      }
+    },
+    {
+      "turn": 22,
+      "timestamp": "2025-12-25T17:18:46.115579",
+      "action": "move",
+      "player": {
+        "pos": "(23,5)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(23,5)"
+      }
+    },
+    {
+      "turn": 23,
+      "timestamp": "2025-12-25T17:18:46.364800",
+      "action": "move",
+      "player": {
+        "pos": "(23,6)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(23,6)"
+      }
+    },
+    {
+      "turn": 24,
+      "timestamp": "2025-12-25T17:18:46.659044",
+      "action": "move",
+      "player": {
+        "pos": "(22,6)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(22,6)"
+      }
+    },
+    {
+      "turn": 25,
+      "timestamp": "2025-12-25T17:18:47.321983",
+      "action": "move",
+      "player": {
+        "pos": "(21,6)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "w",
+        "to": "(21,6)"
+      }
+    },
+    {
+      "turn": 26,
+      "timestamp": "2025-12-25T17:18:47.739185",
+      "action": "move",
+      "player": {
+        "pos": "(21,7)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(21,7)"
+      }
+    },
+    {
+      "turn": 27,
+      "timestamp": "2025-12-25T17:18:47.755918",
+      "action": "move",
+      "player": {
+        "pos": "(21,8)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(21,8)"
+      }
+    },
+    {
+      "turn": 28,
+      "timestamp": "2025-12-25T17:18:48.055748",
+      "action": "move",
+      "player": {
+        "pos": "(21,9)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "s",
+        "to": "(21,9)"
+      }
+    },
+    {
+      "turn": 29,
+      "timestamp": "2025-12-25T17:18:48.171866",
+      "action": "move",
+      "player": {
+        "pos": "(21,10)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Grand Bottle of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e8",
+            "formatted": "Grand Bottle of Ite Ignis:e8",
+            "distance": 8.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(21,10)"
+      }
+    },
+    {
+      "turn": 30,
+      "timestamp": "2025-12-25T17:18:48.435333",
+      "action": "move",
+      "player": {
+        "pos": "(22,10)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Grand Bottle of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e7",
+            "formatted": "Grand Bottle of Ite Ignis:e7",
+            "distance": 7.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(22,10)"
+      }
+    },
+    {
+      "turn": 31,
+      "timestamp": "2025-12-25T17:18:48.767973",
+      "action": "move",
+      "player": {
+        "pos": "(23,10)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Grand Bottle of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e6",
+            "formatted": "Grand Bottle of Ite Ignis:e6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(23,10)"
+      }
+    },
+    {
+      "turn": 32,
+      "timestamp": "2025-12-25T17:18:48.833094",
+      "action": "move",
+      "player": {
+        "pos": "(24,10)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Grand Bottle of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e5",
+            "formatted": "Grand Bottle of Ite Ignis:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e10",
+            "formatted": "Medium Flask of Alkahest:e10",
+            "distance": 10.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(24,10)"
+      }
+    },
+    {
+      "turn": 33,
+      "timestamp": "2025-12-25T17:18:48.965616",
+      "action": "move",
+      "player": {
+        "pos": "(25,10)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Grand Bottle of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e4",
+            "formatted": "Grand Bottle of Ite Ignis:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e9",
+            "formatted": "Medium Flask of Alkahest:e9",
+            "distance": 9.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(25,10)"
+      }
+    },
+    {
+      "turn": 34,
+      "timestamp": "2025-12-25T17:18:49.168073",
+      "action": "move",
+      "player": {
+        "pos": "(26,10)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n2e9",
+            "formatted": "Skeleton:n2e9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Grand Bottle of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e3",
+            "formatted": "Grand Bottle of Ite Ignis:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e8",
+            "formatted": "Medium Flask of Alkahest:e8",
+            "distance": 8.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(26,10)"
+      }
+    },
+    {
+      "turn": 35,
+      "timestamp": "2025-12-25T17:18:49.335360",
+      "action": "move",
+      "player": {
+        "pos": "(27,10)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n1e7",
+            "formatted": "Skeleton:n1e7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Grand Bottle of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e2",
+            "formatted": "Grand Bottle of Ite Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e7",
+            "formatted": "Medium Flask of Alkahest:e7",
+            "distance": 7.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e8",
+            "formatted": "Small Vial of Oleum Terra:n3e8",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(27,10)"
+      }
+    },
+    {
+      "turn": 36,
+      "timestamp": "2025-12-25T17:18:49.569121",
+      "action": "move",
+      "player": {
+        "pos": "(28,10)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e5",
+            "formatted": "Skeleton:e5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Grand Bottle of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e1",
+            "formatted": "Grand Bottle of Ite Ignis:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3e2",
+            "formatted": "Tiny Vial of Alkahest:n3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e6",
+            "formatted": "Medium Flask of Alkahest:e6",
+            "distance": 6.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e7",
+            "formatted": "Small Vial of Oleum Terra:n3e7",
+            "distance": 7.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(28,10)"
+      }
+    },
+    {
+      "turn": 37,
+      "timestamp": "2025-12-25T17:18:49.884159",
+      "action": "move",
+      "player": {
+        "pos": "(29,10)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e3",
+            "formatted": "Skeleton:e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "n4",
+            "formatted": "Skeleton:n4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n5e1",
+            "formatted": "Bat:n5e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Grand Bottle of Ite Ignis",
+            "type": "coagulant",
+            "pos": "here",
+            "formatted": "Grand Bottle of Ite Ignis:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3e1",
+            "formatted": "Tiny Vial of Alkahest:n3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e5",
+            "formatted": "Medium Flask of Alkahest:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e6",
+            "formatted": "Small Vial of Oleum Terra:n3e6",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(29,10)"
+      }
+    },
+    {
+      "turn": 37,
+      "timestamp": "2025-12-25T17:18:50.133202",
+      "action": "pickup",
+      "player": {
+        "pos": "(29,10)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e2",
+            "formatted": "Skeleton:e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "n3",
+            "formatted": "Skeleton:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n5e1",
+            "formatted": "Bat:n5e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3e1",
+            "formatted": "Tiny Vial of Alkahest:n3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e5",
+            "formatted": "Medium Flask of Alkahest:e5",
+            "distance": 5.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e6",
+            "formatted": "Small Vial of Oleum Terra:n3e6",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Grand Bottle of Ite Ignis"
+        ]
+      }
+    },
+    {
+      "turn": 38,
+      "timestamp": "2025-12-25T17:18:50.514483",
+      "action": "move",
+      "player": {
+        "pos": "(30,10)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e1",
+            "formatted": "Skeleton:e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "n3w1",
+            "formatted": "Skeleton:n3w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n5",
+            "formatted": "Bat:n5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3",
+            "formatted": "Tiny Vial of Alkahest:n3",
+            "distance": 3.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Medium Flask of Alkahest:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e5",
+            "formatted": "Small Vial of Oleum Terra:n3e5",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(30,10)"
+      }
+    },
+    {
+      "turn": 39,
+      "timestamp": "2025-12-25T17:18:51.943763",
+      "action": "attack",
+      "player": {
+        "pos": "(30,10)",
+        "hp": "88/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e1",
+            "formatted": "Skeleton:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "n2",
+            "formatted": "Skeleton:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Bat",
+            "pos": "n4",
+            "formatted": "Bat:n4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3",
+            "formatted": "Tiny Vial of Alkahest:n3",
+            "distance": 3.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Medium Flask of Alkahest:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e5",
+            "formatted": "Small Vial of Oleum Terra:n3e5",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 40,
+      "timestamp": "2025-12-25T17:18:52.158943",
+      "action": "attack",
+      "player": {
+        "pos": "(30,10)",
+        "hp": "86/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "n1",
+            "formatted": "Skeleton:n1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e1",
+            "formatted": "Skeleton:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Bat",
+            "pos": "n3",
+            "formatted": "Bat:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3",
+            "formatted": "Tiny Vial of Alkahest:n3",
+            "distance": 3.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Medium Flask of Alkahest:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e5",
+            "formatted": "Small Vial of Oleum Terra:n3e5",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 41,
+      "timestamp": "2025-12-25T17:18:52.258300",
+      "action": "attack",
+      "player": {
+        "pos": "(30,10)",
+        "hp": "82/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e1",
+            "formatted": "Skeleton:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Bat",
+            "pos": "n2",
+            "formatted": "Bat:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3",
+            "formatted": "Tiny Vial of Alkahest:n3",
+            "distance": 3.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Medium Flask of Alkahest:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e5",
+            "formatted": "Small Vial of Oleum Terra:n3e5",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 42,
+      "timestamp": "2025-12-25T17:18:52.357025",
+      "action": "attack",
+      "player": {
+        "pos": "(30,10)",
+        "hp": "90/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "n1",
+            "formatted": "Bat:n1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e1",
+            "formatted": "Skeleton:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "rhodolite",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "rhodolite:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3",
+            "formatted": "Tiny Vial of Alkahest:n3",
+            "distance": 3.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Medium Flask of Alkahest:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e5",
+            "formatted": "Small Vial of Oleum Terra:n3e5",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "target": "Bat",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 43,
+      "timestamp": "2025-12-25T17:18:52.459191",
+      "action": "attack",
+      "player": {
+        "pos": "(30,10)",
+        "hp": "86/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e1",
+            "formatted": "Skeleton:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "rhodolite",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "rhodolite:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3",
+            "formatted": "Tiny Vial of Alkahest:n3",
+            "distance": 3.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Medium Flask of Alkahest:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e5",
+            "formatted": "Small Vial of Oleum Terra:n3e5",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "target": "Bat",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 44,
+      "timestamp": "2025-12-25T17:18:52.560220",
+      "action": "attack",
+      "player": {
+        "pos": "(30,10)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "rhodolite",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "rhodolite:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "n1",
+            "formatted": "space probe:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3",
+            "formatted": "Tiny Vial of Alkahest:n3",
+            "distance": 3.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Medium Flask of Alkahest:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e5",
+            "formatted": "Small Vial of Oleum Terra:n3e5",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 45,
+      "timestamp": "2025-12-25T17:18:53.126478",
+      "action": "move",
+      "player": {
+        "pos": "(31,10)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "mess",
+            "type": "food",
+            "pos": "here",
+            "formatted": "mess:here",
+            "distance": 0.0
+          },
+          {
+            "name": "rhodolite",
+            "type": "gems",
+            "pos": "n1w1",
+            "formatted": "rhodolite:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "n1w1",
+            "formatted": "space probe:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e3",
+            "formatted": "Medium Flask of Alkahest:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3w1",
+            "formatted": "Tiny Vial of Alkahest:n3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e4",
+            "formatted": "Small Vial of Oleum Terra:n3e4",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(31,10)"
+      }
+    },
+    {
+      "turn": 45,
+      "timestamp": "2025-12-25T17:18:53.324776",
+      "action": "pickup",
+      "player": {
+        "pos": "(31,10)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "rhodolite",
+            "type": "gems",
+            "pos": "n1w1",
+            "formatted": "rhodolite:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "n1w1",
+            "formatted": "space probe:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e3",
+            "formatted": "Medium Flask of Alkahest:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3w1",
+            "formatted": "Tiny Vial of Alkahest:n3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e4",
+            "formatted": "Small Vial of Oleum Terra:n3e4",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "mess"
+        ]
+      }
+    },
+    {
+      "turn": 46,
+      "timestamp": "2025-12-25T17:18:53.692464",
+      "action": "move",
+      "player": {
+        "pos": "(30,10)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "rhodolite",
+            "type": "gems",
+            "pos": "n1",
+            "formatted": "rhodolite:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "n1",
+            "formatted": "space probe:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3",
+            "formatted": "Tiny Vial of Alkahest:n3",
+            "distance": 3.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Medium Flask of Alkahest:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e5",
+            "formatted": "Small Vial of Oleum Terra:n3e5",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(30,10)"
+      }
+    },
+    {
+      "turn": 47,
+      "timestamp": "2025-12-25T17:18:54.256043",
+      "action": "move",
+      "player": {
+        "pos": "(30,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "rhodolite",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "rhodolite:here",
+            "distance": 0.0
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "space probe:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n2",
+            "formatted": "Tiny Vial of Alkahest:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "s1e4",
+            "formatted": "Medium Flask of Alkahest:s1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e5",
+            "formatted": "Small Vial of Oleum Terra:n2e5",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(30,9)"
+      }
+    },
+    {
+      "turn": 47,
+      "timestamp": "2025-12-25T17:18:54.387087",
+      "action": "pickup",
+      "player": {
+        "pos": "(30,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "space probe:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n2",
+            "formatted": "Tiny Vial of Alkahest:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "s1e4",
+            "formatted": "Medium Flask of Alkahest:s1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e5",
+            "formatted": "Small Vial of Oleum Terra:n2e5",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "rhodolite"
+        ]
+      }
+    },
+    {
+      "turn": 48,
+      "timestamp": "2025-12-25T17:18:54.835583",
+      "action": "move",
+      "player": {
+        "pos": "(31,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w1",
+            "formatted": "space probe:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n2w1",
+            "formatted": "Tiny Vial of Alkahest:n2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "s1e3",
+            "formatted": "Medium Flask of Alkahest:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e4",
+            "formatted": "Small Vial of Oleum Terra:n2e4",
+            "distance": 4.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(31,9)"
+      }
+    },
+    {
+      "turn": 49,
+      "timestamp": "2025-12-25T17:18:55.002496",
+      "action": "move",
+      "player": {
+        "pos": "(32,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w2",
+            "formatted": "space probe:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "s1e2",
+            "formatted": "Medium Flask of Alkahest:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n2w2",
+            "formatted": "Tiny Vial of Alkahest:n2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e3",
+            "formatted": "Small Vial of Oleum Terra:n2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "set gun",
+            "type": "weapons",
+            "pos": "n3e9",
+            "formatted": "set gun:n3e9",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(32,9)"
+      }
+    },
+    {
+      "turn": 50,
+      "timestamp": "2025-12-25T17:18:55.153402",
+      "action": "move",
+      "player": {
+        "pos": "(33,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "s1e1",
+            "formatted": "Medium Flask of Alkahest:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e2",
+            "formatted": "Small Vial of Oleum Terra:n2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w3",
+            "formatted": "space probe:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n2w3",
+            "formatted": "Tiny Vial of Alkahest:n2w3",
+            "distance": 3.6
+          },
+          {
+            "name": "set gun",
+            "type": "weapons",
+            "pos": "n3e8",
+            "formatted": "set gun:n3e8",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(33,9)"
+      }
+    },
+    {
+      "turn": 51,
+      "timestamp": "2025-12-25T17:18:55.385037",
+      "action": "move",
+      "player": {
+        "pos": "(34,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "s1",
+            "formatted": "Medium Flask of Alkahest:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e1",
+            "formatted": "Small Vial of Oleum Terra:n2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w4",
+            "formatted": "space probe:w4",
+            "distance": 4.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n2w4",
+            "formatted": "Tiny Vial of Alkahest:n2w4",
+            "distance": 4.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(34,9)"
+      }
+    },
+    {
+      "turn": 52,
+      "timestamp": "2025-12-25T17:18:55.613337",
+      "action": "move",
+      "player": {
+        "pos": "(34,10)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Alkahest",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Medium Flask of Alkahest:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e1",
+            "formatted": "Small Vial of Oleum Terra:n3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "n1w4",
+            "formatted": "space probe:n1w4",
+            "distance": 4.1
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3w4",
+            "formatted": "Tiny Vial of Alkahest:n3w4",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(34,10)"
+      }
+    },
+    {
+      "turn": 52,
+      "timestamp": "2025-12-25T17:18:55.860019",
+      "action": "pickup",
+      "player": {
+        "pos": "(34,10)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e1",
+            "formatted": "Small Vial of Oleum Terra:n3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "n1w4",
+            "formatted": "space probe:n1w4",
+            "distance": 4.1
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3w4",
+            "formatted": "Tiny Vial of Alkahest:n3w4",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Medium Flask of Alkahest"
+        ]
+      }
+    },
+    {
+      "turn": 53,
+      "timestamp": "2025-12-25T17:18:56.609174",
+      "action": "move",
+      "player": {
+        "pos": "(33,10)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "n1w3",
+            "formatted": "space probe:n1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e2",
+            "formatted": "Small Vial of Oleum Terra:n3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3w3",
+            "formatted": "Tiny Vial of Alkahest:n3w3",
+            "distance": 4.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(33,10)"
+      }
+    },
+    {
+      "turn": 54,
+      "timestamp": "2025-12-25T17:18:56.842238",
+      "action": "move",
+      "player": {
+        "pos": "(32,10)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "n1w2",
+            "formatted": "space probe:n1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3w2",
+            "formatted": "Tiny Vial of Alkahest:n3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e3",
+            "formatted": "Small Vial of Oleum Terra:n3e3",
+            "distance": 4.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(32,10)"
+      }
+    },
+    {
+      "turn": 55,
+      "timestamp": "2025-12-25T17:18:56.976145",
+      "action": "move",
+      "player": {
+        "pos": "(31,10)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "n1w1",
+            "formatted": "space probe:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3w1",
+            "formatted": "Tiny Vial of Alkahest:n3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e4",
+            "formatted": "Small Vial of Oleum Terra:n3e4",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(31,10)"
+      }
+    },
+    {
+      "turn": 56,
+      "timestamp": "2025-12-25T17:18:57.140598",
+      "action": "move",
+      "player": {
+        "pos": "(30,10)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "n1",
+            "formatted": "space probe:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n3",
+            "formatted": "Tiny Vial of Alkahest:n3",
+            "distance": 3.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e5",
+            "formatted": "Small Vial of Oleum Terra:n3e5",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(30,10)"
+      }
+    },
+    {
+      "turn": 57,
+      "timestamp": "2025-12-25T17:18:57.584896",
+      "action": "move",
+      "player": {
+        "pos": "(30,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "space probe:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n2",
+            "formatted": "Tiny Vial of Alkahest:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e5",
+            "formatted": "Small Vial of Oleum Terra:n2e5",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(30,9)"
+      }
+    },
+    {
+      "turn": 58,
+      "timestamp": "2025-12-25T17:18:58.527137",
+      "action": "move",
+      "player": {
+        "pos": "(30,8)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "n1",
+            "formatted": "Tiny Vial of Alkahest:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "s1",
+            "formatted": "space probe:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e5",
+            "formatted": "Small Vial of Oleum Terra:n1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(30,8)"
+      }
+    },
+    {
+      "turn": 59,
+      "timestamp": "2025-12-25T17:18:58.594865",
+      "action": "move",
+      "player": {
+        "pos": "(30,7)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Tiny Vial of Alkahest",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Tiny Vial of Alkahest:here",
+            "distance": 0.0
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "s2",
+            "formatted": "space probe:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e5",
+            "formatted": "Small Vial of Oleum Terra:e5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(30,7)"
+      }
+    },
+    {
+      "turn": 59,
+      "timestamp": "2025-12-25T17:19:03.920297",
+      "action": "pickup",
+      "player": {
+        "pos": "(30,7)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "s2",
+            "formatted": "space probe:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "e5",
+            "formatted": "Small Vial of Oleum Terra:e5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Tiny Vial of Alkahest"
+        ]
+      }
+    },
+    {
+      "turn": 60,
+      "timestamp": "2025-12-25T17:19:04.233834",
+      "action": "move",
+      "player": {
+        "pos": "(30,8)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "s1",
+            "formatted": "space probe:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e5",
+            "formatted": "Small Vial of Oleum Terra:n1e5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(30,8)"
+      }
+    },
+    {
+      "turn": 61,
+      "timestamp": "2025-12-25T17:19:04.448631",
+      "action": "move",
+      "player": {
+        "pos": "(30,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "space probe:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e5",
+            "formatted": "Small Vial of Oleum Terra:n2e5",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(30,9)"
+      }
+    },
+    {
+      "turn": 62,
+      "timestamp": "2025-12-25T17:19:04.549551",
+      "action": "move",
+      "player": {
+        "pos": "(30,10)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "n1",
+            "formatted": "space probe:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e5",
+            "formatted": "Small Vial of Oleum Terra:n3e5",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(30,10)"
+      }
+    },
+    {
+      "turn": 63,
+      "timestamp": "2025-12-25T17:19:05.407206",
+      "action": "move",
+      "player": {
+        "pos": "(31,10)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "n1w1",
+            "formatted": "space probe:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e4",
+            "formatted": "Small Vial of Oleum Terra:n3e4",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(31,10)"
+      }
+    },
+    {
+      "turn": 64,
+      "timestamp": "2025-12-25T17:19:05.423502",
+      "action": "move",
+      "player": {
+        "pos": "(32,10)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "n1w2",
+            "formatted": "space probe:n1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e3",
+            "formatted": "Small Vial of Oleum Terra:n3e3",
+            "distance": 4.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(32,10)"
+      }
+    },
+    {
+      "turn": 65,
+      "timestamp": "2025-12-25T17:19:05.899742",
+      "action": "move",
+      "player": {
+        "pos": "(31,10)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "n1w1",
+            "formatted": "space probe:n1w1",
+            "distance": 1.4
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e4",
+            "formatted": "Small Vial of Oleum Terra:n3e4",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(31,10)"
+      }
+    },
+    {
+      "turn": 66,
+      "timestamp": "2025-12-25T17:19:06.048816",
+      "action": "move",
+      "player": {
+        "pos": "(30,10)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "n1",
+            "formatted": "space probe:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n3e5",
+            "formatted": "Small Vial of Oleum Terra:n3e5",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(30,10)"
+      }
+    },
+    {
+      "turn": 67,
+      "timestamp": "2025-12-25T17:19:06.310144",
+      "action": "move",
+      "player": {
+        "pos": "(30,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "space probe:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e5",
+            "formatted": "Small Vial of Oleum Terra:n2e5",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(30,9)"
+      }
+    },
+    {
+      "turn": 68,
+      "timestamp": "2025-12-25T17:19:08.280604",
+      "action": "move",
+      "player": {
+        "pos": "(31,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w1",
+            "formatted": "space probe:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e4",
+            "formatted": "Small Vial of Oleum Terra:n2e4",
+            "distance": 4.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(31,9)"
+      }
+    },
+    {
+      "turn": 69,
+      "timestamp": "2025-12-25T17:19:08.313261",
+      "action": "move",
+      "player": {
+        "pos": "(32,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w2",
+            "formatted": "space probe:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e3",
+            "formatted": "Small Vial of Oleum Terra:n2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "set gun",
+            "type": "weapons",
+            "pos": "n3e9",
+            "formatted": "set gun:n3e9",
+            "distance": 9.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(32,9)"
+      }
+    },
+    {
+      "turn": 70,
+      "timestamp": "2025-12-25T17:19:08.529581",
+      "action": "move",
+      "player": {
+        "pos": "(33,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e2",
+            "formatted": "Small Vial of Oleum Terra:n2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w3",
+            "formatted": "space probe:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "set gun",
+            "type": "weapons",
+            "pos": "n3e8",
+            "formatted": "set gun:n3e8",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(33,9)"
+      }
+    },
+    {
+      "turn": 71,
+      "timestamp": "2025-12-25T17:19:08.628706",
+      "action": "move",
+      "player": {
+        "pos": "(34,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e1",
+            "formatted": "Small Vial of Oleum Terra:n2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w4",
+            "formatted": "space probe:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(34,9)"
+      }
+    },
+    {
+      "turn": 72,
+      "timestamp": "2025-12-25T17:19:09.022562",
+      "action": "move",
+      "player": {
+        "pos": "(35,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2",
+            "formatted": "Small Vial of Oleum Terra:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w5",
+            "formatted": "space probe:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(35,9)"
+      }
+    },
+    {
+      "turn": 73,
+      "timestamp": "2025-12-25T17:19:09.222684",
+      "action": "move",
+      "player": {
+        "pos": "(36,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2w1",
+            "formatted": "Small Vial of Oleum Terra:n2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w6",
+            "formatted": "space probe:w6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(36,9)"
+      }
+    },
+    {
+      "turn": 74,
+      "timestamp": "2025-12-25T17:19:17.442463",
+      "action": "move",
+      "player": {
+        "pos": "(35,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2",
+            "formatted": "Small Vial of Oleum Terra:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w5",
+            "formatted": "space probe:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(35,9)"
+      }
+    },
+    {
+      "turn": 74,
+      "timestamp": "2025-12-25T17:19:22.603357",
+      "action": "meditate",
+      "player": {
+        "pos": "(35,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2",
+            "formatted": "Small Vial of Oleum Terra:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w5",
+            "formatted": "space probe:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "item": "porridge",
+        "synset": "porridge.n.01",
+        "essence": {
+          "fire": 10,
+          "water": 40,
+          "earth": 20,
+          "air": 5
+        }
+      }
+    },
+    {
+      "turn": 74,
+      "timestamp": "2025-12-25T17:19:23.603243",
+      "action": "meditate",
+      "player": {
+        "pos": "(35,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2",
+            "formatted": "Small Vial of Oleum Terra:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w5",
+            "formatted": "space probe:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "item": "hiddenite",
+        "synset": "hiddenite.n.01",
+        "essence": {
+          "fire": 30,
+          "water": 20,
+          "earth": 30,
+          "air": 20
+        }
+      }
+    },
+    {
+      "turn": 74,
+      "timestamp": "2025-12-25T17:19:24.537764",
+      "action": "meditate",
+      "player": {
+        "pos": "(35,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2",
+            "formatted": "Small Vial of Oleum Terra:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w5",
+            "formatted": "space probe:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "item": "mousse",
+        "synset": "mousse.n.02",
+        "essence": {
+          "fire": 10,
+          "water": 40,
+          "earth": 20,
+          "air": 5
+        }
+      }
+    },
+    {
+      "turn": 74,
+      "timestamp": "2025-12-25T17:19:25.383297",
+      "action": "meditate",
+      "player": {
+        "pos": "(35,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2",
+            "formatted": "Small Vial of Oleum Terra:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w5",
+            "formatted": "space probe:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "item": "tamale pie",
+        "synset": "tamale_pie.n.01",
+        "essence": {
+          "fire": 10,
+          "water": 40,
+          "earth": 20,
+          "air": 5
+        }
+      }
+    },
+    {
+      "turn": 75,
+      "timestamp": "2025-12-25T17:20:01.748990",
+      "action": "move",
+      "player": {
+        "pos": "(36,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2w1",
+            "formatted": "Small Vial of Oleum Terra:n2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w6",
+            "formatted": "space probe:w6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(36,9)"
+      }
+    },
+    {
+      "turn": 76,
+      "timestamp": "2025-12-25T17:20:05.026272",
+      "action": "move",
+      "player": {
+        "pos": "(35,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2",
+            "formatted": "Small Vial of Oleum Terra:n2",
+            "distance": 2.0
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w5",
+            "formatted": "space probe:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(35,9)"
+      }
+    },
+    {
+      "turn": 77,
+      "timestamp": "2025-12-25T17:20:09.903342",
+      "action": "move",
+      "player": {
+        "pos": "(34,9)",
+        "hp": "84/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Small Vial of Oleum Terra",
+            "type": "solvent",
+            "pos": "n2e1",
+            "formatted": "Small Vial of Oleum Terra:n2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "space probe",
+            "type": "weapons",
+            "pos": "w4",
+            "formatted": "space probe:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(34,9)"
+      }
+    }
+  ]
+}

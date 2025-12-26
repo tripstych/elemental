@@ -1,0 +1,1139 @@
+{
+  "game_seed": 949189,
+  "total_turns": 16,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T16:55:06.906284",
+      "action": "move",
+      "player": {
+        "pos": "(30,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s4e1",
+            "formatted": "Spider:s4e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s4e4",
+            "formatted": "Skeleton:s4e4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.7,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s6e2",
+            "formatted": "Spider:s6e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.3,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "s1e2",
+            "formatted": "cannon:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s2e3",
+            "formatted": "Medium Flask of Ite Ignis:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s4e4",
+            "formatted": "piece de resistance:s4e4",
+            "distance": 5.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(30,3)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T16:55:07.119316",
+      "action": "move",
+      "player": {
+        "pos": "(30,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s2",
+            "formatted": "Spider:s2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Skeleton",
+            "pos": "s2e3",
+            "formatted": "Skeleton:s2e3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.6,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "s4e1",
+            "formatted": "Spider:s4e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "e2",
+            "formatted": "cannon:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1w2",
+            "formatted": "Small Vial of Aqua Ignis:s1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s1e3",
+            "formatted": "Medium Flask of Ite Ignis:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s3e4",
+            "formatted": "piece de resistance:s3e4",
+            "distance": 5.0
+          },
+          {
+            "name": "Medium Flask of Ite Aqua",
+            "type": "coagulant",
+            "pos": "s5e6",
+            "formatted": "Medium Flask of Ite Aqua:s5e6",
+            "distance": 7.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(30,4)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T16:55:07.519764",
+      "action": "move",
+      "player": {
+        "pos": "(31,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "s1e1",
+            "formatted": "Skeleton:s1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "s1w1",
+            "formatted": "Spider:s1w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "s3w1",
+            "formatted": "Spider:s3w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "e1",
+            "formatted": "cannon:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s1e2",
+            "formatted": "Medium Flask of Ite Ignis:s1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1w3",
+            "formatted": "Small Vial of Aqua Ignis:s1w3",
+            "distance": 3.2
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s3e3",
+            "formatted": "piece de resistance:s3e3",
+            "distance": 4.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(31,4)"
+      }
+    },
+    {
+      "turn": 4,
+      "timestamp": "2025-12-25T16:55:08.346160",
+      "action": "move",
+      "player": {
+        "pos": "(31,5)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s1",
+            "formatted": "Spider:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e1",
+            "formatted": "Skeleton:e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "w1",
+            "formatted": "Spider:w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "n1e1",
+            "formatted": "cannon:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e2",
+            "formatted": "Medium Flask of Ite Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "w3",
+            "formatted": "Small Vial of Aqua Ignis:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s2e3",
+            "formatted": "piece de resistance:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "Medium Flask of Ite Aqua",
+            "type": "coagulant",
+            "pos": "s4e5",
+            "formatted": "Medium Flask of Ite Aqua:s4e5",
+            "distance": 6.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(31,5)"
+      }
+    },
+    {
+      "turn": 5,
+      "timestamp": "2025-12-25T16:55:09.929153",
+      "action": "attack",
+      "player": {
+        "pos": "(31,5)",
+        "hp": "90/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "s1",
+            "formatted": "Spider:s1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Skeleton",
+            "pos": "e1",
+            "formatted": "Skeleton:e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "w1",
+            "formatted": "Spider:w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "n1e1",
+            "formatted": "cannon:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e2",
+            "formatted": "Medium Flask of Ite Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "w3",
+            "formatted": "Small Vial of Aqua Ignis:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s2e3",
+            "formatted": "piece de resistance:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "Medium Flask of Ite Aqua",
+            "type": "coagulant",
+            "pos": "s4e5",
+            "formatted": "Medium Flask of Ite Aqua:s4e5",
+            "distance": 6.4
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 6,
+      "timestamp": "2025-12-25T16:55:10.142147",
+      "action": "attack",
+      "player": {
+        "pos": "(31,5)",
+        "hp": "84/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e1",
+            "formatted": "Skeleton:e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "w1",
+            "formatted": "Spider:w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "n1e1",
+            "formatted": "cannon:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e2",
+            "formatted": "Medium Flask of Ite Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "w3",
+            "formatted": "Small Vial of Aqua Ignis:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s2e3",
+            "formatted": "piece de resistance:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "Medium Flask of Ite Aqua",
+            "type": "coagulant",
+            "pos": "s4e5",
+            "formatted": "Medium Flask of Ite Aqua:s4e5",
+            "distance": 6.4
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "s",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 7,
+      "timestamp": "2025-12-25T16:55:10.243601",
+      "action": "attack",
+      "player": {
+        "pos": "(31,5)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Skeleton",
+            "pos": "e1",
+            "formatted": "Skeleton:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "w1",
+            "formatted": "Spider:w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "n1e1",
+            "formatted": "cannon:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e2",
+            "formatted": "Medium Flask of Ite Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "w3",
+            "formatted": "Small Vial of Aqua Ignis:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s2e3",
+            "formatted": "piece de resistance:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "Medium Flask of Ite Aqua",
+            "type": "coagulant",
+            "pos": "s4e5",
+            "formatted": "Medium Flask of Ite Aqua:s4e5",
+            "distance": 6.4
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 8,
+      "timestamp": "2025-12-25T16:55:10.341744",
+      "action": "attack",
+      "player": {
+        "pos": "(31,5)",
+        "hp": "76/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "w1",
+            "formatted": "Spider:w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "n1e1",
+            "formatted": "cannon:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e2",
+            "formatted": "Medium Flask of Ite Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "w3",
+            "formatted": "Small Vial of Aqua Ignis:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s2e3",
+            "formatted": "piece de resistance:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "Medium Flask of Ite Aqua",
+            "type": "coagulant",
+            "pos": "s4e5",
+            "formatted": "Medium Flask of Ite Aqua:s4e5",
+            "distance": 6.4
+          }
+        ]
+      },
+      "details": {
+        "target": "Skeleton",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 9,
+      "timestamp": "2025-12-25T16:55:10.442276",
+      "action": "attack",
+      "player": {
+        "pos": "(31,5)",
+        "hp": "74/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "w1",
+            "formatted": "Spider:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "star drill",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "star drill:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "n1e1",
+            "formatted": "cannon:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e2",
+            "formatted": "Medium Flask of Ite Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "w3",
+            "formatted": "Small Vial of Aqua Ignis:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s2e3",
+            "formatted": "piece de resistance:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "Medium Flask of Ite Aqua",
+            "type": "coagulant",
+            "pos": "s4e5",
+            "formatted": "Medium Flask of Ite Aqua:s4e5",
+            "distance": 6.4
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-25T16:55:10.541535",
+      "action": "attack",
+      "player": {
+        "pos": "(31,5)",
+        "hp": "72/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star drill",
+            "type": "tools",
+            "pos": "e1",
+            "formatted": "star drill:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "n1e1",
+            "formatted": "cannon:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e2",
+            "formatted": "Medium Flask of Ite Ignis:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "w3",
+            "formatted": "Small Vial of Aqua Ignis:w3",
+            "distance": 3.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s2e3",
+            "formatted": "piece de resistance:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "Medium Flask of Ite Aqua",
+            "type": "coagulant",
+            "pos": "s4e5",
+            "formatted": "Medium Flask of Ite Aqua:s4e5",
+            "distance": 6.4
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-25T16:55:11.140914",
+      "action": "move",
+      "player": {
+        "pos": "(32,5)",
+        "hp": "72/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "star drill",
+            "type": "tools",
+            "pos": "here",
+            "formatted": "star drill:here",
+            "distance": 0.0
+          },
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "n1",
+            "formatted": "cannon:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e1",
+            "formatted": "Medium Flask of Ite Ignis:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s2e2",
+            "formatted": "piece de resistance:s2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "w4",
+            "formatted": "Small Vial of Aqua Ignis:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(32,5)"
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-25T16:55:11.342486",
+      "action": "pickup",
+      "player": {
+        "pos": "(32,5)",
+        "hp": "72/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "n1",
+            "formatted": "cannon:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "e1",
+            "formatted": "Medium Flask of Ite Ignis:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s2e2",
+            "formatted": "piece de resistance:s2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "w4",
+            "formatted": "Small Vial of Aqua Ignis:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "star drill"
+        ]
+      }
+    },
+    {
+      "turn": 12,
+      "timestamp": "2025-12-25T16:55:11.692160",
+      "action": "move",
+      "player": {
+        "pos": "(32,4)",
+        "hp": "72/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cannon",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "cannon:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s1e1",
+            "formatted": "Medium Flask of Ite Ignis:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s3e2",
+            "formatted": "piece de resistance:s3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1w4",
+            "formatted": "Small Vial of Aqua Ignis:s1w4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(32,4)"
+      }
+    },
+    {
+      "turn": 12,
+      "timestamp": "2025-12-25T16:55:11.955640",
+      "action": "pickup",
+      "player": {
+        "pos": "(32,4)",
+        "hp": "72/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s1e1",
+            "formatted": "Medium Flask of Ite Ignis:s1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s3e2",
+            "formatted": "piece de resistance:s3e2",
+            "distance": 3.6
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1w4",
+            "formatted": "Small Vial of Aqua Ignis:s1w4",
+            "distance": 4.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "cannon"
+        ]
+      }
+    },
+    {
+      "turn": 13,
+      "timestamp": "2025-12-25T16:55:12.517311",
+      "action": "move",
+      "player": {
+        "pos": "(33,4)",
+        "hp": "72/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "s1",
+            "formatted": "Medium Flask of Ite Ignis:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s3e1",
+            "formatted": "piece de resistance:s3e1",
+            "distance": 3.2
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "s1w5",
+            "formatted": "Small Vial of Aqua Ignis:s1w5",
+            "distance": 5.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(33,4)"
+      }
+    },
+    {
+      "turn": 14,
+      "timestamp": "2025-12-25T16:55:12.798651",
+      "action": "move",
+      "player": {
+        "pos": "(33,5)",
+        "hp": "72/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "here",
+            "formatted": "Medium Flask of Ite Ignis:here",
+            "distance": 0.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s2e1",
+            "formatted": "piece de resistance:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "w5",
+            "formatted": "Small Vial of Aqua Ignis:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(33,5)"
+      }
+    },
+    {
+      "turn": 15,
+      "timestamp": "2025-12-25T16:55:13.412202",
+      "action": "move",
+      "player": {
+        "pos": "(34,5)",
+        "hp": "72/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "w1",
+            "formatted": "Medium Flask of Ite Ignis:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s2",
+            "formatted": "piece de resistance:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "w6",
+            "formatted": "Small Vial of Aqua Ignis:w6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(34,5)"
+      }
+    },
+    {
+      "turn": 16,
+      "timestamp": "2025-12-25T16:55:14.009173",
+      "action": "move",
+      "player": {
+        "pos": "(33,5)",
+        "hp": "72/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Medium Flask of Ite Ignis",
+            "type": "coagulant",
+            "pos": "here",
+            "formatted": "Medium Flask of Ite Ignis:here",
+            "distance": 0.0
+          },
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s2e1",
+            "formatted": "piece de resistance:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "w5",
+            "formatted": "Small Vial of Aqua Ignis:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(33,5)"
+      }
+    },
+    {
+      "turn": 16,
+      "timestamp": "2025-12-25T16:55:14.358100",
+      "action": "pickup",
+      "player": {
+        "pos": "(33,5)",
+        "hp": "72/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "piece de resistance",
+            "type": "food",
+            "pos": "s2e1",
+            "formatted": "piece de resistance:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Small Vial of Aqua Ignis",
+            "type": "solvent",
+            "pos": "w5",
+            "formatted": "Small Vial of Aqua Ignis:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Medium Flask of Ite Ignis"
+        ]
+      }
+    }
+  ]
+}

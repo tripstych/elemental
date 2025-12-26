@@ -1,0 +1,2949 @@
+{
+  "game_seed": 27647,
+  "total_turns": 56,
+  "actions": [
+    {
+      "turn": 1,
+      "timestamp": "2025-12-25T13:47:55.230520",
+      "action": "move",
+      "player": {
+        "pos": "(32,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "s7e2",
+            "formatted": "Bat:s7e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.3,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s2e2",
+            "formatted": "Oleum Terra:s2e2",
+            "distance": 2.8
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s4e1",
+            "formatted": "Alkahest:s4e1",
+            "distance": 4.1
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e5",
+            "formatted": "Oleum Terra:s3e5",
+            "distance": 5.8
+          },
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "s4e5",
+            "formatted": "potato:s4e5",
+            "distance": 6.4
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s7w1",
+            "formatted": "galantine:s7w1",
+            "distance": 7.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(32,2)"
+      }
+    },
+    {
+      "turn": 2,
+      "timestamp": "2025-12-25T13:47:55.578146",
+      "action": "move",
+      "player": {
+        "pos": "(33,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "s6",
+            "formatted": "Bat:s6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s2e1",
+            "formatted": "Oleum Terra:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s4",
+            "formatted": "Alkahest:s4",
+            "distance": 4.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e4",
+            "formatted": "Oleum Terra:s3e4",
+            "distance": 5.0
+          },
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "s4e4",
+            "formatted": "potato:s4e4",
+            "distance": 5.7
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s7w2",
+            "formatted": "galantine:s7w2",
+            "distance": 7.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(33,2)"
+      }
+    },
+    {
+      "turn": 3,
+      "timestamp": "2025-12-25T13:47:55.774744",
+      "action": "move",
+      "player": {
+        "pos": "(34,2)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "s5w1",
+            "formatted": "Bat:s5w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s2",
+            "formatted": "Oleum Terra:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s4w1",
+            "formatted": "Alkahest:s4w1",
+            "distance": 4.1
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s3e3",
+            "formatted": "Oleum Terra:s3e3",
+            "distance": 4.2
+          },
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "s4e3",
+            "formatted": "potato:s4e3",
+            "distance": 5.0
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s7w3",
+            "formatted": "galantine:s7w3",
+            "distance": 7.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(34,2)"
+      }
+    },
+    {
+      "turn": 4,
+      "timestamp": "2025-12-25T13:47:56.104945",
+      "action": "move",
+      "player": {
+        "pos": "(34,3)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "s3",
+            "formatted": "Bat:s3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s1",
+            "formatted": "Oleum Terra:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s3w1",
+            "formatted": "Alkahest:s3w1",
+            "distance": 3.2
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s2e3",
+            "formatted": "Oleum Terra:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "s3e3",
+            "formatted": "potato:s3e3",
+            "distance": 4.2
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s6w3",
+            "formatted": "galantine:s6w3",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(34,3)"
+      }
+    },
+    {
+      "turn": 5,
+      "timestamp": "2025-12-25T13:47:56.634639",
+      "action": "move",
+      "player": {
+        "pos": "(34,4)",
+        "hp": "100/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "s1",
+            "formatted": "Bat:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Oleum Terra:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s2w1",
+            "formatted": "Alkahest:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e3",
+            "formatted": "Oleum Terra:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "s2e3",
+            "formatted": "potato:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s5w3",
+            "formatted": "galantine:s5w3",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(34,4)"
+      }
+    },
+    {
+      "turn": 5,
+      "timestamp": "2025-12-25T13:47:57.274851",
+      "action": "pickup",
+      "player": {
+        "pos": "(34,4)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "s1",
+            "formatted": "Bat:s1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s2w1",
+            "formatted": "Alkahest:s2w1",
+            "distance": 2.2
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e3",
+            "formatted": "Oleum Terra:s1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "s2e3",
+            "formatted": "potato:s2e3",
+            "distance": 3.6
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s5w3",
+            "formatted": "galantine:s5w3",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Oleum Terra"
+        ]
+      }
+    },
+    {
+      "turn": 6,
+      "timestamp": "2025-12-25T13:47:58.211851",
+      "action": "move",
+      "player": {
+        "pos": "(33,4)",
+        "hp": "98/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "s1e1",
+            "formatted": "Bat:s1e1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.4,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s2",
+            "formatted": "Alkahest:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e4",
+            "formatted": "Oleum Terra:s1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "s2e4",
+            "formatted": "potato:s2e4",
+            "distance": 4.5
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s5w2",
+            "formatted": "galantine:s5w2",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(33,4)"
+      }
+    },
+    {
+      "turn": 7,
+      "timestamp": "2025-12-25T13:47:58.430451",
+      "action": "move",
+      "player": {
+        "pos": "(32,4)",
+        "hp": "96/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "s1e2",
+            "formatted": "Bat:s1e2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s2e1",
+            "formatted": "Alkahest:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s5w1",
+            "formatted": "galantine:s5w1",
+            "distance": 5.1
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e5",
+            "formatted": "Oleum Terra:s1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "s2e5",
+            "formatted": "potato:s2e5",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(32,4)"
+      }
+    },
+    {
+      "turn": 8,
+      "timestamp": "2025-12-25T13:48:03.776166",
+      "action": "attack",
+      "player": {
+        "pos": "(32,4)",
+        "hp": "82/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Bat",
+            "pos": "e1",
+            "formatted": "Bat:e1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s2e1",
+            "formatted": "Alkahest:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s5w1",
+            "formatted": "galantine:s5w1",
+            "distance": 5.1
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e5",
+            "formatted": "Oleum Terra:s1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "s2e5",
+            "formatted": "potato:s2e5",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "target": "Bat",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 9,
+      "timestamp": "2025-12-25T13:48:03.973632",
+      "action": "attack",
+      "player": {
+        "pos": "(32,4)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s2e1",
+            "formatted": "Alkahest:s2e1",
+            "distance": 2.2
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s5w1",
+            "formatted": "galantine:s5w1",
+            "distance": 5.1
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e5",
+            "formatted": "Oleum Terra:s1e5",
+            "distance": 5.1
+          },
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "s2e5",
+            "formatted": "potato:s2e5",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "target": "Bat",
+        "direction": "e",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 10,
+      "timestamp": "2025-12-25T13:48:05.362353",
+      "action": "move",
+      "player": {
+        "pos": "(33,4)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s2",
+            "formatted": "Alkahest:s2",
+            "distance": 2.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "s1e4",
+            "formatted": "Oleum Terra:s1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "s2e4",
+            "formatted": "potato:s2e4",
+            "distance": 4.5
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s5w2",
+            "formatted": "galantine:s5w2",
+            "distance": 5.4
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(33,4)"
+      }
+    },
+    {
+      "turn": 11,
+      "timestamp": "2025-12-25T13:48:05.678294",
+      "action": "move",
+      "player": {
+        "pos": "(33,5)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "s1",
+            "formatted": "Alkahest:s1",
+            "distance": 1.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "e4",
+            "formatted": "Oleum Terra:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "s1e4",
+            "formatted": "potato:s1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s4w2",
+            "formatted": "galantine:s4w2",
+            "distance": 4.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(33,5)"
+      }
+    },
+    {
+      "turn": 12,
+      "timestamp": "2025-12-25T13:48:05.875524",
+      "action": "move",
+      "player": {
+        "pos": "(33,6)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s1w7",
+            "formatted": "Rat:s1w7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "Alkahest",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Alkahest:here",
+            "distance": 0.0
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s3w2",
+            "formatted": "galantine:s3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "e4",
+            "formatted": "potato:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e4",
+            "formatted": "Oleum Terra:n1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "s1w8",
+            "formatted": "chrysoberyl:s1w8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(33,6)"
+      }
+    },
+    {
+      "turn": 12,
+      "timestamp": "2025-12-25T13:48:06.141745",
+      "action": "pickup",
+      "player": {
+        "pos": "(33,6)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s1w7",
+            "formatted": "Rat:s1w7",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 7.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s3w2",
+            "formatted": "galantine:s3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "e4",
+            "formatted": "potato:e4",
+            "distance": 4.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e4",
+            "formatted": "Oleum Terra:n1e4",
+            "distance": 4.1
+          },
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "s1w8",
+            "formatted": "chrysoberyl:s1w8",
+            "distance": 8.1
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Alkahest"
+        ]
+      }
+    },
+    {
+      "turn": 13,
+      "timestamp": "2025-12-25T13:48:25.805409",
+      "action": "move",
+      "player": {
+        "pos": "(34,6)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s1w8",
+            "formatted": "Rat:s1w8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s1e9",
+            "formatted": "Rat:s1e9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "e3",
+            "formatted": "potato:e3",
+            "distance": 3.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e3",
+            "formatted": "Oleum Terra:n1e3",
+            "distance": 3.2
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s3w3",
+            "formatted": "galantine:s3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "s1w9",
+            "formatted": "chrysoberyl:s1w9",
+            "distance": 9.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(34,6)"
+      }
+    },
+    {
+      "turn": 14,
+      "timestamp": "2025-12-25T13:48:26.103211",
+      "action": "move",
+      "player": {
+        "pos": "(35,6)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "s1e8",
+            "formatted": "Rat:s1e8",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 8.1,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s1w9",
+            "formatted": "Rat:s1w9",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 9.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "e2",
+            "formatted": "potato:e2",
+            "distance": 2.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e2",
+            "formatted": "Oleum Terra:n1e2",
+            "distance": 2.2
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s3w4",
+            "formatted": "galantine:s3w4",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(35,6)"
+      }
+    },
+    {
+      "turn": 15,
+      "timestamp": "2025-12-25T13:48:26.252619",
+      "action": "move",
+      "player": {
+        "pos": "(36,6)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "e1",
+            "formatted": "potato:e1",
+            "distance": 1.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n1e1",
+            "formatted": "Oleum Terra:n1e1",
+            "distance": 1.4
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s3w5",
+            "formatted": "galantine:s3w5",
+            "distance": 5.8
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(36,6)"
+      }
+    },
+    {
+      "turn": 16,
+      "timestamp": "2025-12-25T13:48:26.466595",
+      "action": "move",
+      "player": {
+        "pos": "(37,6)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "potato",
+            "type": "food",
+            "pos": "here",
+            "formatted": "potato:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n1",
+            "formatted": "Oleum Terra:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s3w6",
+            "formatted": "galantine:s3w6",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "e",
+        "to": "(37,6)"
+      }
+    },
+    {
+      "turn": 16,
+      "timestamp": "2025-12-25T13:48:26.978400",
+      "action": "pickup",
+      "player": {
+        "pos": "(37,6)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n1",
+            "formatted": "Oleum Terra:n1",
+            "distance": 1.0
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s3w6",
+            "formatted": "galantine:s3w6",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "potato"
+        ]
+      }
+    },
+    {
+      "turn": 17,
+      "timestamp": "2025-12-25T13:48:27.423282",
+      "action": "move",
+      "player": {
+        "pos": "(37,5)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Oleum Terra:here",
+            "distance": 0.0
+          },
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s4w6",
+            "formatted": "galantine:s4w6",
+            "distance": 7.2
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(37,5)"
+      }
+    },
+    {
+      "turn": 17,
+      "timestamp": "2025-12-25T13:48:27.819344",
+      "action": "pickup",
+      "player": {
+        "pos": "(37,5)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s4w6",
+            "formatted": "galantine:s4w6",
+            "distance": 7.2
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "Oleum Terra"
+        ]
+      }
+    },
+    {
+      "turn": 17,
+      "timestamp": "2025-12-25T13:48:32.968405",
+      "action": "meditate",
+      "player": {
+        "pos": "(37,5)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s4w6",
+            "formatted": "galantine:s4w6",
+            "distance": 7.2
+          }
+        ]
+      },
+      "details": {
+        "item": "potato",
+        "synset": "potato.n.01",
+        "essence": {
+          "fire": 10,
+          "water": 40,
+          "earth": 20,
+          "air": 5
+        }
+      }
+    },
+    {
+      "turn": 18,
+      "timestamp": "2025-12-25T13:48:59.022416",
+      "action": "move",
+      "player": {
+        "pos": "(37,6)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s3w6",
+            "formatted": "galantine:s3w6",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(37,6)"
+      }
+    },
+    {
+      "turn": 19,
+      "timestamp": "2025-12-25T13:48:59.235191",
+      "action": "move",
+      "player": {
+        "pos": "(37,7)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "e6",
+            "formatted": "Rat:e6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s2w6",
+            "formatted": "galantine:s2w6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(37,7)"
+      }
+    },
+    {
+      "turn": 20,
+      "timestamp": "2025-12-25T13:48:59.404766",
+      "action": "move",
+      "player": {
+        "pos": "(37,8)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "s1w6",
+            "formatted": "galantine:s1w6",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(37,8)"
+      }
+    },
+    {
+      "turn": 21,
+      "timestamp": "2025-12-25T13:48:59.621100",
+      "action": "move",
+      "player": {
+        "pos": "(37,9)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "w6",
+            "formatted": "galantine:w6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "s",
+        "to": "(37,9)"
+      }
+    },
+    {
+      "turn": 22,
+      "timestamp": "2025-12-25T13:48:59.884591",
+      "action": "move",
+      "player": {
+        "pos": "(36,9)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "w5",
+            "formatted": "galantine:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(36,9)"
+      }
+    },
+    {
+      "turn": 23,
+      "timestamp": "2025-12-25T13:49:00.132454",
+      "action": "move",
+      "player": {
+        "pos": "(35,9)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "w4",
+            "formatted": "galantine:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(35,9)"
+      }
+    },
+    {
+      "turn": 24,
+      "timestamp": "2025-12-25T13:49:00.264677",
+      "action": "move",
+      "player": {
+        "pos": "(34,9)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "w3",
+            "formatted": "galantine:w3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(34,9)"
+      }
+    },
+    {
+      "turn": 25,
+      "timestamp": "2025-12-25T13:49:00.561175",
+      "action": "move",
+      "player": {
+        "pos": "(33,9)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "w2",
+            "formatted": "galantine:w2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(33,9)"
+      }
+    },
+    {
+      "turn": 26,
+      "timestamp": "2025-12-25T13:49:00.758100",
+      "action": "move",
+      "player": {
+        "pos": "(32,9)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "w1",
+            "formatted": "galantine:w1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(32,9)"
+      }
+    },
+    {
+      "turn": 27,
+      "timestamp": "2025-12-25T13:49:00.890571",
+      "action": "move",
+      "player": {
+        "pos": "(31,9)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "galantine",
+            "type": "food",
+            "pos": "here",
+            "formatted": "galantine:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(31,9)"
+      }
+    },
+    {
+      "turn": 27,
+      "timestamp": "2025-12-25T13:49:01.188452",
+      "action": "pickup",
+      "player": {
+        "pos": "(31,9)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "galantine"
+        ]
+      }
+    },
+    {
+      "turn": 28,
+      "timestamp": "2025-12-25T13:49:01.648773",
+      "action": "move",
+      "player": {
+        "pos": "(31,8)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "direction": "n",
+        "to": "(31,8)"
+      }
+    },
+    {
+      "turn": 29,
+      "timestamp": "2025-12-25T13:49:01.849172",
+      "action": "move",
+      "player": {
+        "pos": "(31,7)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "w5",
+            "formatted": "Rat:w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.0,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s1w6",
+            "formatted": "Rat:s1w6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.1,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n1w6",
+            "formatted": "Spider:n1w6",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 6.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "w6",
+            "formatted": "chrysoberyl:w6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(31,7)"
+      }
+    },
+    {
+      "turn": 30,
+      "timestamp": "2025-12-25T13:49:02.508299",
+      "action": "move",
+      "player": {
+        "pos": "(30,7)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "w3",
+            "formatted": "Rat:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "s1w5",
+            "formatted": "Rat:s1w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n1w5",
+            "formatted": "Spider:n1w5",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 5.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "w5",
+            "formatted": "chrysoberyl:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(30,7)"
+      }
+    },
+    {
+      "turn": 31,
+      "timestamp": "2025-12-25T13:49:03.022521",
+      "action": "move",
+      "player": {
+        "pos": "(29,7)",
+        "hp": "80/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "w1",
+            "formatted": "Rat:w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Rat",
+            "pos": "w3",
+            "formatted": "Rat:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "n1w4",
+            "formatted": "Spider:n1w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.1,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "w4",
+            "formatted": "chrysoberyl:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(29,7)"
+      }
+    },
+    {
+      "turn": 32,
+      "timestamp": "2025-12-25T13:49:07.671306",
+      "action": "attack",
+      "player": {
+        "pos": "(29,7)",
+        "hp": "40/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "w1",
+            "formatted": "Rat:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Rat",
+            "pos": "w2",
+            "formatted": "Rat:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "w3",
+            "formatted": "Spider:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "w4",
+            "formatted": "Spider:w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "w4",
+            "formatted": "chrysoberyl:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 33,
+      "timestamp": "2025-12-25T13:49:07.886590",
+      "action": "attack",
+      "player": {
+        "pos": "(29,7)",
+        "hp": "38/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "w2",
+            "formatted": "Rat:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "w3",
+            "formatted": "Spider:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "w4",
+            "formatted": "Spider:w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "w4",
+            "formatted": "chrysoberyl:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 34,
+      "timestamp": "2025-12-25T13:49:07.988167",
+      "action": "attack",
+      "player": {
+        "pos": "(29,7)",
+        "hp": "38/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "w1",
+            "formatted": "Rat:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "w2",
+            "formatted": "Spider:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "w4",
+            "formatted": "Spider:w4",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 4.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "topaz:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "w4",
+            "formatted": "chrysoberyl:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 35,
+      "timestamp": "2025-12-25T13:49:08.088296",
+      "action": "attack",
+      "player": {
+        "pos": "(29,7)",
+        "hp": "36/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "w2",
+            "formatted": "Spider:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Spider",
+            "pos": "w3",
+            "formatted": "Spider:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "topaz:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "w4",
+            "formatted": "chrysoberyl:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 36,
+      "timestamp": "2025-12-25T13:49:08.184456",
+      "action": "attack",
+      "player": {
+        "pos": "(29,7)",
+        "hp": "36/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "w1",
+            "formatted": "Spider:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Spider",
+            "pos": "w3",
+            "formatted": "Spider:w3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "topaz:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "star sapphire:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "w4",
+            "formatted": "chrysoberyl:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 37,
+      "timestamp": "2025-12-25T13:49:08.285403",
+      "action": "attack",
+      "player": {
+        "pos": "(29,7)",
+        "hp": "34/100",
+        "level": 1
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "w2",
+            "formatted": "Spider:w2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "topaz:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "star sapphire:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "w4",
+            "formatted": "chrysoberyl:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 38,
+      "timestamp": "2025-12-25T13:49:08.382207",
+      "action": "attack",
+      "player": {
+        "pos": "(29,7)",
+        "hp": "44/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Spider",
+            "pos": "w1",
+            "formatted": "Spider:w1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "topaz:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "star sapphire:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "paleolith",
+            "type": "tools",
+            "pos": "w1",
+            "formatted": "paleolith:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "w4",
+            "formatted": "chrysoberyl:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 39,
+      "timestamp": "2025-12-25T13:49:08.481189",
+      "action": "attack",
+      "player": {
+        "pos": "(29,7)",
+        "hp": "42/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "topaz:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "star sapphire:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "paleolith",
+            "type": "tools",
+            "pos": "w1",
+            "formatted": "paleolith:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "w4",
+            "formatted": "chrysoberyl:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "target": "Spider",
+        "direction": "w",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 40,
+      "timestamp": "2025-12-25T13:49:09.158158",
+      "action": "move",
+      "player": {
+        "pos": "(28,7)",
+        "hp": "42/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "topaz",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "topaz:here",
+            "distance": 0.0
+          },
+          {
+            "name": "star sapphire",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "star sapphire:here",
+            "distance": 0.0
+          },
+          {
+            "name": "paleolith",
+            "type": "tools",
+            "pos": "here",
+            "formatted": "paleolith:here",
+            "distance": 0.0
+          },
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "w3",
+            "formatted": "chrysoberyl:w3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(28,7)"
+      }
+    },
+    {
+      "turn": 40,
+      "timestamp": "2025-12-25T13:49:09.691507",
+      "action": "pickup",
+      "player": {
+        "pos": "(28,7)",
+        "hp": "42/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "w3",
+            "formatted": "chrysoberyl:w3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "topaz",
+          "star sapphire",
+          "paleolith"
+        ]
+      }
+    },
+    {
+      "turn": 41,
+      "timestamp": "2025-12-25T13:49:10.122409",
+      "action": "move",
+      "player": {
+        "pos": "(27,7)",
+        "hp": "42/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "w2",
+            "formatted": "chrysoberyl:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n3w8",
+            "formatted": "Oleum Terra:n3w8",
+            "distance": 8.5
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(27,7)"
+      }
+    },
+    {
+      "turn": 42,
+      "timestamp": "2025-12-25T13:49:10.353322",
+      "action": "move",
+      "player": {
+        "pos": "(26,7)",
+        "hp": "42/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n2w1",
+            "formatted": "Goblin:n2w1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.2,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "chrysoberyl:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "n3w3",
+            "formatted": "cinnamon stone:n3w3",
+            "distance": 4.2
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n3w7",
+            "formatted": "Oleum Terra:n3w7",
+            "distance": 7.6
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(26,7)"
+      }
+    },
+    {
+      "turn": 43,
+      "timestamp": "2025-12-25T13:49:10.536850",
+      "action": "move",
+      "player": {
+        "pos": "(25,7)",
+        "hp": "42/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n2",
+            "formatted": "Goblin:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          },
+          {
+            "name": "Rat",
+            "pos": "n3",
+            "formatted": "Rat:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "chrysoberyl",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "chrysoberyl:here",
+            "distance": 0.0
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "n3w2",
+            "formatted": "cinnamon stone:n3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n3w6",
+            "formatted": "Oleum Terra:n3w6",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(25,7)"
+      }
+    },
+    {
+      "turn": 43,
+      "timestamp": "2025-12-25T13:49:10.902224",
+      "action": "pickup",
+      "player": {
+        "pos": "(25,7)",
+        "hp": "42/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n1",
+            "formatted": "Goblin:n1",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Rat",
+            "pos": "n3",
+            "formatted": "Rat:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "n3w2",
+            "formatted": "cinnamon stone:n3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n3w6",
+            "formatted": "Oleum Terra:n3w6",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "chrysoberyl"
+        ]
+      }
+    },
+    {
+      "turn": 44,
+      "timestamp": "2025-12-25T13:49:11.311115",
+      "action": "attack",
+      "player": {
+        "pos": "(25,7)",
+        "hp": "42/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Goblin",
+            "pos": "n1",
+            "formatted": "Goblin:n1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          },
+          {
+            "name": "Rat",
+            "pos": "n3",
+            "formatted": "Rat:n3",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 3.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "n3w2",
+            "formatted": "cinnamon stone:n3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n3w6",
+            "formatted": "Oleum Terra:n3w6",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 45,
+      "timestamp": "2025-12-25T13:49:11.526232",
+      "action": "attack",
+      "player": {
+        "pos": "(25,7)",
+        "hp": "40/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "n2",
+            "formatted": "Rat:n2",
+            "hp": 32,
+            "max_hp": 32,
+            "distance": 2.0,
+            "adjacent": false
+          }
+        ],
+        "items": [
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "n3w2",
+            "formatted": "cinnamon stone:n3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n3w6",
+            "formatted": "Oleum Terra:n3w6",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "target": "Goblin",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 46,
+      "timestamp": "2025-12-25T13:49:11.625261",
+      "action": "attack",
+      "player": {
+        "pos": "(25,7)",
+        "hp": "40/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [
+          {
+            "name": "Rat",
+            "pos": "n1",
+            "formatted": "Rat:n1",
+            "hp": 14,
+            "max_hp": 32,
+            "distance": 1.0,
+            "adjacent": true
+          }
+        ],
+        "items": [
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "n3w2",
+            "formatted": "cinnamon stone:n3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n3w6",
+            "formatted": "Oleum Terra:n3w6",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "14/32",
+        "killed": false
+      }
+    },
+    {
+      "turn": 47,
+      "timestamp": "2025-12-25T13:49:11.724165",
+      "action": "attack",
+      "player": {
+        "pos": "(25,7)",
+        "hp": "38/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "n3w2",
+            "formatted": "cinnamon stone:n3w2",
+            "distance": 3.6
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n3w6",
+            "formatted": "Oleum Terra:n3w6",
+            "distance": 6.7
+          }
+        ]
+      },
+      "details": {
+        "target": "Rat",
+        "direction": "n",
+        "damage": 18,
+        "target_hp": "0/32",
+        "killed": true
+      }
+    },
+    {
+      "turn": 48,
+      "timestamp": "2025-12-25T13:49:12.369456",
+      "action": "move",
+      "player": {
+        "pos": "(25,6)",
+        "hp": "38/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "antiaircraft",
+            "type": "weapons",
+            "pos": "here",
+            "formatted": "antiaircraft:here",
+            "distance": 0.0
+          },
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "n2w2",
+            "formatted": "cinnamon stone:n2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n2w6",
+            "formatted": "Oleum Terra:n2w6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(25,6)"
+      }
+    },
+    {
+      "turn": 48,
+      "timestamp": "2025-12-25T13:49:12.635047",
+      "action": "pickup",
+      "player": {
+        "pos": "(25,6)",
+        "hp": "38/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "n2w2",
+            "formatted": "cinnamon stone:n2w2",
+            "distance": 2.8
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n2w6",
+            "formatted": "Oleum Terra:n2w6",
+            "distance": 6.3
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "antiaircraft"
+        ]
+      }
+    },
+    {
+      "turn": 49,
+      "timestamp": "2025-12-25T13:49:13.016311",
+      "action": "move",
+      "player": {
+        "pos": "(25,5)",
+        "hp": "38/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "n1w2",
+            "formatted": "cinnamon stone:n1w2",
+            "distance": 2.2
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "n1w6",
+            "formatted": "Oleum Terra:n1w6",
+            "distance": 6.1
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(25,5)"
+      }
+    },
+    {
+      "turn": 50,
+      "timestamp": "2025-12-25T13:49:13.180235",
+      "action": "move",
+      "player": {
+        "pos": "(25,4)",
+        "hp": "38/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "w2",
+            "formatted": "cinnamon stone:w2",
+            "distance": 2.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "w6",
+            "formatted": "Oleum Terra:w6",
+            "distance": 6.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "n",
+        "to": "(25,4)"
+      }
+    },
+    {
+      "turn": 51,
+      "timestamp": "2025-12-25T13:49:13.559345",
+      "action": "move",
+      "player": {
+        "pos": "(24,4)",
+        "hp": "38/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "w1",
+            "formatted": "cinnamon stone:w1",
+            "distance": 1.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "w5",
+            "formatted": "Oleum Terra:w5",
+            "distance": 5.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(24,4)"
+      }
+    },
+    {
+      "turn": 52,
+      "timestamp": "2025-12-25T13:49:13.835303",
+      "action": "move",
+      "player": {
+        "pos": "(23,4)",
+        "hp": "38/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "cinnamon stone",
+            "type": "gems",
+            "pos": "here",
+            "formatted": "cinnamon stone:here",
+            "distance": 0.0
+          },
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "w4",
+            "formatted": "Oleum Terra:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(23,4)"
+      }
+    },
+    {
+      "turn": 52,
+      "timestamp": "2025-12-25T13:49:14.144942",
+      "action": "pickup",
+      "player": {
+        "pos": "(23,4)",
+        "hp": "38/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "w4",
+            "formatted": "Oleum Terra:w4",
+            "distance": 4.0
+          }
+        ]
+      },
+      "details": {
+        "items": [
+          "cinnamon stone"
+        ]
+      }
+    },
+    {
+      "turn": 53,
+      "timestamp": "2025-12-25T13:49:14.323081",
+      "action": "move",
+      "player": {
+        "pos": "(22,4)",
+        "hp": "38/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "w3",
+            "formatted": "Oleum Terra:w3",
+            "distance": 3.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(22,4)"
+      }
+    },
+    {
+      "turn": 54,
+      "timestamp": "2025-12-25T13:49:14.520659",
+      "action": "move",
+      "player": {
+        "pos": "(21,4)",
+        "hp": "38/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "w2",
+            "formatted": "Oleum Terra:w2",
+            "distance": 2.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(21,4)"
+      }
+    },
+    {
+      "turn": 55,
+      "timestamp": "2025-12-25T13:49:14.704600",
+      "action": "move",
+      "player": {
+        "pos": "(20,4)",
+        "hp": "38/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "w1",
+            "formatted": "Oleum Terra:w1",
+            "distance": 1.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(20,4)"
+      }
+    },
+    {
+      "turn": 56,
+      "timestamp": "2025-12-25T13:49:14.870221",
+      "action": "move",
+      "player": {
+        "pos": "(19,4)",
+        "hp": "38/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": [
+          {
+            "name": "Oleum Terra",
+            "type": "solvent",
+            "pos": "here",
+            "formatted": "Oleum Terra:here",
+            "distance": 0.0
+          }
+        ]
+      },
+      "details": {
+        "direction": "w",
+        "to": "(19,4)"
+      }
+    },
+    {
+      "turn": 56,
+      "timestamp": "2025-12-25T13:49:15.168193",
+      "action": "pickup",
+      "player": {
+        "pos": "(19,4)",
+        "hp": "38/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "items": [
+          "Oleum Terra"
+        ]
+      }
+    },
+    {
+      "turn": 56,
+      "timestamp": "2025-12-25T13:49:21.865553",
+      "action": "meditate",
+      "player": {
+        "pos": "(19,4)",
+        "hp": "38/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "item": "topaz",
+        "synset": "topaz.n.02",
+        "essence": {
+          "fire": 30,
+          "water": 20,
+          "earth": 30,
+          "air": 20
+        }
+      }
+    },
+    {
+      "turn": 56,
+      "timestamp": "2025-12-25T13:49:23.622813",
+      "action": "meditate",
+      "player": {
+        "pos": "(19,4)",
+        "hp": "38/110",
+        "level": 2
+      },
+      "visible": {
+        "monsters": [],
+        "items": []
+      },
+      "details": {
+        "item": "star sapphire",
+        "synset": "star_sapphire.n.01",
+        "essence": {
+          "fire": 30,
+          "water": 20,
+          "earth": 30,
+          "air": 20
+        }
+      }
+    }
+  ]
+}

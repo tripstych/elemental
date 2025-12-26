@@ -37,26 +37,78 @@ TOUGHNESS = 0.8
 SPAWN_MONSTERS = 15
 
 SPAWN_SOLVENTS = 15
+SPAWN_COAGULANTS = 10
 
-# Solvents for alchemy
+# Vial sizes for solvents
+VIAL_SIZES = {
+    "tiny": {"name": "Tiny Vial", "volume": 10, "weight": 0.2},
+    "small": {"name": "Small Vial", "volume": 25, "weight": 0.4},
+    "medium": {"name": "Medium Flask", "volume": 50, "weight": 0.8},
+    "large": {"name": "Large Flask", "volume": 100, "weight": 1.5},
+    "grand": {"name": "Grand Bottle", "volume": 200, "weight": 3.0},
+}
+
+# Solvents for alchemy (dissolve items -> extract essence)
 SOLVENTS = {
     "aqua_ignis": {
         "name": "Aqua Ignis",
         "extracts": ["fire", "air"],
         "strength": 0.8,
         "description": "Boiling alchemical water",
+        "color": "orange",
     },
     "oleum_terra": {
-        "name": "Oleum Terra", 
+        "name": "Oleum Terra",
         "extracts": ["earth", "water"],
         "strength": 0.9,
         "description": "Thick mineral oil",
+        "color": "brown",
     },
     "alkahest": {
         "name": "Alkahest",
         "extracts": ["fire", "water", "earth", "air"],
         "strength": 1.0,
         "description": "Universal solvent",
+        "color": "purple",
+    },
+}
+
+# Coagulants for alchemy (combine essence -> form items/spells)
+COAGULANTS = {
+    "ite_ignis": {
+        "name": "Ite Ignis",
+        "affinity": ["fire"],
+        "strength": 0.9,
+        "description": "Ite powder",
+        "color": "red",
+    },
+    "ite_aqua": {
+        "name": "Ite Aqua",
+        "affinity": ["water"],
+        "strength": 0.9,
+        "description": "Cool shimmering gel",
+        "color": "blue",
+    },
+    "ite_terra": {
+        "name": "Ite Terra",
+        "affinity": ["earth"],
+        "strength": 0.85,
+        "description": "iteiteiteite",
+        "color": "green",
+    },
+    "ite_aether": {
+        "name": "Ite Aether",
+        "affinity": ["air"],
+        "strength": 0.85,
+        "description": "Wispy ethereal mist",
+        "color": "white",
+    },
+    "prima_ite": {
+        "name": "Prima Ite",
+        "affinity": ["fire", "water", "earth", "air"],
+        "strength": 1.0,
+        "description": "Universal coagulant",
+        "color": "gold",
     },
 }
 
@@ -116,7 +168,13 @@ class PygameGame:
     """
     
     def __init__(self, seed: int = None):
+        
+        
+        
         pygame.init()
+
+        
+        
         pygame.display.set_caption("Elemental RPG")
         
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
@@ -124,8 +182,6 @@ class PygameGame:
         self.font = pygame.font.Font(None, 24)
         self.font_large = pygame.font.Font(None, 36)
         self.font_small = pygame.font.Font(None, 18)
-        self.spawn_solvents = SPAWN_SOLVENTS
-        self.spawn_monsters = SPAWN_MONSTERS
         
         # Game state
         self.running = True
@@ -136,7 +192,7 @@ class PygameGame:
         self.turn = 0
         
         # Action logging
-        self.log_file = f"game_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        self.log_file = f"logs/game_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
         self.action_log = []
         
         # Create game world
@@ -150,7 +206,7 @@ class PygameGame:
         player.stats.defense = 12
         
         # Spawn monsters - stats scaled by TOUGHNESS
-        for _ in range(self.spawn_monsters):
+        for _ in range(SPAWN_MONSTERS):
             m = self.world.spawn_monster(near_player=True)
             # Base monster stats scaled by toughness
             m.stats.max_health = int(40 * TOUGHNESS)
@@ -159,9 +215,10 @@ class PygameGame:
             m.stats.defense = int(6 * TOUGHNESS)
         self.world.scatter_items(20)
         
-        # Spawn solvents throughout the dungeon
-        self.spawn_solvents(self.spawn_solvents)
-        
+        # Spawn solvents and coagulants throughout the dungeon
+        self.spawn_solvents(SPAWN_SOLVENTS)
+        self.spawn_coagulants(SPAWN_COAGULANTS)
+
         # Initialize pathfinding
         self.pathfinder = Pathfinder(
             self.world.dungeon.grid,
@@ -191,6 +248,38 @@ class PygameGame:
         self.selected_item = None
         self.selected_solvent = None
         
+        # Ranged attack interface state
+        self.ranged_mode = False
+        self.ranged_target = None
+        self.ranged_range = 2  # Base range for ranged attacks
+
+        # Spell targeting interface state
+        self.spell_target_mode = False
+        self.pending_spell = None  # Spell name waiting to be cast
+
+        # Melee targeting interface state
+        self.melee_target_mode = False
+
+        # Autotarget mode - auto-targets nearest enemy for attacks/spells
+        self.autotarget_mode = False
+
+        # Spell book - records meditated items with their essence
+        self.spell_book = {}  # {synset: {name, synset, composition, definition}}
+
+        # Meditation mode
+        self.meditate_mode = False
+        self.show_spell_book = False
+
+        # Transmutation mode - single action: item + solvent + coagulant + spell pattern -> cast
+        self.transmute_mode = False
+        self.transmute_step = 0  # 0=select item, 1=select solvent, 2=solvent amount, 3=select coagulant, 4=coagulant amount, 5=select pattern
+        self.transmute_item = None
+        self.transmute_solvent = None
+        self.transmute_solvent_amount = 0
+        self.transmute_coagulant = None
+        self.transmute_coagulant_amount = 0
+        self.transmute_pattern = None  # Spell book entry to create
+
         # Camera position (centered on player)
         self.camera_x = 0
         self.camera_y = 0
@@ -227,7 +316,8 @@ class PygameGame:
         
         self.add_message("Welcome to the dungeon!")
         self.add_message("WASD=move, SPACE=attack, E=pickup")
-        self.add_message("1=Fireball, 2=Heal, 3=Dissolve item")
+        self.add_message("Q=Meditate, G=Coagulate, B=Spell Book")
+        self.add_message("1=Fireball, 2=Heal, F=Dissolve")
     
     def add_message(self, msg: str):
         """Add a message to the log"""
@@ -263,35 +353,97 @@ class PygameGame:
             }, f, indent=2)
     
     def spawn_solvents(self, count: int):
-        """Spawn solvent items in the dungeon"""
-        solvent_types = [
-            ('aqua_ignis', 'Aqua Ignis', 'Extracts fire & air'),
-            ('oleum_terra', 'Oleum Terra', 'Extracts earth & water'),
-            ('alkahest', 'Alkahest', 'Universal solvent'),
+        """Spawn solvent items in the dungeon with random vial sizes"""
+        solvent_keys = list(SOLVENTS.keys())
+
+        # Weighted vial size distribution (smaller vials more common)
+        vial_weights = [
+            ("tiny", 30),
+            ("small", 35),
+            ("medium", 20),
+            ("large", 10),
+            ("grand", 5),
         ]
-        
+        vial_pool = []
+        for vial_key, weight in vial_weights:
+            vial_pool.extend([vial_key] * weight)
+
         floors = (self.world.dungeon.find_positions(DungeonGenerator.ROOM_FLOOR) +
                   self.world.dungeon.find_positions(DungeonGenerator.CORRIDOR))
-        
+
         for _ in range(count):
             if not floors:
                 break
             pos = random.choice(floors)
-            solvent_key, name, desc = random.choice(solvent_types)
-            
+            solvent_key = random.choice(solvent_keys)
+            vial_key = random.choice(vial_pool)
+
+            solvent_data = SOLVENTS[solvent_key]
+            vial_data = VIAL_SIZES[vial_key]
+
+            # Create solvent item with quantity
             solvent_item = {
-                'name': name,
+                'name': f"{vial_data['name']} of {solvent_data['name']}",
                 'type': 'solvent',
                 'is_solvent': True,
                 'solvent_type': solvent_key,
-                'description': desc,
-                'weight': 0.5,
+                'vial_size': vial_key,
+                'quantity': vial_data['volume'],
+                'max_quantity': vial_data['volume'],
+                'description': f"{solvent_data['description']} ({vial_data['volume']}ml)",
+                'weight': vial_data['weight'],
             }
-            
+
             if pos not in self.world.items_on_ground:
                 self.world.items_on_ground[pos] = []
             self.world.items_on_ground[pos].append(solvent_item)
-    
+
+    def spawn_coagulants(self, count: int):
+        """Spawn coagulant items in the dungeon with random vial sizes"""
+        coagulant_keys = list(COAGULANTS.keys())
+
+        # Weighted vial size distribution (smaller vials more common)
+        vial_weights = [
+            ("tiny", 30),
+            ("small", 35),
+            ("medium", 20),
+            ("large", 10),
+            ("grand", 5),
+        ]
+        vial_pool = []
+        for vial_key, weight in vial_weights:
+            vial_pool.extend([vial_key] * weight)
+
+        floors = (self.world.dungeon.find_positions(DungeonGenerator.ROOM_FLOOR) +
+                  self.world.dungeon.find_positions(DungeonGenerator.CORRIDOR))
+
+        for _ in range(count):
+            if not floors:
+                break
+            pos = random.choice(floors)
+            coagulant_key = random.choice(coagulant_keys)
+            vial_key = random.choice(vial_pool)
+
+            coagulant_data = COAGULANTS[coagulant_key]
+            vial_data = VIAL_SIZES[vial_key]
+
+            # Create coagulant item with quantity
+            coagulant_item = {
+                'name': f"{vial_data['name']} of {coagulant_data['name']}",
+                'type': 'coagulant',
+                'is_coagulant': True,
+                'coagulant_type': coagulant_key,
+                'vial_size': vial_key,
+                'quantity': vial_data['volume'],
+                'max_quantity': vial_data['volume'],
+                'description': f"{coagulant_data['description']} ({vial_data['volume']}ml)",
+                'weight': vial_data['weight'],
+            }
+
+            if pos not in self.world.items_on_ground:
+                self.world.items_on_ground[pos] = []
+            self.world.items_on_ground[pos].append(coagulant_item)
+
     def update_camera(self):
         """Center camera on player"""
         player = self.world.player
@@ -319,9 +471,16 @@ class PygameGame:
             
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 if event.button == 1:  # Left click
-                    self.handle_mouse_click(event)
-                    if self.path_mode: 
-                        self.auto_move_path()
+                    if self.melee_target_mode:
+                        self.handle_melee_target_click(event)
+                    elif self.spell_target_mode:
+                        self.handle_spell_target_click(event)
+                    elif self.ranged_mode:
+                        self.handle_ranged_click(event)
+                    else:
+                        self.handle_mouse_click(event)
+                        if self.path_mode:
+                            self.auto_move_path()
                 elif event.button == 3:  # Right click
                     self.enable_path_mode()
             
@@ -341,6 +500,13 @@ class PygameGame:
             self.respawn_player()
             return
         
+        if event.key == pygame.K_i:
+            self.show_inventory()
+            return
+
+        if event.key == pygame.K_c:
+            self.autotarget_mode = not self.autotarget_mode
+            return
         # Toggle path mode with 'P'
         if event.key == pygame.K_p:
             self.toggle_path_mode()
@@ -351,6 +517,49 @@ class PygameGame:
             self.toggle_dissolve_mode()
             return
         
+        # Toggle ranged mode with 'R'
+        if event.key == pygame.K_r:
+            self.toggle_ranged_mode()
+            return
+
+        # Toggle autotarget mode with 'T'
+        if event.key == pygame.K_t:
+            self.toggle_autotarget_mode()
+            return
+
+        # Toggle meditate mode with 'Q'
+        if event.key == pygame.K_q:
+            self.toggle_meditate_mode()
+            return
+
+        # Toggle spell book view with 'B'
+        if event.key == pygame.K_b:
+            self.show_spell_book = not self.show_spell_book
+            if self.show_spell_book:
+                self.add_message(f"Spell Book: {len(self.spell_book)} entries (B to close)")
+            return
+
+        # Toggle transmute mode with 'G'
+        if event.key == pygame.K_g and not self.dissolve_mode and not self.meditate_mode:
+            self.toggle_transmute_mode()
+            return
+
+        # Handle transmute mode selections
+        if self.transmute_mode:
+            self.handle_transmute_input(event)
+            return
+
+        # Handle meditate mode selections
+        if self.meditate_mode:
+            if pygame.K_1 <= event.key <= pygame.K_9:
+                index = event.key - pygame.K_1
+                self.meditate_on_item(index)
+                return
+            elif event.key == pygame.K_ESCAPE:
+                self.meditate_mode = False
+                self.add_message("Meditation cancelled")
+                return
+
         # Handle dissolve mode selections
         if self.dissolve_mode:
             # Number keys for item/solvent selection
@@ -408,8 +617,8 @@ class PygameGame:
         
         # Spells (1 = Fireball, 2 = Heal)
         elif event.key == pygame.K_1:
-            self.cast_spell('fireball')
-            moved = True
+            # Enter spell targeting mode for damage spells
+            self.enter_spell_target_mode('fireball')
         elif event.key == pygame.K_2:
             self.cast_spell('heal')
             moved = True
@@ -426,9 +635,16 @@ class PygameGame:
         elif event.key == pygame.K_i:
             self.show_inventory()
         
-        # Quit (Escape)
+        # Cancel targeting modes (ESC no longer quits game)
         elif event.key == pygame.K_ESCAPE:
-            self.running = False
+            if self.melee_target_mode:
+                self.melee_target_mode = False
+                self.add_message("Attack cancelled")
+            elif self.spell_target_mode:
+                self.spell_target_mode = False
+                self.pending_spell = None
+                self.add_message("Spell cancelled")
+            # ESC no longer quits the game
         
         # Wait (Period)
         elif event.key == pygame.K_PERIOD:
@@ -439,6 +655,509 @@ class PygameGame:
         if moved:
             self.monster_turns()
     
+    def toggle_ranged_mode(self):
+        """Toggle ranged attack interface mode"""
+        self.ranged_mode = not self.ranged_mode
+        if self.ranged_mode:
+            self.ranged_target = None
+            self.add_message(f"Ranged mode: Click target within {self.ranged_range} tiles")
+        else:
+            self.add_message("Ranged mode: OFF")
+
+    def toggle_autotarget_mode(self):
+        """Toggle autotarget mode for attacks and spells"""
+        self.autotarget_mode = not self.autotarget_mode
+        if self.autotarget_mode:
+            self.add_message("AUTOTARGET: ON - attacks/spells auto-target nearest enemy")
+        else:
+            self.add_message("AUTOTARGET: OFF - manual targeting")
+
+    def toggle_meditate_mode(self):
+        """Toggle meditation mode for studying items"""
+        player = self.world.player
+        items = [obj for obj in player.inventory.objects if not obj.get('is_solvent')]
+
+        if not items:
+            self.add_message("No items to meditate on!")
+            return
+
+        self.meditate_mode = not self.meditate_mode
+        if self.meditate_mode:
+            self.add_message("MEDITATE: Select item (1-9) to study its essence")
+        else:
+            self.add_message("Meditation cancelled")
+
+    def meditate_on_item(self, index: int):
+        """Meditate on an inventory item to record it in the spell book"""
+        player = self.world.player
+        items = [obj for obj in player.inventory.objects if not obj.get('is_solvent')]
+
+        if index >= len(items):
+            self.add_message("No item at that slot!")
+            return
+
+        item = items[index]
+
+        # Check if item has a synset (from WordNet database)
+        synset = item.get('synset')
+        if not synset:
+            self.add_message(f"Cannot meditate on {item['name']} - no essence pattern!")
+            self.meditate_mode = False
+            return
+
+        # Calculate essence composition based on item type/material
+        item_type = item.get('type', 'default')
+        base_essence = MATERIAL_ESSENCES.get(item_type, MATERIAL_ESSENCES['default'])
+
+        # Create spell book entry
+        entry = {
+            'name': item['name'],
+            'synset': synset,
+            'definition': item.get('definition', 'Unknown'),
+            'composition': base_essence.copy(),
+            'type': item_type,
+        }
+
+        # Check if already in spell book
+        if synset in self.spell_book:
+            self.add_message(f"'{item['name']}' is already in your Spell Book!")
+        else:
+            self.spell_book[synset] = entry
+            essence_str = ", ".join(f"{e[0].upper()}:{v}" for e, v in base_essence.items())
+            self.add_message(f"Recorded '{item['name']}' to Spell Book!")
+            self.add_message(f"Essence: {essence_str}")
+            self.log_action('meditate', {
+                'item': item['name'],
+                'synset': synset,
+                'essence': base_essence
+            })
+
+        self.meditate_mode = False
+
+    def toggle_transmute_mode(self):
+        """Toggle transmutation mode - single action spell casting"""
+        player = self.world.player
+
+        # Need spell book entries
+        if not self.spell_book:
+            self.add_message("Spell Book is empty! Meditate (Q) on items first.")
+            return
+
+        # Need items to extract from
+        items = [obj for obj in player.inventory.objects
+                 if not obj.get('is_solvent') and not obj.get('is_coagulant')]
+        if not items:
+            self.add_message("No items to transmute!")
+            return
+
+        # Need solvents
+        solvents = [obj for obj in player.inventory.objects if obj.get('is_solvent')]
+        if not solvents:
+            self.add_message("No solvents in inventory!")
+            return
+
+        # Need coagulants
+        coagulants = [obj for obj in player.inventory.objects if obj.get('is_coagulant')]
+        if not coagulants:
+            self.add_message("No coagulants in inventory!")
+            return
+
+        self.transmute_mode = not self.transmute_mode
+        if self.transmute_mode:
+            self.reset_transmute_state()
+            self.add_message("TRANSMUTE: Select source item (1-9)")
+        else:
+            self.add_message("Transmutation cancelled")
+
+    def reset_transmute_state(self):
+        """Reset all transmutation state"""
+        self.transmute_step = 0
+        self.transmute_item = None
+        self.transmute_solvent = None
+        self.transmute_solvent_amount = 0
+        self.transmute_coagulant = None
+        self.transmute_coagulant_amount = 0
+        self.transmute_pattern = None
+
+    def handle_transmute_input(self, event):
+        """Handle keyboard input during transmutation"""
+        player = self.world.player
+
+        # ESC cancels
+        if event.key == pygame.K_ESCAPE:
+            self.transmute_mode = False
+            self.reset_transmute_state()
+            self.add_message("Transmutation cancelled")
+            return
+
+        # Number keys for selection
+        if pygame.K_1 <= event.key <= pygame.K_9:
+            index = event.key - pygame.K_1
+            self.handle_transmute_selection(index)
+            return
+
+        # 0 key for amounts (represents 10 in amount selection)
+        if event.key == pygame.K_0:
+            if self.transmute_step in [2, 4]:  # Amount selection steps
+                self.handle_transmute_selection(9)  # 0 = 10 units
+            return
+
+    def handle_transmute_selection(self, index: int):
+        """Handle selection at current transmutation step"""
+        player = self.world.player
+
+        if self.transmute_step == 0:
+            # Step 0: Select item
+            items = [obj for obj in player.inventory.objects
+                     if not obj.get('is_solvent') and not obj.get('is_coagulant')]
+            if index >= len(items):
+                self.add_message("No item at that slot!")
+                return
+            self.transmute_item = items[index]
+            self.transmute_step = 1
+            self.add_message(f"Item: {self.transmute_item['name']}")
+            self.add_message("Select solvent (1-9)")
+
+        elif self.transmute_step == 1:
+            # Step 1: Select solvent
+            solvents = [obj for obj in player.inventory.objects if obj.get('is_solvent')]
+            if index >= len(solvents):
+                self.add_message("No solvent at that slot!")
+                return
+            self.transmute_solvent = solvents[index]
+            self.transmute_step = 2
+            max_amt = self.transmute_solvent.get('quantity', 0)
+            self.add_message(f"Solvent: {self.transmute_solvent['name']} ({max_amt}ml)")
+            self.add_message(f"Select amount: 1-9 for 10-90ml, 0 for 100ml (max {max_amt}ml)")
+
+        elif self.transmute_step == 2:
+            # Step 2: Select solvent amount (1-9 = 10-90ml, 0 = 100ml)
+            amount = (index + 1) * 10  # 1->10, 2->20, ..., 9->90, 0->100
+            if index == 9:
+                amount = 100
+            max_amt = self.transmute_solvent.get('quantity', 0)
+            if amount > max_amt:
+                amount = max_amt
+            if amount <= 0:
+                self.add_message("No solvent available!")
+                return
+            self.transmute_solvent_amount = amount
+            self.transmute_step = 3
+            self.add_message(f"Using {amount}ml solvent")
+            self.add_message("Select coagulant (1-9)")
+
+        elif self.transmute_step == 3:
+            # Step 3: Select coagulant
+            coagulants = [obj for obj in player.inventory.objects if obj.get('is_coagulant')]
+            if index >= len(coagulants):
+                self.add_message("No coagulant at that slot!")
+                return
+            self.transmute_coagulant = coagulants[index]
+            self.transmute_step = 4
+            max_amt = self.transmute_coagulant.get('quantity', 0)
+            self.add_message(f"Coagulant: {self.transmute_coagulant['name']} ({max_amt}ml)")
+            self.add_message(f"Select amount: 1-9 for 10-90ml, 0 for 100ml (max {max_amt}ml)")
+
+        elif self.transmute_step == 4:
+            # Step 4: Select coagulant amount
+            amount = (index + 1) * 10
+            if index == 9:
+                amount = 100
+            max_amt = self.transmute_coagulant.get('quantity', 0)
+            if amount > max_amt:
+                amount = max_amt
+            if amount <= 0:
+                self.add_message("No coagulant available!")
+                return
+            self.transmute_coagulant_amount = amount
+            self.transmute_step = 5
+            self.add_message(f"Using {amount}ml coagulant")
+            self.add_message("Select spell pattern from Spell Book (1-9)")
+
+        elif self.transmute_step == 5:
+            # Step 5: Select spell pattern from spell book
+            entries = list(self.spell_book.values())
+            if index >= len(entries):
+                self.add_message("No pattern at that slot!")
+                return
+            self.transmute_pattern = entries[index]
+            self.add_message(f"Pattern: {self.transmute_pattern['name']}")
+            # Now perform the transmutation!
+            self.perform_transmutation()
+
+    def perform_transmutation(self):
+        """Execute the transmutation - extract essence and form spell in one action"""
+        player = self.world.player
+        inv = player.inventory
+
+        # Get solvent and coagulant properties
+        solvent_key = self.transmute_solvent.get('solvent_type', 'alkahest')
+        solvent_data = SOLVENTS.get(solvent_key, SOLVENTS['alkahest'])
+        coag_key = self.transmute_coagulant.get('coagulant_type', 'prima_ite')
+        coag_data = COAGULANTS.get(coag_key, COAGULANTS['prima_ite'])
+
+        # Calculate essence extracted from item based on solvent amount and type
+        # Solvent extracts specific elements based on its affinity
+        item_type = self.transmute_item.get('type', 'default')
+        base_essence = MATERIAL_ESSENCES.get(item_type, MATERIAL_ESSENCES['default'])
+
+        extracted_essence = {}
+        solvent_strength = solvent_data.get('strength', 1.0)
+        solvent_extracts = solvent_data.get('extracts', [])
+
+        # More solvent = more essence extracted (10ml = 1x, 100ml = 10x)
+        extraction_multiplier = self.transmute_solvent_amount / 10.0
+
+        for elem in solvent_extracts:
+            base_amount = base_essence.get(elem, 10)
+            extracted = base_amount * solvent_strength * extraction_multiplier
+            extracted_essence[elem] = extracted
+
+        # Get the pattern requirements
+        pattern_comp = self.transmute_pattern.get('composition', {})
+
+        # Coagulant binds essence to form the pattern
+        # Coagulant with matching affinity is more efficient
+        coag_affinity = coag_data.get('affinity', [])
+        coag_strength = coag_data.get('strength', 1.0)
+
+        # More coagulant = better binding efficiency (10ml = 50%, 100ml = 100%)
+        binding_efficiency = min(1.0, 0.5 + (self.transmute_coagulant_amount / 200.0))
+
+        # Calculate how much of each element we can bind
+        bound_essence = {}
+        for elem, required in pattern_comp.items():
+            available = extracted_essence.get(elem, 0)
+            # Affinity bonus
+            if elem in coag_affinity:
+                effective_available = available * (1.0 + coag_strength * 0.5)
+            else:
+                effective_available = available * 0.7  # Penalty for non-affinity
+
+            bound = min(required, effective_available * binding_efficiency)
+            bound_essence[elem] = bound
+
+        # Calculate completion percentage
+        total_required = sum(pattern_comp.values())
+        total_bound = sum(bound_essence.values())
+        completion = total_bound / total_required if total_required > 0 else 0
+
+        # Consume resources
+        self.transmute_solvent['quantity'] -= self.transmute_solvent_amount
+        self.transmute_coagulant['quantity'] -= self.transmute_coagulant_amount
+
+        # Remove empty containers
+        if self.transmute_solvent['quantity'] <= 0:
+            inv.objects.remove(self.transmute_solvent)
+        if self.transmute_coagulant['quantity'] <= 0:
+            inv.objects.remove(self.transmute_coagulant)
+
+        # Check if this is a known spell pattern
+        spell_name = None
+        for name, spell_def in self.spell_defs.items():
+            if spell_def.get('synset') == self.transmute_pattern.get('synset'):
+                spell_name = name
+                break
+
+        # Need at least 70% completion to succeed
+        if completion >= 0.7:
+            if spell_name:
+                # Add the spell to the spell book so player can cast it!
+                spell = self.spell_defs[spell_name]
+                synset = spell.get('synset')
+
+                # Create spell book entry with the transmuted spell
+                spell_entry = {
+                    'name': spell_name.capitalize(),
+                    'synset': synset,
+                    'definition': spell.get('definition', 'A magical spell'),
+                    'composition': spell.get('composition', {}),
+                    'type': 'spell',
+                    'spell_effect': spell.get('spell_effect'),
+                    'power': completion,  # Power level based on transmutation quality
+                    'castable': True,  # Mark as a castable spell
+                }
+
+                # Add to spell book
+                self.spell_book[synset] = spell_entry
+
+                self.add_message(f"TRANSMUTE SUCCESS! Learned {spell_name.upper()}!")
+                self.add_message(f"Power: {int(completion*100)}% - Check Spell Book (B) to cast!")
+
+                self.log_action('transmute_spell', {
+                    'spell': spell_name,
+                    'item': self.transmute_item['name'],
+                    'solvent': self.transmute_solvent['name'],
+                    'solvent_amount': self.transmute_solvent_amount,
+                    'coagulant': self.transmute_coagulant['name'],
+                    'coagulant_amount': self.transmute_coagulant_amount,
+                    'completion': completion
+                })
+            else:
+                # Create transmuted item and add to spell book
+                synset = self.transmute_pattern.get('synset')
+                new_entry = {
+                    'name': f"Transmuted {self.transmute_pattern['name']}",
+                    'synset': synset,
+                    'definition': self.transmute_pattern.get('definition', 'A transmuted object'),
+                    'composition': self.transmute_pattern.get('composition', {}),
+                    'type': self.transmute_pattern.get('type', 'misc'),
+                    'power': completion,
+                    'transmuted': True,
+                }
+                self.spell_book[synset] = new_entry
+                self.add_message(f"TRANSMUTE SUCCESS! Created {new_entry['name']}!")
+                self.add_message(f"Power: {int(completion*100)}% - Added to Spell Book!")
+
+            self.turn += 1
+            self.monster_turns()
+        else:
+            # Failed transmutation
+            self.add_message(f"TRANSMUTE FAILED! Only {int(completion*100)}% power (need 70%)")
+            self.add_message("Try using more solvent/coagulant or matching affinities")
+
+        # Reset transmute mode
+        self.transmute_mode = False
+        self.reset_transmute_state()
+
+    def find_nearest_enemy_in_range(self, max_range: float, require_los: bool = True):
+        """Find the nearest living enemy within range, optionally requiring line of sight"""
+        player = self.world.player
+        nearest_dist = float('inf')
+        nearest_enemy = None
+
+        for m in self.world.monsters:
+            if not m.stats.is_alive():
+                continue
+            dist = ((m.x - player.x)**2 + (m.y - player.y)**2)**0.5
+            if dist <= max_range and dist < nearest_dist:
+                # Check line of sight if required
+                if require_los and not self.has_line_of_sight(player.x, player.y, m.x, m.y):
+                    continue
+                nearest_dist = dist
+                nearest_enemy = m
+
+        return nearest_enemy
+
+    def enter_spell_target_mode(self, spell_name: str):
+        """Enter spell targeting mode for a damage spell"""
+        if spell_name not in self.spell_defs:
+            self.add_message(f"Unknown spell: {spell_name}")
+            return
+
+        spell = self.spell_defs[spell_name]
+
+        # Only damage spells need targeting
+        if spell['spell_effect']['type'] != 'damage':
+            self.cast_spell(spell_name)
+            return
+
+        player = self.world.player
+
+        # Calculate spell range
+        spell_range = 3 + int(player.stats.magic_power / 10)
+
+        # Check if player has enough essence
+        composition = spell.get('composition', {})
+        can_cast = True
+        for elem, cost in composition.items():
+            if player.inventory.essences.get(elem, 0) < cost:
+                can_cast = False
+                break
+
+        if not can_cast:
+            self.add_message(f"Not enough essence to cast {spell_name}!")
+            return
+
+        # If autotarget is on, find and hit nearest enemy automatically
+        if self.autotarget_mode:
+            target = self.find_nearest_enemy_in_range(spell_range)
+            if target:
+                self.cast_spell_at_target(spell_name, target)
+            else:
+                self.add_message(f"No enemies in range! (Range: {spell_range} tiles)")
+            return
+
+        self.spell_target_mode = True
+        self.pending_spell = spell_name
+        self.add_message(f"SPELL TARGET: Click enemy within {spell_range} tiles (ESC to cancel)")
+
+    def handle_spell_target_click(self, event):
+        """Handle mouse click for spell targeting"""
+        if not self.spell_target_mode or not self.pending_spell:
+            return
+
+        # Convert mouse position to world coordinates
+        mouse_x, mouse_y = event.pos
+        tile_x = mouse_x // TILE_SIZE + self.camera_x
+        tile_y = mouse_y // TILE_SIZE + self.camera_y
+
+        player = self.world.player
+        spell = self.spell_defs[self.pending_spell]
+        spell_range = 3 + int(player.stats.magic_power / 10)
+
+        # Check if target is within range
+        dist = ((tile_x - player.x)**2 + (tile_y - player.y)**2)**0.5
+        if dist > spell_range:
+            self.add_message(f"Target out of range! (Max: {spell_range} tiles)")
+            return
+
+        # Check if there's an entity at target
+        target_entity = self.world.get_entity_at(tile_x, tile_y)
+        if not target_entity or target_entity == player:
+            self.add_message("No valid target!")
+            return
+
+        # Check line of sight
+        if not self.has_line_of_sight(player.x, player.y, tile_x, tile_y):
+            self.add_message("No clear line of sight!")
+            return
+
+        # Cast the spell at the targeted entity
+        self.cast_spell_at_target(self.pending_spell, target_entity)
+
+        # Exit spell target mode
+        self.spell_target_mode = False
+        self.pending_spell = None
+
+    def cast_spell_at_target(self, spell_name: str, target):
+        """Cast a spell at a specific target"""
+        player = self.world.player
+        spell = self.spell_defs[spell_name]
+
+        # Cast the spell
+        result = player.cast_spell(spell['synset'], spell, target=target)
+
+        if result['success']:
+            # Show essence spent
+            spent = result.get('essence_spent', spell.get('composition', {}))
+            spent_str = ", ".join(f"{e[:1].upper()}:{int(v)}" for e, v in spent.items() if v > 0)
+
+            log_details = {'spell': spell_name, 'cost': spent}
+
+            if 'damage' in result:
+                rel_pos = self.get_relative_pos(target.x, target.y)
+                self.add_message(f"{spell_name.upper()} hits {target.name} {rel_pos} for {result['damage']} damage!")
+                log_details['target'] = target.name
+                log_details['position'] = rel_pos
+                log_details['damage'] = result['damage']
+                log_details['killed'] = not target.stats.is_alive()
+                if not target.stats.is_alive():
+                    self.add_message(f"{target.name} is destroyed!")
+                    self.drop_monster_loot(target)
+
+            self.turn += 1
+            self.log_action('cast', log_details)
+
+            # Show remaining essence
+            ess = player.inventory.essences
+            self.add_message(f"Spent: {spent_str} | F:{int(ess['fire'])} W:{int(ess['water'])} E:{int(ess['earth'])} A:{int(ess['air'])}")
+
+            # Monster turns after casting
+            self.monster_turns()
+        else:
+            self.add_message(f"Spell failed: {result.get('message', result.get('reason', 'not enough essence'))}")
+
     def toggle_dissolve_mode(self):
         """Toggle dissolution interface mode"""
         self.dissolve_mode = not self.dissolve_mode
@@ -463,6 +1182,116 @@ class PygameGame:
         self.target_pos = None
         mode = "Pathfinding" if self.path_mode else "WASD"
         self.add_message(f"Movement mode: {mode}")
+    
+    def handle_ranged_click(self, event):
+        """Handle mouse click for ranged attacks"""
+        # Convert mouse position to world coordinates
+        mouse_x, mouse_y = event.pos
+        
+        # Convert to tile coordinates
+        tile_x = mouse_x // TILE_SIZE + self.camera_x
+        tile_y = mouse_y // TILE_SIZE + self.camera_y
+        
+        player = self.world.player
+        
+        # Check if target is within range
+        dist = ((tile_x - player.x)**2 + (tile_y - player.y)**2)**0.5
+        if dist > self.ranged_range:
+            self.add_message(f"Target out of range! (Max: {self.ranged_range} tiles)")
+            return
+        
+        # Check if there's an entity at target
+        target_entity = self.world.get_entity_at(tile_x, tile_y)
+        if not target_entity or target_entity == player:
+            self.add_message("No valid target!")
+            return
+        
+        # Check if there's a clear line of sight
+        if not self.has_line_of_sight(player.x, player.y, tile_x, tile_y):
+            self.add_message("No clear line of sight!")
+            return
+        
+        # Perform ranged attack
+        self.perform_ranged_attack(target_entity)
+    
+    def has_line_of_sight(self, x1, y1, x2, y2) -> bool:
+        """Check if there's a clear line between two points"""
+        # Simple line-of-sight check using Bresenham's algorithm
+        dx = abs(x2 - x1)
+        dy = abs(y2 - y1)
+        sx = 1 if x1 < x2 else -1
+        sy = 1 if y1 < y2 else -1
+        err = dx - dy
+        
+        x, y = x1, y1
+        
+        while True:
+            if x == x2 and y == y2:
+                break
+            
+            # Check if current position blocks sight
+            if (x, y) != (x1, y1):  # Don't check starting position
+                if not self.world.is_walkable(x, y):
+                    entity = self.world.get_entity_at(x, y)
+                    # Only block if there's a wall, not just entities
+                    if not self.world.is_walkable(x, y):
+                        return False
+            
+            e2 = 2 * err
+            if e2 > -dy:
+                err -= dy
+                x += sx
+            if e2 < dx:
+                err += dx
+                y += sy
+        
+        return True
+    
+    def perform_ranged_attack(self, target):
+        """Perform a ranged attack on target"""
+        player = self.world.player
+        
+        # Check if player has ranged weapon
+        ranged_weapon = None
+        for item in player.inventory.objects:
+            if item.get('type') == 'weapon' and item.get('ranged', False):
+                ranged_weapon = item
+                break
+        
+        if not ranged_weapon:
+            self.add_message("No ranged weapon equipped!")
+            return
+        
+        # Calculate damage (base + weapon bonus)
+        base_damage = player.stats.attack_power
+        weapon_bonus = ranged_weapon.get('damage_bonus', 0)
+        total_damage = base_damage + weapon_bonus
+        
+        # Apply damage
+        result = target.take_damage(total_damage)
+        
+        # Log the attack
+        rel_pos = self.get_relative_pos(target.x, target.y)
+        self.add_message(f"You shoot {target.name} {rel_pos} for {result['damage']} damage!")
+        
+        self.turn += 1
+        self.log_action('ranged_attack', {
+            'target': target.name,
+            'position': rel_pos,
+            'damage': result['damage'],
+            'target_hp': f"{target.stats.current_health}/{target.stats.max_health}",
+            'killed': not target.stats.is_alive(),
+            'weapon': ranged_weapon['name']
+        })
+        
+        if not target.stats.is_alive():
+            self.add_message(f"{target.name} is defeated!")
+            self.drop_monster_loot(target)
+        
+        # Exit ranged mode
+        self.ranged_mode = False
+        self.ranged_target = None
+        self.monster_turns()
     
     def handle_mouse_click(self, event):
         """Handle mouse click for pathfinding"""
@@ -575,34 +1404,95 @@ class PygameGame:
         return True
     
     def do_attack(self):
-        """Attack adjacent monster (including diagonals)"""
+        """Attack: autotarget nearest, or enter targeting mode for manual selection"""
         player = self.world.player
-        
-        # Find adjacent monster (8 directions including diagonals)
+
+        # If autotarget is on, find nearest enemy in melee range (1.5 tiles for diagonals)
+        if self.autotarget_mode:
+            target = self.find_nearest_enemy_in_range(1.5, require_los=False)
+            if target:
+                self.perform_melee_attack(target)
+            else:
+                self.add_message("No enemies in melee range.")
+            return
+
+        # Manual mode: enter melee targeting mode
+        # Check if any enemies are in range first
+        has_targets = False
         for dx, dy in [(0, -1), (1, -1), (1, 0), (1, 1), (0, 1), (-1, 1), (-1, 0), (-1, -1)]:
             x, y = player.x + dx, player.y + dy
             entity = self.world.get_entity_at(x, y)
             if entity and entity != player and entity.stats.is_alive():
-                result = player.attack(entity)
-                if result['success']:
-                    # Determine direction for logging
-                    direction = {(0,-1):'n', (1,-1):'ne', (1,0):'e', (1,1):'se', 
-                                (0,1):'s', (-1,1):'sw', (-1,0):'w', (-1,-1):'nw'}.get((dx, dy), '?')
-                    self.add_message(f"You hit {entity.name} {direction} for {result['damage']} damage!")
-                    self.turn += 1
-                    self.log_action('attack', {
-                        'target': entity.name,
-                        'direction': direction,
-                        'damage': result['damage'],
-                        'target_hp': f"{entity.stats.current_health}/{entity.stats.max_health}",
-                        'killed': not result['target_alive']
-                    })
-                    if not result['target_alive']:
-                        self.add_message(f"{entity.name} is defeated!")
-                        self.drop_monster_loot(entity)
-                return
-        
-        self.add_message("Nothing to attack nearby.")
+                has_targets = True
+                break
+
+        if has_targets:
+            self.melee_target_mode = True
+            self.add_message("MELEE TARGET: Click adjacent enemy (ESC to cancel)")
+        else:
+            self.add_message("No enemies in melee range.")
+
+    def handle_melee_target_click(self, event):
+        """Handle mouse click for melee targeting"""
+        if not self.melee_target_mode:
+            return
+
+        # Convert mouse position to world coordinates
+        mouse_x, mouse_y = event.pos
+        tile_x = mouse_x // TILE_SIZE + self.camera_x
+        tile_y = mouse_y // TILE_SIZE + self.camera_y
+
+        player = self.world.player
+
+        # Check if target is adjacent (including diagonals)
+        dx = tile_x - player.x
+        dy = tile_y - player.y
+        if abs(dx) > 1 or abs(dy) > 1:
+            self.add_message("Target must be adjacent!")
+            return
+
+        # Check if there's an enemy at target
+        target_entity = self.world.get_entity_at(tile_x, tile_y)
+        if not target_entity or target_entity == player:
+            self.add_message("No enemy there!")
+            return
+
+        if not target_entity.stats.is_alive():
+            self.add_message("Target is already dead!")
+            return
+
+        # Perform the attack
+        self.perform_melee_attack(target_entity)
+
+        # Exit melee target mode
+        self.melee_target_mode = False
+        self.monster_turns()
+
+    def perform_melee_attack(self, target):
+        """Perform a melee attack on target"""
+        player = self.world.player
+        result = player.attack(target)
+
+        if result['success']:
+            # Determine direction for logging
+            dx = target.x - player.x
+            dy = target.y - player.y
+            direction = {(0,-1):'n', (1,-1):'ne', (1,0):'e', (1,1):'se',
+                        (0,1):'s', (-1,1):'sw', (-1,0):'w', (-1,-1):'nw'}.get((dx, dy), '?')
+            rel_pos = self.get_relative_pos(target.x, target.y)
+
+            self.add_message(f"You hit {target.name} {rel_pos} for {result['damage']} damage!")
+            self.turn += 1
+            self.log_action('attack', {
+                'target': target.name,
+                'direction': direction,
+                'damage': result['damage'],
+                'target_hp': f"{target.stats.current_health}/{target.stats.max_health}",
+                'killed': not result['target_alive']
+            })
+            if not result['target_alive']:
+                self.add_message(f"{target.name} is defeated!")
+                self.drop_monster_loot(target)
     
     def do_pickup(self):
         """Pick up items at player's feet"""
@@ -690,47 +1580,62 @@ class PygameGame:
             self.add_message(f"Spell failed: {result.get('message', result.get('reason', 'not enough essence'))}")
     
     def perform_dissolution(self):
-        """Perform dissolution with selected item and solvent"""
+        """Perform dissolution - use solvent to extract essence from item"""
         if not self.selected_item or not self.selected_solvent:
             return
-        
+
         player = self.world.player
         inv = player.inventory
-        
+
         # Get solvent properties
         solvent_key = self.selected_solvent.get('solvent_type', 'alkahest')
         solvent_data = SOLVENTS.get(solvent_key, SOLVENTS['alkahest'])
-        
+
+        # Check solvent has enough quantity (10ml per extraction)
+        solvent_cost = 10
+        current_qty = self.selected_solvent.get('quantity', 0)
+        if current_qty < solvent_cost:
+            self.add_message(f"Not enough solvent! Need {solvent_cost}ml, have {current_qty}ml")
+            self.dissolve_mode = False
+            self.selected_item = None
+            self.selected_solvent = None
+            return
+
         # Get item's material essence
         item_type = self.selected_item.get('type', 'default')
         base_essence = MATERIAL_ESSENCES.get(item_type, MATERIAL_ESSENCES['default'])
-        
-        # Extract essences based on solvent
+
+        # Extract essences based on solvent affinity
         extracted = {}
         for elem in solvent_data['extracts']:
             amount = base_essence.get(elem, 10) * solvent_data['strength']
             extracted[elem] = amount
             inv.add_essence(elem, amount)
-        
-        # Remove both items
-        inv.objects.remove(self.selected_item)
-        inv.objects.remove(self.selected_solvent)
-        
+
+        # Consume solvent quantity (not the item!)
+        self.selected_solvent['quantity'] -= solvent_cost
+
+        # Remove empty solvent containers
+        if self.selected_solvent['quantity'] <= 0:
+            inv.objects.remove(self.selected_solvent)
+            self.add_message(f"{self.selected_solvent['name']} is now empty!")
+
         # Report results
         extracted_str = ", ".join(f"{elem[:1].upper()}:{int(amount)}" for elem, amount in extracted.items())
-        self.add_message(f"Dissolved {self.selected_item['name']} with {self.selected_solvent['name']}!")
-        self.add_message(f"Extracted: {extracted_str}")
-        self.log_action('dissolve', {
+        remaining = self.selected_solvent.get('quantity', 0)
+        self.add_message(f"Extracted essence from {self.selected_item['name']}!")
+        self.add_message(f"Got: {extracted_str} (used {solvent_cost}ml, {remaining}ml left)")
+        self.log_action('extract', {
             'item': self.selected_item['name'],
             'solvent': self.selected_solvent['name'],
+            'solvent_used': solvent_cost,
             'extracted': extracted
         })
-        
+
         # Reset dissolve mode
         self.dissolve_mode = False
         self.selected_item = None
         self.selected_solvent = None
-        self.add_message("Dissolve complete!")
     
     def dissolve_item(self):
         """Legacy dissolve method - uses dissolve mode now"""
@@ -804,14 +1709,56 @@ class PygameGame:
     
     def show_inventory(self):
         """Toggle inventory display"""
+        self.show_inventory_overlay = not getattr(self, 'show_inventory_overlay', False)
+        if self.show_inventory_overlay:
+            self.inventory_content = self.build_inventory_content()
+    
+    def build_inventory_content(self):
+        """Build inventory content for overlay"""
         inv = self.world.player.inventory
-        if inv.objects:
-            items = ", ".join(obj['name'] for obj in inv.objects[:5])
-            if len(inv.objects) > 5:
-                items += f" (+{len(inv.objects)-5} more)"
-            self.add_message(f"Inventory: {items}")
-        else:
-            self.add_message("Inventory is empty.")
+        content = []
+        
+        # Add index to all items first
+        for i, item in enumerate(inv.objects):
+            item['index'] = i + 1
+        
+        # Separate items by type
+        items = [obj for obj in inv.objects if not obj.get('is_solvent') and not obj.get('is_coagulant') and obj.get('type') not in ['weapon', 'weapons']]
+        weapons = [obj for obj in inv.objects if obj.get('type') in ['weapon', 'weapons']]
+        solvents = [obj for obj in inv.objects if obj.get('is_solvent')]
+        coagulants = [obj for obj in inv.objects if obj.get('is_coagulant')]
+        
+        # Items section
+        if items:
+            content.append({"type": "header", "text": "ITEMS", "color": "white"})
+            for item in items:
+                content.append({"type": "text", "text": f"{item['index']}. {item['name']}", "color": "light_gray"})
+        
+        # Weapons section
+        if weapons:
+            if items:  # Add separator only if items section exists
+                content.append({"type": "seperator"})
+            content.append({"type": "header", "text": "WEAPONS", "color": "orange"})
+            for weapon in weapons:
+                content.append({"type": "text", "text": f"{weapon['index']}. {weapon['name']}", "color": "orange"})
+        
+        # Solvents section
+        if solvents:
+            if items or weapons:  # Add separator if previous sections exist
+                content.append({"type": "seperator"})
+            content.append({"type": "header", "text": "SOLVENTS", "color": "yellow"})
+            for solvent in solvents:
+                content.append({"type": "text", "text": f"{solvent['index']}. {solvent['name']}", "color": "yellow"})
+        
+        # Coagulants section
+        if coagulants:
+            if items or weapons or solvents:  # Add separator if previous sections exist
+                content.append({"type": "seperator"})
+            content.append({"type": "header", "text": "COAGULANTS", "color": "cyan"})
+            for coag in coagulants:
+                content.append({"type": "text", "text": f"{coag['index']}. {coag['name']}", "color": "cyan"})
+        
+        return content
     
     def get_relative_pos(self, target_x: int, target_y: int) -> str:
         """
@@ -884,22 +1831,32 @@ class PygameGame:
         
         return {'monsters': monsters, 'items': items}
     
+    
+    
     def render(self):
         """Render the game"""
         self.screen.fill(COLORS['black'])
-        
+
         self.update_camera()
-        
+
         # Draw game area
         self.render_dungeon()
         self.render_entities()
         self.render_items()
-        
+
         # Draw UI
         self.render_sidebar()
         self.render_messages()
         self.render_controls()
+
+        # Draw spell book overlay if active
+        if self.show_spell_book:
+            self.render_spell_book()
         
+        # Draw inventory overlay if active
+        if getattr(self, 'show_inventory_overlay', False):
+            self.render_overlay("Inventory", getattr(self, 'inventory_content', []))
+
         pygame.display.flip()
     
     def render_dungeon(self):
@@ -1090,13 +2047,18 @@ class PygameGame:
         y += 25
         
         if player.inventory.objects:
-            # Separate items and solvents for display
-            items = [obj for obj in player.inventory.objects if not obj.get('is_solvent')]
+            # Separate items, solvents, and coagulants for display
+            for i, item in enumerate(player.inventory.objects):
+                item['index'] = i +1
+            # items = [item['index']=i+1 for i, item in enumerate(player.inventory.objects)]
+            items = [obj for obj in player.inventory.objects if not obj.get('is_solvent') and not obj.get('is_coagulant')]
             solvents = [obj for obj in player.inventory.objects if obj.get('is_solvent')]
+            coagulants = [obj for obj in player.inventory.objects if obj.get('is_coagulant')]
+            
             
             # Show regular items
             if items:
-                for i, item in enumerate(items[:8]):  # Show first 8 items
+                for i, item in enumerate(items):  # Show first 8 items
                     # Item name with type color
                     type_colors = {
                         'weapon': COLORS['orange'],
@@ -1109,21 +2071,15 @@ class PygameGame:
                     
                     # Highlight if selected in dissolve mode
                     if self.dissolve_mode and self.selected_item == item:
-                        item_text = f"> {i+1}. {item['name']} <"
+                        item_text = f"> {item['index']}. {item['name']} <"
                         color = COLORS['yellow']
                     else:
-                        item_text = f"{i+1}. {item['name']}"
+                        item_text = f"{item['index']}. {item['name']}"
                     
                     text = self.font_small.render(item_text, True, color)
                     self.screen.blit(text, (sidebar_x + 10, y))
                     y += 18
                 
-                if len(items) > 8:
-                    more_text = f"...and {len(items) - 8} more items"
-                    text = self.font_small.render(more_text, True, COLORS['gray'])
-                    self.screen.blit(text, (sidebar_x + 10, y))
-                    y += 18
-            
             # Show solvents
             if solvents:
                 y += 5
@@ -1131,22 +2087,36 @@ class PygameGame:
                 self.screen.blit(solvent_label, (sidebar_x + 10, y))
                 y += 18
                 
-                for i, solvent in enumerate(solvents[:4]):  # Show first 4 solvents
+                for i, solvent in enumerate(solvents):  # Show first 4 solvents
                     # Highlight if selected in dissolve mode
                     if self.dissolve_mode and self.selected_solvent == solvent:
-                        solvent_text = f"> {i+1}. {solvent['name']} <"
+                        solvent_text = f"> {solvent['index']}. {solvent['name']} <"
                         color = COLORS['yellow']
                     else:
-                        solvent_text = f"{i+1}. {solvent['name']}"
+                        solvent_text = f"{solvent['index']}. {solvent['name']}"
                         color = COLORS['yellow']
                     
                     text = self.font_small.render(solvent_text, True, color)
                     self.screen.blit(text, (sidebar_x + 10, y))
                     y += 18
                 
-                if len(solvents) > 4:
-                    more_text = f"...and {len(solvents) - 4} more solvents"
-                    text = self.font_small.render(more_text, True, COLORS['gray'])
+            # Show coagulants
+            if coagulants:
+                y += 5
+                coag_label = self.font_small.render("COAGULANTS:", True, COLORS['cyan'])
+                self.screen.blit(coag_label, (sidebar_x + 10, y))
+                y += 18
+
+                for i, coag in enumerate(coagulants):  # Show first 4 coagulants
+                    # Highlight if selected in transmute mode
+                    if self.transmute_mode and self.transmute_coagulant == coag:
+                        coag_text = f"> {coag['index']}. {coag['name']} ({coag.get('quantity', 0)}ml) <"
+                        color = COLORS['cyan']
+                    else:
+                        coag_text = f"{coag['index']}. {coag['name']} ({coag.get('quantity', 0)}ml)"
+                        color = COLORS['cyan']
+
+                    text = self.font_small.render(coag_text, True, color)
                     self.screen.blit(text, (sidebar_x + 10, y))
                     y += 18
         else:
@@ -1157,8 +2127,38 @@ class PygameGame:
         y += 15
         
         # Movement mode
-        mode_color = COLORS['green'] if self.path_mode else COLORS['white']
-        mode_text = f"MODE: {'Pathfinding' if self.path_mode else 'WASD'}"
+        if self.transmute_mode:
+            mode_color = COLORS['cyan']
+            step_names = ["Item", "Solvent", "Sol.Amt", "Coagulant", "Coag.Amt", "Pattern"]
+            mode_text = f"MODE: TRANSMUTE ({step_names[self.transmute_step]})"
+        elif self.meditate_mode:
+            mode_color = COLORS['purple']
+            mode_text = "MODE: MEDITATE"
+        elif self.melee_target_mode:
+            mode_color = COLORS['red']
+            mode_text = "MODE: MELEE TARGET"
+        elif self.spell_target_mode:
+            player = self.world.player
+            spell_range = 3 + int(player.stats.magic_power / 10)
+            mode_color = COLORS['purple']
+            mode_text = f"MODE: SPELL TARGET ({spell_range} tiles)"
+        elif self.ranged_mode:
+            mode_color = COLORS['orange']
+            mode_text = f"MODE: RANGED ({self.ranged_range} tiles)"
+        elif self.dissolve_mode:
+            mode_color = COLORS['yellow']
+            mode_text = "MODE: DISSOLVE"
+        elif self.path_mode:
+            mode_color = COLORS['green']
+            mode_text = "MODE: PATHFINDING"
+        else:
+            mode_color = COLORS['white']
+            mode_text = "MODE: WASD"
+
+        # Autotarget indicator
+        if self.autotarget_mode:
+            mode_text += " [AUTO]"
+            mode_color = COLORS['cyan']
         mode_label = self.font.render(mode_text, True, mode_color)
         self.screen.blit(mode_label, (sidebar_x + 10, y))
         y += 25
@@ -1251,15 +2251,166 @@ class PygameGame:
             text = self.font_small.render(msg, True, COLORS['light_gray'])
             self.screen.blit(text, (15, msg_y + i * 15))
     
+    def render_overlay(self, overlay_title, render_text):
+         # Semi-transparent overlay
+        overlay = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
+        overlay.fill(COLORS['black'])
+        overlay.set_alpha(200)
+        self.screen.blit(overlay, (0, 0))
+
+        # Overlay window
+        overlay_width = 600
+        overlay_height = 500
+        overlay_x = (SCREEN_WIDTH - overlay_width) // 2
+        overlay_y = (SCREEN_HEIGHT - overlay_height) // 2
+
+        # Background
+        overlay_rect = pygame.Rect(overlay_x, overlay_y, overlay_width, overlay_height)
+        pygame.draw.rect(self.screen, COLORS['ui_bg'], overlay_rect)
+        pygame.draw.rect(self.screen, COLORS['purple'], overlay_rect, 3)
+
+        # Title
+        title = self.font_large.render(overlay_title, True, COLORS['purple'])
+        title_rect = title.get_rect(centerx=overlay_x + overlay_width // 2, top=overlay_y + 15)
+        self.screen.blit(title, title_rect)
+        
+        y = overlay_y + 60
+        
+        # Render content if provided
+        if render_text:
+            for line in render_text:
+                if line["type"]=="header":
+                    header = self.font_large.render(line["text"], True, COLORS[line["color"]])       
+                    self.screen.blit(header, (overlay_x + 20, y))
+                    y += 35
+                elif line["type"]=="text":
+                    content = self.font.render(line["text"], True, COLORS[line["color"]])
+                    self.screen.blit(content, (overlay_x + 20, y))
+                    y += 25
+                elif line["type"]=="seperator":
+                    y += 15
+                    pygame.draw.line(self.screen, COLORS['ui_border'], (overlay_x + 15, y), (overlay_x + overlay_width - 15, y))
+                    y += 15
+        else:
+            # Show placeholder text when no content provided
+            placeholder = self.font.render("No content to display", True, COLORS['gray'])
+            self.screen.blit(placeholder, (overlay_x + 20, y))
+
+    def render_spell_book(self):
+
+        """Render spell book overlay"""
+        # Semi-transparent overlay
+        overlay = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
+        overlay.fill(COLORS['black'])
+        overlay.set_alpha(200)
+        self.screen.blit(overlay, (0, 0))
+
+        # Spell book window
+        book_width = 600
+        book_height = 500
+        book_x = (SCREEN_WIDTH - book_width) // 2
+        book_y = (SCREEN_HEIGHT - book_height) // 2
+
+        # Background
+        book_rect = pygame.Rect(book_x, book_y, book_width, book_height)
+        pygame.draw.rect(self.screen, COLORS['ui_bg'], book_rect)
+        pygame.draw.rect(self.screen, COLORS['purple'], book_rect, 3)
+
+        # Title
+        title = self.font_large.render("SPELL BOOK", True, COLORS['purple'])
+        title_rect = title.get_rect(centerx=book_x + book_width // 2, top=book_y + 15)
+        self.screen.blit(title, title_rect)
+
+        # Instructions
+        instr = self.font_small.render("Press B to close", True, COLORS['gray'])
+        self.screen.blit(instr, (book_x + book_width - 120, book_y + 20))
+
+        y = book_y + 60
+
+        if not self.spell_book:
+            empty_text = self.font.render("No entries yet. Meditate (Q) on items to learn their essence.", True, COLORS['gray'])
+            self.screen.blit(empty_text, (book_x + 20, y))
+        else:
+            # Column headers
+            header_color = COLORS['cyan']
+            self.screen.blit(self.font_small.render("NAME", True, header_color), (book_x + 20, y))
+            self.screen.blit(self.font_small.render("SYNSET", True, header_color), (book_x + 180, y))
+            self.screen.blit(self.font_small.render("ESSENCE (F/W/E/A)", True, header_color), (book_x + 350, y))
+            y += 25
+
+            # Draw separator line
+            pygame.draw.line(self.screen, COLORS['ui_border'], (book_x + 15, y), (book_x + book_width - 15, y))
+            y += 10
+
+            # List entries (scrollable area - show first 15)
+            entries = list(self.spell_book.values())
+            for i, entry in enumerate(entries[:15]):
+                # Alternate row colors
+                if i % 2 == 0:
+                    row_rect = pygame.Rect(book_x + 15, y - 2, book_width - 30, 22)
+                    pygame.draw.rect(self.screen, (40, 40, 50), row_rect)
+
+                # Name (truncate if too long)
+                name = entry['name'][:20] + "..." if len(entry['name']) > 20 else entry['name']
+                name_text = self.font_small.render(name, True, COLORS['white'])
+                self.screen.blit(name_text, (book_x + 20, y))
+
+                # Synset
+                synset = entry['synset'][:20] if len(entry['synset']) > 20 else entry['synset']
+                synset_text = self.font_small.render(synset, True, COLORS['light_gray'])
+                self.screen.blit(synset_text, (book_x + 180, y))
+
+                # Essence composition
+                comp = entry['composition']
+                essence_str = f"F:{comp.get('fire', 0)} W:{comp.get('water', 0)} E:{comp.get('earth', 0)} A:{comp.get('air', 0)}"
+                essence_text = self.font_small.render(essence_str, True, COLORS['yellow'])
+                self.screen.blit(essence_text, (book_x + 350, y))
+
+                y += 22
+
+            # Show count if more entries
+            if len(entries) > 15:
+                more_text = self.font_small.render(f"...and {len(entries) - 15} more entries", True, COLORS['gray'])
+                self.screen.blit(more_text, (book_x + 20, y + 10))
+
+        # Footer with total count
+        footer_y = book_y + book_height - 30
+        pygame.draw.line(self.screen, COLORS['ui_border'], (book_x + 15, footer_y - 10), (book_x + book_width - 15, footer_y - 10))
+        count_text = self.font_small.render(f"Total entries: {len(self.spell_book)}", True, COLORS['light_gray'])
+        self.screen.blit(count_text, (book_x + 20, footer_y))
+
     def render_controls(self):
         """Render controls help"""
         controls_y = SCREEN_HEIGHT - 30
-        if self.dissolve_mode:
-            controls = "1-9: Select item/solvent | ESC: Cancel | D: Exit dissolve mode"
+        if self.show_spell_book:
+            controls = "B: Close Spell Book"
+        elif self.transmute_mode:
+            step_hints = [
+                "1-9: Select item | ESC: Cancel",
+                "1-9: Select solvent | ESC: Cancel",
+                "1-9: Amount (10-90ml), 0: 100ml | ESC: Cancel",
+                "1-9: Select coagulant | ESC: Cancel",
+                "1-9: Amount (10-90ml), 0: 100ml | ESC: Cancel",
+                "1-9: Select pattern | ESC: Cancel | B: View Spell Book",
+            ]
+            controls = step_hints[self.transmute_step]
+        elif self.meditate_mode:
+            controls = "1-9: Select item to meditate on | ESC: Cancel | B: View Spell Book"
+        elif self.melee_target_mode:
+            controls = "LEFT CLICK: Select adjacent enemy to attack | ESC: Cancel"
+        elif self.spell_target_mode:
+            player = self.world.player
+            spell_range = 3 + int(player.stats.magic_power / 10)
+            controls = f"LEFT CLICK: Target enemy (range: {spell_range}) | ESC: Cancel spell"
+        elif self.dissolve_mode:
+            controls = "1-9: Select item/solvent | ESC: Cancel | F: Exit dissolve mode"
+        elif self.ranged_mode:
+            controls = f"LEFT CLICK: Target enemy (range: {self.ranged_range}) | R: Exit ranged mode | ESC: Cancel"
         elif self.path_mode:
-            controls = "LEFT CLICK: Set target | ENTER: Auto-move | RIGHT CLICK/P: Toggle mode | D: Dissolve | ESC: Quit"
+            controls = "LEFT CLICK: Set target | ENTER: Auto-move | RIGHT CLICK/P: Toggle mode | T: Autotarget | ESC: Quit"
         else:
-            controls = "WASD: Move | SPACE: Attack | E: Pickup | 1: Fireball | 2: Heal | D: Dissolve | M: Map | P: Path mode | ESC: Quit"
+            auto_status = "[AUTO ON]" if self.autotarget_mode else ""
+            controls = f"WASD: Move | SPACE: Attack | Q: Meditate | B: Spell Book | T: Auto {auto_status} | ESC: Quit"
         text = self.font_small.render(controls, True, COLORS['gray'])
         self.screen.blit(text, (10, controls_y))
     

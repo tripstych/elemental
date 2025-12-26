@@ -25,7 +25,7 @@ from seed.visibility import Visibility
 def load_game_objects(filepath: str = None) -> List[Dict]:
     """Load game objects from JSON"""
     if filepath is None:
-        filepath = os.path.join(os.path.dirname(__file__), 'game_objects_wordnet.json')
+        filepath = os.path.join(os.path.dirname(__file__), 'game_objects.json')
     
     with open(filepath, 'r') as f:
         return json.load(f)
@@ -33,7 +33,7 @@ def load_game_objects(filepath: str = None) -> List[Dict]:
 def load_spells(filepath: str = None) -> Dict:
     """Load spell definitions"""
     if filepath is None:
-        filepath = os.path.join(os.path.dirname(__file__), 'elemental_spells_expanded.json')
+        filepath = os.path.join(os.path.dirname(__file__), 'elemental_spells.json')
     
     with open(filepath, 'r') as f:
         return json.load(f)
@@ -156,24 +156,58 @@ class GameWorld:
         if pos is None:
             floors = self.dungeon.find_positions(DungeonGenerator.ROOM_FLOOR)
             pos = random.choice(floors) if floors else (1, 1)
-        
+
         # Choose item type
         if item_type is None:
             item_type = random.choice(['weapons', 'tools', 'gems', 'food'])
-        
+
         # Get random item of that type
         if item_type in self.objects_by_type:
             item = random.choice(self.objects_by_type[item_type]).copy()
         else:
             # Fallback
             item = random.choice(self.game_objects).copy()
-        
+
+        # Add combat stats to weapons
+        if item.get('type') == 'weapons':
+            self._add_weapon_stats(item)
+
         # Add to ground
         if pos not in self.items_on_ground:
             self.items_on_ground[pos] = []
         self.items_on_ground[pos].append(item)
-        
+
         return item
+
+    def _add_weapon_stats(self, item: Dict):
+        """Add combat stats to a weapon based on its properties"""
+        name = item.get('name', '').lower()
+
+        # Determine if weapon is ranged based on name/definition
+        ranged_keywords = ['bow', 'crossbow', 'gun', 'pistol', 'rifle', 'sling',
+                          'javelin', 'dart', 'throwing', 'missile', 'arrow']
+        definition = item.get('definition', '').lower()
+
+        is_ranged = any(kw in name or kw in definition for kw in ranged_keywords)
+        item['ranged'] = is_ranged
+
+        # Base damage bonus based on size
+        size = item.get('size', 'medium')
+        size_bonus = {'small': 2, 'medium': 5, 'large': 8}.get(size, 5)
+
+        # Material bonus
+        material = item.get('material', 'wood').lower()
+        material_bonus = {
+            'wood': 0, 'bone': 1, 'stone': 2, 'bronze': 3,
+            'iron': 4, 'steel': 6, 'metal': 5, 'silver': 5
+        }.get(material, 2)
+
+        # Add some randomness
+        item['damage_bonus'] = size_bonus + material_bonus + random.randint(-1, 3)
+
+        # Ranged weapons get range stat
+        if is_ranged:
+            item['range'] = 4 + random.randint(0, 3)  # 4-7 tiles
     
     def scatter_items(self, count: int = 10):
         """Randomly scatter items throughout dungeon"""
