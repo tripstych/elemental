@@ -114,6 +114,17 @@ class GameWorld:
         # Learn basic spells
         self.player.inventory.learn_spell('fireball.n.01')
         self.player.inventory.learn_spell('heal.v.01')
+        blit = {
+            'name': 'blit',
+            'type': 'food',
+            'weight': 0.1,
+            'essence': { 'earth': 53, 'water': 47, 'fire': 12, 'air': 8 }
+        }
+
+        self.player.inventory.add_object(blit)
+        self.player.inventory.add_object(blit)
+        self.player.inventory.add_object(blit)
+        self.player.inventory.add_object(blit)
         
         return self.player
     

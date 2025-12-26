@@ -9,6 +9,12 @@ import random
 import json
 from datetime import datetime
 import pygame
+from pygame.locals import DOUBLEBUF, OPENGL
+
+# OpenGL and ImGui imports
+import OpenGL.GL as gl
+import imgui
+from imgui.integrations.pygame import PygameRenderer
 
 # Add seed directory to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'seed'))
@@ -19,6 +25,9 @@ from seed.pathfinding import Pathfinder
 # Import from the original game
 from game import GameWorld
 from game_api import GameSession, GameAPIClient
+
+# Import core modules (game logic separated from UI)
+from core import GameController
 
 # ============================================================================
 # CONSTANTS
@@ -159,6 +168,727 @@ COLORS = {
 }
 
 # ============================================================================
+# IMGUI UI CLASS
+# ============================================================================
+
+class ImguiUI:
+    """Handles all imgui-based overlay rendering"""
+
+    def __init__(self, game):
+        self.game = game
+        # Selection indices for keyboard navigation (per menu)
+        self._selection_indices = {}
+
+        # Transmutation state
+        self._transmute_step = 0  # 0=item, 1=solvent, 2=solvent_amt, 3=coagulant, 4=coag_amt, 5=pattern
+        self._transmute_item = None
+        self._transmute_solvent = None
+        self._transmute_solvent_amount = 50
+        self._transmute_coagulant = None
+        self._transmute_coagulant_amount = 50
+        self._transmute_pattern = None
+
+    def _render_selectable_list(
+        self,
+        list_id: str,
+        items: list,
+        label_fn,
+        on_select,
+        filter_fn=None,
+        disabled_label_fn=None
+    ):
+        """
+        Render a list of selectable items with keyboard navigation.
+
+        Args:
+            list_id: Unique ID for this list (for tracking selection index)
+            items: List of items to display
+            label_fn: Function(item, index) -> str for selectable items
+            on_select: Callback(item) when item is selected (click or Enter)
+            filter_fn: Optional function(item) -> bool, True = selectable
+            disabled_label_fn: Optional function(item, index) -> str for disabled items
+
+        Returns:
+            The selected item if one was selected this frame, else None
+        """
+        if list_id not in self._selection_indices:
+            self._selection_indices[list_id] = 0
+
+        # Build list of selectable vs disabled items
+        selectable = []
+        display_order = []  # (item, is_selectable, original_index)
+
+        for i, item in enumerate(items):
+            is_selectable = filter_fn(item) if filter_fn else True
+            display_order.append((item, is_selectable, i))
+            if is_selectable:
+                selectable.append(item)
+
+        if not selectable:
+            # Render all as disabled
+            for item, _, orig_idx in display_order:
+                if disabled_label_fn:
+                    imgui.text_colored(disabled_label_fn(item, orig_idx), 0.5, 0.5, 0.5)
+                else:
+                    imgui.text_colored(label_fn(item, orig_idx), 0.5, 0.5, 0.5)
+            return None
+
+        # Keyboard navigation
+        sel_idx = self._selection_indices[list_id]
+        if imgui.is_key_pressed(imgui.KEY_DOWN_ARROW):
+            sel_idx = (sel_idx + 1) % len(selectable)
+        if imgui.is_key_pressed(imgui.KEY_UP_ARROW):
+            sel_idx = (sel_idx - 1) % len(selectable)
+
+        # Clamp
+        if sel_idx >= len(selectable):
+            sel_idx = 0
+        self._selection_indices[list_id] = sel_idx
+
+        # Check Enter key
+        selected_item = None
+        if imgui.is_key_pressed(imgui.KEY_ENTER) and selectable:
+            selected_item = selectable[sel_idx]
+            on_select(selected_item)
+
+        # Render items
+        selectable_idx = 0
+        for item, is_selectable, orig_idx in display_order:
+            if is_selectable:
+                is_highlighted = (selectable_idx == sel_idx)
+                clicked, _ = imgui.selectable(label_fn(item, orig_idx), is_highlighted)
+                if clicked:
+                    selected_item = item
+                    on_select(item)
+                selectable_idx += 1
+            else:
+                if disabled_label_fn:
+                    imgui.text_colored(disabled_label_fn(item, orig_idx), 0.5, 0.5, 0.5)
+                else:
+                    imgui.text_colored(f"({label_fn(item, orig_idx)})", 0.5, 0.5, 0.5)
+
+        return selected_item
+
+    def reset_selection(self, list_id: str):
+        """Reset selection index for a list"""
+        self._selection_indices[list_id] = 0
+
+    def render(self):
+        """Render all active imgui windows"""
+        if self.game.show_spell_book:
+            self._render_spell_book()
+        if self.game.transmute_mode:
+            self._render_transmute()
+        if self.game.dissolve_mode:
+            self._render_dissolve()
+        if self.game.meditate_mode:
+            self._render_meditate()
+
+    def _render_spell_book(self):
+        """Render spell book overlay"""
+        imgui.set_next_window_size(600, 400, imgui.FIRST_USE_EVER)
+        imgui.set_next_window_position(
+            SCREEN_WIDTH // 2 - 300, SCREEN_HEIGHT // 2 - 200,
+            imgui.FIRST_USE_EVER
+        )
+
+        expanded, opened = imgui.begin("Spell Book", True)
+        if not opened:
+            self.game.show_spell_book = False
+            imgui.end()
+            return
+
+        if not expanded:
+            imgui.end()
+            return
+
+        spell_book = self.game.spell_book
+        if not spell_book:
+            imgui.text_colored("No entries yet.", 0.5, 0.5, 0.5)
+            imgui.text("Meditate (Q) on items to learn their essence.")
+        else:
+            imgui.columns(5, "spell_book_cols", True)
+            imgui.set_column_width(0, 150)
+            imgui.set_column_width(1, 150)
+            imgui.set_column_width(2, 60)
+            imgui.set_column_width(3, 60)
+            imgui.set_column_width(4, 60)
+
+            imgui.text_colored("Name", 0.4, 0.8, 1.0)
+            imgui.next_column()
+            imgui.text_colored("Synset", 0.4, 0.8, 1.0)
+            imgui.next_column()
+            imgui.text_colored("Fire", 1.0, 0.4, 0.2)
+            imgui.next_column()
+            imgui.text_colored("Water", 0.2, 0.6, 1.0)
+            imgui.next_column()
+            imgui.text_colored("Earth", 0.6, 0.4, 0.2)
+            imgui.next_column()
+            imgui.separator()
+
+            for key, entry in spell_book.items():
+                comp = entry['composition']
+                name = entry['name'][:18] + ".." if len(entry['name']) > 18 else entry['name']
+                synset = entry['synset'][:18] if len(entry['synset']) > 18 else entry['synset']
+
+                imgui.text(name)
+                imgui.next_column()
+                imgui.text(synset)
+                imgui.next_column()
+                imgui.text_colored(str(comp.get('fire', 0)), 1.0, 0.4, 0.2)
+                imgui.next_column()
+                imgui.text_colored(str(comp.get('water', 0)), 0.2, 0.6, 1.0)
+                imgui.next_column()
+                imgui.text_colored(str(comp.get('earth', 0)), 0.6, 0.4, 0.2)
+                imgui.next_column()
+
+            imgui.columns(1)
+
+        imgui.separator()
+        imgui.text(f"Total entries: {len(spell_book)}")
+        imgui.same_line(imgui.get_window_width() - 100)
+        if imgui.button("Close [B]"):
+            self.game.show_spell_book = False
+
+        imgui.end()
+
+    def _render_meditate(self):
+        """Render meditation item selection popup"""
+        imgui.set_next_window_size(400, 350, imgui.FIRST_USE_EVER)
+        imgui.set_next_window_position(
+            SCREEN_WIDTH // 2 - 200, SCREEN_HEIGHT // 2 - 175,
+            imgui.FIRST_USE_EVER
+        )
+
+        expanded, opened = imgui.begin("Meditate", True)
+        if not opened:
+            self.game.meditate_mode = False
+            self.reset_selection("meditate")
+            imgui.end()
+            return
+
+        if not expanded:
+            imgui.end()
+            return
+
+        player = self.game.world.player
+
+        imgui.text_colored("Select an item to study its essence:", 0.4, 0.8, 1.0)
+        imgui.text_colored("(UP/DOWN + ENTER, or click)", 0.5, 0.5, 0.5)
+        imgui.separator()
+        imgui.spacing()
+
+        # Get non-reagent items
+        items = [obj for obj in player.inventory.objects[:9]
+                 if not obj.get('is_solvent') and not obj.get('is_coagulant')]
+
+        if not items:
+            imgui.text_colored("No items to meditate on!", 0.8, 0.3, 0.3)
+        else:
+            def is_unknown(obj):
+                synset = obj.get('synset')
+                return not (synset and synset in self.game.spell_book)
+
+            self._render_selectable_list(
+                list_id="meditate",
+                items=items,
+                label_fn=lambda obj, i: f"{i+1}. {obj['name']}",
+                on_select=self._do_meditate,
+                filter_fn=is_unknown,
+                disabled_label_fn=lambda obj, i: f"{i+1}. {obj['name']} (known)"
+            )
+
+        imgui.spacing()
+        imgui.separator()
+        imgui.text(f"Spell Book entries: {len(self.game.spell_book)}")
+
+        imgui.same_line(imgui.get_window_width() - 100)
+        if imgui.button("Cancel [Q]"):
+            self.game.meditate_mode = False
+            self.reset_selection("meditate")
+
+        imgui.end()
+
+    def _do_meditate(self, obj):
+        """Perform meditation on an item"""
+        result = self.game.controller.meditate(obj)
+        self.game.add_message(result.message)
+
+        # Sync spell book from controller
+        if result.success:
+            known_essences = self.game.controller.get_known_essences()
+            for entry in known_essences:
+                if entry.synset not in self.game.spell_book:
+                    self.game.spell_book[entry.synset] = {
+                        'name': entry.name,
+                        'synset': entry.synset,
+                        'definition': entry.definition,
+                        'composition': entry.composition,
+                    }
+
+        self.game.meditate_mode = False
+        self.reset_selection("meditate")
+
+    def _render_dissolve(self):
+        """Render dissolve mode overlay"""
+        imgui.set_next_window_size(500, 400, imgui.FIRST_USE_EVER)
+        imgui.set_next_window_position(
+            SCREEN_WIDTH // 2 - 250, SCREEN_HEIGHT // 2 - 200,
+            imgui.FIRST_USE_EVER
+        )
+
+        expanded, opened = imgui.begin("Dissolve", True)
+        if not opened:
+            self._close_dissolve()
+            imgui.end()
+            return
+
+        if not expanded:
+            imgui.end()
+            return
+
+        player = self.game.world.player
+
+        if not self.game.selected_item:
+            imgui.text_colored("Step 1/2: Select Item", 0.4, 0.8, 1.0)
+        else:
+            imgui.text_colored("Step 2/2: Select Solvent", 0.4, 0.8, 1.0)
+
+        imgui.text_colored("(UP/DOWN + ENTER, or click)", 0.5, 0.5, 0.5)
+        imgui.separator()
+
+        if self.game.selected_item:
+            imgui.text(f"Selected: {self.game.selected_item['name']}")
+            imgui.separator()
+
+        items = player.inventory.objects[:9]
+
+        if not self.game.selected_item:
+            imgui.text("Select an item to dissolve:")
+            imgui.spacing()
+
+            def select_item(obj):
+                self.game.selected_item = obj
+                self.reset_selection("dissolve_item")
+
+            self._render_selectable_list(
+                list_id="dissolve_item",
+                items=items,
+                label_fn=lambda obj, i: f"{i+1}. {obj['name']}",
+                on_select=select_item,
+                filter_fn=lambda obj: not obj.get('is_solvent') and not obj.get('is_coagulant'),
+                disabled_label_fn=lambda obj, i: f"{i+1}. {obj['name']} (reagent)"
+            )
+        else:
+            imgui.text("Select a solvent:")
+            imgui.spacing()
+
+            def do_dissolve(solvent):
+                result = self.game.controller.dissolve(
+                    item=self.game.selected_item,
+                    solvent=solvent,
+                    amount=min(10, solvent.get('quantity', 0))
+                )
+                self.game.add_message(result.message)
+                self._close_dissolve()
+
+            self._render_selectable_list(
+                list_id="dissolve_solvent",
+                items=items,
+                label_fn=lambda obj, i: f"{i+1}. {obj['name']} ({obj.get('quantity', 0)}ml)",
+                on_select=do_dissolve,
+                filter_fn=lambda obj: obj.get('is_solvent'),
+                disabled_label_fn=lambda obj, i: f"{i+1}. {obj['name']} (not a solvent)"
+            )
+
+        imgui.separator()
+        if imgui.button("Cancel [ESC]"):
+            self._close_dissolve()
+
+        imgui.end()
+
+    def _close_dissolve(self):
+        """Close dissolve mode and reset state"""
+        self.game.dissolve_mode = False
+        self.game.selected_item = None
+        self.reset_selection("dissolve_item")
+        self.reset_selection("dissolve_solvent")
+
+    def _reset_transmute(self):
+        """Reset all transmutation state"""
+        self._transmute_step = 0
+        self._transmute_item = None
+        self._transmute_solvent = None
+        self._transmute_solvent_amount = 50
+        self._transmute_coagulant = None
+        self._transmute_coagulant_amount = 50
+        self._transmute_pattern = None
+        self.reset_selection("transmute_item")
+        self.reset_selection("transmute_solvent")
+        self.reset_selection("transmute_coagulant")
+        self.reset_selection("transmute_pattern")
+
+    def _render_transmute(self):
+        """Render transmutation mode overlay - full wizard"""
+        imgui.set_next_window_size(700, 500, imgui.FIRST_USE_EVER)
+        imgui.set_next_window_position(
+            SCREEN_WIDTH // 2 - 350, SCREEN_HEIGHT // 2 - 250,
+            imgui.FIRST_USE_EVER
+        )
+
+        expanded, opened = imgui.begin("Transmutation", True)
+        if not opened:
+            self.game.transmute_mode = False
+            self._reset_transmute()
+            imgui.end()
+            return
+
+        if not expanded:
+            imgui.end()
+            return
+
+        # Two column layout
+        imgui.columns(2, "transmute_cols", True)
+        imgui.set_column_width(0, 400)
+
+        # Left panel: current step
+        self._render_transmute_left_panel()
+
+        imgui.next_column()
+
+        # Right panel: known essences reference
+        self._render_transmute_right_panel()
+
+        imgui.columns(1)
+
+        # Bottom bar
+        imgui.separator()
+        if imgui.button("Cancel [ESC]"):
+            self.game.transmute_mode = False
+            self._reset_transmute()
+
+        # Back button (if not on first step)
+        if self._transmute_step > 0:
+            imgui.same_line()
+            if imgui.button("< Back"):
+                self._transmute_step -= 1
+
+        # Transmute button when ready
+        if self._can_transmute():
+            imgui.same_line(imgui.get_window_width() - 120)
+            if imgui.button("TRANSMUTE!"):
+                self._do_transmute()
+
+        imgui.end()
+
+    def _render_transmute_left_panel(self):
+        """Render the left panel with step-by-step selections"""
+        step_names = ["Select Item", "Select Solvent", "Solvent Amount",
+                      "Select Coagulant", "Coagulant Amount", "Select Pattern"]
+
+        imgui.text_colored(f"Step {self._transmute_step + 1}/6: {step_names[self._transmute_step]}", 0.4, 0.8, 1.0)
+        imgui.text_colored("(UP/DOWN + ENTER, or click)", 0.5, 0.5, 0.5)
+        imgui.separator()
+
+        # Show current selections
+        imgui.text("Current Selections:")
+        if self._transmute_item:
+            imgui.bullet_text(f"Item: {self._transmute_item['name']}")
+            essence = self.game.controller.get_essence_for_item(self._transmute_item)
+            if essence:
+                imgui.same_line()
+                self._render_essence_inline(essence)
+            else:
+                imgui.same_line()
+                imgui.text_colored("(unknown)", 1.0, 0.3, 0.3)
+
+        if self._transmute_solvent:
+            imgui.bullet_text(f"Solvent: {self._transmute_solvent['name']} ({self._transmute_solvent_amount}ml)")
+
+        if self._transmute_coagulant:
+            imgui.bullet_text(f"Coagulant: {self._transmute_coagulant['name']} ({self._transmute_coagulant_amount}ml)")
+
+        if self._transmute_pattern:
+            imgui.bullet_text(f"Pattern: {self._transmute_pattern.name}")
+
+        imgui.spacing()
+        imgui.separator()
+        imgui.spacing()
+
+        # Render current step UI
+        if self._transmute_step == 0:
+            self._render_transmute_item_step()
+        elif self._transmute_step == 1:
+            self._render_transmute_solvent_step()
+        elif self._transmute_step == 2:
+            self._render_transmute_solvent_amount_step()
+        elif self._transmute_step == 3:
+            self._render_transmute_coagulant_step()
+        elif self._transmute_step == 4:
+            self._render_transmute_coagulant_amount_step()
+        elif self._transmute_step == 5:
+            self._render_transmute_pattern_step()
+
+    def _render_transmute_item_step(self):
+        """Step 0: Select item to transmute"""
+        imgui.text("Select an item to transmute:")
+        imgui.spacing()
+
+        player = self.game.world.player
+        items = [obj for obj in player.inventory.objects[:9]
+                 if not obj.get('is_solvent') and not obj.get('is_coagulant')]
+
+        if not items:
+            imgui.text_colored("No items available!", 0.8, 0.3, 0.3)
+            return
+
+        def select_item(item):
+            self._transmute_item = item
+            self._transmute_step = 1
+            self.reset_selection("transmute_item")
+
+        def label_fn(item, i):
+            essence = self.game.controller.get_essence_for_item(item)
+            if essence:
+                return f"{i+1}. {item['name']}"
+            return f"{i+1}. {item['name']} (?)"
+
+        self._render_selectable_list(
+            list_id="transmute_item",
+            items=items,
+            label_fn=label_fn,
+            on_select=select_item
+        )
+
+    def _render_transmute_solvent_step(self):
+        """Step 1: Select solvent"""
+        imgui.text("Select a solvent:")
+        imgui.spacing()
+
+        player = self.game.world.player
+        solvents = [obj for obj in player.inventory.objects if obj.get('is_solvent')]
+
+        if not solvents:
+            imgui.text_colored("No solvents in inventory!", 0.8, 0.3, 0.3)
+            return
+
+        def select_solvent(solvent):
+            self._transmute_solvent = solvent
+            self._transmute_solvent_amount = min(50, solvent.get('quantity', 0))
+            self._transmute_step = 2
+            self.reset_selection("transmute_solvent")
+
+        self._render_selectable_list(
+            list_id="transmute_solvent",
+            items=solvents,
+            label_fn=lambda obj, i: f"{obj['name']} ({obj.get('quantity', 0)}ml)",
+            on_select=select_solvent
+        )
+
+    def _render_transmute_solvent_amount_step(self):
+        """Step 2: Set solvent amount"""
+        if not self._transmute_solvent:
+            return
+
+        max_amt = self._transmute_solvent.get('quantity', 0)
+        imgui.text(f"Select solvent amount (max {max_amt}ml):")
+        imgui.spacing()
+
+        changed, self._transmute_solvent_amount = imgui.slider_int(
+            "##solvent_amt", self._transmute_solvent_amount, 1, max_amt,
+            f"{self._transmute_solvent_amount}ml"
+        )
+
+        # Quick buttons
+        imgui.spacing()
+        if imgui.button("25ml"):
+            self._transmute_solvent_amount = min(25, max_amt)
+        imgui.same_line()
+        if imgui.button("50ml"):
+            self._transmute_solvent_amount = min(50, max_amt)
+        imgui.same_line()
+        if imgui.button("100ml"):
+            self._transmute_solvent_amount = min(100, max_amt)
+        imgui.same_line()
+        if imgui.button("Max"):
+            self._transmute_solvent_amount = max_amt
+
+        imgui.spacing()
+        if imgui.button("Confirm Amount") or imgui.is_key_pressed(imgui.KEY_ENTER):
+            self._transmute_step = 3
+
+    def _render_transmute_coagulant_step(self):
+        """Step 3: Select coagulant"""
+        imgui.text("Select a coagulant:")
+        imgui.spacing()
+
+        player = self.game.world.player
+        coagulants = [obj for obj in player.inventory.objects if obj.get('is_coagulant')]
+
+        if not coagulants:
+            imgui.text_colored("No coagulants in inventory!", 0.8, 0.3, 0.3)
+            return
+
+        def select_coagulant(coag):
+            self._transmute_coagulant = coag
+            self._transmute_coagulant_amount = min(50, coag.get('quantity', 0))
+            self._transmute_step = 4
+            self.reset_selection("transmute_coagulant")
+
+        self._render_selectable_list(
+            list_id="transmute_coagulant",
+            items=coagulants,
+            label_fn=lambda obj, i: f"{obj['name']} ({obj.get('quantity', 0)}ml)",
+            on_select=select_coagulant
+        )
+
+    def _render_transmute_coagulant_amount_step(self):
+        """Step 4: Set coagulant amount"""
+        if not self._transmute_coagulant:
+            return
+
+        max_amt = self._transmute_coagulant.get('quantity', 0)
+        imgui.text(f"Select coagulant amount (max {max_amt}ml):")
+        imgui.spacing()
+
+        changed, self._transmute_coagulant_amount = imgui.slider_int(
+            "##coag_amt", self._transmute_coagulant_amount, 1, max_amt,
+            f"{self._transmute_coagulant_amount}ml"
+        )
+
+        imgui.spacing()
+        if imgui.button("25ml##c"):
+            self._transmute_coagulant_amount = min(25, max_amt)
+        imgui.same_line()
+        if imgui.button("50ml##c"):
+            self._transmute_coagulant_amount = min(50, max_amt)
+        imgui.same_line()
+        if imgui.button("100ml##c"):
+            self._transmute_coagulant_amount = min(100, max_amt)
+        imgui.same_line()
+        if imgui.button("Max##c"):
+            self._transmute_coagulant_amount = max_amt
+
+        imgui.spacing()
+        if imgui.button("Confirm Amount##c") or imgui.is_key_pressed(imgui.KEY_ENTER):
+            self._transmute_step = 5
+
+    def _render_transmute_pattern_step(self):
+        """Step 5: Select target pattern from spell book"""
+        imgui.text("Select target pattern from known essences:")
+        imgui.spacing()
+
+        patterns = self.game.controller.get_known_essences()
+        if not patterns:
+            imgui.text_colored("No patterns known!", 0.8, 0.3, 0.3)
+            imgui.text("Meditate (Q) on items first.")
+            return
+
+        def select_pattern(pattern):
+            self._transmute_pattern = pattern
+            self.reset_selection("transmute_pattern")
+
+        def label_fn(entry, i):
+            return entry.name
+
+        self._render_selectable_list(
+            list_id="transmute_pattern",
+            items=patterns,
+            label_fn=label_fn,
+            on_select=select_pattern
+        )
+
+        # Show essence composition for selected pattern
+        if self._transmute_pattern:
+            imgui.spacing()
+            imgui.text("Target essence:")
+            imgui.same_line()
+            self._render_essence_inline(self._transmute_pattern.composition)
+
+    def _render_transmute_right_panel(self):
+        """Render the right panel with known essences reference"""
+        imgui.text_colored("Known Essences (Reference)", 0.8, 0.4, 1.0)
+        imgui.separator()
+
+        known = self.game.controller.get_known_essences()
+        if not known:
+            imgui.text_colored("No essences known!", 0.5, 0.5, 0.5)
+            imgui.text("Meditate (Q) on items")
+            imgui.text("to learn their essence.")
+            return
+
+        # Table
+        imgui.columns(5, "essence_ref_table", True)
+        imgui.set_column_width(0, 100)
+        imgui.set_column_width(1, 35)
+        imgui.set_column_width(2, 35)
+        imgui.set_column_width(3, 35)
+        imgui.set_column_width(4, 35)
+
+        imgui.text("Name")
+        imgui.next_column()
+        imgui.text_colored("F", 1.0, 0.4, 0.2)
+        imgui.next_column()
+        imgui.text_colored("W", 0.2, 0.6, 1.0)
+        imgui.next_column()
+        imgui.text_colored("E", 0.6, 0.4, 0.2)
+        imgui.next_column()
+        imgui.text_colored("A", 0.7, 0.7, 1.0)
+        imgui.next_column()
+
+        imgui.separator()
+
+        for entry in known:
+            comp = entry.composition
+            name = entry.name[:12] + ".." if len(entry.name) > 12 else entry.name
+
+            imgui.text(name)
+            imgui.next_column()
+            imgui.text_colored(str(comp.get('fire', 0)), 1.0, 0.4, 0.2)
+            imgui.next_column()
+            imgui.text_colored(str(comp.get('water', 0)), 0.2, 0.6, 1.0)
+            imgui.next_column()
+            imgui.text_colored(str(comp.get('earth', 0)), 0.6, 0.4, 0.2)
+            imgui.next_column()
+            imgui.text_colored(str(comp.get('air', 0)), 0.7, 0.7, 1.0)
+            imgui.next_column()
+
+        imgui.columns(1)
+
+    def _render_essence_inline(self, comp):
+        """Render essence values inline with colors"""
+        imgui.text_colored(f"F:{comp.get('fire', 0)}", 1.0, 0.4, 0.2)
+        imgui.same_line()
+        imgui.text_colored(f"W:{comp.get('water', 0)}", 0.2, 0.6, 1.0)
+        imgui.same_line()
+        imgui.text_colored(f"E:{comp.get('earth', 0)}", 0.6, 0.4, 0.2)
+        imgui.same_line()
+        imgui.text_colored(f"A:{comp.get('air', 0)}", 0.7, 0.7, 1.0)
+
+    def _can_transmute(self):
+        """Check if all selections are complete"""
+        return (self._transmute_item is not None and
+                self._transmute_solvent is not None and
+                self._transmute_coagulant is not None and
+                self._transmute_pattern is not None)
+
+    def _do_transmute(self):
+        """Execute the transmutation"""
+        result = self.game.controller.transmute(
+            item=self._transmute_item,
+            solvent=self._transmute_solvent,
+            solvent_amount=self._transmute_solvent_amount,
+            coagulant=self._transmute_coagulant,
+            coagulant_amount=self._transmute_coagulant_amount,
+            pattern=self._transmute_pattern
+        )
+
+        self.game.add_message(result.message)
+        self.game.transmute_mode = False
+        self._reset_transmute()
+
+
+# ============================================================================
 # PYGAME GAME CLASS
 # ============================================================================
 
@@ -168,16 +898,29 @@ class PygameGame:
     """
     
     def __init__(self, seed: int = None):
-        
-        
-        
         pygame.init()
 
-        
-        
+        # OpenGL mode for imgui
+        pygame.display.gl_set_attribute(pygame.GL_MULTISAMPLEBUFFERS, 1)
+        pygame.display.gl_set_attribute(pygame.GL_MULTISAMPLESAMPLES, 4)
+        self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), DOUBLEBUF | OPENGL)
         pygame.display.set_caption("Elemental RPG")
-        
-        self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+
+        # Create a software surface for pygame drawing (will be uploaded to OpenGL texture)
+        self.game_surface = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
+
+        # Initialize imgui
+        imgui.create_context()
+        self.imgui_impl = PygameRenderer()
+        io = imgui.get_io()
+        io.display_size = (SCREEN_WIDTH, SCREEN_HEIGHT)
+
+        # OpenGL texture for game surface
+        self.game_texture = gl.glGenTextures(1)
+        gl.glBindTexture(gl.GL_TEXTURE_2D, self.game_texture)
+        gl.glTexParameteri(gl.GL_TEXTURE_2D, gl.GL_TEXTURE_MIN_FILTER, gl.GL_NEAREST)
+        gl.glTexParameteri(gl.GL_TEXTURE_2D, gl.GL_TEXTURE_MAG_FILTER, gl.GL_NEAREST)
+
         self.clock = pygame.time.Clock()
         self.font = pygame.font.Font(None, 24)
         self.font_large = pygame.font.Font(None, 36)
@@ -198,6 +941,12 @@ class PygameGame:
         # Create game world
         self.world = GameWorld(width=60, height=30, seed=seed)
         self.world.spawn_player("Hero")
+
+        # Create game controller (clean API for game logic)
+        self.controller = GameController(self.world)
+
+        # Create imgui UI handler
+        self.imgui_ui = ImguiUI(self)
         
         # Buff player for better combat feel
         player = self.world.player
@@ -456,34 +1205,47 @@ class PygameGame:
     
     def handle_events(self):
         """Process input events"""
+        # Process imgui inputs first
+        self.imgui_impl.process_inputs()
+
         for event in pygame.event.get():
+            # Pass event to imgui
+            self.imgui_impl.process_event(event)
+
+            # Check if imgui wants keyboard/mouse
+            io = imgui.get_io()
+
             if event.type == pygame.QUIT:
                 self.running = False
-            
+
             elif event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_RETURN and self.path_mode:
-                    print("-"*10)
-                    print(f"Event type:{event.type} Path: {self.path}  Path mode:{self.path_mode}")
-                    print("Automove Initiated")
-                    self.auto_move_path()
-                else:
-                    self.handle_keydown(event)
-            
-            elif event.type == pygame.MOUSEBUTTONDOWN:
-                if event.button == 1:  # Left click
-                    if self.melee_target_mode:
-                        self.handle_melee_target_click(event)
-                    elif self.spell_target_mode:
-                        self.handle_spell_target_click(event)
-                    elif self.ranged_mode:
-                        self.handle_ranged_click(event)
+                # Only handle if imgui doesn't want keyboard
+                if not io.want_capture_keyboard:
+                    if event.key == pygame.K_RETURN and self.path_mode:
+                        print("-"*10)
+                        print(f"Event type:{event.type} Path: {self.path}  Path mode:{self.path_mode}")
+                        print("Automove Initiated")
+                        self.auto_move_path()
                     else:
-                        self.handle_mouse_click(event)
-                        if self.path_mode:
-                            self.auto_move_path()
-                elif event.button == 3:  # Right click
-                    self.enable_path_mode()
-            
+                        self.handle_keydown(event)
+
+            elif event.type == pygame.MOUSEBUTTONDOWN:
+                # Only handle if imgui doesn't want mouse
+                if not io.want_capture_mouse:
+                    if event.button == 1:  # Left click
+                        if self.melee_target_mode:
+                            self.handle_melee_target_click(event)
+                        elif self.spell_target_mode:
+                            self.handle_spell_target_click(event)
+                        elif self.ranged_mode:
+                            self.handle_ranged_click(event)
+                        else:
+                            self.handle_mouse_click(event)
+                            if self.path_mode:
+                                self.auto_move_path()
+                    elif event.button == 3:  # Right click
+                        self.enable_path_mode()
+
             # Handle auto-move timer
             elif event.type == pygame.USEREVENT + 1:
                 if self.path_mode and self.path:
@@ -611,10 +1373,12 @@ class PygameGame:
             self.do_attack()
             moved = True
         
-        # Pickup (E or G)
-        elif event.key == pygame.K_e or event.key == pygame.K_g:
+        # Pickup (E)
+        elif event.key == pygame.K_e:
             self.do_pickup()
-        
+        # Drop item (X)
+        elif event.key == pygame.K_x:
+            self.do_dropitem()
         # Spells (1 = Fireball, 2 = Heal)
         elif event.key == pygame.K_1:
             # Enter spell targeting mode for damage spells
@@ -1519,6 +2283,13 @@ class PygameGame:
         
         if not items:
             del self.world.items_on_ground[pos]
+            
+    def do_dropitem(self):
+        """Toggle drop item mode"""
+        self.drop_mode = not self.drop_mode
+        if self.drop_mode:
+            self.add_message("Select item to drop (X to cancel)")
+        
     
     def cast_spell(self, spell_name: str):
         """Cast a spell"""
@@ -1834,8 +2605,8 @@ class PygameGame:
     
     
     def render(self):
-        """Render the game"""
-        self.screen.fill(COLORS['black'])
+        """Render the game to game_surface"""
+        self.game_surface.fill(COLORS['black'])
 
         self.update_camera()
 
@@ -1849,15 +2620,7 @@ class PygameGame:
         self.render_messages()
         self.render_controls()
 
-        # Draw spell book overlay if active
-        if self.show_spell_book:
-            self.render_spell_book()
-        
-        # Draw inventory overlay if active
-        if getattr(self, 'show_inventory_overlay', False):
-            self.render_overlay("Inventory", getattr(self, 'inventory_content', []))
-
-        pygame.display.flip()
+        # Note: spell book and inventory overlays are now handled by imgui
     
     def render_dungeon(self):
         """Render dungeon tiles"""
@@ -1886,19 +2649,19 @@ class PygameGame:
                         TILE_SIZE - 1,
                         TILE_SIZE - 1
                     )
-                    pygame.draw.rect(self.screen, color, rect)
+                    pygame.draw.rect(self.game_surface, color, rect)
                     
                     # Draw wall borders
                     if tile == DungeonGenerator.WALL:
-                        pygame.draw.rect(self.screen, COLORS['dark_gray'], rect, 1)
+                        pygame.draw.rect(self.game_surface, COLORS['dark_gray'], rect, 1)
                     
                     # Draw path if in pathfinding mode
                     if self.path_mode and (world_x, world_y) in self.path:
-                        pygame.draw.rect(self.screen, COLORS['yellow'], rect, 2)
+                        pygame.draw.rect(self.game_surface, COLORS['yellow'], rect, 2)
                     
                     # Draw target position
                     if self.target_pos and (world_x, world_y) == self.target_pos:
-                        pygame.draw.rect(self.screen, COLORS['green'], rect, 3)
+                        pygame.draw.rect(self.game_surface, COLORS['green'], rect, 3)
     
     def render_entities(self):
         """Render player and monsters"""
@@ -1912,13 +2675,13 @@ class PygameGame:
             
             # Player circle
             center = (screen_x + TILE_SIZE // 2, screen_y + TILE_SIZE // 2)
-            pygame.draw.circle(self.screen, COLORS['player'], center, TILE_SIZE // 2 - 2)
-            pygame.draw.circle(self.screen, COLORS['white'], center, TILE_SIZE // 2 - 2, 2)
+            pygame.draw.circle(self.game_surface, COLORS['player'], center, TILE_SIZE // 2 - 2)
+            pygame.draw.circle(self.game_surface, COLORS['white'], center, TILE_SIZE // 2 - 2, 2)
             
             # @ symbol
             text = self.font.render("@", True, COLORS['white'])
             text_rect = text.get_rect(center=center)
-            self.screen.blit(text, text_rect)
+            self.game_surface.blit(text, text_rect)
         
         # Monsters
         for monster in self.world.monsters:
@@ -1932,21 +2695,21 @@ class PygameGame:
                 
                 # Monster circle
                 center = (screen_x + TILE_SIZE // 2, screen_y + TILE_SIZE // 2)
-                pygame.draw.circle(self.screen, COLORS['monster'], center, TILE_SIZE // 2 - 2)
-                pygame.draw.circle(self.screen, COLORS['dark_red'], center, TILE_SIZE // 2 - 2, 2)
+                pygame.draw.circle(self.game_surface, COLORS['monster'], center, TILE_SIZE // 2 - 2)
+                pygame.draw.circle(self.game_surface, COLORS['dark_red'], center, TILE_SIZE // 2 - 2, 2)
                 
                 # First letter
                 text = self.font.render(monster.name[0].upper(), True, COLORS['white'])
                 text_rect = text.get_rect(center=center)
-                self.screen.blit(text, text_rect)
+                self.game_surface.blit(text, text_rect)
                 
                 # Health bar above monster
                 hp_pct = monster.stats.current_health / monster.stats.max_health
                 bar_width = TILE_SIZE - 4
                 bar_rect = pygame.Rect(screen_x + 2, screen_y - 4, int(bar_width * hp_pct), 3)
                 bg_rect = pygame.Rect(screen_x + 2, screen_y - 4, bar_width, 3)
-                pygame.draw.rect(self.screen, COLORS['dark_red'], bg_rect)
-                pygame.draw.rect(self.screen, COLORS['red'], bar_rect)
+                pygame.draw.rect(self.game_surface, COLORS['dark_red'], bg_rect)
+                pygame.draw.rect(self.game_surface, COLORS['red'], bar_rect)
     
     def render_items(self):
         """Render items on ground"""
@@ -1968,8 +2731,8 @@ class PygameGame:
                     (center[0], center[1] + 6),
                     (center[0] - 6, center[1]),
                 ]
-                pygame.draw.polygon(self.screen, COLORS['item'], points)
-                pygame.draw.polygon(self.screen, COLORS['orange'], points, 1)
+                pygame.draw.polygon(self.game_surface, COLORS['item'], points)
+                pygame.draw.polygon(self.game_surface, COLORS['orange'], points, 1)
     
     def render_sidebar(self):
         """Render right sidebar with stats"""
@@ -1978,14 +2741,14 @@ class PygameGame:
         
         # Background
         sidebar_rect = pygame.Rect(sidebar_x, 0, self.sidebar_width, SCREEN_HEIGHT)
-        pygame.draw.rect(self.screen, COLORS['ui_bg'], sidebar_rect)
-        pygame.draw.rect(self.screen, COLORS['ui_border'], sidebar_rect, 2)
+        pygame.draw.rect(self.game_surface, COLORS['ui_bg'], sidebar_rect)
+        pygame.draw.rect(self.game_surface, COLORS['ui_border'], sidebar_rect, 2)
         
         player = self.world.player
         
         # Player name
         title = self.font_large.render(player.name, True, COLORS['white'])
-        self.screen.blit(title, (sidebar_x + 10, y))
+        self.game_surface.blit(title, (sidebar_x + 10, y))
         y += 40
         
         # Health bar
@@ -2002,7 +2765,7 @@ class PygameGame:
         
         # Essences
         essence_label = self.font.render("ESSENCES", True, COLORS['white'])
-        self.screen.blit(essence_label, (sidebar_x + 10, y))
+        self.game_surface.blit(essence_label, (sidebar_x + 10, y))
         y += 25
         
         essence_colors = {
@@ -2023,7 +2786,7 @@ class PygameGame:
         
         # Stats
         stats_label = self.font.render("STATS", True, COLORS['white'])
-        self.screen.blit(stats_label, (sidebar_x + 10, y))
+        self.game_surface.blit(stats_label, (sidebar_x + 10, y))
         y += 25
         
         s = player.stats
@@ -2036,14 +2799,14 @@ class PygameGame:
         ]
         for line in stats_text:
             text = self.font_small.render(line, True, COLORS['light_gray'])
-            self.screen.blit(text, (sidebar_x + 10, y))
+            self.game_surface.blit(text, (sidebar_x + 10, y))
             y += 18
         
         y += 20
         
         # Inventory
         inv_label = self.font.render("INVENTORY", True, COLORS['white'])
-        self.screen.blit(inv_label, (sidebar_x + 10, y))
+        self.game_surface.blit(inv_label, (sidebar_x + 10, y))
         y += 25
         
         if player.inventory.objects:
@@ -2077,14 +2840,14 @@ class PygameGame:
                         item_text = f"{item['index']}. {item['name']}"
                     
                     text = self.font_small.render(item_text, True, color)
-                    self.screen.blit(text, (sidebar_x + 10, y))
+                    self.game_surface.blit(text, (sidebar_x + 10, y))
                     y += 18
                 
             # Show solvents
             if solvents:
                 y += 5
                 solvent_label = self.font_small.render("SOLVENTS:", True, COLORS['yellow'])
-                self.screen.blit(solvent_label, (sidebar_x + 10, y))
+                self.game_surface.blit(solvent_label, (sidebar_x + 10, y))
                 y += 18
                 
                 for i, solvent in enumerate(solvents):  # Show first 4 solvents
@@ -2097,14 +2860,14 @@ class PygameGame:
                         color = COLORS['yellow']
                     
                     text = self.font_small.render(solvent_text, True, color)
-                    self.screen.blit(text, (sidebar_x + 10, y))
+                    self.game_surface.blit(text, (sidebar_x + 10, y))
                     y += 18
                 
             # Show coagulants
             if coagulants:
                 y += 5
                 coag_label = self.font_small.render("COAGULANTS:", True, COLORS['cyan'])
-                self.screen.blit(coag_label, (sidebar_x + 10, y))
+                self.game_surface.blit(coag_label, (sidebar_x + 10, y))
                 y += 18
 
                 for i, coag in enumerate(coagulants):  # Show first 4 coagulants
@@ -2117,11 +2880,11 @@ class PygameGame:
                         color = COLORS['cyan']
 
                     text = self.font_small.render(coag_text, True, color)
-                    self.screen.blit(text, (sidebar_x + 10, y))
+                    self.game_surface.blit(text, (sidebar_x + 10, y))
                     y += 18
         else:
             empty_text = self.font_small.render("Empty", True, COLORS['gray'])
-            self.screen.blit(empty_text, (sidebar_x + 10, y))
+            self.game_surface.blit(empty_text, (sidebar_x + 10, y))
             y += 18
         
         y += 15
@@ -2160,14 +2923,14 @@ class PygameGame:
             mode_text += " [AUTO]"
             mode_color = COLORS['cyan']
         mode_label = self.font.render(mode_text, True, mode_color)
-        self.screen.blit(mode_label, (sidebar_x + 10, y))
+        self.game_surface.blit(mode_label, (sidebar_x + 10, y))
         y += 25
         
         # Path info
         if self.path_mode and self.path:
             path_text = f"Path: {len(self.path)} steps"
             path_label = self.font_small.render(path_text, True, COLORS['yellow'])
-            self.screen.blit(path_label, (sidebar_x + 10, y))
+            self.game_surface.blit(path_label, (sidebar_x + 10, y))
             y += 20
         
         # Visible entities (using FOV system)
@@ -2175,7 +2938,7 @@ class PygameGame:
         
         # Monsters with relative positions
         monsters_label = self.font.render("VISIBLE", True, COLORS['white'])
-        self.screen.blit(monsters_label, (sidebar_x + 10, y))
+        self.game_surface.blit(monsters_label, (sidebar_x + 10, y))
         y += 25
         
         if visible['monsters']:
@@ -2184,18 +2947,18 @@ class PygameGame:
                 hp_text = f"{m['formatted']} ({m['hp']}/{m['max_hp']})"
                 color = COLORS['orange'] if m['adjacent'] else COLORS['red']
                 text = self.font_small.render(hp_text, True, color)
-                self.screen.blit(text, (sidebar_x + 10, y))
+                self.game_surface.blit(text, (sidebar_x + 10, y))
                 y += 18
         else:
             text = self.font_small.render("No enemies visible", True, COLORS['gray'])
-            self.screen.blit(text, (sidebar_x + 10, y))
+            self.game_surface.blit(text, (sidebar_x + 10, y))
             y += 18
         
         y += 10
         
         # Visible items with relative positions
         items_label = self.font.render("ITEMS", True, COLORS['white'])
-        self.screen.blit(items_label, (sidebar_x + 10, y))
+        self.game_surface.blit(items_label, (sidebar_x + 10, y))
         y += 25
         
         if visible['items']:
@@ -2204,11 +2967,11 @@ class PygameGame:
                 item_text = f"{item['formatted']}"
                 color = COLORS['yellow'] if item['type'] == 'solvent' else COLORS['item']
                 text = self.font_small.render(item_text, True, color)
-                self.screen.blit(text, (sidebar_x + 10, y))
+                self.game_surface.blit(text, (sidebar_x + 10, y))
                 y += 16
         else:
             text = self.font_small.render("No items visible", True, COLORS['gray'])
-            self.screen.blit(text, (sidebar_x + 10, y))
+            self.game_surface.blit(text, (sidebar_x + 10, y))
     
     def render_bar(self, x: int, y: int, label: str, 
                    current: float, maximum: float,
@@ -2216,25 +2979,25 @@ class PygameGame:
         """Render a status bar"""
         # Label
         label_text = self.font_small.render(label, True, COLORS['white'])
-        self.screen.blit(label_text, (x, y))
+        self.game_surface.blit(label_text, (x, y))
         
         # Bar background
         bar_x = x + 35
         bar_rect = pygame.Rect(bar_x, y + 2, bar_width, 14)
-        pygame.draw.rect(self.screen, bg_color, bar_rect)
+        pygame.draw.rect(self.game_surface, bg_color, bar_rect)
         
         # Bar fill
         fill_width = int(bar_width * (current / maximum)) if maximum > 0 else 0
         fill_rect = pygame.Rect(bar_x, y + 2, fill_width, 14)
-        pygame.draw.rect(self.screen, fg_color, fill_rect)
+        pygame.draw.rect(self.game_surface, fg_color, fill_rect)
         
         # Border
-        pygame.draw.rect(self.screen, COLORS['ui_border'], bar_rect, 1)
+        pygame.draw.rect(self.game_surface, COLORS['ui_border'], bar_rect, 1)
         
         # Value text
         value_text = self.font_small.render(f"{int(current)}/{int(maximum)}", True, COLORS['white'])
         text_rect = value_text.get_rect(center=(bar_x + bar_width // 2, y + 9))
-        self.screen.blit(value_text, text_rect)
+        self.game_surface.blit(value_text, text_rect)
     
     def render_messages(self):
         """Render message log at bottom"""
@@ -2242,21 +3005,21 @@ class PygameGame:
         
         # Background
         msg_rect = pygame.Rect(10, msg_y - 5, self.game_area_width, 100)
-        pygame.draw.rect(self.screen, COLORS['ui_bg'], msg_rect)
-        pygame.draw.rect(self.screen, COLORS['ui_border'], msg_rect, 1)
+        pygame.draw.rect(self.game_surface, COLORS['ui_bg'], msg_rect)
+        pygame.draw.rect(self.game_surface, COLORS['ui_border'], msg_rect, 1)
         
         # Messages
         for i, msg in enumerate(self.messages[-6:]):
             alpha = 128 + int(127 * (i / 6))
             text = self.font_small.render(msg, True, COLORS['light_gray'])
-            self.screen.blit(text, (15, msg_y + i * 15))
+            self.game_surface.blit(text, (15, msg_y + i * 15))
     
     def render_overlay(self, overlay_title, render_text):
          # Semi-transparent overlay
         overlay = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
         overlay.fill(COLORS['black'])
         overlay.set_alpha(200)
-        self.screen.blit(overlay, (0, 0))
+        self.game_surface.blit(overlay, (0, 0))
 
         # Overlay window
         overlay_width = 600
@@ -2266,13 +3029,13 @@ class PygameGame:
 
         # Background
         overlay_rect = pygame.Rect(overlay_x, overlay_y, overlay_width, overlay_height)
-        pygame.draw.rect(self.screen, COLORS['ui_bg'], overlay_rect)
-        pygame.draw.rect(self.screen, COLORS['purple'], overlay_rect, 3)
+        pygame.draw.rect(self.game_surface, COLORS['ui_bg'], overlay_rect)
+        pygame.draw.rect(self.game_surface, COLORS['purple'], overlay_rect, 3)
 
         # Title
         title = self.font_large.render(overlay_title, True, COLORS['purple'])
         title_rect = title.get_rect(centerx=overlay_x + overlay_width // 2, top=overlay_y + 15)
-        self.screen.blit(title, title_rect)
+        self.game_surface.blit(title, title_rect)
         
         y = overlay_y + 60
         
@@ -2281,11 +3044,11 @@ class PygameGame:
             for line in render_text:
                 if line["type"]=="header":
                     header = self.font_large.render(line["text"], True, COLORS[line["color"]])       
-                    self.screen.blit(header, (overlay_x + 20, y))
+                    self.game_surface.blit(header, (overlay_x + 20, y))
                     y += 35
                 elif line["type"]=="text":
                     content = self.font.render(line["text"], True, COLORS[line["color"]])
-                    self.screen.blit(content, (overlay_x + 20, y))
+                    self.game_surface.blit(content, (overlay_x + 20, y))
                     y += 25
                 elif line["type"]=="seperator":
                     y += 15
@@ -2294,7 +3057,7 @@ class PygameGame:
         else:
             # Show placeholder text when no content provided
             placeholder = self.font.render("No content to display", True, COLORS['gray'])
-            self.screen.blit(placeholder, (overlay_x + 20, y))
+            self.game_surface.blit(placeholder, (overlay_x + 20, y))
 
     def render_spell_book(self):
 
@@ -2303,7 +3066,7 @@ class PygameGame:
         overlay = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
         overlay.fill(COLORS['black'])
         overlay.set_alpha(200)
-        self.screen.blit(overlay, (0, 0))
+        self.game_surface.blit(overlay, (0, 0))
 
         # Spell book window
         book_width = 600
@@ -2313,29 +3076,29 @@ class PygameGame:
 
         # Background
         book_rect = pygame.Rect(book_x, book_y, book_width, book_height)
-        pygame.draw.rect(self.screen, COLORS['ui_bg'], book_rect)
-        pygame.draw.rect(self.screen, COLORS['purple'], book_rect, 3)
+        pygame.draw.rect(self.game_surface, COLORS['ui_bg'], book_rect)
+        pygame.draw.rect(self.game_surface, COLORS['purple'], book_rect, 3)
 
         # Title
         title = self.font_large.render("SPELL BOOK", True, COLORS['purple'])
         title_rect = title.get_rect(centerx=book_x + book_width // 2, top=book_y + 15)
-        self.screen.blit(title, title_rect)
+        self.game_surface.blit(title, title_rect)
 
         # Instructions
         instr = self.font_small.render("Press B to close", True, COLORS['gray'])
-        self.screen.blit(instr, (book_x + book_width - 120, book_y + 20))
+        self.game_surface.blit(instr, (book_x + book_width - 120, book_y + 20))
 
         y = book_y + 60
 
         if not self.spell_book:
             empty_text = self.font.render("No entries yet. Meditate (Q) on items to learn their essence.", True, COLORS['gray'])
-            self.screen.blit(empty_text, (book_x + 20, y))
+            self.game_surface.blit(empty_text, (book_x + 20, y))
         else:
             # Column headers
             header_color = COLORS['cyan']
-            self.screen.blit(self.font_small.render("NAME", True, header_color), (book_x + 20, y))
-            self.screen.blit(self.font_small.render("SYNSET", True, header_color), (book_x + 180, y))
-            self.screen.blit(self.font_small.render("ESSENCE (F/W/E/A)", True, header_color), (book_x + 350, y))
+            self.game_surface.blit(self.font_small.render("NAME", True, header_color), (book_x + 20, y))
+            self.game_surface.blit(self.font_small.render("SYNSET", True, header_color), (book_x + 180, y))
+            self.game_surface.blit(self.font_small.render("ESSENCE (F/W/E/A)", True, header_color), (book_x + 350, y))
             y += 25
 
             # Draw separator line
@@ -2348,36 +3111,36 @@ class PygameGame:
                 # Alternate row colors
                 if i % 2 == 0:
                     row_rect = pygame.Rect(book_x + 15, y - 2, book_width - 30, 22)
-                    pygame.draw.rect(self.screen, (40, 40, 50), row_rect)
+                    pygame.draw.rect(self.game_surface, (40, 40, 50), row_rect)
 
                 # Name (truncate if too long)
                 name = entry['name'][:20] + "..." if len(entry['name']) > 20 else entry['name']
                 name_text = self.font_small.render(name, True, COLORS['white'])
-                self.screen.blit(name_text, (book_x + 20, y))
+                self.game_surface.blit(name_text, (book_x + 20, y))
 
                 # Synset
                 synset = entry['synset'][:20] if len(entry['synset']) > 20 else entry['synset']
                 synset_text = self.font_small.render(synset, True, COLORS['light_gray'])
-                self.screen.blit(synset_text, (book_x + 180, y))
+                self.game_surface.blit(synset_text, (book_x + 180, y))
 
                 # Essence composition
                 comp = entry['composition']
                 essence_str = f"F:{comp.get('fire', 0)} W:{comp.get('water', 0)} E:{comp.get('earth', 0)} A:{comp.get('air', 0)}"
                 essence_text = self.font_small.render(essence_str, True, COLORS['yellow'])
-                self.screen.blit(essence_text, (book_x + 350, y))
+                self.game_surface.blit(essence_text, (book_x + 350, y))
 
                 y += 22
 
             # Show count if more entries
             if len(entries) > 15:
                 more_text = self.font_small.render(f"...and {len(entries) - 15} more entries", True, COLORS['gray'])
-                self.screen.blit(more_text, (book_x + 20, y + 10))
+                self.game_surface.blit(more_text, (book_x + 20, y + 10))
 
         # Footer with total count
         footer_y = book_y + book_height - 30
         pygame.draw.line(self.screen, COLORS['ui_border'], (book_x + 15, footer_y - 10), (book_x + book_width - 15, footer_y - 10))
         count_text = self.font_small.render(f"Total entries: {len(self.spell_book)}", True, COLORS['light_gray'])
-        self.screen.blit(count_text, (book_x + 20, footer_y))
+        self.game_surface.blit(count_text, (book_x + 20, footer_y))
 
     def render_controls(self):
         """Render controls help"""
@@ -2412,18 +3175,53 @@ class PygameGame:
             auto_status = "[AUTO ON]" if self.autotarget_mode else ""
             controls = f"WASD: Move | SPACE: Attack | Q: Meditate | B: Spell Book | T: Auto {auto_status} | ESC: Quit"
         text = self.font_small.render(controls, True, COLORS['gray'])
-        self.screen.blit(text, (10, controls_y))
+        self.game_surface.blit(text, (10, controls_y))
     
     def run(self):
         """Main game loop"""
         while self.running:
             self.handle_events()
+
+            # Render game to software surface
             self.render()
+
+            # Start imgui frame
+            imgui.new_frame()
+
+            # Render imgui overlays
+            self.imgui_ui.render()
+
+            # Upload game surface to OpenGL texture
+            texture_data = pygame.image.tostring(self.game_surface, "RGBA", True)
+            gl.glBindTexture(gl.GL_TEXTURE_2D, self.game_texture)
+            gl.glTexImage2D(gl.GL_TEXTURE_2D, 0, gl.GL_RGBA, SCREEN_WIDTH, SCREEN_HEIGHT,
+                           0, gl.GL_RGBA, gl.GL_UNSIGNED_BYTE, texture_data)
+
+            # Clear and draw game texture as fullscreen quad
+            gl.glClear(gl.GL_COLOR_BUFFER_BIT)
+            gl.glEnable(gl.GL_TEXTURE_2D)
+            gl.glBindTexture(gl.GL_TEXTURE_2D, self.game_texture)
+
+            gl.glBegin(gl.GL_QUADS)
+            gl.glTexCoord2f(0, 0); gl.glVertex2f(-1, -1)
+            gl.glTexCoord2f(1, 0); gl.glVertex2f(1, -1)
+            gl.glTexCoord2f(1, 1); gl.glVertex2f(1, 1)
+            gl.glTexCoord2f(0, 1); gl.glVertex2f(-1, 1)
+            gl.glEnd()
+
+            gl.glDisable(gl.GL_TEXTURE_2D)
+
+            # Render imgui on top
+            imgui.render()
+            self.imgui_impl.render(imgui.get_draw_data())
+
+            pygame.display.flip()
             self.clock.tick(60)
-        
+
         # Save action log on exit
         self.save_log()
         print(f"Game log saved to {self.log_file}")
+        self.imgui_impl.shutdown()
         pygame.quit()
 
 

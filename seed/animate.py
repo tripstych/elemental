@@ -7,6 +7,8 @@ import json
 from typing import Dict, List, Optional, Tuple, TYPE_CHECKING
 from dataclasses import dataclass, field
 
+GOD_MODE = True
+
 if TYPE_CHECKING:
     from pathfinding import Pathfinder
 
@@ -70,9 +72,9 @@ class Inventory:
     
     def add_object(self, obj: Dict) -> bool:
         """Add object if space available"""
-        if len(self.objects) < self.max_objects:
+        if len(self.objects) < self.max_objects or GOD_MODE:
             total_weight = sum(o.get('weight', 0) for o in self.objects)
-            if total_weight + obj.get('weight', 0) <= self.max_weight:
+            if total_weight + obj.get('weight', 0) <= self.max_weight or GOD_MODE:
                 self.objects.append(obj)
                 return True
         return False
