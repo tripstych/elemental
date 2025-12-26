@@ -24,6 +24,13 @@ class ImguiUI:
         self._transmute_coagulant_amount = 0
         self._transmute_pattern = None
 
+        # Spell speaking state
+        self._speak_mode = False
+        self._speak_step = 0  # 0=select item, 1=compose phrase
+        self._speak_item = None
+        self._speak_phrase = ""
+        self._speak_element_filter = None  # None or element name
+
     def _render_selectable_list(
         self,
         list_id: str,
@@ -212,6 +219,8 @@ class ImguiUI:
             self._render_drop_menu()
         if self.game.show_inventory_ui:
             self._render_inventory()
+        if self._speak_mode:
+            self._render_speak_spell()
 
     def _render_spell_book(self):
         """Render spell book overlay"""
@@ -307,11 +316,9 @@ class ImguiUI:
         display_items = [get_item_display(obj, i) for i, obj in enumerate(items)]
         
         def on_meditate_select(index, display_item):
-            # Get the actual item object
-            actual_items = [obj for obj in player.inventory.objects[:9]
-                           if not obj.get('is_solvent') and not obj.get('is_coagulant')]
-            if index < len(actual_items):
-                self._do_meditate(actual_items[index])
+            # Get the actual item object (use same items list, no limit)
+            if index < len(items):
+                self._do_meditate(items[index])
         
         def on_meditate_close():
             self.game.meditate_mode = False
@@ -333,11 +340,11 @@ class ImguiUI:
         """Render drop item selection using abstracted list selection"""
         if not self.game.show_drop_menu:
             return
-            
+
         player = self.game.world.player
-        
-        # Get all items from inventory
-        items = player.inventory.objects[:9]
+
+        # Get all items from inventory (no limit)
+        items = player.inventory.objects
 
         if not items:
             self.game.add_message("No items to drop!")
@@ -346,12 +353,11 @@ class ImguiUI:
 
         # Create display names for items
         display_items = [f"{obj['name']}" for obj in items]
-        
+
         def on_drop_select(index, display_item):
-            # Get the actual item object
-            actual_items = player.inventory.objects[:9]
-            if index < len(actual_items):
-                self.game.drop_item(index)
+            # Drop item by its index in the list
+            if index < len(items):
+                self.game.drop_item(items[index].get('index', index + 1))
         
         def on_drop_close():
             self.game.show_drop_menu = False
@@ -900,4 +906,294 @@ class ImguiUI:
         self.game.add_message(result.message)
         self.game.transmutation_engine.transmute_mode = False
         self._reset_transmute()
+
+    # =========================================================================
+    # SPELL SPEAKING MODE
+    # =========================================================================
+
+    @property
+    def speak_mode(self):
+        """Check if speak mode is active"""
+        return self._speak_mode
+
+    def toggle_speak_mode(self):
+        """Toggle spell speaking mode"""
+        self._speak_mode = not self._speak_mode
+        if self._speak_mode:
+            self._reset_speak()
+            self.game.add_message("SPEAK: Select an item to enchant")
+        else:
+            self.game.add_message("Spell speaking cancelled")
+
+    def _reset_speak(self):
+        """Reset spell speaking state"""
+        self._speak_step = 0
+        self._speak_item = None
+        self._speak_phrase = ""
+        self._speak_element_filter = None
+        self.reset_selection("speak_item")
+
+    def _render_speak_spell(self):
+        """Render the spell speaking interface"""
+        imgui.set_next_window_size(800, 550, imgui.FIRST_USE_EVER)
+        imgui.set_next_window_position(
+            SCREEN_WIDTH // 2 - 400, SCREEN_HEIGHT // 2 - 275,
+            imgui.FIRST_USE_EVER
+        )
+
+        expanded, opened = imgui.begin("Speak Spell", True)
+        if not opened:
+            self._speak_mode = False
+            self._reset_speak()
+            imgui.end()
+            return
+
+        if not expanded:
+            imgui.end()
+            return
+
+        # Two-column layout
+        imgui.columns(2, "speak_cols", True)
+        imgui.set_column_width(0, 450)
+
+        # Left panel: composition or item selection
+        if self._speak_step == 0:
+            self._render_speak_item_select()
+        else:
+            self._render_speak_compose()
+
+        imgui.next_column()
+
+        # Right panel: syllable reference
+        self._render_syllable_reference()
+
+        imgui.columns(1)
+
+        # Bottom bar
+        imgui.separator()
+        if imgui.button("Cancel [ESC]") or imgui.is_key_pressed(imgui.KEY_ESCAPE):
+            self._speak_mode = False
+            self._reset_speak()
+
+        if self._speak_step > 0:
+            imgui.same_line()
+            if imgui.button("< Back"):
+                self._speak_step = 0
+                self._speak_phrase = ""
+
+        # Cast button
+        if self._speak_item and self._speak_phrase.strip():
+            imgui.same_line(imgui.get_window_width() - 150)
+            if imgui.button("SPEAK SPELL!"):
+                self._do_speak_spell()
+
+        imgui.end()
+
+    def _render_speak_item_select(self):
+        """Step 0: Select target item"""
+        imgui.text_colored("Select an item to enchant:", 0.4, 0.8, 1.0)
+        imgui.text_colored("(Click or use arrow keys + ENTER)", 0.5, 0.5, 0.5)
+        imgui.separator()
+        imgui.spacing()
+
+        player = self.game.world.player
+        items = [obj for obj in player.inventory.objects
+                 if not obj.get('is_solvent') and not obj.get('is_coagulant')]
+
+        if not items:
+            imgui.text_colored("No items available!", 0.8, 0.3, 0.3)
+            return
+
+        def select_item(item):
+            self._speak_item = item
+            self._speak_step = 1
+            self.reset_selection("speak_item")
+
+        def label_fn(item, i):
+            weight = item.get('weight', 1.0)
+            return f"{i+1}. {item['name']} ({weight:.1f}kg)"
+
+        self._render_selectable_list(
+            list_id="speak_item",
+            items=items,
+            label_fn=label_fn,
+            on_select=select_item
+        )
+
+    def _render_speak_compose(self):
+        """Step 1: Compose the spoken phrase"""
+        imgui.text_colored("Compose your spell phrase:", 0.4, 0.8, 1.0)
+        imgui.separator()
+
+        # Show selected item
+        if self._speak_item:
+            weight = self._speak_item.get('weight', 1.0)
+            imgui.text(f"Target: {self._speak_item['name']} ({weight:.1f}kg)")
+
+            # Show conduit limit
+            conduit = self.game.controller.get_player_conduit_limit()
+            imgui.same_line()
+            imgui.text_colored(f"Conduit: {conduit}", 0.7, 0.7, 1.0)
+
+        imgui.spacing()
+
+        # Text input for phrase
+        imgui.text("Speak:")
+        imgui.same_line()
+        changed, self._speak_phrase = imgui.input_text(
+            "##phrase", self._speak_phrase, 256
+        )
+
+        # Parse and preview
+        if self._speak_phrase.strip():
+            preview = self.game.controller.parse_spoken_phrase(self._speak_phrase)
+            imgui.spacing()
+
+            # Show vectors
+            imgui.text("Elemental Power:")
+            imgui.same_line()
+            self._render_vector_inline(preview['vectors'])
+
+            # Calculate load
+            item_weight = self._speak_item.get('weight', 1.0) if self._speak_item else 1.0
+            load = self.game.controller.calculate_spell_load(self._speak_phrase, item_weight)
+            conduit = self.game.controller.get_player_conduit_limit()
+
+            imgui.text(f"Load: {int(load)}/{conduit}")
+            if load > conduit:
+                overload = int(load - conduit)
+                imgui.same_line()
+                imgui.text_colored(f"OVERLOAD! -{overload} HP", 1.0, 0.3, 0.3)
+
+            # Unknown words warning
+            if preview['unknown_words']:
+                imgui.text_colored(
+                    f"Unknown: {', '.join(preview['unknown_words'])}",
+                    1.0, 0.5, 0.2
+                )
+
+            # Dominant element
+            if preview['dominant_element']:
+                imgui.text(f"Dominant: {preview['dominant_element'].upper()}")
+
+        imgui.spacing()
+        imgui.separator()
+
+        # Quick add buttons by element
+        imgui.text("Quick add syllables:")
+        elements = ['earth', 'water', 'fire', 'air']
+        element_colors = {
+            'earth': (0.6, 0.4, 0.2),
+            'water': (0.2, 0.6, 1.0),
+            'fire': (1.0, 0.4, 0.2),
+            'air': (0.7, 0.7, 1.0)
+        }
+
+        for elem in elements:
+            color = element_colors[elem]
+            syllables = self.game.controller.get_elemental_syllables(elem)
+
+            imgui.text_colored(f"{elem.upper()}:", *color)
+            imgui.same_line()
+
+            # Show first 6 syllables as buttons
+            for i, syl in enumerate(syllables[:6]):
+                if i > 0:
+                    imgui.same_line()
+                if imgui.small_button(f"{syl['spelling']}({syl['value']})##{elem}{i}"):
+                    if self._speak_phrase:
+                        self._speak_phrase += " " + syl['spelling']
+                    else:
+                        self._speak_phrase = syl['spelling']
+
+        # Clear button
+        imgui.spacing()
+        if imgui.button("Clear Phrase"):
+            self._speak_phrase = ""
+
+    def _render_syllable_reference(self):
+        """Render syllable reference panel"""
+        imgui.text_colored("Elemental Syllables", 0.8, 0.4, 1.0)
+        imgui.separator()
+
+        # Filter buttons
+        imgui.text("Filter:")
+        if imgui.small_button("All"):
+            self._speak_element_filter = None
+        imgui.same_line()
+        if imgui.small_button("Earth"):
+            self._speak_element_filter = 'earth'
+        imgui.same_line()
+        if imgui.small_button("Water"):
+            self._speak_element_filter = 'water'
+        imgui.same_line()
+        if imgui.small_button("Fire"):
+            self._speak_element_filter = 'fire'
+        imgui.same_line()
+        if imgui.small_button("Air"):
+            self._speak_element_filter = 'air'
+
+        imgui.separator()
+
+        # Scrollable list
+        imgui.begin_child("syllables", 0, 350, True)
+
+        elements_to_show = [self._speak_element_filter] if self._speak_element_filter else ['earth', 'water', 'fire', 'air']
+
+        element_colors = {
+            'earth': (0.6, 0.4, 0.2),
+            'water': (0.2, 0.6, 1.0),
+            'fire': (1.0, 0.4, 0.2),
+            'air': (0.7, 0.7, 1.0)
+        }
+
+        for elem in elements_to_show:
+            color = element_colors.get(elem, (1, 1, 1))
+            syllables = self.game.controller.get_elemental_syllables(elem)
+
+            imgui.text_colored(f"--- {elem.upper()} ---", *color)
+
+            for syl in syllables:
+                # Clickable syllable
+                clicked, _ = imgui.selectable(
+                    f"  {syl['spelling']:8} ({syl['value']:2}) - {syl['quality'][:30]}..."
+                )
+                if clicked:
+                    if self._speak_phrase:
+                        self._speak_phrase += " " + syl['spelling']
+                    else:
+                        self._speak_phrase = syl['spelling']
+
+        imgui.end_child()
+
+    def _render_vector_inline(self, vectors):
+        """Render elemental vectors inline with colors"""
+        imgui.text_colored(f"F:{int(vectors.get('fire', 0))}", 1.0, 0.4, 0.2)
+        imgui.same_line()
+        imgui.text_colored(f"W:{int(vectors.get('water', 0))}", 0.2, 0.6, 1.0)
+        imgui.same_line()
+        imgui.text_colored(f"E:{int(vectors.get('earth', 0))}", 0.6, 0.4, 0.2)
+        imgui.same_line()
+        imgui.text_colored(f"A:{int(vectors.get('air', 0))}", 0.7, 0.7, 1.0)
+
+    def _do_speak_spell(self):
+        """Execute the spoken spell"""
+        if not self._speak_item or not self._speak_phrase.strip():
+            return
+
+        result = self.game.controller.speak_spell(
+            phrase=self._speak_phrase,
+            target_item=self._speak_item
+        )
+
+        self.game.add_message(result.message)
+
+        if result.success:
+            # Show item transformation
+            data = result.data or {}
+            if data.get('burn_damage', 0) > 0:
+                self.game.add_message(f"You take {data['burn_damage']} burn damage from overload!")
+
+        self._speak_mode = False
+        self._reset_speak()
 

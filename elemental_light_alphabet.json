@@ -1,0 +1,394 @@
+{
+    "earth": [
+        {
+            "spelling": "OOM",
+            "ipa": "/u\u02d0m/",
+            "quality": "A deep, resonant hum, like a massive stone structure.",
+            "value": 1
+        },
+        {
+            "spelling": "GRON",
+            "ipa": "/g\u0279\u0252n/",
+            "quality": "The grinding of gravel or shifting of tectonic plates.",
+            "value": 2
+        },
+        {
+            "spelling": "THUD",
+            "ipa": "/\u03b8\u028cd/",
+            "quality": "The sound of a heavy object falling on soft ground.",
+            "value": 3
+        },
+        {
+            "spelling": "KARN",
+            "ipa": "/k\u0251\u02d0\u0279n/",
+            "quality": "The gritty, rocky sound of a mountain peak.",
+            "value": 4
+        },
+        {
+            "spelling": "BULD",
+            "ipa": "/b\u028ald/",
+            "quality": "The low, foundational rumble of bedrock.",
+            "value": 5
+        },
+        {
+            "spelling": "NOM",
+            "ipa": "/n\u0254\u02d0m/",
+            "quality": "A low, humming vibration from deep within the earth.",
+            "value": 6
+        },
+        {
+            "spelling": "POTH",
+            "ipa": "/p\u0252\u03b8/",
+            "quality": "The sound of digging or a footstep in a cave.",
+            "value": 7
+        },
+        {
+            "spelling": "YERTH",
+            "ipa": "/j\u025c\u02d0\u0279\u03b8/",
+            "quality": "Evokes the word 'earth' itself, a grounding presence.",
+            "value": 8
+        },
+        {
+            "spelling": "UG",
+            "ipa": "/\u028cg/",
+            "quality": "A guttural, abrupt stop, like a buried root.",
+            "value": 9
+        },
+        {
+            "spelling": "DRUM",
+            "ipa": "/d\u0279\u028cm/",
+            "quality": "The deep, percussive heartbeat of the world.",
+            "value": 10
+        },
+        {
+            "spelling": "SHALE",
+            "ipa": "/\u0283e\u026al/",
+            "quality": "The thin, layered sound of splitting rock.",
+            "value": 11
+        },
+        {
+            "spelling": "TOR",
+            "ipa": "/t\u0254\u02d0\u0279/",
+            "quality": "A hard, stone peak standing against the sky.",
+            "value": 12
+        },
+        {
+            "spelling": "QUAKE",
+            "ipa": "/kwe\u026ak/",
+            "quality": "A shaking, rumbling, unstable force.",
+            "value": 13
+        },
+        {
+            "spelling": "MOG",
+            "ipa": "/m\u0252g/",
+            "quality": "The thick, muddy sound of boggy land.",
+            "value": 14
+        },
+        {
+            "spelling": "VUG",
+            "ipa": "/v\u028cg/",
+            "quality": "The hollow, cavernous sound of a geode or small cave.",
+            "value": 15
+        },
+        {
+            "spelling": "ZHONG",
+            "ipa": "/\u0292\u0252\u014b/",
+            "quality": "A deep, metallic, bell-like ring from a mineral strike.",
+            "value": 16
+        }
+    ],
+    "water": [
+        {
+            "spelling": "SHII",
+            "ipa": "/\u0283i\u02d0/",
+            "quality": "The sound of a gentle wave washing over sand.",
+            "value": 1
+        },
+        {
+            "spelling": "GLUR",
+            "ipa": "/gl\u025c\u02d0\u0279/",
+            "quality": "A bubbling, gurgling flow, like a stream.",
+            "value": 2
+        },
+        {
+            "spelling": "FALLOW",
+            "ipa": "/f\u00e6lo\u028a/",
+            "quality": "The slow, deep movement of a wide river.",
+            "value": 3
+        },
+        {
+            "spelling": "WISHP",
+            "ipa": "/w\u026a\u0283p/",
+            "quality": "The soft whisper of a receding wave.",
+            "value": 4
+        },
+        {
+            "spelling": "BUB",
+            "ipa": "/b\u028cb/",
+            "quality": "The clear, round sound of a single bubble rising.",
+            "value": 5
+        },
+        {
+            "spelling": "MURR",
+            "ipa": "/m\u025c\u02d0\u0279/",
+            "quality": "The purr of a calm, deep ocean current.",
+            "value": 6
+        },
+        {
+            "spelling": "SLOSH",
+            "ipa": "/sl\u0252\u0283/",
+            "quality": "Water sloshing around in a container.",
+            "value": 7
+        },
+        {
+            "spelling": "NAIAD",
+            "ipa": "/ne\u026a\u00e6d/",
+            "quality": "A light, liquid, mythical sound of a water spirit.",
+            "value": 8
+        },
+        {
+            "spelling": "RILL",
+            "ipa": "/\u0279\u026al/",
+            "quality": "The trickling sound of a tiny brook.",
+            "value": 9
+        },
+        {
+            "spelling": "DEEP",
+            "ipa": "/di\u02d0p/",
+            "quality": "The silent, vast, resonant quality of the abyss.",
+            "value": 10
+        },
+        {
+            "spelling": "CURL",
+            "ipa": "/k\u025c\u02d0\u0279l/",
+            "quality": "A wave curling over itself before breaking.",
+            "value": 11
+        },
+        {
+            "spelling": "PLIP",
+            "ipa": "/pl\u026ap/",
+            "quality": "A single, clear water drop hitting a surface.",
+            "value": 12
+        },
+        {
+            "spelling": "SWELL",
+            "ipa": "/sw\u025bl/",
+            "quality": "The powerful, rising motion of the sea.",
+            "value": 13
+        },
+        {
+            "spelling": "HUSH",
+            "ipa": "/h\u028c\u0283/",
+            "quality": "The quiet lapping of water at the shore.",
+            "value": 14
+        },
+        {
+            "spelling": "JADE",
+            "ipa": "/d\u0292e\u026ad/",
+            "quality": "The smooth, cool, polished sound of still water.",
+            "value": 15
+        },
+        {
+            "spelling": "VORT",
+            "ipa": "/v\u0254\u02d0\u0279t/",
+            "quality": "The swirling, sucking sound of a vortex or whirlpool.",
+            "value": 16
+        }
+    ],
+    "fire": [
+        {
+            "spelling": "KRAK",
+            "ipa": "/k\u0279\u00e6k/",
+            "quality": "A sharp, sudden crackle, like splitting kindling.",
+            "value": 1
+        },
+        {
+            "spelling": "SIZZ",
+            "ipa": "/s\u026az/",
+            "quality": "The fierce hiss of fire meeting moisture.",
+            "value": 2
+        },
+        {
+            "spelling": "FLICK",
+            "ipa": "/fl\u026ak/",
+            "quality": "The quick, sudden motion of a leaping flame.",
+            "value": 3
+        },
+        {
+            "spelling": "PYRE",
+            "ipa": "/pa\u026a\u0279/",
+            "quality": "Evokes a sustained, ritualistic blaze.",
+            "value": 4
+        },
+        {
+            "spelling": "TCHAA",
+            "ipa": "/t\u0283\u0251\u02d0/",
+            "quality": "The explosive start of a fire catching hold.",
+            "value": 5
+        },
+        {
+            "spelling": "BLAZE",
+            "ipa": "/ble\u026az/",
+            "quality": "The roaring, energetic sound of a large fire.",
+            "value": 6
+        },
+        {
+            "spelling": "SPUT",
+            "ipa": "/sp\u028ct/",
+            "quality": "The sputtering of a struggling flame.",
+            "value": 7
+        },
+        {
+            "spelling": "IGN",
+            "ipa": "/\u026agn/",
+            "quality": "The moment of ignition, short and potent.",
+            "value": 8
+        },
+        {
+            "spelling": "VOX",
+            "ipa": "/v\u0252ks/",
+            "quality": "The roaring, voice-like sound of a wildfire.",
+            "value": 9
+        },
+        {
+            "spelling": "ZHAK",
+            "ipa": "/\u0292\u00e6k/",
+            "quality": "The intense, sharp heat of a forge.",
+            "value": 10
+        },
+        {
+            "spelling": "FLARE",
+            "ipa": "/fle\u0259\u0279/",
+            "quality": "A sudden, bright burst of light and heat.",
+            "value": 11
+        },
+        {
+            "spelling": "CIND",
+            "ipa": "/s\u026and/",
+            "quality": "The glowing, whispering sound of an ember.",
+            "value": 12
+        },
+        {
+            "spelling": "WHISP",
+            "ipa": "/w\u026asp/",
+            "quality": "The faint, breathy sound of rising heat.",
+            "value": 13
+        },
+        {
+            "spelling": "ASH",
+            "ipa": "/\u00e6\u0283/",
+            "quality": "The soft, final breath of a dying fire.",
+            "value": 14
+        },
+        {
+            "spelling": "BREN",
+            "ipa": "/b\u0279\u025bn/",
+            "quality": "A crackling, consuming burn.",
+            "value": 15
+        },
+        {
+            "spelling": "SKRATCH",
+            "ipa": "/sk\u0279\u00e6t\u0283/",
+            "quality": "The sound of a spark jumping and scraping.",
+            "value": 16
+        }
+    ],
+    "air": [
+        {
+            "spelling": "SSSAA",
+            "ipa": "/s\u0251\u02d0/",
+            "quality": "A long, sustained sigh of wind.",
+            "value": 1
+        },
+        {
+            "spelling": "WHIST",
+            "ipa": "/w\u026ast/",
+            "quality": "The clear, high sound of wind whistling.",
+            "value": 2
+        },
+        {
+            "spelling": "PHEW",
+            "ipa": "/fju\u02d0/",
+            "quality": "A soft, breathy exhalation or gust.",
+            "value": 3
+        },
+        {
+            "spelling": "ZEPH",
+            "ipa": "/z\u025bf/",
+            "quality": "A light, gentle breeze.",
+            "value": 4
+        },
+        {
+            "spelling": "AER",
+            "ipa": "/e\u0259\u0279/",
+            "quality": "Evokes 'air,' open and expansive.",
+            "value": 5
+        },
+        {
+            "spelling": "GALE",
+            "ipa": "/ge\u026al/",
+            "quality": "The powerful rush of a strong wind.",
+            "value": 6
+        },
+        {
+            "spelling": "HISS",
+            "ipa": "/h\u026as/",
+            "quality": "The sound of air escaping or high-altitude wind.",
+            "value": 7
+        },
+        {
+            "spelling": "WHORL",
+            "ipa": "/w\u025c\u02d0\u0279l/",
+            "quality": "The swirling motion of a dust devil or gust.",
+            "value": 8
+        },
+        {
+            "spelling": "SOAR",
+            "ipa": "/s\u0254\u02d0\u0279/",
+            "quality": "The feeling of lifting and gliding on the wind.",
+            "value": 9
+        },
+        {
+            "spelling": "FLOAT",
+            "ipa": "/flo\u028at/",
+            "quality": "A light, buoyant, effortless quality.",
+            "value": 10
+        },
+        {
+            "spelling": "ETHER",
+            "ipa": "/i\u02d0\u03b8\u025a/",
+            "quality": "The thin, clear sound of the upper atmosphere.",
+            "value": 11
+        },
+        {
+            "spelling": "BREE",
+            "ipa": "/b\u0279i\u02d0/",
+            "quality": "A short, crisp, refreshing gust.",
+            "value": 12
+        },
+        {
+            "spelling": "WAFT",
+            "ipa": "/w\u00e6ft/",
+            "quality": "The gentle carrying of a scent on the air.",
+            "value": 13
+        },
+        {
+            "spelling": "SKY",
+            "ipa": "/ska\u026a/",
+            "quality": "The open, vast, silent space above.",
+            "value": 14
+        },
+        {
+            "spelling": "WHIFT",
+            "ipa": "/w\u026aft/",
+            "quality": "A faint, almost imperceptible movement of air.",
+            "value": 15
+        },
+        {
+            "spelling": "ZOOM",
+            "ipa": "/zu\u02d0m/",
+            "quality": "The sound of air rushing past at high speed.",
+            "value": 16
+        }
+    ]
+}

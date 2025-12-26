@@ -1,0 +1,780 @@
+{
+  "version": "1.1",
+  "timestamp": "2025-12-26T06:50:35.098704",
+  "player": {
+    "name": "Hero",
+    "x": 46,
+    "y": 2,
+    "stats": {
+      "max_health": 110,
+      "current_health": 98,
+      "max_stamina": 100,
+      "current_stamina": 100,
+      "strength": 10,
+      "magic_power": 20
+    },
+    "level": 2,
+    "experience": 20,
+    "inventory": {
+      "max_essence": 125.0
+    }
+  },
+  "inventory": {
+    "objects": [
+      {
+        "name": "Grand Bottle of Alkahest",
+        "type": "solvent",
+        "is_solvent": true,
+        "solvent_type": "alkahest",
+        "vial_size": "grand",
+        "quantity": 200,
+        "max_quantity": 200,
+        "description": "Universal solvent (200ml)",
+        "weight": 3.0,
+        "index": 1
+      },
+      {
+        "name": "BB",
+        "type": "weapons",
+        "material": "wood",
+        "size": "medium",
+        "weight": 0.0003,
+        "definition": "a small pellet fired from an air rifle or BB gun",
+        "source": "wordnet",
+        "synset": "bb.n.01",
+        "ranged": true,
+        "damage_bonus": 7,
+        "range": 6,
+        "index": 2
+      },
+      {
+        "name": "Small Vial of Ite Ignis",
+        "type": "coagulant",
+        "is_coagulant": true,
+        "coagulant_type": "ite_ignis",
+        "vial_size": "small",
+        "quantity": 25,
+        "max_quantity": 25,
+        "description": "Ite powder (25ml)",
+        "weight": 0.4,
+        "index": 3
+      },
+      {
+        "name": "Small Vial of Prima Ite",
+        "type": "coagulant",
+        "is_coagulant": true,
+        "coagulant_type": "prima_ite",
+        "vial_size": "small",
+        "quantity": 25,
+        "max_quantity": 25,
+        "description": "Universal coagulant (25ml)",
+        "weight": 0.4,
+        "index": 4
+      },
+      {
+        "name": "spatula",
+        "type": "tools",
+        "material": "wood",
+        "size": "medium",
+        "weight": 0.3,
+        "definition": "a hand tool with a thin flexible blade used to mix or spread soft substances",
+        "source": "wordnet",
+        "synset": "spatula.n.02",
+        "index": 5
+      },
+      {
+        "name": "bur",
+        "type": "tools",
+        "material": "wood",
+        "size": "medium",
+        "weight": 0.1,
+        "definition": "small bit used in dentistry or surgery",
+        "source": "wordnet",
+        "synset": "bur.n.02",
+        "index": 6
+      },
+      {
+        "name": "fruit juice",
+        "type": "food",
+        "material": "organic",
+        "size": "medium",
+        "weight": 0.5,
+        "definition": "drink produced by squeezing or crushing fruit",
+        "source": "wordnet",
+        "synset": "fruit_juice.n.01",
+        "index": 7
+      },
+      {
+        "name": "chow mein",
+        "type": "food",
+        "material": "organic",
+        "size": "medium",
+        "weight": 0.3,
+        "definition": "chop suey served with fried noodles",
+        "source": "wordnet",
+        "synset": "chow_mein.n.01",
+        "index": 8
+      },
+      {
+        "name": "Small Vial of Ite Aether",
+        "type": "coagulant",
+        "is_coagulant": true,
+        "coagulant_type": "ite_aether",
+        "vial_size": "small",
+        "quantity": 25,
+        "max_quantity": 25,
+        "description": "Wispy ethereal mist (25ml)",
+        "weight": 0.4,
+        "index": 9
+      },
+      {
+        "name": "saber",
+        "type": "weapons",
+        "material": "wood",
+        "size": "medium",
+        "weight": 1.2,
+        "definition": "a fencing sword with a v-shaped blade and a slightly curved handle",
+        "source": "wordnet",
+        "synset": "saber.n.01",
+        "ranged": false,
+        "damage_bonus": 7,
+        "index": 10
+      },
+      {
+        "name": "transparent gem",
+        "type": "gems",
+        "material": "stone",
+        "size": "tiny",
+        "weight": 0.05,
+        "definition": "a gemstone having the property of transmitting light without serious diffusion",
+        "source": "wordnet",
+        "synset": "transparent_gem.n.01",
+        "index": 11
+      },
+      {
+        "name": "Medium Flask of Alkahest",
+        "type": "solvent",
+        "is_solvent": true,
+        "solvent_type": "alkahest",
+        "vial_size": "medium",
+        "quantity": 50,
+        "max_quantity": 50,
+        "description": "Universal solvent (50ml)",
+        "weight": 0.8,
+        "index": 12
+      },
+      {
+        "name": "rasp",
+        "type": "tools",
+        "material": "wood",
+        "size": "medium",
+        "weight": 0.3,
+        "definition": "a coarse file with sharp pointed projections",
+        "source": "wordnet",
+        "synset": "rasp.n.02",
+        "index": 13
+      },
+      {
+        "name": "Tiny Vial of Ite Ignis",
+        "type": "coagulant",
+        "is_coagulant": true,
+        "coagulant_type": "ite_ignis",
+        "vial_size": "tiny",
+        "quantity": 10,
+        "max_quantity": 10,
+        "description": "Ite powder (10ml)",
+        "weight": 0.2,
+        "index": 14
+      },
+      {
+        "name": "amethyst",
+        "type": "gems",
+        "material": "stone",
+        "size": "medium",
+        "weight": 0.05,
+        "definition": "a transparent purple variety of quartz; used as a gemstone",
+        "source": "wordnet",
+        "synset": "amethyst.n.01",
+        "index": 15
+      },
+      {
+        "name": "Large Flask of Aqua Ignis",
+        "type": "solvent",
+        "is_solvent": true,
+        "solvent_type": "aqua_ignis",
+        "vial_size": "large",
+        "quantity": 100,
+        "max_quantity": 100,
+        "description": "Boiling alchemical water (100ml)",
+        "weight": 1.5,
+        "index": 16
+      }
+    ],
+    "essences": {
+      "fire": 100.0,
+      "water": 100.0,
+      "earth": 100.0,
+      "air": 100.0
+    },
+    "grimoire": [
+      "fireball.n.01",
+      "heal.v.01"
+    ]
+  },
+  "spell_book": {
+    "fireball.n.01": {
+      "name": "a ball of fire",
+      "synset": "fireball.n.01",
+      "definition": "a ball of fire",
+      "composition": {
+        "fire": 58,
+        "water": 5,
+        "earth": 10,
+        "air": 12
+      },
+      "item_type": "spell",
+      "castable": true,
+      "spell_effect": {
+        "type": "damage",
+        "target": "Enemy",
+        "amount": "fire * 0.8",
+        "element": "fire",
+        "description": "A blazing sphere of flame erupts from your hands, roaring through the air!"
+      },
+      "power": 1.0
+    },
+    "heal.v.01": {
+      "name": "restore to health",
+      "synset": "heal.v.01",
+      "definition": "restore to health",
+      "composition": {
+        "fire": 8,
+        "water": 55,
+        "earth": 15,
+        "air": 18
+      },
+      "item_type": "spell",
+      "castable": true,
+      "spell_effect": {
+        "type": "heal",
+        "target": "Ally",
+        "amount": "water * 0.7",
+        "remove_status": [
+          "burning",
+          "poison"
+        ],
+        "description": "Soothing waters flow over wounds, knitting flesh and cleansing corruption."
+      },
+      "power": 1.0
+    },
+    "shield.n.01": {
+      "name": "protective barrier",
+      "synset": "shield.n.01",
+      "definition": "protective barrier",
+      "composition": {
+        "fire": 12,
+        "water": 10,
+        "earth": 60,
+        "air": 8
+      },
+      "item_type": "spell",
+      "castable": true,
+      "spell_effect": {
+        "type": "create_object",
+        "object_class": "Shield",
+        "properties": {
+          "hp": "earth",
+          "blocks": "physical"
+        },
+        "target": "Self",
+        "description": "Stone rises from the earth, forming a solid barrier before you."
+      },
+      "power": 1.0
+    },
+    "spatula.n.02": {
+      "name": "spatula",
+      "synset": "spatula.n.02",
+      "definition": "a hand tool with a thin flexible blade used to mix or spread soft substances",
+      "composition": {
+        "fire": 20,
+        "water": 10,
+        "earth": 35,
+        "air": 10
+      },
+      "item_type": "tools",
+      "castable": false,
+      "spell_effect": null,
+      "power": 1.0
+    }
+  },
+  "world": {
+    "dungeon_seed": 42,
+    "turn": 78,
+    "items_on_ground": {
+      "(55, 24)": [
+        {
+          "name": "carbuncle",
+          "type": "gems",
+          "material": "wood",
+          "size": "medium",
+          "weight": 0.05,
+          "definition": "deep-red cabochon garnet cut without facets",
+          "source": "wordnet",
+          "synset": "carbuncle.n.01"
+        }
+      ],
+      "(7, 26)": [
+        {
+          "name": "comfort food",
+          "type": "food",
+          "material": "organic",
+          "size": "medium",
+          "weight": 0.5,
+          "definition": "food that is simply prepared and gives a sense of wellbeing; typically food with a high sugar or carbohydrate content that is associated with childhood or with home cooking",
+          "source": "wordnet",
+          "synset": "comfort_food.n.01"
+        }
+      ],
+      "(52, 3)": [
+        {
+          "name": "stiletto",
+          "type": "weapons",
+          "material": "wood",
+          "size": "medium",
+          "weight": 0.3,
+          "definition": "a small dagger with a tapered blade",
+          "source": "wordnet",
+          "synset": "stiletto.n.01",
+          "ranged": false,
+          "damage_bonus": 5
+        }
+      ],
+      "(24, 20)": [
+        {
+          "name": "tear gas",
+          "type": "weapons",
+          "material": "wood",
+          "size": "medium",
+          "weight": 0.5,
+          "definition": "a gas that makes the eyes fill with tears but does not damage them; used in dispersing crowds",
+          "source": "wordnet",
+          "synset": "tear_gas.n.01",
+          "ranged": false,
+          "damage_bonus": 7
+        }
+      ],
+      "(53, 26)": [
+        {
+          "name": "scampi",
+          "type": "food",
+          "material": "organic",
+          "size": "medium",
+          "weight": 0.3,
+          "definition": "large shrimp sauteed in oil or butter and garlic",
+          "source": "wordnet",
+          "synset": "scampi.n.01"
+        }
+      ],
+      "(5, 10)": [
+        {
+          "name": "arrow",
+          "type": "weapons",
+          "material": "wood",
+          "size": "medium",
+          "weight": 0.025,
+          "definition": "a projectile with a straight thin shaft and an arrowhead on one end and stabilizing vanes on the other; intended to be shot from a bow",
+          "source": "wordnet",
+          "synset": "arrow.n.02",
+          "ranged": true,
+          "damage_bonus": 8,
+          "range": 6
+        }
+      ],
+      "(2, 7)": [
+        {
+          "name": "beverage",
+          "type": "food",
+          "material": "organic",
+          "size": "medium",
+          "weight": 0.5,
+          "definition": "any liquid suitable for drinking",
+          "source": "wordnet",
+          "synset": "beverage.n.01"
+        }
+      ],
+      "(4, 11)": [
+        {
+          "name": "beading plane",
+          "type": "tools",
+          "material": "wood",
+          "size": "tiny",
+          "weight": 0.3,
+          "definition": "a plane with a concave blade for making moulding with beadwork",
+          "source": "wordnet",
+          "synset": "beading_plane.n.01"
+        }
+      ],
+      "(7, 23)": [
+        {
+          "name": "ram",
+          "type": "tools",
+          "material": "wood",
+          "size": "medium",
+          "weight": 1.2,
+          "definition": "a tool for driving or forcing something by impact",
+          "source": "wordnet",
+          "synset": "ram.n.04"
+        }
+      ],
+      "(51, 18)": [
+        {
+          "name": "Phillips screwdriver",
+          "type": "tools",
+          "material": "wood",
+          "size": "medium",
+          "weight": 0.3,
+          "definition": "a screwdriver for use with Phillips screws",
+          "source": "wordnet",
+          "synset": "phillips_screwdriver.n.01"
+        },
+        {
+          "name": "Medium Flask of Oleum Terra",
+          "type": "solvent",
+          "is_solvent": true,
+          "solvent_type": "oleum_terra",
+          "vial_size": "medium",
+          "quantity": 50,
+          "max_quantity": 50,
+          "description": "Thick mineral oil (50ml)",
+          "weight": 0.8
+        }
+      ],
+      "(54, 23)": [
+        {
+          "name": "longbow",
+          "type": "weapons",
+          "material": "wood",
+          "size": "medium",
+          "weight": 1.8,
+          "definition": "a powerful wooden bow drawn by hand; usually 5-6 feet long; used in medieval England",
+          "source": "wordnet",
+          "synset": "longbow.n.01",
+          "ranged": true,
+          "damage_bonus": 7,
+          "range": 4
+        }
+      ],
+      "(50, 5)": [
+        {
+          "name": "cabochon",
+          "type": "gems",
+          "material": "wood",
+          "size": "medium",
+          "weight": 0.05,
+          "definition": "a highly polished gem that is cut convexly but without facets",
+          "source": "wordnet",
+          "synset": "cabochon.n.01"
+        }
+      ],
+      "(18, 16)": [
+        {
+          "name": "power drill",
+          "type": "tools",
+          "material": "wood",
+          "size": "medium",
+          "weight": 1.8,
+          "definition": "a power tool for drilling holes into hard materials",
+          "source": "wordnet",
+          "synset": "power_drill.n.01"
+        }
+      ],
+      "(26, 9)": [
+        {
+          "name": "Tiny Vial of Alkahest",
+          "type": "solvent",
+          "is_solvent": true,
+          "solvent_type": "alkahest",
+          "vial_size": "tiny",
+          "quantity": 10,
+          "max_quantity": 10,
+          "description": "Universal solvent (10ml)",
+          "weight": 0.2
+        }
+      ],
+      "(13, 5)": [
+        {
+          "name": "Small Vial of Alkahest",
+          "type": "solvent",
+          "is_solvent": true,
+          "solvent_type": "alkahest",
+          "vial_size": "small",
+          "quantity": 25,
+          "max_quantity": 25,
+          "description": "Universal solvent (25ml)",
+          "weight": 0.4
+        }
+      ],
+      "(14, 6)": [
+        {
+          "name": "Medium Flask of Aqua Ignis",
+          "type": "solvent",
+          "is_solvent": true,
+          "solvent_type": "aqua_ignis",
+          "vial_size": "medium",
+          "quantity": 50,
+          "max_quantity": 50,
+          "description": "Boiling alchemical water (50ml)",
+          "weight": 0.8
+        }
+      ],
+      "(18, 22)": [
+        {
+          "name": "Tiny Vial of Alkahest",
+          "type": "solvent",
+          "is_solvent": true,
+          "solvent_type": "alkahest",
+          "vial_size": "tiny",
+          "quantity": 10,
+          "max_quantity": 10,
+          "description": "Universal solvent (10ml)",
+          "weight": 0.2
+        }
+      ],
+      "(6, 11)": [
+        {
+          "name": "Medium Flask of Alkahest",
+          "type": "solvent",
+          "is_solvent": true,
+          "solvent_type": "alkahest",
+          "vial_size": "medium",
+          "quantity": 50,
+          "max_quantity": 50,
+          "description": "Universal solvent (50ml)",
+          "weight": 0.8
+        }
+      ],
+      "(25, 20)": [
+        {
+          "name": "Medium Flask of Aqua Ignis",
+          "type": "solvent",
+          "is_solvent": true,
+          "solvent_type": "aqua_ignis",
+          "vial_size": "medium",
+          "quantity": 50,
+          "max_quantity": 50,
+          "description": "Boiling alchemical water (50ml)",
+          "weight": 0.8
+        },
+        {
+          "name": "Small Vial of Ite Aether",
+          "type": "coagulant",
+          "is_coagulant": true,
+          "coagulant_type": "ite_aether",
+          "vial_size": "small",
+          "quantity": 25,
+          "max_quantity": 25,
+          "description": "Wispy ethereal mist (25ml)",
+          "weight": 0.4
+        }
+      ],
+      "(18, 8)": [
+        {
+          "name": "Small Vial of Alkahest",
+          "type": "solvent",
+          "is_solvent": true,
+          "solvent_type": "alkahest",
+          "vial_size": "small",
+          "quantity": 25,
+          "max_quantity": 25,
+          "description": "Universal solvent (25ml)",
+          "weight": 0.4
+        }
+      ],
+      "(24, 21)": [
+        {
+          "name": "Small Vial of Aqua Ignis",
+          "type": "solvent",
+          "is_solvent": true,
+          "solvent_type": "aqua_ignis",
+          "vial_size": "small",
+          "quantity": 25,
+          "max_quantity": 25,
+          "description": "Boiling alchemical water (25ml)",
+          "weight": 0.4
+        }
+      ],
+      "(5, 9)": [
+        {
+          "name": "Small Vial of Aqua Ignis",
+          "type": "solvent",
+          "is_solvent": true,
+          "solvent_type": "aqua_ignis",
+          "vial_size": "small",
+          "quantity": 25,
+          "max_quantity": 25,
+          "description": "Boiling alchemical water (25ml)",
+          "weight": 0.4
+        }
+      ],
+      "(15, 3)": [
+        {
+          "name": "Medium Flask of Alkahest",
+          "type": "solvent",
+          "is_solvent": true,
+          "solvent_type": "alkahest",
+          "vial_size": "medium",
+          "quantity": 50,
+          "max_quantity": 50,
+          "description": "Universal solvent (50ml)",
+          "weight": 0.8
+        }
+      ],
+      "(15, 9)": [
+        {
+          "name": "Tiny Vial of Alkahest",
+          "type": "solvent",
+          "is_solvent": true,
+          "solvent_type": "alkahest",
+          "vial_size": "tiny",
+          "quantity": 10,
+          "max_quantity": 10,
+          "description": "Universal solvent (10ml)",
+          "weight": 0.2
+        }
+      ],
+      "(51, 13)": [
+        {
+          "name": "Tiny Vial of Ite Aether",
+          "type": "coagulant",
+          "is_coagulant": true,
+          "coagulant_type": "ite_aether",
+          "vial_size": "tiny",
+          "quantity": 10,
+          "max_quantity": 10,
+          "description": "Wispy ethereal mist (10ml)",
+          "weight": 0.2
+        }
+      ],
+      "(16, 24)": [
+        {
+          "name": "Large Flask of Ite Aqua",
+          "type": "coagulant",
+          "is_coagulant": true,
+          "coagulant_type": "ite_aqua",
+          "vial_size": "large",
+          "quantity": 100,
+          "max_quantity": 100,
+          "description": "Cool shimmering gel (100ml)",
+          "weight": 1.5
+        }
+      ],
+      "(43, 25)": [
+        {
+          "name": "Small Vial of Prima Ite",
+          "type": "coagulant",
+          "is_coagulant": true,
+          "coagulant_type": "prima_ite",
+          "vial_size": "small",
+          "quantity": 25,
+          "max_quantity": 25,
+          "description": "Universal coagulant (25ml)",
+          "weight": 0.4
+        }
+      ],
+      "(51, 9)": [
+        {
+          "name": "Small Vial of Ite Aether",
+          "type": "coagulant",
+          "is_coagulant": true,
+          "coagulant_type": "ite_aether",
+          "vial_size": "small",
+          "quantity": 25,
+          "max_quantity": 25,
+          "description": "Wispy ethereal mist (25ml)",
+          "weight": 0.4
+        }
+      ],
+      "(2, 8)": [
+        {
+          "name": "Tiny Vial of Ite Ignis",
+          "type": "coagulant",
+          "is_coagulant": true,
+          "coagulant_type": "ite_ignis",
+          "vial_size": "tiny",
+          "quantity": 10,
+          "max_quantity": 10,
+          "description": "Ite powder (10ml)",
+          "weight": 0.2
+        }
+      ],
+      "(43, 2)": [
+        {
+          "name": "blit",
+          "type": "food",
+          "weight": 0.1,
+          "essence": {
+            "earth": 53,
+            "water": 47,
+            "fire": 12,
+            "air": 8
+          },
+          "index": 1
+        },
+        {
+          "name": "blit",
+          "type": "food",
+          "weight": 0.1,
+          "essence": {
+            "earth": 53,
+            "water": 47,
+            "fire": 12,
+            "air": 8
+          },
+          "index": 1
+        },
+        {
+          "name": "blit",
+          "type": "food",
+          "weight": 0.1,
+          "essence": {
+            "earth": 53,
+            "water": 47,
+            "fire": 12,
+            "air": 8
+          },
+          "index": 1
+        },
+        {
+          "name": "blit",
+          "type": "food",
+          "weight": 0.1,
+          "essence": {
+            "earth": 53,
+            "water": 47,
+            "fire": 12,
+            "air": 8
+          },
+          "index": 1
+        }
+      ]
+    }
+  },
+  "game_state": {
+    "running": true,
+    "paused": false,
+    "show_full_map": false,
+    "show_spell_book": false,
+    "transmute_mode": false,
+    "meditate_mode": false,
+    "messages": [
+      "MEDITATE: Press 0-9 to select item",
+      "Recorded 'spatula' to Spell Book! Essence: F:20, W:10, E:35, A:10",
+      "MEDITATE: Press 0-9 to select item",
+      "Meditation cancelled",
+      "Dropped blit on the ground",
+      "Dropped blit on the ground",
+      "Dropped blit on the ground",
+      "Dropped blit on the ground"
+    ]
+  }
+}

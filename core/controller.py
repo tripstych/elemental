@@ -11,6 +11,7 @@ from typing import Dict, List, Optional, Tuple, Any
 import random
 
 from .alchemy import AlchemySystem, AlchemyResult, SpellBookEntry, SOLVENTS, COAGULANTS
+from .vector_engine import VectorEngine, CastResult
 from .events import EventBus, EventType, get_event_bus
 from constants import VIAL_SIZES
 
@@ -57,6 +58,7 @@ class GameController:
         """
         self.world = world
         self.alchemy = AlchemySystem()
+        self.vector_engine = VectorEngine()
         self.events = get_event_bus()
 
         # Message log for UI
@@ -271,6 +273,142 @@ class GameController:
         message = f"Cast {spell_name}!"
         self.add_message(message)
         return ActionResult(True, message)
+
+    # -------------------------------------------------------------------------
+    # SPOKEN SPELLS (Vector Engine)
+    # -------------------------------------------------------------------------
+
+    def speak_spell(self, phrase: str, target_item: Dict) -> ActionResult:
+        """
+        Speak a spell using elemental syllables to transform an item.
+
+        Args:
+            phrase: Space-separated syllables (e.g., "OOM SHII KRAK")
+            target_item: Item dict to transform
+
+        Returns:
+            ActionResult with transformation outcome and burn damage if any
+        """
+        if not self.player:
+            return ActionResult(False, "No player")
+
+        if not target_item:
+            return ActionResult(False, "No target item selected")
+
+        # Get player stats for load calculation
+        # Use player's intelligence/willpower as conduit limit
+        conduit_limit = getattr(self.player.stats, 'conduit_limit', 100)
+        if conduit_limit == 100:
+            # Fallback: derive from wisdom or intelligence
+            wisdom = getattr(self.player.stats, 'wisdom', 10)
+            conduit_limit = 50 + wisdom * 10
+
+        current_hp = self.player.stats.current_health
+
+        # Cast the spell through vector engine
+        result = self.vector_engine.cast(
+            phrase=phrase,
+            item=target_item,
+            caster_conduit=conduit_limit,
+            caster_hp=current_hp
+        )
+
+        # Apply burn damage if any
+        if result.burn_damage > 0:
+            self.player.stats.current_health -= result.burn_damage
+            self.events.emit(EventType.PLAYER_DAMAGED, {
+                'source': 'spell_overload',
+                'damage': result.burn_damage
+            })
+
+            if not self.player.stats.is_alive():
+                self.events.emit(EventType.PLAYER_DIED, {'killer': 'spell_overload'})
+
+        # Update item with new stats if successful
+        if result.success and result.item_after:
+            for key, value in result.item_after.items():
+                target_item[key] = value
+
+        self.add_message(result.message)
+        return ActionResult(
+            success=result.success,
+            message=result.message,
+            data={
+                'load': result.load,
+                'overload': result.overload,
+                'burn_damage': result.burn_damage,
+                'vectors': result.vectors,
+                'item_before': result.item_before,
+                'item_after': result.item_after
+            }
+        )
+
+    def get_elemental_syllables(self, element: str = None) -> List[Dict]:
+        """
+        Get available syllables for spell speaking.
+
+        Args:
+            element: Optional filter by element (fire/water/earth/air)
+
+        Returns:
+            List of syllable dicts with spelling, value, quality
+        """
+        if element:
+            return self.vector_engine.get_syllables_for_element(element)
+
+        # Return all syllables organized by element
+        all_syllables = []
+        for elem in self.vector_engine.get_all_elements():
+            for syl in self.vector_engine.get_syllables_for_element(elem):
+                syl_copy = syl.copy()
+                syl_copy['element'] = elem
+                all_syllables.append(syl_copy)
+        return all_syllables
+
+    def parse_spoken_phrase(self, phrase: str) -> Dict:
+        """
+        Parse a phrase without casting it (for preview).
+
+        Args:
+            phrase: Space-separated syllables
+
+        Returns:
+            Dict with vectors, total_strain, total_power, unknown_words
+        """
+        parsed = self.vector_engine.parse_phrase(phrase)
+        return {
+            'phrase': parsed.phrase,
+            'words': parsed.words,
+            'vectors': parsed.vectors,
+            'total_strain': parsed.total_strain,  # Absolute cost
+            'total_power': parsed.total_power,    # Signed net effect
+            'unknown_words': parsed.unknown_words,
+            'dominant_element': parsed.dominant_element
+        }
+
+    def calculate_spell_load(self, phrase: str, item_weight: float) -> float:
+        """
+        Calculate the load for a phrase on an item.
+
+        Args:
+            phrase: The spoken syllables
+            item_weight: Weight of target item
+
+        Returns:
+            Calculated load value
+        """
+        parsed = self.vector_engine.parse_phrase(phrase)
+        return self.vector_engine.calculate_load(parsed, item_weight)
+
+    def get_player_conduit_limit(self) -> int:
+        """Get the player's current conduit limit (max safe load)"""
+        if not self.player:
+            return 100
+        conduit_limit = getattr(self.player.stats, 'conduit_limit', 100)
+        if conduit_limit == 100:
+            wisdom = getattr(self.player.stats, 'wisdom', 10)
+            conduit_limit = 50 + wisdom * 10
+        return conduit_limit
 
     # -------------------------------------------------------------------------
     # ALCHEMY

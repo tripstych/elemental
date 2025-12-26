@@ -1,0 +1,88 @@
+{
+  "elemental_morphemes": {
+    "earth": {
+      "description": "The Crushing Silence of the Abyss: Evokes the suffocating weight of deep soil, the cold stillness of stone, and the finality of the grave.",
+      "morphemes": [
+        {"morpheme": "grav-", "ipa": "/ɡræv/", "description": "heavy, weighty"},
+        {"morpheme": "lith-", "ipa": "/lɪθ/", "description": "stone"},
+        {"morpheme": "terr-", "ipa": "/tɛr/", "description": "earth, land"},
+        {"morpheme": "sepul-", "ipa": "/ˈsɛpəl/", "description": "burial, tomb"},
+        {"morpheme": "crypt-", "ipa": "/krɪpt/", "description": "hidden, vault"},
+        {"morpheme": "umbr-", "ipa": "/ˈʌmbrə/", "description": "shadow, shade"},
+        {"morpheme": "sax-", "ipa": "/sæks/", "description": "rock, boulder"},
+        {"morpheme": "mor-", "ipa": "/mɔr/", "description": "death"},
+        {"morpheme": "styg-", "ipa": "/stɪdʒ/", "description": "from Styx, the river of hate"},
+        {"morpheme": "crep-", "ipa": "/krɛp/", "description": "to burst, but suggesting crumbling"},
+        {"morpheme": "glac-", "ipa": "/ɡleɪs/", "description": "ice, suggesting frozen earth"},
+        {"morpheme": "pall-", "ipa": "/pæl/", "description": "pale, cloak - as in a shroud"},
+        {"morpheme": "scor-", "ipa": "/skɔr/", "description": "to dry up, wither"},
+        {"morpheme": "somn-", "ipa": "/sɒmn/", "description": "sleep"},
+        {"morpheme": "vor-", "ipa": "/vɔr/", "description": "to devour"},
+        {"morpheme": "thol-", "ipa": "/θoʊl/", "description": "dome, but suggestive of a mounded grave"}
+      ]
+    },
+    "water": {
+      "description": "The Drowning Silence of the Deep: Conjures the pressure of the abyssal plain, the silent, lightless ocean, and the cold embrace of drowning.",
+      "morphemes": [
+        {"morpheme": "mar-", "ipa": "/mɑr/", "description": "sea"},
+        {"morpheme": "abyss-", "ipa": "/əˈbɪs/", "description": "bottomless depth"},
+        {"morpheme": "thalass-", "ipa": "/θəˈlæs/", "description": "sea"},
+        {"morpheme": "styg-", "ipa": "/stɪdʒ/", "description": "hateful, dark water"},
+        {"morpheme": "phag-", "ipa": "/feɪdʒ/", "description": "to eat, consume - as by the sea"},
+        {"morpheme": "lath-", "ipa": "/læθ/", "description": "lethargy, forgetfulness - like drowning"},
+        {"morpheme": "nym-", "ipa": "/nɪm/", "description": "related to water nymphs, but distorted"},
+        {"morpheme": "byss-", "ipa": "/bɪs/", "description": "deep, abyss"},
+        {"morpheme": "noct-", "ipa": "/nɒkt/", "description": "night"},
+        {"morpheme": "liqu-", "ipa": "/lɪkw/", "description": "to flow, but also to dissolve"},
+        {"morpheme": "vor-", "ipa": "/vɔr/", "description": "to devour"},
+        {"morpheme": "crepusc-", "ipa": "/krɪˈpʌsk/", "description": "twilight, dim light"},
+        {"morpheme": "sor-", "ipa": "/sɔr/", "description": "to rise in a mass, like a wave"},
+        {"morpheme": "psith-", "ipa": "/sɪθ/", "description": "whisper, murmur - of hidden currents"},
+        {"morpheme": "sten-", "ipa": "/stɛn/", "description": "narrow, constricting"},
+        {"morpheme": "lachrym-", "ipa": "/ˈlækrɪm/", "description": "tear, weeping"}
+      ]
+    },
+    "fire": {
+      "description": "The Consuming Silence of Ash: Reflects not the roar of a blaze, but the dead, silent aftermath: cold embers, choking ash, and utter annihilation.",
+      "morphemes": [
+        {"morpheme": "pyr-", "ipa": "/paɪr/", "description": "fire"},
+        {"morpheme": "cinder-", "ipa": "/ˈsɪndər/", "description": "ash, ember"},
+        {"morpheme": "ign-", "ipa": "/ɪɡn/", "description": "fire"},
+        {"morpheme": "phleg-", "ipa": "/flɛɡ/", "description": "burn, inflammation"},
+        {"morpheme": "ust-", "ipa": "/ʌst/", "description": "burnt"},
+        {"morpheme": "calx-", "ipa": "/kælks/", "description": "limestone, ash"},
+        {"morpheme": "cin-", "ipa": "/sɪn/", "description": "ash"},
+        {"morpheme": "fum-", "ipa": "/fjuːm/", "description": "smoke"},
+        {"morpheme": "vac-", "ipa": "/væk/", "description": "empty, void"},
+        {"morpheme": "van-", "ipa": "/væn/", "description": "to vanish"},
+        {"morpheme": "necr-", "ipa": "/nɛkr/", "description": "death, corpse"},
+        {"morpheme": "sabr-", "ipa": "/seɪbr/", "description": "to rust, corrode - a slow fire"},
+        {"morpheme": "scorch-", "ipa": "/skɔrtʃ/", "description": "to burn superficially"},
+        {"morpheme": "tephr-", "ipa": "/tɛfr/", "description": "ash, as in tephra from a volcano"},
+        {"morpheme": "an-", "ipa": "/æn/", "description": "without, lacking - as in extinguished"},
+        {"morpheme": "phthis-", "ipa": "/θaɪs/", "description": "to decay, waste away"}
+      ]
+    },
+    "air": {
+      "description": "The Hollow Silence of the Void: Captures the silent, airless vacuum, the chilling gust that extinguishes sound, and the vast, empty spaces between stars.",
+      "morphemes": [
+        {"morpheme": "aer-", "ipa": "/ɛər/", "description": "air"},
+        {"morpheme": "ether-", "ipa": "/ˈiːθər/", "description": "upper air, sky"},
+        {"morpheme": "vacu-", "ipa": "/ˈvækjuː/", "description": "empty"},
+        {"morpheme": "vent-", "ipa": "/vɛnt/", "description": "wind"},
+        {"morpheme": "psych-", "ipa": "/saɪk/", "description": "breath, soul - but a lost soul"},
+        {"morpheme": "anim-", "ipa": "/ænɪm/", "description": "spirit, breath"},
+        {"morpheme": "silent-", "ipa": "/ˈsaɪlənt/", "description": "silence"},
+        {"morpheme": "stell-", "ipa": "/stɛl/", "description": "star, suggesting cold, empty space"},
+        {"morpheme": "nihil-", "ipa": "/ˈnaɪɪl/", "description": "nothing"},
+        {"morpheme": "van-", "ipa": "/væn/", "description": "to vanish, empty"},
+        {"morpheme": "hiat-", "ipa": "/haɪət/", "description": "gap, opening"},
+        {"morpheme": "sibil-", "ipa": "/ˈsɪbɪl/", "description": "hiss - of a faint, dying wind"},
+        {"morpheme": "cyan-", "ipa": "/saɪˈæn/", "description": "dark blue, suggesting a deep sky"},
+        {"morpheme": "aph-", "ipa": "/æf/", "description": "away from, without - as in aphonic, voiceless"},
+        {"morpheme": "pneum-", "ipa": "/njuːm/", "description": "lung, breath - but breathless"},
+        {"morpheme": "leth-", "ipa": "/lɛθ/", "description": "forgetfulness, oblivion"}
+      ]
+    }
+  }
+}

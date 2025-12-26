@@ -427,24 +427,16 @@ class ElementalGame:
                 self.transmutation_engine.handle_input(event)
                 return
             
-            # Meditate mode
+            # Meditate mode - ESC to cancel (selection handled by imgui)
             if self.meditate_mode:
-                if pygame.K_0 <= event.key <= pygame.K_9:
-                    index = event.key - pygame.K_0
-                    self.meditate_on_item(index)
-                    return
-                elif event.key == pygame.K_ESCAPE:
+                if event.key == pygame.K_ESCAPE:
                     self.meditate_mode = False
                     self.add_message("Meditation cancelled")
                     return
-            
-            # Drop menu
+
+            # Drop menu - ESC to cancel (selection handled by imgui)
             if self.show_drop_menu:
-                if pygame.K_0 <= event.key <= pygame.K_9:
-                    index = event.key - pygame.K_0
-                    self.drop_item(index)
-                    return
-                elif event.key == pygame.K_ESCAPE:
+                if event.key == pygame.K_ESCAPE:
                     self.show_drop_menu = False
                     self.add_message("Drop cancelled")
                     return
@@ -496,9 +488,13 @@ class ElementalGame:
         if event.key == pygame.K_p:  # Path mode
             self.toggle_path_mode()
             return
-        
+
         if event.key == pygame.K_c:  # Autotarget toggle
             self.autotarget_mode = not self.autotarget_mode
+            return
+
+        if event.key == pygame.K_v:  # Voice/Speak spell mode
+            self.imgui_ui.toggle_speak_mode()
             return
 
         moved = False
@@ -577,7 +573,7 @@ class ElementalGame:
 
         self.meditate_mode = not self.meditate_mode
         if self.meditate_mode:
-            self.add_message("MEDITATE: Press 0-9 to select item")
+            self.add_message("MEDITATE: Select an item to study")
         else:
             self.add_message("Meditation cancelled")
 

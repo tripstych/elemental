@@ -522,7 +522,7 @@ class Render:
                     pygame.draw.rect(self.game.game_surface, (40, 40, 50), row_rect)
 
                 # Name (truncate if too long)
-                name = entry['name']
+                name = entry.name
                 name_text = self.game.font_small.render(name, True, self.COLORS['white'])
                 self.game.game_surface.blit(name_text, (book_x + 20, y))
 
@@ -564,9 +564,9 @@ class Render:
                 ]
                 controls = step_hints[self._transmute_step]
             elif self.game.meditate_mode:
-                controls = "0-9: Select item to meditate on | ESC: Cancel"
+                controls = "Click item to meditate | ESC: Cancel"
             elif self.game.show_drop_menu:
-                controls = "1-9: Select item to drop | ESC: Cancel"
+                controls = "Click item to drop | ESC: Cancel"
             elif self.game.melee_target_mode:
                 controls = "LEFT CLICK: Select adjacent enemy to attack | ESC: Cancel"
             elif self.game.spell_target_mode:
@@ -577,12 +577,14 @@ class Render:
                 controls = f"LEFT CLICK: Target enemy (range: {self.game.ranged_range}) | R: Exit ranged mode | ESC: Cancel"
             elif self.game.path_mode:
                 controls = "LEFT CLICK: Set target | ENTER: Auto-move | RIGHT CLICK/P: Toggle mode | T: Autotarget | ESC: Quit"
+            elif self.game.imgui_ui.speak_mode:
+                controls = "Click item | Type syllables | SPEAK SPELL! | ESC: Cancel"
             else:
                 controls = "ESC: Cancel"
         else:
             # Gameplay mode controls
             auto_status = "[AUTO ON]" if self.game.autotarget_mode else ""
-            controls = f"WASD: Move | SPACE: Attack | Q: Meditate | B: Spell Book | T: Auto {auto_status} | G: Transmute | ESC: Quit"
+            controls = f"WASD: Move | SPACE: Attack | Q: Meditate | V: Speak | B: Spell Book | T: Auto {auto_status} | G: Transmute | ESC: Quit"
         
         text = self.game.font_small.render(controls, True, self.COLORS['gray'])
         self.game.game_surface.blit(text, (10, controls_y))

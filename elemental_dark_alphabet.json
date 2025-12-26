@@ -1,0 +1,394 @@
+{
+    "earth": [
+        {
+            "spelling": "grav-",
+            "ipa": "/\u0261r\u00e6v/",
+            "description": "heavy, weighty",
+            "value": 1
+        },
+        {
+            "spelling": "lith-",
+            "ipa": "/l\u026a\u03b8/",
+            "description": "stone",
+            "value": 2
+        },
+        {
+            "spelling": "terr-",
+            "ipa": "/t\u025br/",
+            "description": "earth, land",
+            "value": 3
+        },
+        {
+            "spelling": "sepul-",
+            "ipa": "/\u02c8s\u025bp\u0259l/",
+            "description": "burial, tomb",
+            "value": 4
+        },
+        {
+            "spelling": "crypt-",
+            "ipa": "/kr\u026apt/",
+            "description": "hidden, vault",
+            "value": 5
+        },
+        {
+            "spelling": "umbr-",
+            "ipa": "/\u02c8\u028cmbr\u0259/",
+            "description": "shadow, shade",
+            "value": 6
+        },
+        {
+            "spelling": "sax-",
+            "ipa": "/s\u00e6ks/",
+            "description": "rock, boulder",
+            "value": 7
+        },
+        {
+            "spelling": "mor-",
+            "ipa": "/m\u0254r/",
+            "description": "death",
+            "value": 8
+        },
+        {
+            "spelling": "styg-",
+            "ipa": "/st\u026ad\u0292/",
+            "description": "from Styx, the river of hate",
+            "value": 9
+        },
+        {
+            "spelling": "crep-",
+            "ipa": "/kr\u025bp/",
+            "description": "to burst, but suggesting crumbling",
+            "value": 10
+        },
+        {
+            "spelling": "glac-",
+            "ipa": "/\u0261le\u026as/",
+            "description": "ice, suggesting frozen earth",
+            "value": 11
+        },
+        {
+            "spelling": "pall-",
+            "ipa": "/p\u00e6l/",
+            "description": "pale, cloak - as in a shroud",
+            "value": 12
+        },
+        {
+            "spelling": "scor-",
+            "ipa": "/sk\u0254r/",
+            "description": "to dry up, wither",
+            "value": 13
+        },
+        {
+            "spelling": "somn-",
+            "ipa": "/s\u0252mn/",
+            "description": "sleep",
+            "value": 14
+        },
+        {
+            "spelling": "vor-",
+            "ipa": "/v\u0254r/",
+            "description": "to devour",
+            "value": 15
+        },
+        {
+            "spelling": "thol-",
+            "ipa": "/\u03b8o\u028al/",
+            "description": "dome, but suggestive of a mounded grave",
+            "value": 16
+        }
+    ],
+    "water": [
+        {
+            "spelling": "mar-",
+            "ipa": "/m\u0251r/",
+            "description": "sea",
+            "value": 1
+        },
+        {
+            "spelling": "abyss-",
+            "ipa": "/\u0259\u02c8b\u026as/",
+            "description": "bottomless depth",
+            "value": 2
+        },
+        {
+            "spelling": "thalass-",
+            "ipa": "/\u03b8\u0259\u02c8l\u00e6s/",
+            "description": "sea",
+            "value": 3
+        },
+        {
+            "spelling": "styg-",
+            "ipa": "/st\u026ad\u0292/",
+            "description": "hateful, dark water",
+            "value": 4
+        },
+        {
+            "spelling": "phag-",
+            "ipa": "/fe\u026ad\u0292/",
+            "description": "to eat, consume - as by the sea",
+            "value": 5
+        },
+        {
+            "spelling": "lath-",
+            "ipa": "/l\u00e6\u03b8/",
+            "description": "lethargy, forgetfulness - like drowning",
+            "value": 6
+        },
+        {
+            "spelling": "nym-",
+            "ipa": "/n\u026am/",
+            "description": "related to water nymphs, but distorted",
+            "value": 7
+        },
+        {
+            "spelling": "byss-",
+            "ipa": "/b\u026as/",
+            "description": "deep, abyss",
+            "value": 8
+        },
+        {
+            "spelling": "noct-",
+            "ipa": "/n\u0252kt/",
+            "description": "night",
+            "value": 9
+        },
+        {
+            "spelling": "liqu-",
+            "ipa": "/l\u026akw/",
+            "description": "to flow, but also to dissolve",
+            "value": 10
+        },
+        {
+            "spelling": "vor-",
+            "ipa": "/v\u0254r/",
+            "description": "to devour",
+            "value": 11
+        },
+        {
+            "spelling": "crepusc-",
+            "ipa": "/kr\u026a\u02c8p\u028csk/",
+            "description": "twilight, dim light",
+            "value": 12
+        },
+        {
+            "spelling": "sor-",
+            "ipa": "/s\u0254r/",
+            "description": "to rise in a mass, like a wave",
+            "value": 13
+        },
+        {
+            "spelling": "psith-",
+            "ipa": "/s\u026a\u03b8/",
+            "description": "whisper, murmur - of hidden currents",
+            "value": 14
+        },
+        {
+            "spelling": "sten-",
+            "ipa": "/st\u025bn/",
+            "description": "narrow, constricting",
+            "value": 15
+        },
+        {
+            "spelling": "lachrym-",
+            "ipa": "/\u02c8l\u00e6kr\u026am/",
+            "description": "tear, weeping",
+            "value": 16
+        }
+    ],
+    "fire": [
+        {
+            "spelling": "pyr-",
+            "ipa": "/pa\u026ar/",
+            "description": "fire",
+            "value": 1
+        },
+        {
+            "spelling": "cinder-",
+            "ipa": "/\u02c8s\u026and\u0259r/",
+            "description": "ash, ember",
+            "value": 2
+        },
+        {
+            "spelling": "ign-",
+            "ipa": "/\u026a\u0261n/",
+            "description": "fire",
+            "value": 3
+        },
+        {
+            "spelling": "phleg-",
+            "ipa": "/fl\u025b\u0261/",
+            "description": "burn, inflammation",
+            "value": 4
+        },
+        {
+            "spelling": "ust-",
+            "ipa": "/\u028cst/",
+            "description": "burnt",
+            "value": 5
+        },
+        {
+            "spelling": "calx-",
+            "ipa": "/k\u00e6lks/",
+            "description": "limestone, ash",
+            "value": 6
+        },
+        {
+            "spelling": "cin-",
+            "ipa": "/s\u026an/",
+            "description": "ash",
+            "value": 7
+        },
+        {
+            "spelling": "fum-",
+            "ipa": "/fju\u02d0m/",
+            "description": "smoke",
+            "value": 8
+        },
+        {
+            "spelling": "vac-",
+            "ipa": "/v\u00e6k/",
+            "description": "empty, void",
+            "value": 9
+        },
+        {
+            "spelling": "van-",
+            "ipa": "/v\u00e6n/",
+            "description": "to vanish",
+            "value": 10
+        },
+        {
+            "spelling": "necr-",
+            "ipa": "/n\u025bkr/",
+            "description": "death, corpse",
+            "value": 11
+        },
+        {
+            "spelling": "sabr-",
+            "ipa": "/se\u026abr/",
+            "description": "to rust, corrode - a slow fire",
+            "value": 12
+        },
+        {
+            "spelling": "scorch-",
+            "ipa": "/sk\u0254rt\u0283/",
+            "description": "to burn superficially",
+            "value": 13
+        },
+        {
+            "spelling": "tephr-",
+            "ipa": "/t\u025bfr/",
+            "description": "ash, as in tephra from a volcano",
+            "value": 14
+        },
+        {
+            "spelling": "an-",
+            "ipa": "/\u00e6n/",
+            "description": "without, lacking - as in extinguished",
+            "value": 15
+        },
+        {
+            "spelling": "phthis-",
+            "ipa": "/\u03b8a\u026as/",
+            "description": "to decay, waste away",
+            "value": 16
+        }
+    ],
+    "air": [
+        {
+            "spelling": "aer-",
+            "ipa": "/\u025b\u0259r/",
+            "description": "air",
+            "value": 1
+        },
+        {
+            "spelling": "ether-",
+            "ipa": "/\u02c8i\u02d0\u03b8\u0259r/",
+            "description": "upper air, sky",
+            "value": 2
+        },
+        {
+            "spelling": "vacu-",
+            "ipa": "/\u02c8v\u00e6kju\u02d0/",
+            "description": "empty",
+            "value": 3
+        },
+        {
+            "spelling": "vent-",
+            "ipa": "/v\u025bnt/",
+            "description": "wind",
+            "value": 4
+        },
+        {
+            "spelling": "psych-",
+            "ipa": "/sa\u026ak/",
+            "description": "breath, soul - but a lost soul",
+            "value": 5
+        },
+        {
+            "spelling": "anim-",
+            "ipa": "/\u00e6n\u026am/",
+            "description": "spirit, breath",
+            "value": 6
+        },
+        {
+            "spelling": "silent-",
+            "ipa": "/\u02c8sa\u026al\u0259nt/",
+            "description": "silence",
+            "value": 7
+        },
+        {
+            "spelling": "stell-",
+            "ipa": "/st\u025bl/",
+            "description": "star, suggesting cold, empty space",
+            "value": 8
+        },
+        {
+            "spelling": "nihil-",
+            "ipa": "/\u02c8na\u026a\u026al/",
+            "description": "nothing",
+            "value": 9
+        },
+        {
+            "spelling": "van-",
+            "ipa": "/v\u00e6n/",
+            "description": "to vanish, empty",
+            "value": 10
+        },
+        {
+            "spelling": "hiat-",
+            "ipa": "/ha\u026a\u0259t/",
+            "description": "gap, opening",
+            "value": 11
+        },
+        {
+            "spelling": "sibil-",
+            "ipa": "/\u02c8s\u026ab\u026al/",
+            "description": "hiss - of a faint, dying wind",
+            "value": 12
+        },
+        {
+            "spelling": "cyan-",
+            "ipa": "/sa\u026a\u02c8\u00e6n/",
+            "description": "dark blue, suggesting a deep sky",
+            "value": 13
+        },
+        {
+            "spelling": "aph-",
+            "ipa": "/\u00e6f/",
+            "description": "away from, without - as in aphonic, voiceless",
+            "value": 14
+        },
+        {
+            "spelling": "pneum-",
+            "ipa": "/nju\u02d0m/",
+            "description": "lung, breath - but breathless",
+            "value": 15
+        },
+        {
+            "spelling": "leth-",
+            "ipa": "/l\u025b\u03b8/",
+            "description": "forgetfulness, oblivion",
+            "value": 16
+        }
+    ]
+}
